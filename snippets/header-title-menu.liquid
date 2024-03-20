@@ -1,0 +1,7 @@
+<button
+  class="{{ link_classes }} js-enabled {% if show_drawer_menu_on_mobile == 's' %}block{% else %}hidden{% endif %} {% if show_drawer_menu_on_desktop == 's' %}lg:block{% else %}lg:hidden{% endif %}"
+  type="button"
+  @click="$store.modals.open('menu-drawer')"
+>
+  {{ menu_button_content }}
+</button>
