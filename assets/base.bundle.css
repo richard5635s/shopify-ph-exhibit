@@ -1390,12 +1390,14 @@ button {
   .custom-input:focus-visible + label,
   .label-only-input input:focus-visible + label,
   .predictive-search-form [aria-selected='true'] a,
-  .predictive-search-form [aria-selected='true'] button,
-  [type='search']:focus-visible  {
+  .predictive-search-form [aria-selected='true'] button {
     outline-color: rgb(var(--color-scheme-outline-color));
     outline-width: var(--outline-thickness);
     outline-style: solid;
     outline-offset: 0.2rem;
+  }
+[type='search']:focus-visible {
+    outline: 0;
   }
 .modular-grid .tile-link:focus-visible,
   .carousel-track .tile-link:focus-visible {
