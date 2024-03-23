@@ -245,7 +245,7 @@
       {%- sections 'footer-group' -%}
     {%- endif -%}
 
-    {%- sections 'overlay-group' -%}
+    
 
     <div
       id="screenreader-announce"
@@ -265,23 +265,14 @@
 
     {% comment %}
         Modal container
-      {%- sections 'overlay-group' -%}
+      
     {% endcomment %}
-    {% liquid
-      render 'left-drawer'
-      render 'right-drawer'
-      render 'quick-view-drawer'
-      render 'popup'
-      render 'modal'
-      render 'promo'
-      render 'product-quick-view'
-      render 'button-sizer'
-    %}
+    
 
     <script src="{{ 'modals.js' | asset_url }}" type="module"></script>
 
     {% if settings.cart_type == 'drawer' and template != 'cart' %}
-      {% render 'cart-drawer' %}
+      
     {% endif %}
 
     <script

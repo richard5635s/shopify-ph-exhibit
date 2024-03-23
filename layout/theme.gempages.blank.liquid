@@ -165,8 +165,7 @@
   {% render 'gp-head' %}
 </head>
 
-  <body>
-    {%- if settings.enable_sidebar -%}
+  <body>{%- if settings.enable_sidebar -%}
       {%- if settings.sidebar_desktop_layout == 'screen_height' -%}
         <div id="mainGridWrapper" class="main-site-grid">
           <div
@@ -243,55 +242,5 @@
         </div>
       </main>
       {%- sections 'footer-group' -%}
-    {%- endif -%}
-
-    {%- sections 'overlay-group' -%}
-
-    <div
-      id="screenreader-announce"
-      class="sr-only"
-      aria-live="polite"
-      role="status"
-    ></div>
-
-    <ul hidden>
-      <li id="a11y-refresh-page-message">
-        {{ 'general.accessibility.refresh_page' | t }}
-      </li>
-      <li id="a11y-selection-message">
-        {{ 'general.accessibility.selection_help' | t }}
-      </li>
-    </ul>
-
-    {% comment %}
-        Modal container
-      {%- sections 'overlay-group' -%}
-    {% endcomment %}
-    {% liquid
-      render 'left-drawer'
-      render 'right-drawer'
-      render 'quick-view-drawer'
-      render 'popup'
-      render 'modal'
-      render 'promo'
-      render 'product-quick-view'
-      render 'button-sizer'
-    %}
-
-    <script src="{{ 'modals.js' | asset_url }}" type="module"></script>
-
-    {% if settings.cart_type == 'drawer' and template != 'cart' %}
-      {% render 'cart-drawer' %}
-    {% endif %}
-
-    <script
-      src="{{ 'alpine.bundle.min.js' | asset_url }}"
-      type="module"
-    ></script>
-
-    <script
-      src="{{ 'load-images.js' | asset_url }}"
-      type="module"
-    ></script>
-  </body>
+    {%- endif -%}</body>
 </html>
