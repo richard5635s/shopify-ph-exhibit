@@ -36,7 +36,7 @@
     "border_thickness": 1,
     "paragraph_spacing": 0.5,
     "paragraph_indent": 1,
-    "left_and_right_margin": 64,
+    "left_and_right_margin": 28,
     "enable_max_site_width": false,
     "max_site_width": 1920,
     "grid_column_gap": 24,
