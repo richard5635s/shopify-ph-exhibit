@@ -1,1 +1,202 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"text_alignment":"text-right","color_scheme":"","space_above":1,"space_below":1}},"feature_text_Tqq9Rk":{"type":"feature-text","settings":{"richtext":"<p>MADE TO ORDER<br\/><br\/>Our made to order service gives you the opportunity to acquire a Peggy Hartanto style made especially for you in colour of your choice (from our existing ranges) and fitted to your measurements.<br\/><br\/>Each made to measure order will require a consultation. Initial consultations will happen via online\/in person. During this time measurements will be taken, designs discussed, and possible fabrications explored.<br\/><br\/>Made to measure will require a 8–weeks timeframe, however, please note that completion times and prices for made to measure are dependent on garment style and fabrication. These details will be finalised upon the confirmation of your order.<br\/><br\/>Once your order is confirmed, a 100% advance payment will be taken.<br\/>Please note that the garment cost does not include international shipping.<br\/>Starting minor alteration fee: Rp 359.000,- for minor alteration, onwards.<br\/><br\/>BESPOKE & BRIDAL<br\/><br\/>This service allows you the opportunity to have a one-of-a-kind Peggy Hartanto creation, made especially for you by the Peggy Hartanto team in our headquarters, in a style, colour and fabrication of your choice. Our bespoke service allows you to adapt any style we have. This includes lengths, details, fabrications, and sleeves. We can take details or certain manipulations from different styles to create a hybrid style that feels special and unique to you.<br\/><br\/>Each custom order will require a full consultation with the designer, with an upfront payment of Rp 2.000.000,- per consultation (non refundable, deducted from the final cost of the garment, initial consultations will happen via online\/in person). During this time a full set of measurements will be taken, design options discussed, and fabrications explored. 2 sketches will be delivered for you to choose from.<br\/><br\/>Once your order is confirmed, a 50% down payment will be taken, with the further 50% balance to be paid upon collection of the piece(s).<br\/><br\/>For a bespoke piece, we usually require a 12-weeks timeframe, however, please note that completion times and prices for custom pieces are dependent on garment style and fabrication. These details will be finalised upon the confirmation of your order.<br\/><br\/>Starting bespoke service: Rp 12.000.000,- depending on fabrication and details. Starting bespoke wedding gown: Rp 35.000.000,- depending on fabrication and details. Please note that the garment cost does not include international shipping.<br\/><br\/>Each bespoke Peggy Hartanto style is subject to fittings with the Peggy Hartanto team\/our retailers on site to achieve the perfect custom fit.<br\/><br\/>Note: for made to measure and custom services, we are unable to accept returns or refunds, due to their bespoke nature.<br\/><br\/>More Information:<br\/>Please feel free to contact our team at <a href=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com<\/a> or <a href=\"https:\/\/wa.me\/62818877988\" target=\"_blank\" title=\"https:\/\/wa.me\/62818877988\">WhatsApp<\/a> <\/p>","cta_link":"","cta_label":"","font":"rte font-main","desktop_text_scale":0,"mobile_text_scale":0,"text_alignment":"text-left","content_width_on_desktop":"4","content_position_on_desktop":"center","show_top_border":false,"color_scheme":"","space_above":0.5,"space_below":2}}},"order":["main","feature_text_Tqq9Rk"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "text-right",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "feature_text_Tqq9Rk": {
+      "type": "feature-text",
+      "disabled": true,
+      "settings": {
+        "richtext": "<p>MADE TO ORDER<br\/><br\/>Our made to order service gives you the opportunity to acquire a Peggy Hartanto style made especially for you in colour of your choice (from our existing ranges) and fitted to your measurements.<br\/><br\/>Each made to measure order will require a consultation. Initial consultations will happen via online\/in person. During this time measurements will be taken, designs discussed, and possible fabrications explored.<br\/><br\/>Made to measure will require a 8–weeks timeframe, however, please note that completion times and prices for made to measure are dependent on garment style and fabrication. These details will be finalised upon the confirmation of your order.<br\/><br\/>Once your order is confirmed, a 100% advance payment will be taken.<br\/>Please note that the garment cost does not include international shipping.<br\/>Starting minor alteration fee: Rp 359.000,- for minor alteration, onwards.<br\/><br\/>BESPOKE & BRIDAL<br\/><br\/>This service allows you the opportunity to have a one-of-a-kind Peggy Hartanto creation, made especially for you by the Peggy Hartanto team in our headquarters, in a style, colour and fabrication of your choice. Our bespoke service allows you to adapt any style we have. This includes lengths, details, fabrications, and sleeves. We can take details or certain manipulations from different styles to create a hybrid style that feels special and unique to you.<br\/><br\/>Each custom order will require a full consultation with the designer, with an upfront payment of Rp 2.000.000,- per consultation (non refundable, deducted from the final cost of the garment, initial consultations will happen via online\/in person). During this time a full set of measurements will be taken, design options discussed, and fabrications explored. 2 sketches will be delivered for you to choose from.<br\/><br\/>Once your order is confirmed, a 50% down payment will be taken, with the further 50% balance to be paid upon collection of the piece(s).<br\/><br\/>For a bespoke piece, we usually require a 12-weeks timeframe, however, please note that completion times and prices for custom pieces are dependent on garment style and fabrication. These details will be finalised upon the confirmation of your order.<br\/><br\/>Starting bespoke service: Rp 12.000.000,- depending on fabrication and details. Starting bespoke wedding gown: Rp 35.000.000,- depending on fabrication and details. Please note that the garment cost does not include international shipping.<br\/><br\/>Each bespoke Peggy Hartanto style is subject to fittings with the Peggy Hartanto team\/our retailers on site to achieve the perfect custom fit.<br\/><br\/>Note: for made to measure and custom services, we are unable to accept returns or refunds, due to their bespoke nature.<br\/><br\/>More Information:<br\/>Please feel free to contact our team at <a href=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com<\/a> or <a href=\"https:\/\/wa.me\/62818877988\" target=\"_blank\" title=\"https:\/\/wa.me\/62818877988\">WhatsApp<\/a> <\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 2
+      }
+    },
+    "feature_text_bePmHn": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>2023, FANTASIA<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "font-heading",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_with_rich_text_PCkeDG": {
+      "type": "feature-text-with-rich-text",
+      "settings": {
+        "feature_text": "<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+        "font": "font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "feature_text_position_on_desktop": "left",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "image_gallery_k6wXpa": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_WXePBT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_ACCELLERANDO1.jpg",
+            "caption": "Accelerando",
+            "link": "shopify:\/\/products\/accelerando-dress-in-wine"
+          }
+        },
+        "image_pNrwBp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_ANDANTE_PITCH1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_JCbJR9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_ANTHEM_BAR_PITCH2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_drBzYq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CONCERTO.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_HKaJXh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CONDUCTOR1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_V6Qjzm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_COPERTI1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_tBTtnX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CANTILENA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_We6VNN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CAPELLA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_nQ7HGR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CRESCENDO.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_RqLpDk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_FORTISSIMO1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_ncdQwM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_FORTE_STANZA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WXePBT",
+        "image_pNrwBp",
+        "image_JCbJR9",
+        "image_drBzYq",
+        "image_HKaJXh",
+        "image_V6Qjzm",
+        "image_tBTtnX",
+        "image_We6VNN",
+        "image_nQ7HGR",
+        "image_RqLpDk",
+        "image_ncdQwM"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "feature_text_Tqq9Rk",
+    "feature_text_bePmHn",
+    "feature_text_with_rich_text_PCkeDG",
+    "image_gallery_k6wXpa"
+  ]
+}
