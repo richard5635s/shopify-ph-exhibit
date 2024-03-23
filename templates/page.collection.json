@@ -54,7 +54,7 @@
       ],
       "settings": {
         "title": "",
-        "grid_type": "standard",
+        "grid_type": "irregular",
         "mobile_columns": "2",
         "desktop_columns": 2,
         "standard_layout_align_items": "items-start",
