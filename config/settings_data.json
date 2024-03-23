@@ -149,7 +149,7 @@
         "settings": {
           "background": "#ffffff",
           "text": "#ffffff",
-          "accent": "#000000",
+          "accent": "#ffffff",
           "accent_contrast": "#ffffff",
           "secondary": "#ffffff",
           "border": "#ffffff"
