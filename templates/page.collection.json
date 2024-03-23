@@ -9,9 +9,73 @@
         "space_above": 1,
         "space_below": 1
       }
+    },
+    "image_gallery_He9qz7": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_BziqBD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NM_JS_Arc_teryx_02_retouch_RGB.webp",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_y8FVBV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JS_FW23_24.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_8NJ6aa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JS_FW23_CAMPAIGN_WEBSITE_IMAGES_4.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_daY7Mt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BziqBD",
+        "image_y8FVBV",
+        "image_8NJ6aa",
+        "image_daY7Mt"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "irregular",
+        "mobile_columns": "2",
+        "desktop_columns": 3,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 7,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_gallery_He9qz7"
   ]
 }
