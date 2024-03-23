@@ -72,88 +72,32 @@
         "image_WXePBT": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_ACCELLERANDO1.jpg",
-            "caption": "Accelerando",
+            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
+            "caption": "2024, Charm",
             "link": "shopify:\/\/products\/accelerando-dress-in-wine"
           }
         },
         "image_pNrwBp": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_ANDANTE_PITCH1.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/JS_FW23_CAMPAIGN_WEBSITE_IMAGES_4.jpg",
+            "caption": "2023, Atlantis",
             "link": ""
           }
         },
         "image_JCbJR9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_ANTHEM_BAR_PITCH2.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/JS_FW23_24.jpg",
+            "caption": "2023, Fantasia",
             "link": ""
           }
         },
-        "image_drBzYq": {
+        "image_8VGmAE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_CONCERTO.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_HKaJXh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_CONDUCTOR1.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_V6Qjzm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_COPERTI1.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_tBTtnX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_CANTILENA.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_We6VNN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_CAPELLA.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_nQ7HGR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_CRESCENDO.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_RqLpDk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_FORTISSIMO1.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_ncdQwM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFANTASIA_FORTE_STANZA.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/NM_JS_Arc_teryx_02_retouch_RGB.webp",
+            "caption": "2022, Bloom",
             "link": ""
           }
         }
@@ -162,33 +106,25 @@
         "image_WXePBT",
         "image_pNrwBp",
         "image_JCbJR9",
-        "image_drBzYq",
-        "image_HKaJXh",
-        "image_V6Qjzm",
-        "image_tBTtnX",
-        "image_We6VNN",
-        "image_nQ7HGR",
-        "image_RqLpDk",
-        "image_ncdQwM"
+        "image_8VGmAE"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "standard",
         "mobile_columns": "2",
-        "desktop_columns": 4,
+        "desktop_columns": 2,
         "standard_layout_align_items": "items-start",
         "modular_layout_variation": 1,
         "modular_grid_item_aspect_ratio": 1.8,
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "natural",
-        "media_fill_space": false,
+        "media_aspect_ratio": "1.778",
+        "media_fill_space": true,
         "labels_show_titles_and_captions": true,
-        "labels_display": "below_media",
+        "labels_display": "follow_mouse_on_hover",
         "labels_always_show_on_mobile": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-ec188336-c415-42f2-b8f5-99864fb2a92c",
         "space_above": 1,
         "space_below": 1
       }
