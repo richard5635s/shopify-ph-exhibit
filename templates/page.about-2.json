@@ -63,11 +63,23 @@
         "space_above": 0.5,
         "space_below": 2
       }
+    },
+    "newsletter_jzdHmW": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Sign up to our newsletter",
+        "richtext": "<p>Receive special offers and first look at new products.<\/p>",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
     }
   },
   "order": [
     "main",
     "image_gallery_hGxAcj",
-    "feature_text_Vj93Ta"
+    "feature_text_Vj93Ta",
+    "newsletter_jzdHmW"
   ]
 }
