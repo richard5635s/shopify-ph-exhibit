@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "text_alignment": "text-left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "profile_GKpqkQ": {
+      "type": "profile",
+      "blocks": {
+        "row_KtydbW": {
+          "type": "row",
+          "settings": {
+            "title": "Ethics and Sustainability",
+            "text": "<p>We in Peggy Hartanto recognize the contradicting view as a fashion label that thrives on newness and consumption against the concept of sustainability. Sustainability is a long and ongoing journey, and for us this is our moral responsibility towards the planet that we live in and its people. We are committed to constantly putting effort to improve our contribution towards a circular economy.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "row_nGkhW4": {
+          "type": "row",
+          "settings": {
+            "title": "People",
+            "text": "<p>Our small team is based in Surabaya, Indonesia. We are 100% consist 100% of women, ranging vary from 20 – 65 years old from surabaya and neighbouring towns. We commit to putting the welfare of our team as our priority in any business decision, since more than half of our staff is the breadwinner and supporting income in their households. We ensure everyone is qualified to get at least minimum standard salary,insurance, benefits, and opportunity to improve and grow in the company.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "row_dMVPfG": {
+          "type": "row",
+          "settings": {
+            "title": "Production",
+            "text": "<p>Besides producing what is pre-ordered by our retailers, we are minimizing overproduction and avoiding overstock by using pre-order system for your orders. We produce 70% of Peggy Hartanto garments in our workshop, which allowing full control over efficiency of this process.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "row_NXgKDQ": {
+          "type": "row",
+          "settings": {
+            "title": "Garment Care",
+            "text": "<p>Due to the nature of the fabric and design, 80% of our garments are dry clean only. Our team will be able to repair your garment when needed, or if you live far from our workshop, we will be able to give instructions  to your trusted alteration\/repair service. We hope you will cherish your Peggy Hartanto pieces for a long time. Contact us at <a href=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com<\/a> for more information.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "row_aL8PeW": {
+          "type": "row",
+          "settings": {
+            "title": "Improvement",
+            "text": "<p>We fully recognise that there is a long journey still ahead of us, and we welcome all suggestions from our community on how we can improve our practices. Please<br\/>let us know your thoughts at <a href=\"mailto:lydia@peggyhartanto.com\">lydia@peggyhartanto.com<\/a><\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_KtydbW",
+        "row_nGkhW4",
+        "row_dMVPfG",
+        "row_NXgKDQ",
+        "row_aL8PeW"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading_font": "font-main",
+        "heading_width_on_desktop": "3",
+        "text_width_on_desktop": "6",
+        "right_align_content_on_desktop": true,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "collapsible_rows_KNpGFN": {
+      "type": "collapsible-rows",
+      "blocks": {
+        "row_3GbTkF": {
+          "type": "row",
+          "settings": {
+            "title": "Payment Policy",
+            "expanded_content": "<p>Method of payment accepted is:<br\/>1. Bank transfer to BCA indonesia<br\/>2. Paypal<br\/>3. Credit card<\/p>"
+          }
+        },
+        "row_Nr3a98": {
+          "type": "row",
+          "settings": {
+            "title": "Shipping ",
+            "expanded_content": "<p>Peggy Hartanto will not be responsible for any fees charged by customs or other tax authorities. If a customer refuses any shipments from Peggy Hartanto the customer will remain responsible for all of the original shipping and handling charges, duties, taxes and customs charges incurred upon receiving their order as well as all of the costs associated with returning the package to Peggy Hartanto, and if agreed, costs returning the package back to buyer.<\/p>"
+          }
+        },
+        "row_KMcCgX": {
+          "type": "row",
+          "settings": {
+            "title": "Return and Exchange ",
+            "expanded_content": "<p>Return is given under a condition of the received item(s) damaged or defected. In case of damaged or repair, and buyer requests for a replacement, the purchased<br\/>item(s) must be returned back to seller in order to fully get a new replacement.<br\/><br\/>We advise customers to check garments thoroughly upon delivery before removing any attached tags. If you need to return  your purchase please contact us at shop@peggyhartanto.com <br\/><br\/>We have provided measurement chart on every items listed on peggyhartanto.com, please check the measurement before ordering. If you are unsure about the measurement, please contact us at shop@peggyhartanto.com. Please kindly be understood that we do not receive the refund in matter of measurement. Any alterations needed for the garment will be customer's responsibility.<br\/><br\/>Any request for return should indicate the reason for return and must be made to Peggy Hartanto within 48 hours of receiving the delivery. Returned goods are<br\/>accepted 15 days from the date delivery was received at buyer's place. Items received outside this period of time will not be accepted for return. Please choose the courier and shipping methods accordingly. Returned goods must be unworn, have all swing tags attached and be in their original condition.<br\/><br\/>We recommend garments to be returned via registered post. Please remember to record the tracking number. We cannot be held responsible for goods that<br\/>are lost or damaged in transit. The postage costs for returning goods are the customer’s responsibility and will be reimbursed only in the case of damaged, faulty or incorrectly supplied goods.<br\/><br\/>PLEASE NOTE SALE ITEMS CANNOT BE RETURNED OR EXCHANGED.<\/p>"
+          }
+        },
+        "row_mKtVef": {
+          "type": "row",
+          "settings": {
+            "title": "Cancelling the Order",
+            "expanded_content": "<p>We do not do any refund, except for order cancelling, with below procedure. Orders can be cancelled either by the store or customer anytime prior to the store’s preparing the order for shipment. This can only occur within the next 24 hours after receiving your order confirmation email. If a store cancels your order either due to stock unavailability or they are unable to process your order request, a refund will be automatically processed for that item or full order back in to your nominated paypal\/bank account from which the original payment was made. You will receive an order cancelled confirmation email with a copy of your refund invoice attached.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_3GbTkF",
+        "row_Nr3a98",
+        "row_KMcCgX",
+        "row_mKtVef"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "FAQ",
+        "heading_font": "font-main",
+        "expanded_content_max_width": "max-w-xl",
+        "color_scheme": "",
+        "space_above": 2,
+        "space_below": 1
+      }
+    },
+    "profile_kNT9Me": {
+      "type": "profile",
+      "blocks": {
+        "row_wzqxQf": {
+          "type": "row",
+          "settings": {
+            "title": "Payment Policy",
+            "text": "<p>Method of payment accepted is:<br\/>1. Bank transfer to BCA indonesia<br\/>2. Paypal<br\/>3. Credit card<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "row_mFWAFg": {
+          "type": "row",
+          "settings": {
+            "title": "Shipping",
+            "text": "<p>Peggy Hartanto will not be responsible for any fees charged by customs or other tax authorities. If a customer refuses any shipments from Peggy Hartanto the customer will remain responsible for all of the original shipping and handling charges, duties, taxes and customs charges incurred upon receiving their order as well as all of the costs associated with returning the package to Peggy Hartanto, and if agreed, costs returning the package back to buyer.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "row_mkJQ8w": {
+          "type": "row",
+          "settings": {
+            "title": "Return and Exchange",
+            "text": "<p>Return is given under a condition of the received item(s) damaged or defected. In case of damaged or repair, and buyer requests for a replacement, the purchased<br\/>item(s) must be returned back to seller in order to fully get a new replacement.<br\/><br\/>We advise customers to check garments thoroughly upon delivery before removing any attached tags. If you need to return  your purchase please contact us at shop@peggyhartanto.com<br\/><br\/>We have provided measurement chart on every items listed on peggyhartanto.com, please check the measurement before ordering. If you are unsure about the measurement, please contact us at shop@peggyhartanto.com. Please kindly be understood that we do not receive the refund in matter of measurement. Any alterations needed for the garment will be customer's responsibility.<br\/><br\/>Any request for return should indicate the reason for return and must be made to Peggy Hartanto within 48 hours of receiving the delivery. Returned goods are<br\/>accepted 15 days from the date delivery was received at buyer's place. Items received outside this period of time will not be accepted for return. Please choose the courier and shipping methods accordingly. Returned goods must be unworn, have all swing tags attached and be in their original condition.<br\/><br\/>We recommend garments to be returned via registered post. Please remember to record the tracking number. We cannot be held responsible for goods that<br\/>are lost or damaged in transit. The postage costs for returning goods are the customer’s responsibility and will be reimbursed only in the case of damaged, faulty or incorrectly supplied goods.<br\/><br\/>PLEASE NOTE SALE ITEMS CANNOT BE RETURNED OR EXCHANGED.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "row_g8MwtR": {
+          "type": "row",
+          "settings": {
+            "title": "Cancelling the Order",
+            "text": "<p>We do not do any refund, except for order cancelling, with below procedure. Orders can be cancelled either by the store or customer anytime prior to the store’s preparing the order for shipment. This can only occur within the next 24 hours after receiving your order confirmation email. If a store cancels your order either due to stock unavailability or they are unable to process your order request, a refund will be automatically processed for that item or full order back in to your nominated paypal\/bank account from which the original payment was made. You will receive an order cancelled confirmati<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_wzqxQf",
+        "row_mFWAFg",
+        "row_mkJQ8w",
+        "row_g8MwtR"
+      ],
+      "settings": {
+        "heading_font": "font-main",
+        "heading_width_on_desktop": "3",
+        "text_width_on_desktop": "6",
+        "right_align_content_on_desktop": true,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "profile_GKpqkQ",
+    "collapsible_rows_KNpGFN",
+    "profile_kNT9Me"
+  ]
+}
