@@ -161,7 +161,7 @@
           "text": "#000000",
           "accent": "#121212",
           "accent_contrast": "#ffffff",
-          "secondary": "#ffffff",
+          "secondary": "#dedede",
           "border": "#dedede"
         }
       },
