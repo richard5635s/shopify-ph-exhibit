@@ -374,7 +374,7 @@ video {
   -webkit-appearance: none;
           appearance: none;
   background-color: #fff;
-  border-color: #6b7280;
+  border-color: #ffffff00;
   border-width: 1px;
   border-radius: 0px;
   padding-top: 0.5rem;
@@ -1326,7 +1326,7 @@ button {
   select:focus {
     outline: 0;
     box-shadow: none;
-    border-color: unset;
+    border-color: #ffffff00;
   }
 *:focus-visible {
     outline-color: rgb(var(--color-scheme-outline-color));

@@ -124,11 +124,11 @@
             <label for="search" class="sr-only">
               {{- 'general.search.submit' | t -}}
             </label>
-            <div class="relative">
+            <div class="relative border-scheme-text/0 border-b-theme border-b-scheme-border">
               <input
                 type="search"
                 name="q"
-                class="border-scheme-text/0 border-b-theme border-b-scheme-border pl-0 pr-8 w-full focus:border rounded-[0]"
+                class="pl-0 pr-8 w-full focus:border rounded-[0]"
                 value="{{ search.terms | escape }}"
                 placeholder="{{ 'general.search.placeholder' | t }}"
               >
