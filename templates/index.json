@@ -3,17 +3,17 @@
     "media-with-text-overlay": {
       "type": "media-with-text-overlay",
       "blocks": {
+        "image_hzDr4M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFTSA_CPG.jpg"
+          }
+        },
         "image_Emp48C": {
           "type": "image",
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/LOEWE_SS24_EDITORIAL_SHOW_RTW_RGB_CROPPED_2880x1620_21.webp"
-          }
-        },
-        "media-with-text-overlay-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_09ee046a-d704-44a6-b653-8ac0374fa048.jpg"
           }
         },
         "media-with-text-overlay-1": {
@@ -23,14 +23,14 @@
             "overlay_color": "bg-scheme-text",
             "enable_custom_color": true,
             "custom_overlay_color": "#ffffff",
-            "opacity": 5,
+            "opacity": 8,
             "blend_mode": "screen"
           }
         }
       },
       "block_order": [
+        "image_hzDr4M",
         "image_Emp48C",
-        "media-with-text-overlay-0",
         "media-with-text-overlay-1"
       ],
       "settings": {
