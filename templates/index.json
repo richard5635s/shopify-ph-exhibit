@@ -5,8 +5,15 @@
       "blocks": {
         "image_hzDr4M": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PHFTSA_CPG.jpg"
+          }
+        },
+        "image_eUQxrb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLN_CPG.jpg"
           }
         },
         "image_Emp48C": {
@@ -30,6 +37,7 @@
       },
       "block_order": [
         "image_hzDr4M",
+        "image_eUQxrb",
         "image_Emp48C",
         "media-with-text-overlay-1"
       ],
