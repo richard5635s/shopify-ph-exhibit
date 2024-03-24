@@ -1,1 +1,216 @@
-{"sections":{"media-with-text-overlay":{"type":"media-with-text-overlay","blocks":{"media-with-text-overlay-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/1_09ee046a-d704-44a6-b653-8ac0374fa048.jpg"}},"media-with-text-overlay-1":{"type":"color_overlay","disabled":true,"settings":{"color_scheme":"scheme1","overlay_color":"bg-scheme-text","enable_custom_color":true,"custom_overlay_color":"#ffffff","opacity":50,"blend_mode":"normal"}}},"block_order":["media-with-text-overlay-0","media-with-text-overlay-1"],"settings":{"enable_full_bleed":true,"aspect_ratio_mobile":"1.33","aspect_ratio_desktop":"same","content_position":"justify-start items-start","text_align":"text-center","content_width_on_desktop":"12","title":"2024, Charm","heading_size":"text-heading-feature","richtext":"","cta_link":"shopify:\/\/collections\/peggy-hartanto-celebrates-disney-100","cta_label":"","button_style":"","color_scheme":"scheme2"}},"image_gallery_taHeiy":{"type":"image-gallery","blocks":{"image_hJMHy4":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/1080x1350_LOEWE_FRAGRANCE_10-7-23_F17_0270.jpg","caption":"Wax Candle Holder","link":"shopify:\/\/collections\/homepage-images"}},"image_pWCpKT":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/5add784f81d1585dd27f9d83673127c5.jpg","caption":"Perfume test","link":"shopify:\/\/collections\/homepage-images"}},"image_bdKBUf":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/c2ee24a3161bfb82c00376c5bccd7f86.jpg","caption":"","link":""}}},"block_order":["image_hJMHy4","image_pWCpKT","image_bdKBUf"],"settings":{"title":"","grid_type":"standard","mobile_columns":"1","desktop_columns":2,"standard_layout_align_items":"items-start","modular_layout_variation":1,"modular_grid_item_aspect_ratio":1,"modular_no_crop_media_mobile":false,"irregular_layout_variation":1,"irregular_alignment_of_items":"items-center justify-center","media_aspect_ratio":"0.6667","media_fill_space":true,"labels_show_titles_and_captions":true,"labels_display":"follow_mouse_on_hover","labels_always_show_on_mobile":false,"color_scheme":"scheme-d8d6f8e7-2871-4198-b5ea-fd2b7e1c641d","space_above":0.5,"space_below":0}},"newsletter":{"type":"newsletter","disabled":true,"settings":{"title":"Sign up to our newsletter","richtext":"<p>Receive special offers and first look at new products.<\/p>","show_top_border":false,"color_scheme":"","space_above":1,"space_below":1}},"feature_text_64zK3W":{"type":"feature-text","disabled":true,"settings":{"richtext":"<p>PEACE & QUIET<\/p>","cta_link":"","cta_label":"","font":"rte font-main","desktop_text_scale":5,"mobile_text_scale":2,"text_alignment":"text-center","content_width_on_desktop":"12","content_position_on_desktop":"center","show_top_border":true,"color_scheme":"","space_above":1,"space_below":1}},"feature_text_tWQRwd":{"type":"feature-text","disabled":true,"settings":{"richtext":"<p><em>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br\/>Words by Francis Martin. Photography by Alixe Lay.<\/em><\/p>","cta_link":"","cta_label":"","font":"font-heading","desktop_text_scale":1,"mobile_text_scale":2,"text_alignment":"text-center","content_width_on_desktop":"8","content_position_on_desktop":"center","show_top_border":false,"color_scheme":"","space_above":2,"space_below":1}},"rich_text_4CJKqT":{"type":"rich-text","disabled":true,"custom_css":[],"settings":{"title":"PEACE & QUIET","richtext":"<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br\/>Words by Francis Martine. Photography by Alixe Lay.<\/p>","text_alignment":"text-center","cta_link":"","cta_label":"","show_top_border":true,"color_scheme":"","space_above":1,"space_below":1}},"image_with_text_JwUbeY":{"type":"image-with-text","custom_css":[],"settings":{"image":"shopify:\/\/shop_images\/PhilosophyOnDesign-Hero-1-Desktop-2880x1620.jpg","media_aspect_ratio":"1.333","image_position_on_desktop":"right","enable_full_bleed":true,"title":"Store Locator","heading_size":"text-heading-standard","richtext":"<p>Our consultants are available to host you in-store and provide tailored guidance on gift purchases. <br\/><br\/><a href=\"\/pages\/about-us\" title=\"About Us\">Find a nearby store<\/a><\/p>","cta_link":"","cta_label":"","image_width_on_desktop":"7","content_width_on_desktop":"1.0","content_alignment":"lg:items-top lg:justify-start","show_top_border":false,"color_scheme":"","space_above":0.5,"space_below":0}},"image_with_text_qEY4MV":{"type":"image-with-text","custom_css":[],"settings":{"image":"shopify:\/\/shop_images\/f1253408606625e994b8becb31f79c91.jpg","media_aspect_ratio":"1.333","image_position_on_desktop":"left","enable_full_bleed":true,"title":"Efficacious pairings","heading_size":"text-heading-standard","richtext":"<p>Our consultants have long combined complementary formulations to effect additional benefits for the skin. Incorporate this time-honoured practice into your regimen with our recommended bundles.<br\/><br\/><a href=\"\/collections\/atlantis\" title=\"ATLANTIS\">Browse Skin Care Bundles<\/a><\/p>","cta_link":"","cta_label":"","image_width_on_desktop":"7","content_width_on_desktop":"1.0","content_alignment":"lg:items-top lg:justify-start","show_top_border":false,"color_scheme":"","space_above":0.5,"space_below":1.5}},"collection_carousel_WDXWf8":{"type":"collection-carousel","disabled":true,"settings":{"title":"","collection":"peggy-hartanto-celebrates-disney-100","products_to_show":11,"show_view_all":false,"item_width_mobile":80,"item_width_desktop":25,"snap_alignment":"snap-center","align_items":"items-center","labels_show_titles_and_captions":true,"labels_show_product_prices":true,"labels_display":"below_media","labels_show_product_vendor":false,"labels_always_show_on_mobile":false,"show_index_and_total_slides":true,"quick_view":"disabled","product_info_text_alignment":"center","color_scheme":"scheme-ec188336-c415-42f2-b8f5-99864fb2a92c","space_above":2,"space_below":2}}},"order":["media-with-text-overlay","image_gallery_taHeiy","newsletter","feature_text_64zK3W","feature_text_tWQRwd","rich_text_4CJKqT","image_with_text_JwUbeY","image_with_text_qEY4MV","collection_carousel_WDXWf8"]}
+{
+  "sections": {
+    "media-with-text-overlay": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "media-with-text-overlay-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_09ee046a-d704-44a6-b653-8ac0374fa048.jpg"
+          }
+        },
+        "media-with-text-overlay-1": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme1",
+            "overlay_color": "bg-scheme-text",
+            "enable_custom_color": true,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 50,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "media-with-text-overlay-0",
+        "media-with-text-overlay-1"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "1.33",
+        "aspect_ratio_desktop": "same",
+        "content_position": "justify-start items-start",
+        "text_align": "text-center",
+        "content_width_on_desktop": "12",
+        "title": "2024, Charm",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "shopify:\/\/collections\/peggy-hartanto-celebrates-disney-100",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": "scheme2"
+      }
+    },
+    "image_gallery_taHeiy": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_hJMHy4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1080x1350_LOEWE_FRAGRANCE_10-7-23_F17_0270.jpg",
+            "caption": "Wax Candle Holder",
+            "link": "shopify:\/\/collections\/homepage-images"
+          }
+        },
+        "image_pWCpKT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5add784f81d1585dd27f9d83673127c5.jpg",
+            "caption": "Perfume test",
+            "link": "shopify:\/\/collections\/homepage-images"
+          }
+        },
+        "image_bdKBUf": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c2ee24a3161bfb82c00376c5bccd7f86.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hJMHy4",
+        "image_pWCpKT",
+        "image_bdKBUf"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "1",
+        "desktop_columns": 2,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "0.6667",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "follow_mouse_on_hover",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "scheme-d8d6f8e7-2871-4198-b5ea-fd2b7e1c641d",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "feature_text_64zK3W": {
+      "type": "feature-text",
+      "disabled": true,
+      "settings": {
+        "richtext": "<p>PEACE & QUIET<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 5,
+        "mobile_text_scale": 2,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "center",
+        "show_top_border": true,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "feature_text_tWQRwd": {
+      "type": "feature-text",
+      "disabled": true,
+      "settings": {
+        "richtext": "<p><em>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br\/>Words by Francis Martin. Photography by Alixe Lay.<\/em><\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "font-heading",
+        "desktop_text_scale": 1,
+        "mobile_text_scale": 2,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "8",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 2,
+        "space_below": 1
+      }
+    },
+    "rich_text_4CJKqT": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "PEACE & QUIET",
+        "richtext": "<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br\/>Words by Francis Martine. Photography by Alixe Lay.<\/p>",
+        "text_alignment": "text-center",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": true,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "image_with_text_JwUbeY": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PhilosophyOnDesign-Hero-1-Desktop-2880x1620.jpg",
+        "media_aspect_ratio": "1.333",
+        "image_position_on_desktop": "right",
+        "enable_full_bleed": true,
+        "title": "Store Locator",
+        "heading_size": "text-heading-standard",
+        "richtext": "<p>Our consultants are available to host you in-store and provide tailored guidance on gift purchases. <br\/><br\/><a href=\"\/pages\/about-us\" title=\"About Us\">Find a nearby store<\/a><\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "7",
+        "content_width_on_desktop": "1.0",
+        "content_alignment": "lg:items-top lg:justify-start",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "image_with_text_qEY4MV": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/f1253408606625e994b8becb31f79c91.jpg",
+        "media_aspect_ratio": "1.333",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": true,
+        "title": "Efficacious pairings",
+        "heading_size": "text-heading-standard",
+        "richtext": "<p>Our consultants have long combined complementary formulations to effect additional benefits for the skin. Incorporate this time-honoured practice into your regimen with our recommended bundles.<br\/><br\/><a href=\"\/collections\/atlantis\" title=\"ATLANTIS\">Browse Skin Care Bundles<\/a><\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "7",
+        "content_width_on_desktop": "1.0",
+        "content_alignment": "lg:items-top lg:justify-start",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1.5
+      }
+    }
+  },
+  "order": [
+    "media-with-text-overlay",
+    "image_gallery_taHeiy",
+    "feature_text_64zK3W",
+    "feature_text_tWQRwd",
+    "rich_text_4CJKqT",
+    "image_with_text_JwUbeY",
+    "image_with_text_qEY4MV"
+  ]
+}
