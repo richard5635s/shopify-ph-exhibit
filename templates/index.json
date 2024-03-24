@@ -3,6 +3,13 @@
     "media-with-text-overlay": {
       "type": "media-with-text-overlay",
       "blocks": {
+        "image_Emp48C": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LOEWE_SS24_EDITORIAL_SHOW_RTW_RGB_CROPPED_2880x1620_21.webp"
+          }
+        },
         "media-with-text-overlay-0": {
           "type": "image",
           "settings": {
@@ -11,33 +18,33 @@
         },
         "media-with-text-overlay-1": {
           "type": "color_overlay",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme1",
             "overlay_color": "bg-scheme-text",
             "enable_custom_color": true,
             "custom_overlay_color": "#ffffff",
-            "opacity": 50,
-            "blend_mode": "normal"
+            "opacity": 5,
+            "blend_mode": "screen"
           }
         }
       },
       "block_order": [
+        "image_Emp48C",
         "media-with-text-overlay-0",
         "media-with-text-overlay-1"
       ],
       "settings": {
         "enable_full_bleed": true,
-        "aspect_ratio_mobile": "1.33",
+        "aspect_ratio_mobile": "full-screen",
         "aspect_ratio_desktop": "same",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
         "content_width_on_desktop": "12",
-        "title": "2024, CHARM",
+        "title": "",
         "heading_size": "text-heading-feature",
         "richtext": "",
         "cta_link": "shopify:\/\/collections\/peggy-hartanto-celebrates-disney-100",
-        "cta_label": "shop now",
+        "cta_label": "",
         "button_style": "btn--solid",
         "color_scheme": "scheme2"
       }
