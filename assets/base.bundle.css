@@ -1931,6 +1931,9 @@ button {
 .h-screen-adaptive {
   height: var(--full-screen-excluding-header-and-hero);
 }
+.max-h-24 {
+  max-height: 24rem;
+}
 .max-h-\[60vh\] {
   max-height: 60vh;
 }
