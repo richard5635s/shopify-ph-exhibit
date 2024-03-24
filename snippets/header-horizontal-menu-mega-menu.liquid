@@ -47,7 +47,7 @@
               <div class="wrapper">
                 <ul class="grid grid-cols-2 lg:grid-cols-12 w-full gap-theme z-0 grid-flow-dense items-top">
                   {%- for childlink in link.links -%}
-                    <li class="col-span-2">
+                    <li class="md:col-span-6 lg:col-span-item min-w-0 overflow-hidden" style="--item-col-span: 3;">
                       <a
                         href="{{ childlink.url }}"
                         class="break-words hover:underline {% if childlink.current %} underline{% endif %}"
