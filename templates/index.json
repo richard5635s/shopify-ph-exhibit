@@ -31,12 +31,12 @@
         "aspect_ratio_desktop": "same",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
-        "content_width_on_desktop": "12",
+        "content_width_on_desktop": "4",
         "title": "",
         "heading_size": "text-heading-feature",
-        "richtext": "",
+        "richtext": "<p>2023, ATLANTIS<\/p>",
         "cta_link": "shopify:\/\/collections\/peggy-hartanto-celebrates-disney-100",
-        "cta_label": "2023, ATLANTIS",
+        "cta_label": "",
         "button_style": "",
         "color_scheme": "scheme2"
       }
