@@ -25,12 +25,11 @@
         },
         "media-with-text-overlay-1": {
           "type": "color_overlay",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme1",
             "overlay_color": "bg-scheme-text",
             "enable_custom_color": true,
-            "custom_overlay_color": "#ffffff",
+            "custom_overlay_color": "#000000",
             "opacity": 8,
             "blend_mode": "screen"
           }
