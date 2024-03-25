@@ -3,20 +3,6 @@
     "media-with-text-overlay": {
       "type": "media-with-text-overlay",
       "blocks": {
-        "image_hzDr4M": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFTSA_CPG.jpg"
-          }
-        },
-        "image_Emp48C": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LOEWE_SS24_EDITORIAL_SHOW_RTW_RGB_CROPPED_2880x1620_21.webp"
-          }
-        },
         "image_CRzPLw": {
           "type": "image",
           "settings": {
@@ -36,8 +22,6 @@
         }
       },
       "block_order": [
-        "image_hzDr4M",
-        "image_Emp48C",
         "image_CRzPLw",
         "media-with-text-overlay-1"
       ],
@@ -52,8 +36,8 @@
         "heading_size": "text-heading-feature",
         "richtext": "",
         "cta_link": "shopify:\/\/collections\/peggy-hartanto-celebrates-disney-100",
-        "cta_label": "",
-        "button_style": "btn--solid",
+        "cta_label": "2023, ATLANTIS",
+        "button_style": "",
         "color_scheme": "scheme2"
       }
     },
