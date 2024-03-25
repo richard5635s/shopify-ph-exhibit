@@ -84,8 +84,8 @@
       ],
       "settings": {
         "enable_full_bleed": true,
-        "aspect_ratio_mobile": "full-screen",
-        "aspect_ratio_desktop": "same",
+        "aspect_ratio_mobile": "1",
+        "aspect_ratio_desktop": "full-screen",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
         "content_width_on_desktop": "4",
@@ -275,8 +275,8 @@
       ],
       "settings": {
         "enable_full_bleed": true,
-        "aspect_ratio_mobile": "full-screen",
-        "aspect_ratio_desktop": "same",
+        "aspect_ratio_mobile": "1",
+        "aspect_ratio_desktop": "full-screen",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
         "content_width_on_desktop": "4",
