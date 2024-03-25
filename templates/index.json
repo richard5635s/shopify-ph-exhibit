@@ -113,8 +113,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1080x1350_LOEWE_FRAGRANCE_10-7-23_F17_0270.jpg",
-            "caption": "Wax Candle Holder",
-            "link": "shopify:\/\/collections\/homepage-images"
+            "caption": "",
+            "link": ""
           }
         },
         "image_pWCpKT": {
@@ -140,7 +140,7 @@
         "standard_layout_align_items": "items-start",
         "modular_layout_variation": 2,
         "modular_grid_item_aspect_ratio": 1,
-        "modular_no_crop_media_mobile": true,
+        "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "0.6667",
@@ -150,7 +150,7 @@
         "labels_always_show_on_mobile": false,
         "color_scheme": "scheme1",
         "space_above": 0.5,
-        "space_below": 1.5
+        "space_below": 0.5
       }
     },
     "feature_text_64zK3W": {
@@ -259,6 +259,35 @@
         "space_below": 1.5
       }
     },
+    "products_carousel_UhnPLb": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "",
+        "product_list": [
+          "whirlpool-black",
+          "whirpool-brown",
+          "whirlpool-bucket-bag-in-dark-teal",
+          "voyage-black",
+          "voyage-brown",
+          "voyage-tote-bag-in-white"
+        ],
+        "item_width_mobile": 60,
+        "item_width_desktop": 20,
+        "snap_alignment": "snap-center",
+        "align_items": "items-end",
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": false,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": true,
+        "quick_view": "disabled",
+        "product_info_text_alignment": "left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
     "media_with_text_overlay_cnAFnQ": {
       "type": "media-with-text-overlay",
       "blocks": {
@@ -272,10 +301,9 @@
       "block_order": [
         "image_z9grLq"
       ],
-      "disabled": true,
       "settings": {
         "enable_full_bleed": true,
-        "aspect_ratio_mobile": "1",
+        "aspect_ratio_mobile": "full-screen",
         "aspect_ratio_desktop": "full-screen",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
@@ -287,6 +315,44 @@
         "cta_label": "",
         "button_style": "",
         "color_scheme": ""
+      }
+    },
+    "featured_products_VdBhGG": {
+      "type": "featured-products",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "product_list": [
+          "whirlpool-black",
+          "whirpool-brown",
+          "whirlpool-bucket-bag-in-dark-teal",
+          "voyage-black",
+          "voyage-brown",
+          "voyage-tote-bag-in-white"
+        ],
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-center",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": true,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "quick_view": "disabled",
+        "product_info_text_alignment": "center",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
       }
     }
   },
@@ -301,6 +367,8 @@
     "rich_text_4CJKqT",
     "image_with_text_JwUbeY",
     "image_with_text_qEY4MV",
-    "media_with_text_overlay_cnAFnQ"
+    "products_carousel_UhnPLb",
+    "media_with_text_overlay_cnAFnQ",
+    "featured_products_VdBhGG"
   ]
 }
