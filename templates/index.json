@@ -132,6 +132,7 @@
         "image_hJMHy4",
         "image_pWCpKT"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "standard",
@@ -274,7 +275,7 @@
         "item_width_mobile": 60,
         "item_width_desktop": 20,
         "snap_alignment": "snap-center",
-        "align_items": "items-end",
+        "align_items": "items-start",
         "labels_show_titles_and_captions": true,
         "labels_show_product_prices": false,
         "labels_display": "below_media",
@@ -284,7 +285,7 @@
         "quick_view": "disabled",
         "product_info_text_alignment": "left",
         "color_scheme": "",
-        "space_above": 1,
+        "space_above": 0.5,
         "space_below": 1
       }
     },
@@ -316,44 +317,6 @@
         "button_style": "",
         "color_scheme": ""
       }
-    },
-    "featured_products_VdBhGG": {
-      "type": "featured-products",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "product_list": [
-          "whirlpool-black",
-          "whirpool-brown",
-          "whirlpool-bucket-bag-in-dark-teal",
-          "voyage-black",
-          "voyage-brown",
-          "voyage-tote-bag-in-white"
-        ],
-        "grid_type": "standard",
-        "mobile_columns": "2",
-        "desktop_columns": 4,
-        "standard_layout_align_items": "items-center",
-        "modular_layout_variation": 1,
-        "modular_grid_item_aspect_ratio": 1,
-        "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
-        "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "natural",
-        "media_fill_space": false,
-        "labels_show_titles_and_captions": true,
-        "labels_show_product_prices": true,
-        "labels_display": "below_media",
-        "labels_show_product_vendor": false,
-        "labels_always_show_on_mobile": false,
-        "quick_view": "disabled",
-        "product_info_text_alignment": "center",
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1,
-        "disable_left_and_right_margins": false,
-        "remove_grid_gaps": false
-      }
     }
   },
   "order": [
@@ -368,7 +331,6 @@
     "image_with_text_JwUbeY",
     "image_with_text_qEY4MV",
     "products_carousel_UhnPLb",
-    "media_with_text_overlay_cnAFnQ",
-    "featured_products_VdBhGG"
+    "media_with_text_overlay_cnAFnQ"
   ]
 }
