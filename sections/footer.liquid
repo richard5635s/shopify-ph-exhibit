@@ -25,9 +25,7 @@
   <div class="wrapper">
     <div class="relative">
       <div class="grid md:grid-cols-12 w-full gap-theme z-0 grid-flow-dense items-top">
-        <div class="md:col-span-6 lg:col-span-item min-w-0 overflow-hidden {{ outline_class }}" style="--item-col-span: {{ section.blocks.settings.block_width_on_desktop }};">
-          {%- render 'logo', logo_max_width: section.settings.logo_max_width, link: routes.root_url -%}
-        </div>
+        
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'menu'- %}
@@ -81,7 +79,9 @@
               </div>
           {%- endcase -%}
         {%- endfor -%}
-        
+        <div class="md:col-span-6 lg:col-span-item min-w-0 overflow-hidden {{ outline_class }}" style="--item-col-span: {{ section.block.settings.block_width_on_desktop }};">
+          {%- render 'logo', logo_max_width: section.settings.logo_max_width, link: routes.root_url -%}
+        </div>
       </div>
 
       <div class="text-base mt-half-section-vertical-spacing lg:mt-section-vertical-spacing grid md:grid-cols-6 lg:grid-cols-12 w-full gap-theme z-0 grid-flow-dense items-top">
