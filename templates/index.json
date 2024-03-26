@@ -287,7 +287,7 @@
         "product_info_text_alignment": "left",
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 1
+        "space_below": 0.5
       }
     },
     "media_with_text_overlay_cnAFnQ": {
