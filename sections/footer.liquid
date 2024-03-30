@@ -19,17 +19,35 @@
     assign outline_class = 'outline-dashed outline-pink-500'
   endif
 
+  assign desktop_sizes_css_base = desktop_sizes_base | append: 'vw'
+
+  if settings.enable_max_grid_width
+    assign desktop_sizes_css_base = 'min(' | append: settings.max_grid_width | append: 'px, ' | append: desktop_sizes_base | append: 'vw)'
+  endif
+
+  assign desktop_sizes = 'calc(' | append: desktop_sizes_css_base | append: ' / ' | append: section.settings.desktop_columns | append: ')'
+
+  assign mobile_sizes_in_vw = 100 | divided_by: section.settings.mobile_columns
+  assign mobile_sizes = mobile_sizes_in_vw | round: 2 | append: 'vw'
+
+  assign sizes = '(min-width: 990px) ' | append: desktop_sizes | append: ', ' | append: mobile_sizes
 %}
 
-<footer class="text-scheme-text bg-scheme-background pt-top-section-vertical-spacing pb-bottom-section-vertical-spacing" data-color-scheme="{{ section_color }}" style="--top-spacing-adjust: {{ section.settings.space_above }}; --bottom-spacing-adjust: {{ section.settings.space_below }};">
+<footer
+  class="text-scheme-text bg-scheme-background pt-top-section-vertical-spacing pb-bottom-section-vertical-spacing"
+  data-color-scheme="{{ section_color }}"
+  style="--top-spacing-adjust: {{ section.settings.space_above }}; --bottom-spacing-adjust: {{ section.settings.space_below }};"
+>
   <div class="wrapper">
     <div class="relative">
       <div class="grid md:grid-cols-12 w-full gap-theme z-0 grid-flow-dense items-top">
-        
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'menu'- %}
-              <div class="md:col-span-6 lg:col-span-item min-w-0 overflow-hidden {{ outline_class }}" style="--item-col-span: {{ block.settings.block_width_on_desktop }};">
+              <div
+                class="md:col-span-6 lg:col-span-item min-w-0 overflow-hidden {{ outline_class }}"
+                style="--item-col-span: {{ block.settings.block_width_on_desktop }};"
+              >
                 {% if block.settings.show_menu_heading %}
                   <h4 class="text-scheme-text font-heading mb-2">{{ block.settings.menu.title }}</h4>
                 {% endif %}
@@ -40,7 +58,7 @@
                         <a href="{{ link.url }}" class="break-words">{{ link.title }}</a>
                         {%- if block.settings.separate_with_comma and block.settings.layout == 'horizontal' -%}
                           {%- unless forloop.last -%}
-                          &#44;&nbsp;
+                            &#44;&nbsp;
                           {%- endunless -%}
                         {%- endif -%}
                       </li>
@@ -49,24 +67,36 @@
                 </nav>
               </div>
             {%- when 'social_media' -%}
-              <div class="md:col-span-6 lg:col-span-item space-y-4 {{ block.settings.text_alignment }}" style="--item-col-span: {{ block.settings.block_width_on_desktop }};">
+              <div
+                class="md:col-span-6 lg:col-span-item space-y-4 {{ block.settings.text_alignment }}"
+                style="--item-col-span: {{ block.settings.block_width_on_desktop }};"
+              >
                 <div>
                   {% if block.settings.heading != blank %}
                     <h4 class="text-scheme-text font-heading mb-2">{{ block.settings.heading }}</h4>
                   {% endif %}
-                  <div>{%- render 'social-media', display: block.settings.display, text_layout: block.settings.text_layout, text_alignment: block.settings.text_alignment -%}</div>
+                  <div>
+                    {%- render 'social-media',
+                      display: block.settings.display,
+                      text_layout: block.settings.text_layout,
+                      text_alignment: block.settings.text_alignment
+                    -%}
+                  </div>
                 </div>
                 {%- if block.settings.enable_follow_on_shop -%}
-                <div>
-                  {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
-                  {% # theme-check-disable %}
-                  {{ shop | login_button: action: 'follow' }}
-                  {% # theme-check-enable %}
-                </div>
+                  <div>
+                    {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
+                    {% # theme-check-disable %}
+                    {{ shop | login_button: action: 'follow' }}
+                    {% # theme-check-enable %}
+                  </div>
                 {%- endif -%}
               </div>
             {%- when 'rich_text' -%}
-              <div class="md:col-span-6 lg:col-span-item {{ block.settings.text_alignment }}" style="--item-col-span: {{ block.settings.block_width_on_desktop }};">
+              <div
+                class="md:col-span-6 lg:col-span-item {{ block.settings.text_alignment }}"
+                style="--item-col-span: {{ block.settings.block_width_on_desktop }};"
+              >
                 <div>
                   {% if block.settings.heading != blank %}
                     <h4 class="text-scheme-text font-heading mb-2">{{ block.settings.heading }}</h4>
@@ -75,11 +105,23 @@
                 </div>
               </div>
             {%- when 'spacer' -%}
-              <div class="hidden lg:block col-span-item {{ outline_class }}" style="--item-col-span: {{ block.settings.block_width_on_desktop }}">
-              </div>
+              <div
+                class="hidden lg:block col-span-item {{ outline_class }}"
+                style="--item-col-span: {{ block.settings.block_width_on_desktop }}"
+              ></div>
             {%- when 'image' -%}
-              <div class="md:col-span-6 lg:block col-span-item {{ outline_class }}" style="--item-col-span: {{ block.settings.block_width_on_desktop }}">
-                <div>{%-  render 'tile-image', image: block.settings.image, caption: block.settings.caption, link: block.settings.link, media_wrapper_aspect_ratio: section.settings.media_aspect_ratio, sizes: sizes -%}
+              <div
+                class="md:col-span-6 lg:col-span-item {{ outline_class }}"
+                style="--item-col-span: {{ block.settings.block_width_on_desktop }}"
+              >
+                <div>
+                  {%- render 'tile-image',
+                    image: block.settings.image,
+                    caption: block.settings.caption,
+                    link: block.settings.link,
+                    media_wrapper_aspect_ratio: section.settings.media_aspect_ratio,
+                    sizes: sizes
+                  -%}
                 </div>
               </div>
           {%- endcase -%}
@@ -87,62 +129,68 @@
       </div>
 
       <div class="text-base mt-half-section-vertical-spacing lg:mt-section-vertical-spacing grid md:grid-cols-6 lg:grid-cols-12 w-full gap-theme z-0 grid-flow-dense items-top">
-
         {% if country_selector or locale_selector or section.settings.show_payment_icons %}
-        <div class="lg:order-4 md:col-span-6 first:lg:col-end-[-1] first:lg:flex first:lg:justify-end first:lg:items-start space-y-5">
-
-          <div class="space-y-5">
-            {% if country_selector or locale_selector %}
-            <div class="flex items-center lg:justify-end gap-x-4 text-scheme-secondary">
-              {%- if country_selector -%}
-                <div>
-                {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
-                  {%- render 'country-localization', position: 'footer' -%}
-                {%- endform -%}
+          <div class="lg:order-4 md:col-span-6 first:lg:col-end-[-1] first:lg:flex first:lg:justify-end first:lg:items-start space-y-5">
+            <div class="space-y-5">
+              {% if country_selector or locale_selector %}
+                <div class="flex items-center lg:justify-end gap-x-4 text-scheme-secondary">
+                  {%- if country_selector -%}
+                    <div>
+                      {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
+                        {%- render 'country-localization', position: 'footer' -%}
+                      {%- endform -%}
+                    </div>
+                  {%- endif -%}
+                  {%- if locale_selector -%}
+                    <div x-data="{}">
+                      {%- form 'localization',
+                        id: 'FooterLanguageFormNoScript',
+                        class: 'localization-form',
+                        x-ref: 'languageform'
+                      -%}
+                        {%- render 'language-localization', form: form, position: 'footer' -%}
+                      {%- endform -%}
+                    </div>
+                  {%- endif -%}
                 </div>
-              {%- endif -%}
-              {%- if locale_selector -%}
-                  <div x-data="{}">
-                    {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form', x-ref: 'languageform' -%}
-                      {%- render 'language-localization', form: form, position: 'footer' -%}
-                    {%- endform -%}
-                  </div>
+              {% endif %}
+
+              {%- if section.settings.show_payment_icons -%}
+                <ul
+                  class="-mt-1 list list-payment flex flex-wrap items-center justify-start -mx-1 {% if section.settings.grayscale_payment_icons %}grayscale{% endif %}"
+                  role="list"
+                >
+                  {%- for type in shop.enabled_payment_types -%}
+                    <li class="px-1 mt-1">
+                      {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                    </li>
+                  {%- endfor -%}
+                </ul>
               {%- endif -%}
             </div>
-            {% endif %}
-
-            {%- if section.settings.show_payment_icons -%}
-            <ul class="-mt-1 list list-payment flex flex-wrap items-center justify-start -mx-1 {% if section.settings.grayscale_payment_icons %}grayscale{% endif %}" role="list">
-              {%- for type in shop.enabled_payment_types -%}
-                <li class="px-1 mt-1">
-                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                </li>
-              {%- endfor -%}
-            </ul>
-            {%- endif -%}
           </div>
-
-        </div>
         {%- endif %}
 
         <div class="lg:order-1 md:col-span-6 space-y-2 overflow-hidden">
           {%- unless settings.sidebar_show_copyright and settings.enable_sidebar -%}
-          <p>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url -}}</p>
+            <p>
+              &copy; {{ 'now' | date: '%Y' }}
+              {{ shop.name | link_to: routes.root_url -}}
+            </p>
           {%- endunless -%}
           {%- if section.settings.show_policies -%}
-          <ul class="policies flex flex-wrap -mx-2 text-scheme-secondary">
-            {%- for policy in shop.policies -%}
-              {%- if policy != blank -%}
-                <li>
-                  <a class="inline-block px-2 hover:underline" href="{{ policy.url }}">{{ policy.title }}</a>
-                </li>
-              {%- endif -%}
-            {%- endfor -%}
-          </ul>
+            <ul class="policies flex flex-wrap -mx-2 text-scheme-secondary">
+              {%- for policy in shop.policies -%}
+                {%- if policy != blank -%}
+                  <li>
+                    <a class="inline-block px-2 hover:underline" href="{{ policy.url }}">{{ policy.title }}</a>
+                  </li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
           {%- endif -%}
           <p class="text-scheme-secondary">{{ powered_by_link }}</p>
         </div>
-
       </div>
 
       {% if show_grid_guidelines %}
@@ -154,7 +202,6 @@
       {% endif %}
     </div>
   </div>
-
 </footer>
 
 {% schema %}
