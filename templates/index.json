@@ -41,63 +41,6 @@
         "color_scheme": "scheme2"
       }
     },
-    "feature_text_BC7hzq": {
-      "type": "feature-text",
-      "disabled": true,
-      "settings": {
-        "richtext": "<p>HIGHLIGHT<\/p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "12",
-        "content_position_on_desktop": "left",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 0
-      }
-    },
-    "feature_text_NyfVw4": {
-      "type": "feature-text",
-      "disabled": true,
-      "settings": {
-        "richtext": "<p>Leather Goods<\/p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 4,
-        "mobile_text_scale": 2,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "12",
-        "content_position_on_desktop": "left",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 1
-      }
-    },
-    "feature_text_with_rich_text_yxM4Lm": {
-      "type": "feature-text-with-rich-text",
-      "disabled": true,
-      "settings": {
-        "feature_text": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
-        "font": "font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "feature_text_position_on_desktop": "left",
-        "feature_text_width_on_desktop": "6",
-        "richtext": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
-        "cta_link": "",
-        "cta_label": "",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 1
-      }
-    },
     "image_gallery_taHeiy": {
       "type": "image-gallery",
       "blocks": {
@@ -151,6 +94,61 @@
         "color_scheme": "scheme1",
         "space_above": 0.5,
         "space_below": 0.5
+      }
+    },
+    "feature_text_BC7hzq": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>HIGHLIGHT<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 0
+      }
+    },
+    "feature_text_NyfVw4": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Leather Goods<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 4,
+        "mobile_text_scale": 2,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    },
+    "feature_text_with_rich_text_yxM4Lm": {
+      "type": "feature-text-with-rich-text",
+      "disabled": true,
+      "settings": {
+        "feature_text": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+        "font": "font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "feature_text_position_on_desktop": "left",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
       }
     },
     "feature_text_64zK3W": {
@@ -276,7 +274,7 @@
         "item_width_desktop": 20,
         "snap_alignment": "snap-center",
         "align_items": "items-start",
-        "labels_show_titles_and_captions": true,
+        "labels_show_titles_and_captions": false,
         "labels_show_product_prices": false,
         "labels_display": "below_media",
         "labels_show_product_vendor": false,
@@ -321,10 +319,10 @@
   },
   "order": [
     "media-with-text-overlay",
+    "image_gallery_taHeiy",
     "feature_text_BC7hzq",
     "feature_text_NyfVw4",
     "feature_text_with_rich_text_yxM4Lm",
-    "image_gallery_taHeiy",
     "feature_text_64zK3W",
     "feature_text_tWQRwd",
     "rich_text_4CJKqT",
