@@ -79,7 +79,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png",
             "caption": "",
-            "link": ""
+            "link": "",
+            "block_width_on_desktop": "3"
           }
         }
       },
