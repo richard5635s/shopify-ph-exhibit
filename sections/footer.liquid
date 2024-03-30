@@ -77,11 +77,13 @@
             {%- when 'spacer' -%}
               <div class="hidden lg:block col-span-item {{ outline_class }}" style="--item-col-span: {{ block.settings.block_width_on_desktop }}">
               </div>
+            {%- when 'image' -%}
+              <div class="md:col-span-6 lg:block col-span-item {{ outline_class }}" style="--item-col-span: {{ block.settings.block_width_on_desktop }}">
+                <div>{%-  render 'tile-image', image: block.settings.image, caption: block.settings.caption, link: block.settings.link, media_wrapper_aspect_ratio: section.settings.media_aspect_ratio, sizes: sizes -%}
+                </div>
+              </div>
           {%- endcase -%}
         {%- endfor -%}
-        <div class="md:col-span-6 lg:col-span-item min-w-0 overflow-hidden {{ outline_class }}" style="--item-col-span: {{ section.block.settings.block_width_on_desktop }};">
-          {%- render 'logo', logo_max_width: section.settings.logo_max_width, link: routes.root_url -%}
-        </div>
       </div>
 
       <div class="text-base mt-half-section-vertical-spacing lg:mt-section-vertical-spacing grid md:grid-cols-6 lg:grid-cols-12 w-full gap-theme z-0 grid-flow-dense items-top">
@@ -572,6 +574,27 @@
             }
           ],
           "default": "1"
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "type": "image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "label": "Caption"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     }
