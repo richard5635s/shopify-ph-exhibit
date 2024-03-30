@@ -1,1 +1,111 @@
-{"type":"footer","name":"Footer","sections":{"white_space_8knhEg":{"type":"white-space","disabled":true,"settings":{"desktop_height":132}},"hero_logo_qAWHMA":{"type":"hero-logo","disabled":true,"settings":{"link_to_home_page":true,"mobile_text_scale":-2,"desktop_text_scale":-1,"use_default_logo":false,"logo":"shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png","liquid":"","alignment":"center","logo_max_width":50,"enable_overlay":false,"overlay_offset":100,"color_scheme":"scheme1","space_above":1.5,"space_below":0.5}},"footer":{"type":"footer","blocks":{"rich_text_ELPUip":{"type":"rich_text","disabled":true,"settings":{"heading":"","richtext":"","text_alignment":"text-left","block_width_on_desktop":"3"}},"menu_Y8zVmE":{"type":"menu","settings":{"menu":"help","layout":"vertical","desktop_text_alignment":"lg:justify-start","show_menu_heading":false,"separate_with_comma":false,"block_width_on_desktop":"3"}},"menu_kHj9QW":{"type":"menu","settings":{"menu":"about","layout":"vertical","desktop_text_alignment":"lg:justify-start","show_menu_heading":false,"separate_with_comma":false,"block_width_on_desktop":"3"}},"menu_Ffbnan":{"type":"menu","settings":{"menu":"social","layout":"vertical","desktop_text_alignment":"lg:justify-start","show_menu_heading":false,"separate_with_comma":false,"block_width_on_desktop":"3"}}},"block_order":["rich_text_ELPUip","menu_Y8zVmE","menu_kHj9QW","menu_Ffbnan"],"settings":{"show_locale_selector":false,"show_country_selector":false,"show_payment_icons":false,"grayscale_payment_icons":false,"show_policies":false,"color_scheme":"scheme-68476694-1360-4dd7-b10b-5953d15ce8c6","space_above":0.5,"space_below":0.5,"show_grid_guidelines":false}}},"order":["white_space_8knhEg","hero_logo_qAWHMA","footer"]}
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "white_space_8knhEg": {
+      "type": "white-space",
+      "disabled": true,
+      "settings": {
+        "desktop_height": 132
+      }
+    },
+    "hero_logo_qAWHMA": {
+      "type": "hero-logo",
+      "disabled": true,
+      "settings": {
+        "link_to_home_page": true,
+        "mobile_text_scale": -2,
+        "desktop_text_scale": -1,
+        "use_default_logo": false,
+        "logo": "shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png",
+        "liquid": "",
+        "alignment": "center",
+        "logo_max_width": 50,
+        "enable_overlay": false,
+        "overlay_offset": 100,
+        "color_scheme": "scheme1",
+        "space_above": 1.5,
+        "space_below": 0.5
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "rich_text_ELPUip": {
+          "type": "rich_text",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "richtext": "",
+            "text_alignment": "text-left",
+            "block_width_on_desktop": "3"
+          }
+        },
+        "menu_Y8zVmE": {
+          "type": "menu",
+          "settings": {
+            "menu": "help",
+            "layout": "vertical",
+            "desktop_text_alignment": "lg:justify-start",
+            "show_menu_heading": false,
+            "separate_with_comma": false,
+            "block_width_on_desktop": "3"
+          }
+        },
+        "menu_kHj9QW": {
+          "type": "menu",
+          "settings": {
+            "menu": "about",
+            "layout": "vertical",
+            "desktop_text_alignment": "lg:justify-start",
+            "show_menu_heading": false,
+            "separate_with_comma": false,
+            "block_width_on_desktop": "3"
+          }
+        },
+        "menu_Ffbnan": {
+          "type": "menu",
+          "settings": {
+            "menu": "social",
+            "layout": "vertical",
+            "desktop_text_alignment": "lg:justify-start",
+            "show_menu_heading": false,
+            "separate_with_comma": false,
+            "block_width_on_desktop": "3"
+          }
+        },
+        "image_GLc8HX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_ELPUip",
+        "menu_Y8zVmE",
+        "menu_kHj9QW",
+        "menu_Ffbnan",
+        "image_GLc8HX"
+      ],
+      "settings": {
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_payment_icons": false,
+        "grayscale_payment_icons": false,
+        "show_policies": false,
+        "color_scheme": "scheme-68476694-1360-4dd7-b10b-5953d15ce8c6",
+        "space_above": 0.5,
+        "space_below": 0.5,
+        "show_grid_guidelines": false
+      }
+    }
+  },
+  "order": [
+    "white_space_8knhEg",
+    "hero_logo_qAWHMA",
+    "footer"
+  ]
+}
