@@ -3648,6 +3648,7 @@ html.no-js .no-js\:hidden {
   }
 }
 @media (min-width: 990px) {
+  
   .logo-footer {
     display: block;
   }
