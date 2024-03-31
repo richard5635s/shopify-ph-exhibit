@@ -3618,9 +3618,6 @@ html.no-js .no-js\:hidden {
   display: none;
 }
 @media (min-width: 768px) {
-  .logo-footer {
-    display: block;
-  }
 
   .md\:left-auto {
     left: auto;
@@ -3651,6 +3648,9 @@ html.no-js .no-js\:hidden {
   }
 }
 @media (min-width: 990px) {
+  .logo-footer {
+    display: block;
+  }
 
   .lg\:absolute {
     position: absolute;
