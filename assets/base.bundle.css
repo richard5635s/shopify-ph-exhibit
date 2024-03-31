@@ -3339,8 +3339,10 @@ shopify-payment-button [role='button'],
     width: 100%;
   }
 }
-.logo-footer {
+.display-desktop-only {
   display: none;
+}
+.logo-footer {
   width: 12rem;
   padding-right: 2rem;
 }
@@ -3648,8 +3650,8 @@ html.no-js .no-js\:hidden {
   }
 }
 @media (min-width: 990px) {
-  
-  .logo-footer {
+
+  .display-desktop-only {
     display: block;
   }
 
