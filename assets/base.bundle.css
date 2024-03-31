@@ -3340,8 +3340,8 @@ shopify-payment-button [role='button'],
   }
 }
 .logo-footer {
-  height: 8rem;
-  margin-right: 2rem;
+  width: 12rem;
+  padding-right: 2rem;
 }
 .logo-alternate {
   display: none;
