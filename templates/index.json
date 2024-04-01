@@ -44,20 +44,20 @@
     "image_gallery_taHeiy": {
       "type": "image-gallery",
       "blocks": {
-        "image_Bi9cEQ": {
+        "image_pWCpKT": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PH_FNTSA_CPG1.jpg",
-            "caption": "2023, Fantasia",
+            "image": "shopify:\/\/shop_images\/PHD100_CPG_ee28fedb-e398-4b7d-9b11-8ddf7cbee3d3.jpg",
+            "caption": "PH Celebrates Disney100",
             "link": ""
           }
         },
-        "image_pWCpKT": {
+        "image_Bi9cEQ": {
           "type": "image",
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PHD100_CPG_ee28fedb-e398-4b7d-9b11-8ddf7cbee3d3.jpg",
-            "caption": "",
+            "caption": "2023, Fantasia",
             "link": ""
           }
         },
@@ -71,8 +71,8 @@
         }
       },
       "block_order": [
-        "image_Bi9cEQ",
         "image_pWCpKT",
+        "image_Bi9cEQ",
         "image_hJMHy4"
       ],
       "settings": {
