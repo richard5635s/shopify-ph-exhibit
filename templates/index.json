@@ -41,6 +41,42 @@
         "color_scheme": "scheme2"
       }
     },
+    "image_gallery_FeCdcr": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_Rd3FwY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "caption": "",
+            "link": "shopify:\/\/collections\/synthesis"
+          }
+        }
+      },
+      "block_order": [
+        "image_Rd3FwY"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "irregular",
+        "mobile_columns": "2",
+        "desktop_columns": 3,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0.5
+      }
+    },
     "image_gallery_taHeiy": {
       "type": "image-gallery",
       "blocks": {
@@ -124,6 +160,24 @@
         "space_below": 1
       }
     },
+    "rich_text_4CJKqT": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "richtext": "<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br\/>Words by Francis Martine. Photography by Alixe Lay.<\/p>",
+        "text_alignment": "text-center",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": true,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    },
     "feature_text_with_rich_text_yxM4Lm": {
       "type": "feature-text-with-rich-text",
       "disabled": true,
@@ -141,87 +195,6 @@
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 1
-      }
-    },
-    "feature_text_64zK3W": {
-      "type": "feature-text",
-      "disabled": true,
-      "settings": {
-        "richtext": "<p>PEACE & QUIET<\/p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 5,
-        "mobile_text_scale": 2,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "12",
-        "content_position_on_desktop": "center",
-        "show_top_border": true,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
-      }
-    },
-    "feature_text_tWQRwd": {
-      "type": "feature-text",
-      "disabled": true,
-      "settings": {
-        "richtext": "<p><em>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br\/>Words by Francis Martin. Photography by Alixe Lay.<\/em><\/p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "font-heading",
-        "desktop_text_scale": 1,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "8",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 0.5
-      }
-    },
-    "rich_text_4CJKqT": {
-      "type": "rich-text",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "PEACE & QUIET",
-        "richtext": "<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br\/>Words by Francis Martine. Photography by Alixe Lay.<\/p>",
-        "text_alignment": "text-center",
-        "cta_link": "",
-        "cta_label": "",
-        "show_top_border": true,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
-      }
-    },
-    "image_with_text_JwUbeY": {
-      "type": "image-with-text",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/PH_WHIRLPOOL_CPG3.jpg",
-        "media_aspect_ratio": "natural",
-        "image_position_on_desktop": "left",
-        "enable_full_bleed": true,
-        "title": "Store Locator",
-        "heading_size": "text-heading-standard",
-        "richtext": "<p>Our consultants are available to host you in-store and provide tailored guidance on gift purchases. <br\/><br\/><a href=\"\/pages\/about-us\" title=\"About Us\">Find a nearby store<\/a><\/p>",
-        "cta_link": "",
-        "cta_label": "",
-        "image_width_on_desktop": "7",
-        "content_width_on_desktop": "1.0",
-        "content_alignment": "lg:items-top lg:justify-start",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 0
       }
     },
     "image_with_text_qEY4MV": {
@@ -312,14 +285,12 @@
   },
   "order": [
     "media-with-text-overlay",
+    "image_gallery_FeCdcr",
     "image_gallery_taHeiy",
     "feature_text_BC7hzq",
     "feature_text_NyfVw4",
-    "feature_text_with_rich_text_yxM4Lm",
-    "feature_text_64zK3W",
-    "feature_text_tWQRwd",
     "rich_text_4CJKqT",
-    "image_with_text_JwUbeY",
+    "feature_text_with_rich_text_yxM4Lm",
     "image_with_text_qEY4MV",
     "products_carousel_UhnPLb",
     "media_with_text_overlay_cnAFnQ"
