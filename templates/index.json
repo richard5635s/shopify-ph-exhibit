@@ -211,7 +211,7 @@
         "item_width_mobile": 60,
         "item_width_desktop": 20,
         "snap_alignment": "snap-center",
-        "align_items": "items-start",
+        "align_items": "items-center",
         "labels_show_titles_and_captions": false,
         "labels_show_product_prices": false,
         "labels_display": "below_media",
@@ -219,7 +219,7 @@
         "labels_always_show_on_mobile": false,
         "show_index_and_total_slides": true,
         "quick_view": "disabled",
-        "product_info_text_alignment": "left",
+        "product_info_text_alignment": "center",
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0.5

@@ -43,7 +43,7 @@
       "settings": {
         "logo_max_width": 500,
         "cart": "s|s",
-        "drawer_menu": "s|h",
+        "drawer_menu": "h|h",
         "enable_search": true,
         "use_icons": true,
         "logo_block_width_on_desktop": "2",
