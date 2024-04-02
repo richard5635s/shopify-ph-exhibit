@@ -23,7 +23,7 @@
           "type": "horizontal_menu",
           "settings": {
             "menu": "main-menu",
-            "nested_navigation_style": "mega_menu",
+            "nested_navigation_style": "drawer",
             "desktop_text_alignment": "lg:justify-start",
             "show_cart": false,
             "separate_with_comma": false,
