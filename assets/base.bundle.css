@@ -1838,6 +1838,7 @@ button {
 }
 .inline-block {
   display: inline-block;
+  padding: 1rem;
 }
 .inline {
   display: inline;
