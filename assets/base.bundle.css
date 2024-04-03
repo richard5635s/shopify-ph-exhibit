@@ -2794,7 +2794,9 @@ button {
   padding-left: 1rem;
 }
 .pl-5 {
-  padding-left: 1.25rem;
+  padding-left: 0rem;
+  padding-top: 0rem;
+  padding-bottom: 1.5rem;
 }
 .pl-7 {
   padding-left: 1.75rem;
