@@ -1264,9 +1264,9 @@ button {
 
   .btn--solid:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(18 18 18 / 0%);
+    background-color: rgb(var(--color-scheme-solid-button-background) / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgb(0 0 0);
+    color: rgb(var(--color-scheme-solid-button-text) / var(--tw-text-opacity));
   }
 }
 .btn--solid {
