@@ -1256,9 +1256,9 @@ button {
   font-size: var(--font-size-base);
   line-height: var(--base-line-height);
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / 0%);
+  background-color: rgb(var(--color-scheme-solid-button-background) / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(0 0 0);
+  color: rgb(var(--color-scheme-solid-button-text) / var(--tw-text-opacity));
 }
 @media (hover: hover) and (pointer: fine) {
 
