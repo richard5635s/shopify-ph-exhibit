@@ -1256,17 +1256,17 @@ button {
   font-size: var(--font-size-base);
   line-height: var(--base-line-height);
   --tw-bg-opacity: 1;
-  background-color: rgb(var(--color-scheme-solid-button-background) / var(--tw-bg-opacity));
+  background-color: rgb(18 18 18 / 0%);
   --tw-text-opacity: 1;
-  color: rgb(var(--color-scheme-solid-button-text) / var(--tw-text-opacity));
+  color: rgb (0 0 0);
 }
 @media (hover: hover) and (pointer: fine) {
 
   .btn--solid:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(var(--color-scheme-solid-button-background) / var(--tw-bg-opacity));
+    background-color: rgb(18 18 18 / 0%);
     --tw-text-opacity: 1;
-    color: rgb(var(--color-scheme-solid-button-text) / var(--tw-text-opacity));
+    color: rgb (0 0 0);
   }
 }
 .btn--solid {
