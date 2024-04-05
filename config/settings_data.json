@@ -144,7 +144,7 @@
       "scheme2": {
         "settings": {
           "background": "#181818",
-          "text": "#ffffff",
+          "text": "#000000",
           "accent": "#ffffff",
           "accent_contrast": "#181818",
           "secondary": "#181818",
