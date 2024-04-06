@@ -15,6 +15,15 @@
             "space_above": 0
           }
         },
+        "text_yUGFXr": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.pre_order.value }}",
+            "icon": "none",
+            "text_color": "text-scheme-secondary",
+            "space_above": 1.5
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -83,6 +92,7 @@
       "block_order": [
         "title",
         "price",
+        "text_yUGFXr",
         "description",
         "quantity",
         "variant-picker",
