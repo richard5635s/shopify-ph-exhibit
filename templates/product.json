@@ -20,7 +20,7 @@
           "settings": {
             "text": "{{ product.metafields.custom.pre_order.value }}",
             "icon": "none",
-            "text_color": "text-scheme-secondary",
+            "text_color": "text-scheme-error",
             "space_above": 1.5
           }
         },
