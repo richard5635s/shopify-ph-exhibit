@@ -131,25 +131,25 @@
   },
   "cart": {
     "general": {
-      "title": "Your cart",
+      "title": "Your  bag",
       "remove": "Remove",
       "note": "Add a note to your order",
       "subtotal": "Subtotal",
       "new_subtotal": "New subtotal",
       "shipping_at_checkout": "Shipping & taxes calculated at checkout",
-      "update": "Update Cart",
+      "update": "Update Bag",
       "checkout": "Check Out",
-      "empty": "Your cart is currently empty.",
+      "empty": "Your bag is currently empty.",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
       "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
-      "cookies_required": "Enable cookies to use the shopping cart",
+      "cookies_required": "Enable cookies to use the shopping bag",
       "continue_shopping": "Continue shopping",
       "continue_browsing_html": "Continue browsing <a href=\"{{ link_url }}\">here<\/a>.",
-      "close_cart": "Close Cart",
-      "cart_error": "There was an error while updating your cart. Please try again.",
-      "cart_add_error": "All {{ title }} are in your cart."
+      "close_cart": "Close bag",
+      "cart_error": "There was an error while updating your bag. Please try again.",
+      "cart_add_error": "All {{ title }} are in your bag."
     },
     "label": {
       "discounted_total": "Discounted total",
@@ -167,7 +167,7 @@
       "original_price": "Original price"
     },
     "popup": {
-      "added_to_cart": "Added to your cart",
+      "added_to_cart": "Added to your bag",
       "cart_count": {
         "one": "{{ count }} item",
         "other": "{{ count }} items"
