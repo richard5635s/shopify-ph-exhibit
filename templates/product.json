@@ -24,14 +24,6 @@
             "space_above": 1.5
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "truncate_description": true,
-            "max_words": 100,
-            "space_above": 2
-          }
-        },
         "quantity": {
           "type": "quantity_selector",
           "disabled": true,
@@ -67,10 +59,18 @@
             "space_above": 2
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "truncate_description": true,
+            "max_words": 100,
+            "space_above": 2
+          }
+        },
         "collapsible_tabs_eBfTLA": {
           "type": "collapsible_tabs",
           "settings": {
-            "show_borders": true,
+            "show_borders": false,
             "space_above": 2,
             "heading_1": "Details & Care",
             "content_1": "<p>{{ product.metafields.custom.details_fit | metafield_tag }}<\/p>",
@@ -93,11 +93,11 @@
         "title",
         "price",
         "text_yUGFXr",
-        "description",
         "quantity",
         "variant-picker",
         "buy-buttons",
         "popup_r8mp7i",
+        "description",
         "collapsible_tabs_eBfTLA"
       ],
       "settings": {
@@ -122,20 +122,19 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
-        "title": "You may also like",
-        "products_to_show": 3,
-        "grid_type": "masonry",
+        "title": "Styled with",
+        "products_to_show": 4,
+        "grid_type": "standard",
         "mobile_columns": "2",
-        "desktop_columns": 3,
+        "desktop_columns": 2,
         "standard_layout_align_items": "items-start",
         "modular_layout_variation": 3,
         "modular_grid_item_aspect_ratio": 0.5,
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-top justify-start",
-        "media_aspect_ratio": "1.333",
+        "media_aspect_ratio": "natural",
         "media_fill_space": true,
         "labels_show_titles_and_captions": true,
         "labels_show_product_prices": true,
@@ -145,7 +144,7 @@
         "quick_view": "enabled_on_desktop",
         "product_info_text_alignment": "left",
         "color_scheme": "scheme1",
-        "space_above": 2,
+        "space_above": 1,
         "space_below": 1,
         "disable_left_and_right_margins": false,
         "remove_grid_gaps": false
