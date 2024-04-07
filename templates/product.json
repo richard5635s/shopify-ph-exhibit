@@ -144,7 +144,7 @@
         "quick_view": "enabled_on_desktop",
         "product_info_text_alignment": "left",
         "color_scheme": "scheme1",
-        "space_above": 1,
+        "space_above": 1.5,
         "space_below": 1,
         "disable_left_and_right_margins": false,
         "remove_grid_gaps": false
