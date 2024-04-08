@@ -34,10 +34,11 @@
         "image_Bi9cEQ",
         "image_hJMHy4"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "justified",
-        "mobile_columns": "2",
+        "mobile_columns": "1",
         "desktop_columns": 2,
         "standard_layout_align_items": "items-center",
         "modular_layout_variation": 2,
@@ -53,134 +54,6 @@
         "color_scheme": "scheme1",
         "space_above": 0,
         "space_below": 0.5
-      }
-    },
-    "parralax_rjU4EV": {
-      "type": "Parralax",
-      "blocks": {
-        "text_wJBWgT": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHRM_CPG.jpg",
-            "txt1-hd1": "",
-            "parallax-h": "h3",
-            "txt1-hd2": "",
-            "parallax-subh": "h2",
-            "par1_showbutton": false,
-            "par1_button_label": "",
-            "par1_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_wJBWgT"
-      ],
-      "settings": {
-        "paral-full": false,
-        "par_img_sz": "600",
-        "par_hd_sz": "55",
-        "par_subhd_sz": "25",
-        "par_button_sz": "25",
-        "par_letter_sp": "1",
-        "par_txt_align": "center",
-        "par_txt_top_pos": "50",
-        "par-en-over": true,
-        "color_over": "#000000",
-        "par_opacity": 50,
-        "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#ccc",
-        "color_par1_but_txt": "#FFFFFF"
-      }
-    },
-    "media_with_text_overlay_cnAFnQ": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "image_z9grLq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFTSA_CPG.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_z9grLq"
-      ],
-      "disabled": true,
-      "settings": {
-        "enable_full_bleed": true,
-        "aspect_ratio_mobile": "1",
-        "aspect_ratio_desktop": "full-screen",
-        "content_position": "justify-center items-center",
-        "text_align": "text-center",
-        "content_width_on_desktop": "4",
-        "title": "",
-        "heading_size": "text-heading-feature",
-        "richtext": "",
-        "cta_link": "",
-        "cta_label": "",
-        "button_style": "",
-        "color_scheme": ""
-      }
-    },
-    "media-with-text-overlay": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "image_CRzPLw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHRM2_CPG_2ba7af53-c416-4945-9469-7d6d60f2268e.jpg"
-          }
-        },
-        "media-with-text-overlay-1": {
-          "type": "color_overlay",
-          "settings": {
-            "color_scheme": "scheme1",
-            "overlay_color": "bg-scheme-text",
-            "enable_custom_color": true,
-            "custom_overlay_color": "#ffffff",
-            "opacity": 8,
-            "blend_mode": "normal"
-          }
-        }
-      },
-      "block_order": [
-        "image_CRzPLw",
-        "media-with-text-overlay-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "enable_full_bleed": true,
-        "aspect_ratio_mobile": "1",
-        "aspect_ratio_desktop": "full-screen",
-        "content_position": "justify-center items-center",
-        "text_align": "text-center",
-        "content_width_on_desktop": "4",
-        "title": "",
-        "heading_size": "text-heading-feature",
-        "richtext": "",
-        "cta_link": "shopify:\/\/collections\/peggy-hartanto-celebrates-disney-100",
-        "cta_label": "",
-        "button_style": "",
-        "color_scheme": "scheme2"
-      }
-    },
-    "feature_text_BC7hzq": {
-      "type": "feature-text",
-      "disabled": true,
-      "settings": {
-        "richtext": "<p>HIGHLIGHT<\/p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "12",
-        "content_position_on_desktop": "left",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 0
       }
     },
     "feature_text_NyfVw4": {
@@ -264,35 +137,6 @@
         "space_below": 1.5
       }
     },
-    "products_carousel_UhnPLb": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "",
-        "product_list": [
-          "whirlpool-black",
-          "whirpool-brown",
-          "whirlpool-bucket-bag-in-dark-teal",
-          "voyage-black",
-          "voyage-brown",
-          "voyage-tote-bag-in-white"
-        ],
-        "item_width_mobile": 60,
-        "item_width_desktop": 20,
-        "snap_alignment": "snap-center",
-        "align_items": "items-center",
-        "labels_show_titles_and_captions": false,
-        "labels_show_product_prices": false,
-        "labels_display": "below_media",
-        "labels_show_product_vendor": false,
-        "labels_always_show_on_mobile": false,
-        "show_index_and_total_slides": true,
-        "quick_view": "disabled",
-        "product_info_text_alignment": "center",
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
     "image_gallery_FeCdcr": {
       "type": "image-gallery",
       "blocks": {
@@ -327,21 +171,109 @@
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
         "space_above": 0,
+        "space_below": 0
+      }
+    },
+    "feature_text_BC7hzq": {
+      "type": "feature-text",
+      "disabled": true,
+      "settings": {
+        "richtext": "",
+        "cta_link": "#",
+        "cta_label": "LEATHER GOODS",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    },
+    "products_carousel_UhnPLb": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "product_list": [
+          "whirlpool-black",
+          "whirpool-brown",
+          "whirlpool-bucket-bag-in-dark-teal",
+          "voyage-black",
+          "voyage-brown",
+          "voyage-tote-bag-in-white"
+        ],
+        "item_width_mobile": 60,
+        "item_width_desktop": 20,
+        "snap_alignment": "snap-center",
+        "align_items": "items-center",
+        "labels_show_titles_and_captions": false,
+        "labels_show_product_prices": false,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": true,
+        "quick_view": "disabled",
+        "product_info_text_alignment": "center",
+        "color_scheme": "",
+        "space_above": 0.5,
         "space_below": 0.5
+      }
+    },
+    "media-with-text-overlay": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_CRzPLw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHRM2_CPG_2ba7af53-c416-4945-9469-7d6d60f2268e.jpg"
+          }
+        },
+        "media-with-text-overlay-1": {
+          "type": "color_overlay",
+          "settings": {
+            "color_scheme": "scheme1",
+            "overlay_color": "bg-scheme-text",
+            "enable_custom_color": true,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 8,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_CRzPLw",
+        "media-with-text-overlay-1"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "1",
+        "aspect_ratio_desktop": "full-screen",
+        "content_position": "justify-center items-start",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-secondary",
+        "richtext": "",
+        "cta_link": "#",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": "scheme2"
       }
     }
   },
   "order": [
     "image_gallery_taHeiy",
-    "parralax_rjU4EV",
-    "media_with_text_overlay_cnAFnQ",
-    "media-with-text-overlay",
-    "feature_text_BC7hzq",
     "feature_text_NyfVw4",
     "rich_text_4CJKqT",
     "feature_text_with_rich_text_yxM4Lm",
     "image_with_text_qEY4MV",
+    "image_gallery_FeCdcr",
+    "feature_text_BC7hzq",
     "products_carousel_UhnPLb",
-    "image_gallery_FeCdcr"
+    "media-with-text-overlay"
   ]
 }
