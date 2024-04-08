@@ -46,6 +46,7 @@
       "blocks": {
         "image_pWCpKT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PHD100_CPG_ee28fedb-e398-4b7d-9b11-8ddf7cbee3d3.jpg",
             "caption": "PH Celebrates Disney100",
@@ -54,10 +55,9 @@
         },
         "image_Bi9cEQ": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHD100_CPG_ee28fedb-e398-4b7d-9b11-8ddf7cbee3d3.jpg",
-            "caption": "2023, Fantasia",
+            "image": "shopify:\/\/shop_images\/IMG_5661.jpg",
+            "caption": "Leather Goods",
             "link": ""
           }
         },
