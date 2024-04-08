@@ -51,7 +51,7 @@
         "padding": 1.5,
         "align_content": "items-top",
         "sticky_header": false,
-        "enable_overlay_on_homepage": false,
+        "enable_overlay_on_homepage": true,
         "enable_overlay_on_collection_pages": false,
         "enable_overlay_on_product_pages": true,
         "enable_overlay_on_article_pages": false,
@@ -63,10 +63,48 @@
         "mobile_text_scale": 0,
         "show_grid_guidelines": false
       }
+    },
+    "parralax_bqHTGk": {
+      "type": "Parralax",
+      "blocks": {
+        "text_8wwkEU": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5661.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": true,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8wwkEU"
+      ],
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "400",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 50,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#ccc",
+        "color_par1_but_txt": "#FFFFFF"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "parralax_bqHTGk"
   ]
 }
