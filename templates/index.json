@@ -251,15 +251,15 @@
       ],
       "settings": {
         "enable_full_bleed": true,
-        "aspect_ratio_mobile": "1",
+        "aspect_ratio_mobile": "0.66",
         "aspect_ratio_desktop": "full-screen",
         "content_position": "justify-center items-start",
-        "text_align": "text-center",
+        "text_align": "text-right",
         "content_width_on_desktop": "4",
         "title": "",
         "heading_size": "text-heading-secondary",
         "richtext": "",
-        "cta_link": "#",
+        "cta_link": "shopify:\/\/collections\/collection-charm",
         "cta_label": "",
         "button_style": "",
         "color_scheme": "scheme2"
