@@ -6,18 +6,19 @@
         "image_CRzPLw": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHRM_CPG.jpg"
+            "image": "shopify:\/\/shop_images\/PHCHRM2_CPG.jpg"
           }
         },
         "media-with-text-overlay-1": {
           "type": "color_overlay",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme1",
             "overlay_color": "bg-scheme-text",
             "enable_custom_color": true,
-            "custom_overlay_color": "#000000",
+            "custom_overlay_color": "#ffffff",
             "opacity": 8,
-            "blend_mode": "screen"
+            "blend_mode": "normal"
           }
         }
       },
