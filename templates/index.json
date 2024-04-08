@@ -229,11 +229,12 @@
         "image_CRzPLw": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHRM2_CPG_2ba7af53-c416-4945-9469-7d6d60f2268e.jpg"
+            "image": "shopify:\/\/shop_images\/PHCHRM4_CPG.jpg"
           }
         },
         "media-with-text-overlay-1": {
           "type": "color_overlay",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme1",
             "overlay_color": "bg-scheme-text",
