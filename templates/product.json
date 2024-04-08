@@ -106,7 +106,7 @@
         "media_width_on_desktop": "6",
         "mobile_media_layout": "carousel",
         "desktop_media_layout": "single_column",
-        "media_fit": "fill_to_portrait",
+        "media_fit": "natural",
         "media_full_bleed": "mobile_and_desktop",
         "enable_image_zoom": true,
         "enable_video_looping": false,
