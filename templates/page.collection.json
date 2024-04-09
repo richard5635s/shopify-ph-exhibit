@@ -70,6 +70,43 @@
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
         "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "profile_hqeEVi": {
+      "type": "profile",
+      "blocks": {
+        "row_bxVqYj": {
+          "type": "row",
+          "settings": {
+            "title": "COLLECTIONS",
+            "text": "<p>2024, Charm<br\/>2023, Atlantis<br\/>2023, Fantasia<br\/>2022, Bloom<br\/>2022, Wonderland<br\/>2021, Gallery<br\/>2021, Form<br\/>2020, Species<br\/>2020, Surrealism<br\/>2019, Fossil<br\/>2019, Pandora<br\/>2018, Fleur<br\/>2018, Mutant<br\/>2017, Pierrot<br\/>2017, Lili<br\/>2016, Myth<br\/>2016, Fin II<br\/>2016, Fin <br\/>2015, Curve<br\/>2015, Gem<br\/>2014, Pivot<br\/>2014, Quantum<br\/>2013, Unseen<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "row_8fWcXA": {
+          "type": "row",
+          "settings": {
+            "title": "COLLABORATIONS",
+            "text": "<p>2023, Wonder –– PH Celebrates Disney100<br\/>2014, Section –– PH for Bateeq<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_bxVqYj",
+        "row_8fWcXA"
+      ],
+      "settings": {
+        "heading_font": "font-heading text-heading-secondary",
+        "heading_width_on_desktop": "3",
+        "text_width_on_desktop": "6",
+        "right_align_content_on_desktop": true,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
         "space_below": 1
       }
     },
@@ -128,49 +165,12 @@
         "change_slides_speed": 5,
         "color_scheme": ""
       }
-    },
-    "profile_hqeEVi": {
-      "type": "profile",
-      "blocks": {
-        "row_bxVqYj": {
-          "type": "row",
-          "settings": {
-            "title": "COLLECTIONS",
-            "text": "<p>2024, Charm<br\/>2023, Atlantis<br\/>2023, Fantasia<br\/>2022, Bloom<br\/>2022, Wonderland<br\/>2021, Gallery<br\/>2021, Form<br\/>2020, Species<br\/>2020, Surrealism<br\/>2019, Fossil<br\/>2019, Pandora<br\/>2018, Fleur<br\/>2018, Mutant<br\/>2017, Pierrot<br\/>2017, Lili<br\/>2016, Myth<br\/>2016, Fin II<br\/>2016, Fin <br\/>2015, Curve<br\/>2015, Gem<br\/>2014, Pivot<br\/>2014, Quantum<br\/>2013, Unseen<\/p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "row_8fWcXA": {
-          "type": "row",
-          "settings": {
-            "title": "COLLABORATIONS",
-            "text": "<p>2023, Wonder –– PH Celebrates Disney100<br\/>2014, Section –– PH for Bateeq<\/p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_bxVqYj",
-        "row_8fWcXA"
-      ],
-      "settings": {
-        "heading_font": "font-heading text-heading-secondary",
-        "heading_width_on_desktop": "3",
-        "text_width_on_desktop": "6",
-        "right_align_content_on_desktop": true,
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 1
-      }
     }
   },
   "order": [
     "main",
     "image_gallery_He9qz7",
-    "image_slideshow_zbg8rA",
-    "profile_hqeEVi"
+    "profile_hqeEVi",
+    "image_slideshow_zbg8rA"
   ]
 }
