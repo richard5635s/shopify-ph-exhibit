@@ -141,10 +141,20 @@
             "cta_link": "",
             "cta_label": ""
           }
+        },
+        "row_8fWcXA": {
+          "type": "row",
+          "settings": {
+            "title": "COLLABORATIONS",
+            "text": "<p>2023, Wonder –– PH Celebrates Disney100<br\/>2014, Section –– PH for Bateeq<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
         }
       },
       "block_order": [
-        "row_bxVqYj"
+        "row_bxVqYj",
+        "row_8fWcXA"
       ],
       "settings": {
         "heading_font": "font-heading text-heading-secondary",
