@@ -1,1 +1,35 @@
-{"type":"custom.hero","name":"Hero","sections":{"hero-logo":{"type":"hero-logo","disabled":true,"settings":{"link_to_home_page":true,"mobile_text_scale":6,"desktop_text_scale":3,"use_default_logo":true,"logo":"shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png","liquid":"","alignment":"center","logo_max_width":20,"enable_overlay":false,"overlay_offset":0,"color_scheme":"","space_above":2,"space_below":2}}},"order":["hero-logo"]}
+{
+  "type": "custom.hero",
+  "name": "Hero",
+  "sections": {
+    "hero-logo": {
+      "type": "hero-logo",
+      "disabled": true,
+      "settings": {
+        "link_to_home_page": true,
+        "mobile_text_scale": 6,
+        "desktop_text_scale": 3,
+        "use_default_logo": true,
+        "logo": "shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png",
+        "liquid": "",
+        "alignment": "center",
+        "logo_max_width": 20,
+        "enable_overlay": false,
+        "overlay_offset": 0,
+        "color_scheme": "",
+        "space_above": 2,
+        "space_below": 2
+      }
+    },
+    "white_space_JWcYRD": {
+      "type": "white-space",
+      "settings": {
+        "desktop_height": 108
+      }
+    }
+  },
+  "order": [
+    "hero-logo",
+    "white_space_JWcYRD"
+  ]
+}
