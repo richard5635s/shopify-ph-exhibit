@@ -16,7 +16,7 @@
         "text_jYCLYC": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHSYN_COL.jpg",
+            "image": "shopify:\/\/shop_images\/PHFNTS_COL.jpg",
             "txt1-hd1": "",
             "parallax-h": "h2",
             "txt1-hd2": "",
@@ -30,6 +30,7 @@
       "block_order": [
         "text_jYCLYC"
       ],
+      "disabled": true,
       "settings": {
         "paral-full": true,
         "par_img_sz": "400",
@@ -41,7 +42,7 @@
         "par_txt_top_pos": "50",
         "par-en-over": true,
         "color_over": "#000000",
-        "par_opacity": 50,
+        "par_opacity": 10,
         "color_par1_hd_clr": "#000000",
         "color_par1_subhd_clr": "#ccc",
         "color_par1_but_txt": "#FFFFFF"
@@ -91,7 +92,6 @@
         "image_8NJ6aa",
         "image_daY7Mt"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "irregular",
