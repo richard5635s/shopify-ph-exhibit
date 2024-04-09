@@ -16,7 +16,7 @@
         "image_6rrmFX": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NM_JS_Arc_teryx_02_retouch_RGB.webp",
+            "image": "shopify:\/\/shop_images\/PHCHRM5_CPG.jpg",
             "caption": "2024, Charm",
             "link": ""
           }
@@ -24,24 +24,8 @@
         "image_pFrhNj": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JS_FW23_24.jpg",
+            "image": "shopify:\/\/shop_images\/PHATLN2_CPG_0ce4652d-279a-421f-9584-bd95f188c36f.jpg",
             "caption": "2023, Atlantis",
-            "link": ""
-          }
-        },
-        "image_U3CiDP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JS_FW23_CAMPAIGN_WEBSITE_IMAGES_4.jpg",
-            "caption": "2023, Fantasia",
-            "link": ""
-          }
-        },
-        "image_L3YnFJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
-            "caption": "2022, Bloom",
             "link": ""
           }
         },
@@ -52,14 +36,21 @@
             "caption": "",
             "link": ""
           }
+        },
+        "image_L3YnFJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
+            "caption": "2022, Bloom",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "image_6rrmFX",
         "image_pFrhNj",
-        "image_U3CiDP",
-        "image_L3YnFJ",
-        "image_jxcx8N"
+        "image_jxcx8N",
+        "image_L3YnFJ"
       ],
       "disabled": true,
       "settings": {
@@ -69,7 +60,7 @@
         "labels_show_titles_and_captions": true,
         "labels_display": "footer",
         "labels_always_show_on_mobile": false,
-        "show_index_and_total_slides": true,
+        "show_index_and_total_slides": false,
         "auto_rotate": true,
         "change_slides_speed": 5,
         "color_scheme": ""
@@ -135,11 +126,11 @@
         "grid_type": "irregular",
         "mobile_columns": "1",
         "desktop_columns": 4,
-        "standard_layout_align_items": "items-baseline",
-        "modular_layout_variation": 6,
-        "modular_grid_item_aspect_ratio": 1,
-        "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 2,
+        "standard_layout_align_items": "items-center",
+        "modular_layout_variation": 3,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": true,
+        "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-top justify-center",
         "media_aspect_ratio": "natural",
         "media_fill_space": true,
