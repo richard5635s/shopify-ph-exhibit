@@ -10,12 +10,48 @@
         "space_below": 1
       }
     },
+    "parralax_e9kYCT": {
+      "type": "Parralax",
+      "blocks": {
+        "text_jYCLYC": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHSYN_COL.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": false,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_jYCLYC"
+      ],
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "400",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 50,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#ccc",
+        "color_par1_but_txt": "#FFFFFF"
+      }
+    },
     "image_gallery_He9qz7": {
       "type": "image-gallery",
       "blocks": {
         "image_BziqBD": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PHFNTS_COL.jpg",
             "caption": "",
@@ -33,6 +69,7 @@
         },
         "image_8NJ6aa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PHCHARM_COL.jpg",
             "caption": "COLLECTION, Charm",
@@ -54,13 +91,14 @@
         "image_8NJ6aa",
         "image_daY7Mt"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "irregular",
         "mobile_columns": "1",
         "desktop_columns": 4,
         "standard_layout_align_items": "items-baseline",
-        "modular_layout_variation": 9,
+        "modular_layout_variation": 6,
         "modular_grid_item_aspect_ratio": 1,
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
@@ -181,6 +219,7 @@
   },
   "order": [
     "main",
+    "parralax_e9kYCT",
     "image_gallery_He9qz7",
     "profile_hqeEVi",
     "image_slideshow_zbg8rA"
