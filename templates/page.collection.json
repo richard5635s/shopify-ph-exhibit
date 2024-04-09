@@ -10,42 +10,69 @@
         "space_below": 1
       }
     },
-    "parralax_e9kYCT": {
-      "type": "Parralax",
+    "image_slideshow_zbg8rA": {
+      "type": "image-slideshow",
       "blocks": {
-        "text_jYCLYC": {
-          "type": "text",
+        "image_6rrmFX": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHFNTS_COL.jpg",
-            "txt1-hd1": "",
-            "parallax-h": "h2",
-            "txt1-hd2": "",
-            "parallax-subh": "h3",
-            "par1_showbutton": false,
-            "par1_button_label": "",
-            "par1_button_link": ""
+            "image": "shopify:\/\/shop_images\/NM_JS_Arc_teryx_02_retouch_RGB.webp",
+            "caption": "2024, Charm",
+            "link": ""
+          }
+        },
+        "image_pFrhNj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JS_FW23_24.jpg",
+            "caption": "2023, Atlantis",
+            "link": ""
+          }
+        },
+        "image_U3CiDP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JS_FW23_CAMPAIGN_WEBSITE_IMAGES_4.jpg",
+            "caption": "2023, Fantasia",
+            "link": ""
+          }
+        },
+        "image_L3YnFJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
+            "caption": "2022, Bloom",
+            "link": ""
+          }
+        },
+        "image_jxcx8N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PH_FNTSA_CPG.jpg",
+            "caption": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "text_jYCLYC"
+        "image_6rrmFX",
+        "image_pFrhNj",
+        "image_U3CiDP",
+        "image_L3YnFJ",
+        "image_jxcx8N"
       ],
       "disabled": true,
       "settings": {
-        "paral-full": true,
-        "par_img_sz": "400",
-        "par_hd_sz": "55",
-        "par_subhd_sz": "25",
-        "par_button_sz": "25",
-        "par_letter_sp": "1",
-        "par_txt_align": "left",
-        "par_txt_top_pos": "50",
-        "par-en-over": true,
-        "color_over": "#000000",
-        "par_opacity": 10,
-        "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#ccc",
-        "color_par1_but_txt": "#FFFFFF"
+        "title": "",
+        "section_height": "h-screen",
+        "max_width_of_slides": 100,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "footer",
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": true,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "color_scheme": ""
       }
     },
     "image_gallery_He9qz7": {
@@ -138,6 +165,7 @@
         },
         "row_8fWcXA": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "title": "COLLABORATIONS",
             "text": "<p>2023, Wonder –– PH Celebrates Disney100<br\/>2014, Section –– PH for Bateeq<\/p>",
@@ -147,6 +175,7 @@
         },
         "row_fgfRHW": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "title": "EXHIBITION",
             "text": "<p>2023, Synthesis –– PH 10th Anniversary<\/p>",
@@ -162,7 +191,7 @@
       ],
       "settings": {
         "heading_font": "font-heading text-heading-secondary",
-        "heading_width_on_desktop": "3",
+        "heading_width_on_desktop": "2",
         "text_width_on_desktop": "6",
         "right_align_content_on_desktop": true,
         "show_top_border": false,
@@ -170,69 +199,12 @@
         "space_above": 0.5,
         "space_below": 1
       }
-    },
-    "image_slideshow_zbg8rA": {
-      "type": "image-slideshow",
-      "blocks": {
-        "image_6rrmFX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NM_JS_Arc_teryx_02_retouch_RGB.webp",
-            "caption": "2024, Charm",
-            "link": ""
-          }
-        },
-        "image_pFrhNj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JS_FW23_24.jpg",
-            "caption": "2023, Atlantis",
-            "link": ""
-          }
-        },
-        "image_U3CiDP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JS_FW23_CAMPAIGN_WEBSITE_IMAGES_4.jpg",
-            "caption": "2023, Fantasia",
-            "link": ""
-          }
-        },
-        "image_L3YnFJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
-            "caption": "2022, Bloom",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_6rrmFX",
-        "image_pFrhNj",
-        "image_U3CiDP",
-        "image_L3YnFJ"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "section_height": "h-screen-80",
-        "max_width_of_slides": 100,
-        "labels_show_titles_and_captions": true,
-        "labels_display": "footer",
-        "labels_always_show_on_mobile": false,
-        "show_index_and_total_slides": true,
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "color_scheme": ""
-      }
     }
   },
   "order": [
     "main",
-    "parralax_e9kYCT",
+    "image_slideshow_zbg8rA",
     "image_gallery_He9qz7",
-    "profile_hqeEVi",
-    "image_slideshow_zbg8rA"
+    "profile_hqeEVi"
   ]
 }
