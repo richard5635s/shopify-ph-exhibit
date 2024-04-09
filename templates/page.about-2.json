@@ -61,13 +61,42 @@
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 2
+        "space_below": 1
+      }
+    },
+    "profile_Aq487V": {
+      "type": "profile",
+      "blocks": {
+        "row_kJnwc3": {
+          "type": "row",
+          "settings": {
+            "title": "ABOUT",
+            "text": "<p>PEGGY HARTANTO is an Indonesia-based contemporary womenswear brand founded in 2012 by sisters Petty, Peggy, and Lydia Hartanto. The brand is celebrated for its progressive design aesthetic, featuring organic, whimsical, and surreal elements. Its feminine yet dynamic pieces are designed to celebrate the multidimensional modern woman, empowering them with body-conscious silhouettes.<br\/><br\/>The modern woman is defined by diverse roles and expressions. PEGGY HARTANTO embraces this complexity by creating bold pieces that encourage women to express their individuality and take up space. The brand's commitment to precise construction ensures a perfect fit, allowing the pattern to serve the body. This dedication to authenticity and adaptability has earned PEGGY HARTANTO international acclaim, including a spot in Forbes Asia's '30 under 30: The Arts' list in February 2016 and representation as a finalist at the International Woolmark Prize Asia 2017.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kJnwc3"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_font": "font-heading text-heading-secondary",
+        "heading_width_on_desktop": "3",
+        "text_width_on_desktop": "6",
+        "right_align_content_on_desktop": true,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
       }
     }
   },
   "order": [
     "main",
     "image_gallery_hGxAcj",
-    "feature_text_Vj93Ta"
+    "feature_text_Vj93Ta",
+    "profile_Aq487V"
   ]
 }
