@@ -140,7 +140,7 @@
         "modular_grid_item_aspect_ratio": 1,
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 2,
-        "irregular_alignment_of_items": "items-center justify-center",
+        "irregular_alignment_of_items": "items-top justify-center",
         "media_aspect_ratio": "natural",
         "media_fill_space": true,
         "labels_show_titles_and_captions": true,
@@ -165,7 +165,6 @@
         },
         "row_8fWcXA": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "title": "COLLABORATIONS",
             "text": "<p>2023, Wonder –– PH Celebrates Disney100<br\/>2014, Section –– PH for Bateeq<\/p>",
@@ -175,7 +174,6 @@
         },
         "row_fgfRHW": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "title": "EXHIBITION",
             "text": "<p>2023, Synthesis –– PH 10th Anniversary<\/p>",
