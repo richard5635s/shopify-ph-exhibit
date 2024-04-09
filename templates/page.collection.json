@@ -15,6 +15,7 @@
       "blocks": {
         "image_BziqBD": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/NM_JS_Arc_teryx_02_retouch_RGB.webp",
             "caption": "",
