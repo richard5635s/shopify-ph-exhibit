@@ -93,11 +93,21 @@
             "cta_link": "",
             "cta_label": ""
           }
+        },
+        "row_fgfRHW": {
+          "type": "row",
+          "settings": {
+            "title": "EXHIBITION",
+            "text": "<p>2023, Synthesis –– PH 10th Anniversary<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
         }
       },
       "block_order": [
         "row_bxVqYj",
-        "row_8fWcXA"
+        "row_8fWcXA",
+        "row_fgfRHW"
       ],
       "settings": {
         "heading_font": "font-heading text-heading-secondary",
