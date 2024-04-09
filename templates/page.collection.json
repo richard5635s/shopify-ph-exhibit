@@ -17,15 +17,16 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/NM_JS_Arc_teryx_02_retouch_RGB.webp",
+            "image": "shopify:\/\/shop_images\/PHFNTS_COL.jpg",
             "caption": "",
             "link": ""
           }
         },
         "image_y8FVBV": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/JS_FW23_24.jpg",
+            "image": "shopify:\/\/shop_images\/PHDSNY_COL_c5beb15d-0284-4c80-a9c2-cef0c6652868.jpg",
             "caption": "",
             "link": ""
           }
@@ -33,16 +34,16 @@
         "image_8NJ6aa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JS_FW23_CAMPAIGN_WEBSITE_IMAGES_4.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/PHCHARM_COL.jpg",
+            "caption": "2024, Charm",
             "link": ""
           }
         },
         "image_daY7Mt": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/PHSYN_COL.jpg",
+            "caption": "2023, Synthesis",
             "link": ""
           }
         }
@@ -62,13 +63,13 @@
         "modular_layout_variation": 9,
         "modular_grid_item_aspect_ratio": 1,
         "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 9,
+        "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "1.778",
+        "media_aspect_ratio": "natural",
         "media_fill_space": true,
         "labels_show_titles_and_captions": true,
-        "labels_display": "below_media",
-        "labels_always_show_on_mobile": false,
+        "labels_display": "follow_mouse_on_hover",
+        "labels_always_show_on_mobile": true,
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0.5
