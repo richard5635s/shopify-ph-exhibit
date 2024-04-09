@@ -23,6 +23,7 @@
     },
     "white_space_JWcYRD": {
       "type": "white-space",
+      "disabled": true,
       "settings": {
         "desktop_height": 108
       }
