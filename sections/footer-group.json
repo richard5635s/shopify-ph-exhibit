@@ -37,7 +37,7 @@
             "image": "shopify:\/\/shop_images\/PEGGY___FA___LOGOGRAM_WEB_Black_6f4afbe1-4460-4de3-9629-81be447c6978.png",
             "caption": "",
             "link": "",
-            "block_width_on_desktop": "3"
+            "block_width_on_desktop": "4"
           }
         },
         "rich_text_ELPUip": {
@@ -69,14 +69,14 @@
             "desktop_text_alignment": "lg:justify-start",
             "show_menu_heading": false,
             "separate_with_comma": false,
-            "block_width_on_desktop": "3"
+            "block_width_on_desktop": "2"
           }
         },
         "menu_Ffbnan": {
           "type": "menu",
           "settings": {
             "menu": "social",
-            "layout": "vertical",
+            "layout": "horizontal",
             "desktop_text_alignment": "lg:justify-start",
             "show_menu_heading": false,
             "separate_with_comma": false,
