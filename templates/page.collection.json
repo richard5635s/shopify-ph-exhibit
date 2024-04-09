@@ -57,7 +57,7 @@
       "settings": {
         "title": "",
         "grid_type": "irregular",
-        "mobile_columns": "2",
+        "mobile_columns": "1",
         "desktop_columns": 4,
         "standard_layout_align_items": "items-baseline",
         "modular_layout_variation": 9,
@@ -69,7 +69,7 @@
         "media_fill_space": true,
         "labels_show_titles_and_captions": true,
         "labels_display": "follow_mouse_on_hover",
-        "labels_always_show_on_mobile": true,
+        "labels_always_show_on_mobile": false,
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0.5
