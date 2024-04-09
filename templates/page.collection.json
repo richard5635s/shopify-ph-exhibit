@@ -53,6 +53,7 @@
       "blocks": {
         "image_BziqBD": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PHFNTS_COL.jpg",
             "caption": "",
@@ -79,9 +80,18 @@
         },
         "image_daY7Mt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PHSYN_COL.jpg",
             "caption": "EXHIBITION, Synthesis",
+            "link": ""
+          }
+        },
+        "image_CEkPCa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PH_FNTSA_CPG.jpg",
+            "caption": "",
             "link": ""
           }
         }
@@ -90,7 +100,8 @@
         "image_BziqBD",
         "image_y8FVBV",
         "image_8NJ6aa",
-        "image_daY7Mt"
+        "image_daY7Mt",
+        "image_CEkPCa"
       ],
       "settings": {
         "title": "",
@@ -101,9 +112,9 @@
         "modular_layout_variation": 6,
         "modular_grid_item_aspect_ratio": 1,
         "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
+        "irregular_layout_variation": 2,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "1.333",
+        "media_aspect_ratio": "natural",
         "media_fill_space": true,
         "labels_show_titles_and_captions": true,
         "labels_display": "follow_mouse_on_hover",
