@@ -10,60 +10,42 @@
         "space_below": 1
       }
     },
-    "image_slideshow_zbg8rA": {
-      "type": "image-slideshow",
+    "parralax_nRYVn3": {
+      "type": "Parralax",
       "blocks": {
-        "image_6rrmFX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHRM5_CPG.jpg",
-            "caption": "2024, Charm",
-            "link": ""
-          }
-        },
-        "image_pFrhNj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHATLN2_CPG_0ce4652d-279a-421f-9584-bd95f188c36f.jpg",
-            "caption": "2023, Atlantis",
-            "link": ""
-          }
-        },
-        "image_jxcx8N": {
-          "type": "image",
+        "text_BdAaNY": {
+          "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/PH_FNTSA_CPG.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_L3YnFJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
-            "caption": "2022, Bloom",
-            "link": ""
+            "txt1-hd1": "",
+            "parallax-h": "h1",
+            "txt1-hd2": "",
+            "parallax-subh": "h2",
+            "par1_showbutton": true,
+            "par1_button_label": "DISCOVER FANTASIA",
+            "par1_button_link": "#"
           }
         }
       },
       "block_order": [
-        "image_6rrmFX",
-        "image_pFrhNj",
-        "image_jxcx8N",
-        "image_L3YnFJ"
+        "text_BdAaNY"
       ],
       "disabled": true,
       "settings": {
-        "title": "",
-        "section_height": "h-screen",
-        "max_width_of_slides": 100,
-        "labels_show_titles_and_captions": true,
-        "labels_display": "footer",
-        "labels_always_show_on_mobile": false,
-        "show_index_and_total_slides": false,
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "color_scheme": ""
+        "paral-full": true,
+        "par_img_sz": "500",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "center",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 25,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#ccc",
+        "color_par1_but_txt": "#FFFFFF"
       }
     },
     "image_gallery_He9qz7": {
@@ -142,6 +124,62 @@
         "space_below": 0.5
       }
     },
+    "image_slideshow_zbg8rA": {
+      "type": "image-slideshow",
+      "blocks": {
+        "image_6rrmFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHRM5_CPG.jpg",
+            "caption": "2024, Charm",
+            "link": ""
+          }
+        },
+        "image_pFrhNj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLN2_CPG_0ce4652d-279a-421f-9584-bd95f188c36f.jpg",
+            "caption": "2023, Atlantis",
+            "link": ""
+          }
+        },
+        "image_jxcx8N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PH_FNTSA_CPG.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_L3YnFJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
+            "caption": "2022, Bloom",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6rrmFX",
+        "image_pFrhNj",
+        "image_jxcx8N",
+        "image_L3YnFJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "section_height": "h-screen",
+        "max_width_of_slides": 100,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "footer",
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "color_scheme": ""
+      }
+    },
     "profile_hqeEVi": {
       "type": "profile",
       "blocks": {
@@ -188,50 +226,13 @@
         "space_above": 0.5,
         "space_below": 1
       }
-    },
-    "parralax_nRYVn3": {
-      "type": "Parralax",
-      "blocks": {
-        "text_BdAaNY": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHSYNT_CAMPAIGN_9.jpg",
-            "txt1-hd1": "",
-            "parallax-h": "h2",
-            "txt1-hd2": "",
-            "parallax-subh": "h3",
-            "par1_showbutton": false,
-            "par1_button_label": "",
-            "par1_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_BdAaNY"
-      ],
-      "settings": {
-        "paral-full": true,
-        "par_img_sz": "400",
-        "par_hd_sz": "55",
-        "par_subhd_sz": "25",
-        "par_button_sz": "25",
-        "par_letter_sp": "1",
-        "par_txt_align": "left",
-        "par_txt_top_pos": "50",
-        "par-en-over": true,
-        "color_over": "#000000",
-        "par_opacity": 50,
-        "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#ccc",
-        "color_par1_but_txt": "#FFFFFF"
-      }
     }
   },
   "order": [
     "main",
-    "image_slideshow_zbg8rA",
+    "parralax_nRYVn3",
     "image_gallery_He9qz7",
-    "profile_hqeEVi",
-    "parralax_nRYVn3"
+    "image_slideshow_zbg8rA",
+    "profile_hqeEVi"
   ]
 }
