@@ -17,7 +17,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/NM_JS_Arc_teryx_02_retouch_RGB.webp",
-            "caption": "2024, Charm",
+            "caption": "",
             "link": ""
           }
         },
@@ -25,7 +25,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/JS_FW23_24.jpg",
-            "caption": "2023, Atlantis",
+            "caption": "",
             "link": ""
           }
         },
@@ -33,7 +33,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/JS_FW23_CAMPAIGN_WEBSITE_IMAGES_4.jpg",
-            "caption": "2023, Fantasia",
+            "caption": "",
             "link": ""
           }
         },
@@ -41,7 +41,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
-            "caption": "2022, Bloom",
+            "caption": "",
             "link": ""
           }
         }
@@ -52,7 +52,6 @@
         "image_8NJ6aa",
         "image_daY7Mt"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "irregular",
@@ -163,7 +162,7 @@
         "right_align_content_on_desktop": true,
         "show_top_border": false,
         "color_scheme": "",
-        "space_above": 1,
+        "space_above": 0,
         "space_below": 1
       }
     }
