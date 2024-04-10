@@ -2776,7 +2776,7 @@ button {
   padding-bottom: 2rem;
 }
 .pb-bottom-section-vertical-spacing {
-  padding-bottom: 30px;
+  padding-bottom: calc(var(--section-vertical-spacing) * var(--bottom-spacing-adjust, 1));
 }
 .pb-half-section-vertical-spacing {
   padding-bottom: calc(var(--section-vertical-spacing)/2);
