@@ -50,7 +50,7 @@ link_classes
         {{ liquid }}
       </div>
     {%- elsif logo != blank -%}
-      <div class="{% if has_logo_alternate %}logo-has-alternate{% endif %}" style="max-width: {{ max_width_with_units }}">
+      <div class="ml-auto mr-auto {% if has_logo_alternate %}logo-has-alternate{% endif %}" style="max-width: {{ max_width_with_units }}">
         {%- assign logo_alt = logo.alt | default: shop.name | escape -%}
         {{ logo | image_url: width: 1000 | image_tag:
           class: 'site-title-logo-image logo-default',
