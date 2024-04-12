@@ -77,7 +77,7 @@
           "type": "menu",
           "settings": {
             "menu": "social",
-            "layout": "horizontal",
+            "layout": "vertical",
             "desktop_text_alignment": "lg:justify-start",
             "show_menu_heading": false,
             "separate_with_comma": false,
