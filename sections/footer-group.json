@@ -49,7 +49,8 @@
             "show_top_border": false,
             "color_scheme": "scheme_1",
             "space_above": 1,
-            "space_below": 1
+            "space_below": 1,
+            "block_width_on_desktop": "3"
           }
         },
         "rich_text_ELPUip": {
