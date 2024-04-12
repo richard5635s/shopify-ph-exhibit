@@ -33,11 +33,23 @@
       "blocks": {
         "image_GLc8HX": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PEGGY___FA___LOGOGRAM_WEB_Black_6f4afbe1-4460-4de3-9629-81be447c6978.png",
             "caption": "",
             "link": "",
             "block_width_on_desktop": "3"
+          }
+        },
+        "newsletter_mEXwFj": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Sign up to our newsletter",
+            "richtext": "<p>Receive special offers and first look at new products.<\/p>",
+            "show_top_border": false,
+            "color_scheme": "scheme_1",
+            "space_above": 1,
+            "space_below": 1
           }
         },
         "rich_text_ELPUip": {
@@ -86,6 +98,7 @@
       },
       "block_order": [
         "image_GLc8HX",
+        "newsletter_mEXwFj",
         "rich_text_ELPUip",
         "menu_Y8zVmE",
         "menu_kHj9QW",
