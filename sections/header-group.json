@@ -41,7 +41,7 @@
 
       ],
       "settings": {
-        "logo_max_width": 190,
+        "logo_max_width": 180,
         "cart": "s|s",
         "drawer_menu": "h|h",
         "enable_search": true,
