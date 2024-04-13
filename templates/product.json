@@ -103,7 +103,7 @@
       ],
       "settings": {
         "desktop_layout": "two_column",
-        "desktop_media_position": "right",
+        "desktop_media_position": "left",
         "media_width_on_desktop": "6",
         "mobile_media_layout": "carousel",
         "desktop_media_layout": "single_column",
