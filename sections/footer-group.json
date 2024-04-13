@@ -9,25 +9,6 @@
         "desktop_height": 132
       }
     },
-    "hero_logo_qAWHMA": {
-      "type": "hero-logo",
-      "disabled": true,
-      "settings": {
-        "link_to_home_page": true,
-        "mobile_text_scale": -2,
-        "desktop_text_scale": -1,
-        "use_default_logo": false,
-        "logo": "shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png",
-        "liquid": "",
-        "alignment": "center",
-        "logo_max_width": 50,
-        "enable_overlay": false,
-        "overlay_offset": 100,
-        "color_scheme": "scheme1",
-        "space_above": 1.5,
-        "space_below": 0.5
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -59,7 +40,7 @@
             "desktop_text_alignment": "lg:justify-start",
             "show_menu_heading": false,
             "separate_with_comma": false,
-            "block_width_on_desktop": "3"
+            "block_width_on_desktop": "2"
           }
         },
         "menu_kHj9QW": {
@@ -70,7 +51,7 @@
             "desktop_text_alignment": "lg:justify-start",
             "show_menu_heading": false,
             "separate_with_comma": false,
-            "block_width_on_desktop": "3"
+            "block_width_on_desktop": "2"
           }
         },
         "menu_Ffbnan": {
@@ -93,7 +74,7 @@
             "color_scheme": "scheme_1",
             "space_above": 1,
             "space_below": 1,
-            "block_width_on_desktop": "3"
+            "block_width_on_desktop": "4"
           }
         }
       },
@@ -116,11 +97,30 @@
         "space_below": 0.3,
         "show_grid_guidelines": false
       }
+    },
+    "hero_logo_qAWHMA": {
+      "type": "hero-logo",
+      "disabled": true,
+      "settings": {
+        "link_to_home_page": true,
+        "mobile_text_scale": -2,
+        "desktop_text_scale": -1,
+        "use_default_logo": false,
+        "logo": "shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png",
+        "liquid": "",
+        "alignment": "center",
+        "logo_max_width": 50,
+        "enable_overlay": false,
+        "overlay_offset": 100,
+        "color_scheme": "scheme1",
+        "space_above": 1.5,
+        "space_below": 0.5
+      }
     }
   },
   "order": [
     "white_space_8knhEg",
-    "hero_logo_qAWHMA",
-    "footer"
+    "footer",
+    "hero_logo_qAWHMA"
   ]
 }
