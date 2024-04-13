@@ -113,7 +113,7 @@
         "show_policies": false,
         "color_scheme": "scheme-68476694-1360-4dd7-b10b-5953d15ce8c6",
         "space_above": 0.5,
-        "space_below": 0.5,
+        "space_below": 0.3,
         "show_grid_guidelines": false
       }
     }
