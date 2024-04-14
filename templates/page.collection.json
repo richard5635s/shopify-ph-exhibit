@@ -44,8 +44,8 @@
         "color_over": "#000000",
         "par_opacity": 25,
         "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#ccc",
-        "color_par1_but_txt": "#FFFFFF"
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
       }
     },
     "image_gallery_He9qz7": {
@@ -224,7 +224,7 @@
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 1
+        "space_below": 1.5
       }
     }
   },
