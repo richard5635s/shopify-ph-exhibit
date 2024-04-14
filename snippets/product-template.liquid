@@ -248,7 +248,7 @@
                       when 'liquid'
                         render 'product-block-liquid', product: product, block: block
                       when 'measurementdetails'
-                        {%- block.settings.table -%}
+                      render 'product-measurement', product: product, block: block
                     endcase
                   endfor
                   comment
