@@ -32,6 +32,7 @@
     },
     "rich_text_tBGdcF": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "title": "",
         "richtext": "<p>STORIES<\/p>",
@@ -47,7 +48,7 @@
     "blog_posts_R7mFX6": {
       "type": "blog-posts",
       "settings": {
-        "heading": "",
+        "heading": "STORIES",
         "subheading": "",
         "blog": "",
         "max_posts": "6",
