@@ -30,11 +30,25 @@
         "space_below": 1
       }
     },
+    "rich_text_tBGdcF": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "richtext": "<p>STORIES<\/p>",
+        "text_alignment": "text-center",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
     "blog_posts_R7mFX6": {
       "type": "blog-posts",
       "settings": {
-        "heading": "STORIES",
-        "subheading": "<p>Use this text to share information about your brand with your customers.<\/p>",
+        "heading": "",
+        "subheading": "",
         "blog": "",
         "max_posts": "6",
         "show_view_all": true,
@@ -54,6 +68,7 @@
   "order": [
     "header",
     "main",
+    "rich_text_tBGdcF",
     "blog_posts_R7mFX6"
   ]
 }
