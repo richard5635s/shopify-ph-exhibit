@@ -91,6 +91,7 @@
         },
         "measurementdetails_A3CKet": {
           "type": "measurementdetails",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "Heading Text",
