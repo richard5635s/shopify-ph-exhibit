@@ -2,6 +2,7 @@
   "sections": {
     "header": {
       "type": "main-article-header",
+      "disabled": true,
       "settings": {
         "image_width_on_desktop": "12",
         "media_aspect_ratio": "1.333",
@@ -35,7 +36,7 @@
         "heading": "STORIES",
         "subheading": "<p>Use this text to share information about your brand with your customers.<\/p>",
         "blog": "",
-        "max_posts": "8",
+        "max_posts": "6",
         "show_view_all": true,
         "show_author": true,
         "show_date": true,
@@ -45,7 +46,7 @@
         "desktop_post_columns": 3,
         "show_top_border": false,
         "color_scheme": "",
-        "space_above": 0,
+        "space_above": 0.5,
         "space_below": 1
       }
     }
