@@ -88,6 +88,16 @@
             "page_3": "",
             "icon_3": "none"
           }
+        },
+        "measurementdetails_A3CKet": {
+          "type": "measurementdetails",
+          "settings": {
+            "icon": "none",
+            "heading": "Heading Text",
+            "tablecontent": "<p>{{ product.metafields.custom.measurement_details | metafield_tag }}nn<\/p>",
+            "text_color": "text-scheme-text",
+            "space_above": 1
+          }
         }
       },
       "block_order": [
@@ -99,7 +109,8 @@
         "buy-buttons",
         "popup_r8mp7i",
         "description",
-        "collapsible_tabs_eBfTLA"
+        "collapsible_tabs_eBfTLA",
+        "measurementdetails_A3CKet"
       ],
       "settings": {
         "desktop_layout": "two_column",
