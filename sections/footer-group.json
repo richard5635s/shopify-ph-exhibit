@@ -62,7 +62,7 @@
             "desktop_text_alignment": "lg:justify-start",
             "show_menu_heading": false,
             "separate_with_comma": false,
-            "block_width_on_desktop": "3"
+            "block_width_on_desktop": "4"
           }
         },
         "newsletter_mEXwFj": {
@@ -74,7 +74,7 @@
             "color_scheme": "scheme_1",
             "space_above": 1,
             "space_below": 1,
-            "block_width_on_desktop": "4"
+            "block_width_on_desktop": "3"
           }
         }
       },
