@@ -12,7 +12,6 @@
     },
     "newsletter_XCVt7e": {
       "type": "newsletter",
-      "disabled": true,
       "settings": {
         "title": "Sign up to our newsletter",
         "richtext": "<p>Receive special offers and first look at new products.<\/p>",
@@ -92,6 +91,7 @@
         "image_8MhWkw",
         "image_dx8Eig"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "standard",
