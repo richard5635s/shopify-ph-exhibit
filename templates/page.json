@@ -32,7 +32,7 @@
       ],
       "settings": {
         "paral-full": true,
-        "par_img_sz": "600",
+        "par_img_sz": "500",
         "par_hd_sz": "55",
         "par_subhd_sz": "25",
         "par_button_sz": "25",
@@ -257,6 +257,190 @@
             "caption": "",
             "link": ""
           }
+        },
+        "image_zGrTPE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_WARAJI_ODORI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_JEmEVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_SENSU_ODORI2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_miApCf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_TEMARI_SOMEN_ODORI1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_BthbPB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_DANGO.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_LQ8ApP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_UCHIMIZU2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_WBrGFz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_KAWA_SHAMISEN.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_HT7M8z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_TORO_SHAMISEN_ODORI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_Y8G7CD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_KABUKI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_q8Lfb7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_AMAZAKE_NEBUTA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_KMqyXU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_ZUTSUMI_ONI_KANZASHI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_Fw8T8A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_KANZASHI_KINCHAKU1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_X4kjzF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_HACHIMAKI2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_K7niJx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_HOZUKI_ODORI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_U6XV6k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_TAIKO_YATAI1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_APxM9T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_EMA1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_78LEca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_KYUDO2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_ryQmxG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_HARU_CHANKO_DARUMA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_kB4Hi6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_ZUTSUMI_MATSURI_WASABI_ODORI2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_N9aYVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_TANABATA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_yKxBhB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_HAORI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_j6xUqU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_HANETO.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_jUPHf4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_TEGATA_ODORI1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_GbRRKH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_YOSAKOI1.jpg",
+            "caption": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -285,7 +469,30 @@
         "image_9HmcaV",
         "image_Aq8mjD",
         "image_GJ3PEB",
-        "image_3AgPnx"
+        "image_3AgPnx",
+        "image_zGrTPE",
+        "image_JEmEVL",
+        "image_miApCf",
+        "image_BthbPB",
+        "image_LQ8ApP",
+        "image_WBrGFz",
+        "image_HT7M8z",
+        "image_Y8G7CD",
+        "image_q8Lfb7",
+        "image_KMqyXU",
+        "image_Fw8T8A",
+        "image_X4kjzF",
+        "image_K7niJx",
+        "image_U6XV6k",
+        "image_APxM9T",
+        "image_78LEca",
+        "image_ryQmxG",
+        "image_kB4Hi6",
+        "image_N9aYVL",
+        "image_yKxBhB",
+        "image_j6xUqU",
+        "image_jUPHf4",
+        "image_GbRRKH"
       ],
       "settings": {
         "title": "",
