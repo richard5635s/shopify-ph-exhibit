@@ -10,20 +10,16 @@
         "space_below": 1
       }
     },
-    "newsletter_XCVt7e": {
-      "type": "newsletter",
-      "settings": {
-        "title": "Sign up to our newsletter",
-        "richtext": "<p>Receive special offers and first look at new products.<\/p>",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
-      }
-    },
     "image_gallery_rVVmqd": {
       "type": "image-gallery",
       "blocks": {
+        "image_q7fBn9": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_mW3TqT": {
           "type": "image",
           "settings": {
@@ -82,6 +78,7 @@
         }
       },
       "block_order": [
+        "image_q7fBn9",
         "image_mW3TqT",
         "image_PpVB4A",
         "image_7pQebt",
@@ -91,7 +88,6 @@
         "image_8MhWkw",
         "image_dx8Eig"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "standard",
@@ -99,7 +95,7 @@
         "desktop_columns": 3,
         "standard_layout_align_items": "items-start",
         "modular_layout_variation": 1,
-        "modular_grid_item_aspect_ratio": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
@@ -109,14 +105,13 @@
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
-        "space_above": 1,
+        "space_above": 0.5,
         "space_below": 1
       }
     }
   },
   "order": [
     "main",
-    "newsletter_XCVt7e",
     "image_gallery_rVVmqd"
   ]
 }
