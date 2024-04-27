@@ -32,7 +32,7 @@
       ],
       "settings": {
         "paral-full": true,
-        "par_img_sz": "400",
+        "par_img_sz": "600",
         "par_hd_sz": "55",
         "par_subhd_sz": "25",
         "par_button_sz": "25",
@@ -41,7 +41,7 @@
         "par_txt_top_pos": "50",
         "par-en-over": true,
         "color_over": "#000000",
-        "par_opacity": 50,
+        "par_opacity": 1,
         "color_par1_hd_clr": "#000000",
         "color_par1_subhd_clr": "#ccc",
         "color_par1_but_txt": "#FFFFFF"
