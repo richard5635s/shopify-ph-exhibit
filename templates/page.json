@@ -193,6 +193,70 @@
             "caption": "",
             "link": ""
           }
+        },
+        "image_dxVWK8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_FURIN_KADOMATSU.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_FHRHaW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_KADOMATSU_ODORI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_fWbm7h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_OMIKOSHI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_6JrXQg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_OBON_KINCHAKU.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_9HmcaV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_SUMO.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_Aq8mjD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_KUSHI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_GJ3PEB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_YOMISE_ODORI.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_3AgPnx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHCHARM_BIWA_ODORI.jpg",
+            "caption": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -213,7 +277,15 @@
         "image_Fazbf8",
         "image_zV8dTW",
         "image_6zHDER",
-        "image_U3WqRe"
+        "image_U3WqRe",
+        "image_dxVWK8",
+        "image_FHRHaW",
+        "image_fWbm7h",
+        "image_6JrXQg",
+        "image_9HmcaV",
+        "image_Aq8mjD",
+        "image_GJ3PEB",
+        "image_3AgPnx"
       ],
       "settings": {
         "title": "",
@@ -233,7 +305,7 @@
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 0.5
+        "space_below": 1
       }
     }
   },
