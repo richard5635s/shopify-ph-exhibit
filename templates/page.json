@@ -30,6 +30,7 @@
       "block_order": [
         "text_dpdtWY"
       ],
+      "disabled": true,
       "settings": {
         "paral-full": true,
         "par_img_sz": "500",
@@ -43,8 +44,8 @@
         "color_over": "#000000",
         "par_opacity": 1,
         "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#ccc",
-        "color_par1_but_txt": "#FFFFFF"
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
       }
     },
     "image_gallery_rVVmqd": {
