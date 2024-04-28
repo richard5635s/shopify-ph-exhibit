@@ -10,43 +10,6 @@
         "space_below": 1
       }
     },
-    "parralax_ibnhY7": {
-      "type": "Parralax",
-      "blocks": {
-        "text_dpdtWY": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHFTSA_CPG.jpg",
-            "txt1-hd1": "",
-            "parallax-h": "h2",
-            "txt1-hd2": "",
-            "parallax-subh": "h3",
-            "par1_showbutton": false,
-            "par1_button_label": "",
-            "par1_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_dpdtWY"
-      ],
-      "settings": {
-        "paral-full": true,
-        "par_img_sz": "650",
-        "par_hd_sz": "55",
-        "par_subhd_sz": "25",
-        "par_button_sz": "25",
-        "par_letter_sp": "1",
-        "par_txt_align": "left",
-        "par_txt_top_pos": "50",
-        "par-en-over": true,
-        "color_over": "#000000",
-        "par_opacity": 1,
-        "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#cccccc",
-        "color_par1_but_txt": "#ffffff"
-      }
-    },
     "image_gallery_4BEmkT": {
       "type": "image-gallery",
       "blocks": {
@@ -307,11 +270,310 @@
         "space_above": 1,
         "space_below": 1
       }
+    },
+    "parralax_ibnhY7": {
+      "type": "Parralax",
+      "blocks": {
+        "text_dpdtWY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFTSA_CPG.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": false,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dpdtWY"
+      ],
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "600",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 1,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
+      }
+    },
+    "image_gallery_3jUdec": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_nkXJjp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_MELODY_PITCH.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_aNUKi8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_BATTUTO_PITCH_99ff332b-4d52-4924-b562-ef0901151c87.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_WPQqmE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_VIVACE_PITCH1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_HQMDYe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CANTABILE_ab4bb94c-5adb-4efe-8827-96e8952fc446.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_YyyfWa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CONDUCTOR1_8998b5c5-4788-4851-a6e9-934b1175fd86.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_VGCpHG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_REPRISE_PITCH1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_gLcFRn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_WALTZ_TUTTI1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_VPXqqy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_GIOCOSO.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_dBxCth": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_OCTAVE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_mDKqUC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_TONE_SOPRANO.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_4XeePC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_TONE_LUNGA_FLAT.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_qmXFDE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_TONE_RHAPSODY.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_yyTbqD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CAPELLA_69d0978b-0013-4699-a197-7f53ad10f4db.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_eeGTaE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_SONATA1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_TULeyX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_RUVIDO.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_LjFKcq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_ACCELLERANDO1_78e3e18d-fcda-4d3e-980e-51dd2ece1346.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_nYnEmd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_OPUS_FERMATA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_y3DV9x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_ORCHESTRA_PITCH.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_fHHjna": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_OVERTURE1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_6giL9P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_CRESCENDO_8080e1bc-b21c-4bc8-8ae4-e11b9a918c7f.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_w83Pxg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_SEMITONE1_18dc9002-edc4-41d6-9519-ba33e41b62db.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_NgUUaQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_MESTO_ALTO_QUINTET1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_TAiPfg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_PRINCIPAL.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_hBhWzV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_SYMPHONY1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_cUhXyg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_TONE_TRIO_SONORE2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_ytqpm8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHFANTASIA_TONE_VIRTUOSO_SONORE1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nkXJjp",
+        "image_aNUKi8",
+        "image_WPQqmE",
+        "image_HQMDYe",
+        "image_YyyfWa",
+        "image_VGCpHG",
+        "image_gLcFRn",
+        "image_VPXqqy",
+        "image_dBxCth",
+        "image_mDKqUC",
+        "image_4XeePC",
+        "image_qmXFDE",
+        "image_yyTbqD",
+        "image_eeGTaE",
+        "image_TULeyX",
+        "image_LjFKcq",
+        "image_nYnEmd",
+        "image_y3DV9x",
+        "image_fHHjna",
+        "image_6giL9P",
+        "image_w83Pxg",
+        "image_NgUUaQ",
+        "image_TAiPfg",
+        "image_hBhWzV",
+        "image_cUhXyg",
+        "image_ytqpm8"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
     }
   },
   "order": [
     "main",
+    "image_gallery_4BEmkT",
     "parralax_ibnhY7",
-    "image_gallery_4BEmkT"
+    "image_gallery_3jUdec"
   ]
 }
