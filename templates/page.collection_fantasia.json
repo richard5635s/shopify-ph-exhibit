@@ -1,0 +1,515 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "text-left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "parralax_ibnhY7": {
+      "type": "Parralax",
+      "blocks": {
+        "text_dpdtWY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLN2_CPG_0ce4652d-279a-421f-9584-bd95f188c36f.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": false,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dpdtWY"
+      ],
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "500",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 1,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
+      }
+    },
+    "image_gallery_rVVmqd": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_q7fBn9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_KRAIT_CRAB_VOLE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_mW3TqT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CLAM_HERRING_2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_PpVB4A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_SEAGULL.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_7pQebt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_SEAL_SOLE_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_NdegAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_PERCH_REEF.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_ckAjjA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_SHARK_NETTLE_2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_RbdBC8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CHAMELEON_VOLE_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_8MhWkw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_MORAY_WRASSE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_dx8Eig": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_WHITING_CUTTLEFISH.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_JjQyxE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_BLOB_CUTTLEFISH_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_xPCUgz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CUTTLEFISH.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_AjmebL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_BLENNY_COD_WRASSE_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_iaiWLf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_HAKE_WAHOO_WRASSE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_ccaHEx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_KRILL_WAHOO_WRASSE_2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_Fazbf8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CANNONBALL.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_zV8dTW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_BLACKTIP.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_6zHDER": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_NARWHAL.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_U3WqRe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_FLUKE_SARDINE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_dxVWK8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_KRAIT_RAZOR_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_FHRHaW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_BELUGA_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_fWbm7h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_NAUTILUS.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_6JrXQg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CARP_HADDOCK.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_9HmcaV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_STURGEON.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_bmkDQM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_IMPALA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_Aq8mjD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_STARFISH.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_GJ3PEB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CARP_MUGIL_WALRUS_2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_3AgPnx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CONCH_OCTOPUS_DAB_WRASSE_1_49315141-0c77-4779-8df5-c2d6dc1950b6.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_zGrTPE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CLAM_PRAWN.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_JEmEVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_ABALONE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_miApCf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_HAMMERHEAD_VOLE_WRASSE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_BthbPB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CRUSTACEAN_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_LQ8ApP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_OYSTER.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_WBrGFz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_TROUT_DACE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_HT7M8z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_HALIBUT.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_Y8G7CD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_MARLIN.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_q8Lfb7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_REMORA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_KMqyXU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CARP_CHUB_SQUID_WRASSE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_Fw8T8A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CILIARIS_SQUID.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_X4kjzF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_ANEMONE_BARNACLE_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_K7niJx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_BARNACLE_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_U6XV6k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CONCH_VAQUITA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_APxM9T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_AMPHIPOD_1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_78LEca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_JELLYFISH.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_ryQmxG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_CEPHALOPOD_WRASSE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_kB4Hi6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_BARRACUDA.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_N9aYVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_MACKEREL.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_yKxBhB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_NEMATODE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_j6xUqU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHATLANTIS_LINGUADO_WRASSE.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_q7fBn9",
+        "image_mW3TqT",
+        "image_PpVB4A",
+        "image_7pQebt",
+        "image_NdegAC",
+        "image_ckAjjA",
+        "image_RbdBC8",
+        "image_8MhWkw",
+        "image_dx8Eig",
+        "image_JjQyxE",
+        "image_xPCUgz",
+        "image_AjmebL",
+        "image_iaiWLf",
+        "image_ccaHEx",
+        "image_Fazbf8",
+        "image_zV8dTW",
+        "image_6zHDER",
+        "image_U3WqRe",
+        "image_dxVWK8",
+        "image_FHRHaW",
+        "image_fWbm7h",
+        "image_6JrXQg",
+        "image_9HmcaV",
+        "image_bmkDQM",
+        "image_Aq8mjD",
+        "image_GJ3PEB",
+        "image_3AgPnx",
+        "image_zGrTPE",
+        "image_JEmEVL",
+        "image_miApCf",
+        "image_BthbPB",
+        "image_LQ8ApP",
+        "image_WBrGFz",
+        "image_HT7M8z",
+        "image_Y8G7CD",
+        "image_q8Lfb7",
+        "image_KMqyXU",
+        "image_Fw8T8A",
+        "image_X4kjzF",
+        "image_K7niJx",
+        "image_U6XV6k",
+        "image_APxM9T",
+        "image_78LEca",
+        "image_ryQmxG",
+        "image_kB4Hi6",
+        "image_N9aYVL",
+        "image_yKxBhB",
+        "image_j6xUqU"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "0.6667",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "parralax_ibnhY7",
+    "image_gallery_rVVmqd"
+  ]
+}
