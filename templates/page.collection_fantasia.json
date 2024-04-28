@@ -16,7 +16,7 @@
         "text_dpdtWY": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PH_FNTSA_CPG1.jpg",
+            "image": "shopify:\/\/shop_images\/PHFTSA_CPG.jpg",
             "txt1-hd1": "",
             "parallax-h": "h2",
             "txt1-hd2": "",
@@ -32,7 +32,7 @@
       ],
       "settings": {
         "paral-full": true,
-        "par_img_sz": "500",
+        "par_img_sz": "650",
         "par_hd_sz": "55",
         "par_subhd_sz": "25",
         "par_button_sz": "25",
