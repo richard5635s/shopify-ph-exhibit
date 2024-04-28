@@ -16,7 +16,7 @@
         "text_dpdtWY": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHATLN2_CPG_0ce4652d-279a-421f-9584-bd95f188c36f.jpg",
+            "image": "shopify:\/\/shop_images\/PH_FNTSA_CPG.jpg",
             "txt1-hd1": "",
             "parallax-h": "h2",
             "txt1-hd2": "",
@@ -30,7 +30,6 @@
       "block_order": [
         "text_dpdtWY"
       ],
-      "disabled": true,
       "settings": {
         "paral-full": true,
         "par_img_sz": "500",
