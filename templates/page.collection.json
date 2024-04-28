@@ -10,44 +10,6 @@
         "space_below": 1
       }
     },
-    "parralax_nRYVn3": {
-      "type": "Parralax",
-      "blocks": {
-        "text_BdAaNY": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PH_FNTSA_CPG.jpg",
-            "txt1-hd1": "",
-            "parallax-h": "h1",
-            "txt1-hd2": "",
-            "parallax-subh": "h2",
-            "par1_showbutton": true,
-            "par1_button_label": "DISCOVER FANTASIA",
-            "par1_button_link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "text_BdAaNY"
-      ],
-      "disabled": true,
-      "settings": {
-        "paral-full": true,
-        "par_img_sz": "500",
-        "par_hd_sz": "55",
-        "par_subhd_sz": "25",
-        "par_button_sz": "25",
-        "par_letter_sp": "1",
-        "par_txt_align": "center",
-        "par_txt_top_pos": "50",
-        "par-en-over": true,
-        "color_over": "#000000",
-        "par_opacity": 25,
-        "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#cccccc",
-        "color_par1_but_txt": "#ffffff"
-      }
-    },
     "image_gallery_He9qz7": {
       "type": "image-gallery",
       "blocks": {
@@ -150,21 +112,12 @@
             "caption": "",
             "link": ""
           }
-        },
-        "image_L3YnFJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIL_SANDER_INDULGENCE_06.jpg",
-            "caption": "2022, Bloom",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "image_6rrmFX",
         "image_pFrhNj",
-        "image_jxcx8N",
-        "image_L3YnFJ"
+        "image_jxcx8N"
       ],
       "disabled": true,
       "settings": {
@@ -172,7 +125,7 @@
         "section_height": "h-screen",
         "max_width_of_slides": 100,
         "labels_show_titles_and_captions": true,
-        "labels_display": "footer",
+        "labels_display": "follow_mouse_on_hover",
         "labels_always_show_on_mobile": false,
         "show_index_and_total_slides": false,
         "auto_rotate": true,
@@ -230,7 +183,6 @@
   },
   "order": [
     "main",
-    "parralax_nRYVn3",
     "image_gallery_He9qz7",
     "image_slideshow_zbg8rA",
     "profile_hqeEVi"
