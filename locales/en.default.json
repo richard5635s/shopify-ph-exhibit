@@ -46,7 +46,7 @@
     },
     "newsletter_form": {
       "newsletter_email": "Email Address",
-      "email_placeholder": "email@example.com",
+      "email_placeholder": "email",
       "confirmation": "Thanks for subscribing",
       "submit": "Subscribe"
     },
