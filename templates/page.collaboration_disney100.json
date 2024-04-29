@@ -16,7 +16,7 @@
         "text_dpdtWY": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHD1006_CPG_efea4519-2d21-4592-bb55-99734451979e.jpg",
+            "image": "shopify:\/\/shop_images\/PHD1007_CPG.jpg",
             "txt1-hd1": "",
             "parallax-h": "h2",
             "txt1-hd2": "",
@@ -30,7 +30,6 @@
       "block_order": [
         "text_dpdtWY"
       ],
-      "disabled": true,
       "settings": {
         "paral-full": true,
         "par_img_sz": "600",
