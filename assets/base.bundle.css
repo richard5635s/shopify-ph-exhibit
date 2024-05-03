@@ -587,7 +587,7 @@ select {
   textarea,
   select {
   border-radius: var(--input-border-radius);
-    border-color: #ffffff00;
+    border-color: #000;
     background: rgb(var(--color-scheme-background));
     padding: var(--button-padding);
 }
