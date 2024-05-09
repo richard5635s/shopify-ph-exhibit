@@ -14,18 +14,18 @@
         "align_content": "items-center",
         "color_scheme": "",
         "space_above": 0,
-        "space_below": 1
+        "space_below": 0
       }
     },
     "main": {
       "type": "main-article",
       "settings": {
         "show_share_buttons": true,
-        "show_next_previous_links": true,
+        "show_next_previous_links": false,
         "content_alignment_on_desktop": "lg:col-start-1",
         "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
+        "space_above": 0.5,
+        "space_below": 0.5
       }
     },
     "rich_text_tBGdcF": {
@@ -48,18 +48,18 @@
         "heading": "STORIES",
         "subheading": "",
         "blog": "",
-        "max_posts": "6",
+        "max_posts": "4",
         "show_view_all": true,
-        "show_author": true,
+        "show_author": false,
         "show_date": true,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "title_font": "font-main",
-        "crop": "1.3",
+        "crop": "0",
         "desktop_post_columns": 3,
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 1.5
+        "space_below": 0.5
       }
     }
   },
