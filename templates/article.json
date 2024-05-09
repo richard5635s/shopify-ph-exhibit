@@ -2,15 +2,14 @@
   "sections": {
     "header": {
       "type": "main-article-header",
-      "disabled": true,
       "settings": {
         "image_width_on_desktop": "12",
-        "media_aspect_ratio": "1.333",
+        "media_aspect_ratio": "natural",
         "image_position_on_desktop": "right",
         "enable_full_bleed": false,
         "show_author": false,
-        "show_date": false,
-        "show_tags": true,
+        "show_date": true,
+        "show_tags": false,
         "text_alignment": "text-center",
         "align_content": "items-center",
         "color_scheme": "",
@@ -20,7 +19,6 @@
     },
     "main": {
       "type": "main-article",
-      "disabled": true,
       "settings": {
         "show_share_buttons": true,
         "show_next_previous_links": true,
@@ -32,7 +30,6 @@
     },
     "rich_text_tBGdcF": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "title": "",
         "richtext": "<p>STORIES<\/p>",
