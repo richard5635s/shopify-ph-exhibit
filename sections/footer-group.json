@@ -88,7 +88,7 @@
       ],
       "settings": {
         "show_locale_selector": false,
-        "show_country_selector": true,
+        "show_country_selector": false,
         "show_payment_icons": false,
         "grayscale_payment_icons": false,
         "show_policies": false,
