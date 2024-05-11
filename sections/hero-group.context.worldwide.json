@@ -1,8 +1,0 @@
-{
-  "parent": "hero-group.json",
-  "context": {
-    "market": "worldwide"
-  },
-  "sections": {
-  }
-}
