@@ -3,10 +3,10 @@
     "header": {
       "type": "main-article-header",
       "settings": {
-        "image_width_on_desktop": "12",
-        "media_aspect_ratio": "natural",
-        "image_position_on_desktop": "right",
-        "enable_full_bleed": false,
+        "image_width_on_desktop": "6",
+        "media_aspect_ratio": "0.6667",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": true,
         "show_author": false,
         "show_date": true,
         "show_tags": false,
@@ -44,6 +44,7 @@
     },
     "blog_posts_R7mFX6": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "heading": "STORIES",
         "subheading": "",
