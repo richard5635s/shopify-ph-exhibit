@@ -29,11 +29,12 @@
           <span class="sr-only">{{ 'general.accessibility.close_modal' | t }}</span>
           <span class="inline-block w-4 h-4">{% render 'icon-close' %}</span>
         </button>
+        <div>
+          <h3>{{- block.settings.heading -}}</h3>
+          {{ block.settings.tablecontent }}
+        </div>
       </div>
     </div>
-    <div>
-      <h3>{{- block.settings.heading -}}</h3>
-      {{ block.settings.tablecontent }}
-    </div>
+    
   </template>
 </div>
