@@ -14,7 +14,7 @@
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "natural",
-        "media_fill_space": false,
+        "media_fill_space": true,
         "enable_tags_navigation": true,
         "show_title": true,
         "show_author": false,
