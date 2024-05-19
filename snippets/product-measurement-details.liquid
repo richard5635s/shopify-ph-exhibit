@@ -30,11 +30,10 @@
 
       <div class="flex-auto flex flex-col overflow-hidden overflow-y-auto overflow-x-auto p-8 lg:p-4 pb-8">
         <div class="rte space-y-spacer">
-          <h6>{{- block.settings.heading -}}</h6>
-          {% comment %} {{ block.settings.tablecontent }} {% endcomment %}
+          <h6>{{- block.settings.heading01 -}}</h6>
           <div id="csv-string-table-container"></div>
-          {% comment %} Make code that reads csv and converts it into table {% endcomment %}
-
+          <h6>{{- block.settings.heading02 -}}</h6>
+          <h6>{{- block.settings.heading03 -}}</h6>
         </div>
       </div>
     </div>
@@ -50,7 +49,7 @@
       return;
     }
 
-    var csvString = {{ block.settings.tablecontent | json }};
+    var csvString = {{ block.settings.tablecontent01 | json }};
     console.log('CSV String from metafield:', csvString);
 
     Papa.parse( csvString, {
