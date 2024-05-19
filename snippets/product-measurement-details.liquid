@@ -58,7 +58,7 @@
       return;
     }
 
-    Papa.parse(block.settings.tablecontent, {
+    Papa.parse(csvString, {
       header: true,
       complete: function(results) {
         var data = results.data;
