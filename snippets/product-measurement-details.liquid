@@ -1,10 +1,3 @@
-<script>
-  console.log('Simple script executing');
-  
-  document.addEventListener('DOMContentLoaded', function () {
-    console.log('DOM fully loaded and parsed');
-  });
-</script>
 {%- liquid
   assign sidebar_drawer_id = 'sidebar-product-measurement'
 -%}
@@ -50,8 +43,6 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    console.log('DOM fully loaded and parsed');
-
     // Define your CSV string here
     var csvString = `Name, Age, Country
     Alice, 30, USA
@@ -62,15 +53,11 @@
     if (typeof Papa === 'undefined') {
       console.error('PapaParse is not loaded');
       return;
-    } else {
-      console.log('PapaParse is loaded');
     }
 
-    Papa.parse(csvString, {
+    Papa.parse(block.settings.tablecontent, {
       header: true,
       complete: function(results) {
-        console.log('CSV parsed successfully', results);
-
         var data = results.data;
         var container = document.getElementById('csv-string-table-container');
         if (data.length) {
