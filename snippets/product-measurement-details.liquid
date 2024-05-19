@@ -31,10 +31,64 @@
       <div class="flex-auto flex flex-col overflow-hidden overflow-y-auto overflow-x-auto p-2 lg:p-4 pb-8">
         <div class="space-y-spacer">
           <h3>{{- block.settings.heading -}}</h3>
-          {{ block.settings.tablecontent }}
+          {% comment %} {{ block.settings.tablecontent }} {% endcomment %}
+          <div id="csv-string-table-container"></div>
           {% comment %} Make code that reads csv and converts it into table {% endcomment %}
+
         </div>
       </div>
     </div>
   </template>
 </div>
+<!-- sections/csv-string-table.liquid -->
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Define your CSV string here
+    var csvString = `Name, Age, Country
+    Alice, 30, USA
+    Bob, 25, Canada
+    Charlie, 35, UK`;
+
+    // Check if PapaParse is loaded
+    if (typeof Papa === 'undefined') {
+      console.error('PapaParse is not loaded');
+      return;
+    }
+
+    Papa.parse(block.settings.tablecontent, {
+      header: true,
+      complete: function(results) {
+        var data = results.data;
+        var container = document.getElementById('csv-string-table-container');
+        if (data.length) {
+          var table = '<table>';
+          // Generate table headers
+          table += '<thead><tr>';
+          for (var header in data[0]) {
+            table += '<th>' + header + '</th>';
+          }
+          table += '</tr></thead>';
+          
+          // Generate table rows
+          table += '<tbody>';
+          data.forEach(function(row) {
+            table += '<tr>';
+            for (var field in row) {
+              table += '<td>' + row[field] + '</td>';
+            }
+            table += '</tr>';
+          });
+          table += '</tbody>';
+          table += '</table>';
+          
+          container.innerHTML = table;
+        } else {
+          container.innerHTML = '<p>No data found in CSV.</p>';
+        }
+      }
+    });
+  });
+</script>
