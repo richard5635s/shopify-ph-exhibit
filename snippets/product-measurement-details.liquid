@@ -59,7 +59,7 @@
         var data = results.data;
         var container = document.getElementById('csv-string-table-container');
         if (data.length) {
-          var table = '<table>';
+          var table = '<table class="rte__table">';
           // Generate table headers
           table += '<thead><tr>';
           for (var header in data[0]) {
@@ -80,7 +80,6 @@
           table += '</table>';
           
           container.innerHTML = table;
-          container.innerHTML.className = "rte__table"
         } else {
           container.innerHTML = '<p>No data found in CSV.</p>';
         }
