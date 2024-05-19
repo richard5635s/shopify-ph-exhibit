@@ -60,14 +60,20 @@
         var container = document.getElementById('csv-string-table-container');
         if (data.length) {
           var table = '<table>';
+          // Generate table headers
+          table += '<thead><tr>';
+          for (var header in data[0]) {
+            table += '<th>' + header + '</th>';
+          }
+          table += '</tr></thead>';
           
           // Generate table rows
           table += '<tbody>';
           data.forEach(function(row) {
             table += '<tr>';
-            row.forEach(function(cell) {
-              table += '<td>' + cell + '</td>';
-            });
+            for (var field in row) {
+              table += '<td>' + row[field] + '</td>';
+            }
             table += '</tr>';
           });
           table += '</tbody>';
