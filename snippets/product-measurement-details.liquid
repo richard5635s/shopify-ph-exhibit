@@ -38,10 +38,11 @@
               <table class="w-full">
                 <tbody>
                   {% for row in csv_rows %}
+                    <!-- Split each row into cells based on commas -->
                     {% assign csv_cells = row | split: ',' %}
                     <tr>
                       {% for cell in csv_cells %}
-                        <td>{{ cell }}</td>
+                        <td>{{ cell | escape }}</td>
                       {% endfor %}
                     </tr>
                   {% endfor %}
@@ -59,10 +60,11 @@
               <table class="w-full">
                 <tbody>
                   {% for row in csv_rows %}
+                    <!-- Split each row into cells based on commas -->
                     {% assign csv_cells = row | split: ',' %}
                     <tr>
                       {% for cell in csv_cells %}
-                        <td>{{ cell }}</td>
+                        <td>{{ cell | escape }}</td>
                       {% endfor %}
                     </tr>
                   {% endfor %}
