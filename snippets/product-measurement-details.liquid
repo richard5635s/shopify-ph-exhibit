@@ -34,7 +34,7 @@
           <div id="csv-string-table-container-01">
             {% assign csv_string = block.settings.tablecontent01 %}
             {% if csv_string %}
-              {% assign csv_rows = csv_string | split: '\n' %}
+              {% assign csv_rows = csv_string | newline_to_br | split: '<br /> %}
               <table class="w-full">
                 <tbody>
                   {% for row in csv_rows %}
@@ -55,7 +55,7 @@
           <div id="csv-string-table-container-02">
             {% assign csv_string = block.settings.tablecontent02 %}
             {% if csv_string %}
-              {% assign csv_rows = csv_string | split: '\n' %}
+              {% assign csv_rows = csv_string | newline_to_br | split: '<br /> %}
               <table class="w-full">
                 <tbody>
                   {% for row in csv_rows %}
