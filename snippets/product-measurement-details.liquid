@@ -31,8 +31,9 @@
       <div class="flex-auto flex flex-col overflow-hidden overflow-y-auto overflow-x-auto p-8 lg:p-4 pb-8">
         <div class="rte space-y-spacer">
           <h6>{{- block.settings.heading01 -}}</h6>
-          <div id="csv-string-table-container"></div>
+          <div id="csv-string-table-container-01"></div>
           <h6>{{- block.settings.heading02 -}}</h6>
+          <div id="csv-string-table-container-02"></div>
           <h6>{{- block.settings.heading03 -}}</h6>
         </div>
       </div>
@@ -49,14 +50,49 @@
       return;
     }
 
-    var csvString = {{ block.settings.tablecontent01 | json }};
-    console.log('CSV String from metafield:', csvString);
+    var csvString01 = {{ block.settings.tablecontent01 | json }};
+    console.log('CSV String from metafield:', csvString01);
+    var csvString02 = {{ block.settings.tablecontent02 | json }};
+    console.log('CSV String from metafield:', csvString02);
 
-    Papa.parse( csvString, {
+    Papa.parse( csvString01, {
       header: true,
       complete: function(results) {
         var data = results.data;
-        var container = document.getElementById('csv-string-table-container');
+        var container = document.getElementById('csv-string-table-container-01');
+        if (data.length) {
+          var table = '<table class="w-full">';
+          // Generate table headers
+          table += '<thead><tr>';
+          for (var header in data[0]) {
+            table += '<th>' + header + '</th>';
+          }
+          table += '</tr></thead>';
+          
+          // Generate table rows
+          table += '<tbody>';
+          data.forEach(function(row) {
+            table += '<tr>';
+            for (var field in row) {
+              table += '<td>' + row[field] + '</td>';
+            }
+            table += '</tr>';
+          });
+          table += '</tbody>';
+          table += '</table>';
+          
+          container.innerHTML = table;
+        } else {
+          container.innerHTML = '<p>No data found in CSV.</p>';
+        }
+      }
+    });
+
+    Papa.parse( csvString02, {
+      header: true,
+      complete: function(results) {
+        var data = results.data;
+        var container = document.getElementById('csv-string-table-container-02');
         if (data.length) {
           var table = '<table class="w-full">';
           // Generate table headers
