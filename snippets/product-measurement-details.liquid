@@ -1,57 +1,6 @@
 {%- liquid
   assign sidebar_drawer_id = 'sidebar-product-measurement'
 -%}
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // Define your CSV string here
-    var csvString = `Name, Age, Country
-    Alice, 30, USA
-    Bob, 25, Canada
-    Charlie, 35, UK`;
-
-    // Check if PapaParse is loaded
-    if (typeof Papa === 'undefined') {
-      console.error('PapaParse is not loaded');
-      return;
-    }
-
-    Papa.parse(csvString, {
-      header: true,
-      complete: function(results) {
-        var data = results.data;
-        var container = document.getElementById('csv-string-table-container');
-        if (data.length) {
-          var table = '<table>';
-          // Generate table headers
-          table += '<thead><tr>';
-          for (var header in data[0]) {
-            table += '<th>' + header + '</th>';
-          }
-          table += '</tr></thead>';
-          
-          // Generate table rows
-          table += '<tbody>';
-          data.forEach(function(row) {
-            table += '<tr>';
-            for (var field in row) {
-              table += '<td>' + row[field] + '</td>';
-            }
-            table += '</tr>';
-          });
-          table += '</tbody>';
-          table += '</table>';
-          
-          container.innerHTML = table;
-        } else {
-          container.innerHTML = '<p>No data found in CSV.</p>';
-        }
-      }
-    });
-  });
-</script>
-
-
 <button
   type="button"
   class="text-left hover:underline"
@@ -59,7 +8,6 @@
 >
   Tap to show drawer
 </button>
-<div id="csv-string-table-container"></div>
 
 <div
   x-data
@@ -92,3 +40,58 @@
     </div>
   </template>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    console.log('DOM fully loaded and parsed');
+
+    // Define your CSV string here
+    var csvString = `Name, Age, Country
+    Alice, 30, USA
+    Bob, 25, Canada
+    Charlie, 35, UK`;
+
+    // Check if PapaParse is loaded
+    if (typeof Papa === 'undefined') {
+      console.error('PapaParse is not loaded');
+      return;
+    } else {
+      console.log('PapaParse is loaded');
+    }
+
+    Papa.parse(csvString, {
+      header: true,
+      complete: function(results) {
+        console.log('CSV parsed successfully', results);
+        
+        var data = results.data;
+        var container = document.getElementById('csv-string-table-container');
+        if (data.length) {
+          var table = '<table>';
+          // Generate table headers
+          table += '<thead><tr>';
+          for (var header in data[0]) {
+            table += '<th>' + header + '</th>';
+          }
+          table += '</tr></thead>';
+          
+          // Generate table rows
+          table += '<tbody>';
+          data.forEach(function(row) {
+            table += '<tr>';
+            for (var field in row) {
+              table += '<td>' + row[field] + '</td>';
+            }
+            table += '</tr>';
+          });
+          table += '</tbody>';
+          table += '</table>';
+          
+          container.innerHTML = table;
+        } else {
+          container.innerHTML = '<p>No data found in CSV.</p>';
+        }
+      }
+    });
+  });
+</script>
