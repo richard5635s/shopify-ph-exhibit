@@ -34,7 +34,6 @@
           {% comment %} {{ block.settings.tablecontent }} {% endcomment %}
           <div id="csv-string-table-container"></div>
           {% comment %} Make code that reads csv and converts it into table {% endcomment %}
-
         </div>
       </div>
     </div>
@@ -56,29 +55,25 @@
     Papa.parse( csvString, {
       header: true,
       complete: function(results) {
+        console.log('CSV parsed successfully', results);
+
         var data = results.data;
         var container = document.getElementById('csv-string-table-container');
         if (data.length) {
           var table = '<table>';
-          // Generate table headers
-          table += '<thead><tr>';
-          for (var header in data[0]) {
-            table += '<th>' + header + '</th>';
-          }
-          table += '</tr></thead>';
-          
+
           // Generate table rows
           table += '<tbody>';
           data.forEach(function(row) {
             table += '<tr>';
-            for (var field in row) {
-              table += '<td>' + row[field] + '</td>';
-            }
+            row.forEach(function(cell) {
+              table += '<td>' + cell + '</td>';
+            });
             table += '</tr>';
           });
           table += '</tbody>';
           table += '</table>';
-          
+
           container.innerHTML = table;
         } else {
           container.innerHTML = '<p>No data found in CSV.</p>';
