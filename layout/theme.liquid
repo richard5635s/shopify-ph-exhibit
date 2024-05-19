@@ -16,9 +16,7 @@
       >
     {%- endif -%}
 
-    {%- unless settings.type_header_font.system?
-      and settings.type_body_font.system?
-    -%}
+    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
@@ -162,8 +160,8 @@
     {%- render 'css-bridge' -%}
 
     {{ 'base.bundle.css' | asset_url | stylesheet_tag }}
-  {% render 'gp-head' %}
-</head>
+    {% render 'gp-head' %}
+  </head>
 
   <body>
     {%- if settings.enable_sidebar -%}
@@ -183,9 +181,7 @@
                 <script type="module">
                   document.documentElement.style.setProperty(
                     '--hero-height',
-                    `${
-                      document.getElementById('heroGroupWrapper').offsetHeight
-                    }px`
+                    `${document.getElementById('heroGroupWrapper').offsetHeight}px`
                   );
                 </script>
               </div>
@@ -291,6 +287,12 @@
 
     <script
       src="{{ 'load-images.js' | asset_url }}"
+      type="module"
+    ></script>
+
+    <!-- Include PapaParse Library -->
+    <script
+      src="{{ 'papaparse.min.js' | asset_url }}"
       type="module"
     ></script>
   </body>
