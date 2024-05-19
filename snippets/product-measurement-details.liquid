@@ -21,14 +21,14 @@
       x-show="$store.modals.leftDrawer.contents === '{{ sidebar_drawer_id }}'"
       class="sidebar-nav text-scheme-text menu-drawer text-menu-drawer max-h-full flex flex-col h-screen text-scale-n0 lg:text-scale-n0"
     >
-      <div class="p-2 lg:p-4 w-full shrink-0 overflow-hidden">
+      <div class="p-8 pb-2 lg:p-4 w-full shrink-0 overflow-hidden">
         <button @click.prevent="$store.modals.close('{{ sidebar_drawer_id }}')" class="block ml-auto top-0">
           <span class="sr-only">{{ 'general.accessibility.close_modal' | t }}</span>
           <span class="inline-block w-4 h-4">{% render 'icon-close' %}</span>
         </button>
       </div>
 
-      <div class="flex-auto flex flex-col overflow-hidden overflow-y-auto overflow-x-auto p-2 lg:p-4 pb-8">
+      <div class="flex-auto flex flex-col overflow-hidden overflow-y-auto overflow-x-auto p-8 lg:p-4 pb-8">
         <div class="rte space-y-spacer">
           <h6>{{- block.settings.heading -}}</h6>
           {% comment %} {{ block.settings.tablecontent }} {% endcomment %}
@@ -59,7 +59,7 @@
         var data = results.data;
         var container = document.getElementById('csv-string-table-container');
         if (data.length) {
-          var table = '<table class="rte__table">';
+          var table = '<table class="w-full">';
           // Generate table headers
           table += '<thead><tr>';
           for (var header in data[0]) {
