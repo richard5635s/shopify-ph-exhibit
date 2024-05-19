@@ -74,7 +74,7 @@
             "heading01": "Size Conversion",
             "tablecontent01": "<p>{{ product.metafields.custom.measurement_details | metafield_tag }}<\/p>",
             "heading02": "Product Measurement",
-            "tablecontent02": "<p>a, b, c\\na, b, c\\na, b, c<\/p>",
+            "tablecontent02": "<p>Name, Age, Country<br\/>Alice, 30, USA<br\/>Bob, 25, Canada<br\/>Charlie, 35, UK<\/p>",
             "heading03": "",
             "text_color": "text-scheme-text",
             "space_above": 1
