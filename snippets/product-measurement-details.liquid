@@ -55,7 +55,10 @@
       return;
     }
 
-    Papa.parse(block.settings.tablecontent, {
+    var csvString = {{ block.settings.tablecontent | json }};
+    console.log('CSV String from metafield:', csvString);
+
+    Papa.parse( csvString, {
       header: true,
       complete: function(results) {
         var data = results.data;
