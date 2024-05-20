@@ -13,12 +13,12 @@
   x-data
   x-init="
       initTeleport($root);
-    $store.modals.register('{{ sidebar_drawer_id }}', 'leftDrawer');
+    $store.modals.register('{{ sidebar_drawer_id }}', 'rightDrawer');
   "
 >
-  <template data-should-teleport="#left-drawer-slot">
+  <template data-should-teleport="#right-drawer-slot">
     <div
-      x-show="$store.modals.leftDrawer.contents === '{{ sidebar_drawer_id }}'"
+      x-show="$store.modals.rightDrawer.contents === '{{ sidebar_drawer_id }}'"
       class="sidebar-nav text-scheme-text menu-drawer text-menu-drawer max-h-full flex flex-col h-screen text-scale-n0 lg:text-scale-n0"
     >
       <div class="p-8 pb-2 lg:p-4 w-full shrink-0 overflow-hidden">
