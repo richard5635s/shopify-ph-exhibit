@@ -47,6 +47,19 @@
             "space_above": 2
           }
         },
+        "measurementdetails_A3CKet": {
+          "type": "measurementdetails",
+          "settings": {
+            "icon": "none",
+            "heading01": "Size Conversion",
+            "tablecontent01": "<p>{{ product.metafields.custom.measurement_details | metafield_tag }}<\/p>",
+            "heading02": "Product Measurements",
+            "tablecontent02": "<p>{{ product.metafields.custom.product_measurements | metafield_tag }}<\/p>",
+            "heading03": "",
+            "text_color": "text-scheme-text",
+            "space_above": 2
+          }
+        },
         "buy-buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -56,26 +69,13 @@
             "show_gift_card_recipient": true
           }
         },
-        "measurementdetails_A3CKet": {
-          "type": "measurementdetails",
+        "popup_r8mp7i": {
+          "type": "popup",
           "disabled": true,
           "settings": {
             "icon": "none",
-            "heading01": "Size Conversion",
-            "tablecontent01": "",
-            "heading02": "Product Measurements",
-            "tablecontent02": "",
-            "heading03": "",
-            "text_color": "text-scheme-text",
-            "space_above": 2
-          }
-        },
-        "popup_r8mp7i": {
-          "type": "popup",
-          "settings": {
-            "icon": "none",
-            "text": "Size Guide",
-            "page": "size-conversion",
+            "text": "",
+            "page": "size-guide",
             "text_color": "text-scheme-text",
             "space_above": 2
           }
@@ -110,8 +110,8 @@
         "text_yUGFXr",
         "quantity",
         "variant-picker",
-        "buy-buttons",
         "measurementdetails_A3CKet",
+        "buy-buttons",
         "popup_r8mp7i",
         "collapsible_tabs_eBfTLA"
       ],
