@@ -30,9 +30,11 @@
 
       <div class="flex-auto flex flex-col overflow-hidden overflow-y-auto overflow-x-auto p-8 lg:p-4 pb-8">
         <div class="rte space-y-spacer">
-          <div class="inline-flex">
+          <div class="inline-flex w-full">
             <h6 class="flex-grow">{{- block.settings.heading01 -}}</h6>
-            {% if block.settings.display_cm_unit01 %}<p class="shrink-0 min-w-0">cm</p> {% endif %}
+            {% if block.settings.display_cm_unit01 %}
+              <p class="shrink-0 min-w-0">cm</p> 
+            {% endif %}
           </div>
           <div id="csv-string-table-container-01">
             {% assign csv_string = block.settings.tablecontent01 %}
@@ -54,9 +56,11 @@
               <p>No data found in CSV.</p>
             {% endif %}
           </div>
-          <div class="inline-flex">
+          <div class="inline-flex w-full">
             <h6 class="flex-grow">{{- block.settings.heading02 -}}</h6>
-            {% if block.settings.display_cm_unit02 %}<p class="shrink-0 min-w-0">cm</p> {% endif %}
+            {% if block.settings.display_cm_unit02 %}
+              <p class="shrink-0 min-w-0">cm</p> 
+            {% endif %}
           </div>
           <div id="csv-string-table-container-02">
             {% assign csv_string = block.settings.tablecontent02 %}
