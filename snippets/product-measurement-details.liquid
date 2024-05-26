@@ -30,7 +30,7 @@
 
       <div class="flex-auto flex flex-col overflow-hidden overflow-y-auto overflow-x-auto p-8 lg:p-4 pb-8">
         <div class="rte space-y-spacer">
-          <div>
+          <div class="inline-flex">
             <h6 class="flex-grow">{{- block.settings.heading01 -}}</h6>
             {% if block.settings.display_cm_unit01 %}<p class="shrink-0 min-w-0">cm</p> {% endif %}
           </div>
@@ -54,7 +54,7 @@
               <p>No data found in CSV.</p>
             {% endif %}
           </div>
-          <div>
+          <div class="inline-flex">
             <h6 class="flex-grow">{{- block.settings.heading02 -}}</h6>
             {% if block.settings.display_cm_unit02 %}<p class="shrink-0 min-w-0">cm</p> {% endif %}
           </div>
