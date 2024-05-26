@@ -52,7 +52,7 @@
           elsif show_sort and show_filters == false
             echo 'facets.sorting.title' | t
           else
-            echo 'facets.filters.title_tags' | t
+            echo 'facets.filters.filter_and_sort' | t
           endif
           if total_active_values > 0
             echo ' (' | append: total_active_values | append: ')'
