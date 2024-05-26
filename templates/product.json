@@ -44,7 +44,7 @@
           "settings": {
             "hide_option_labels": true,
             "option_style": "text_underline",
-            "space_above": 2
+            "space_above": 1.5
           }
         },
         "measurementdetails_A3CKet": {
