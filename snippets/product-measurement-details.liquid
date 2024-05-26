@@ -32,7 +32,7 @@
         <div class="rte space-y-spacer">
           <div>
             <h6 class="flex-grow">{{- block.settings.heading01 -}}</h6>
-            <p class="shrink-0 min-w-0">cm</p>
+            {% if block.settings.display_cm_unit01 %}<p class="shrink-0 min-w-0">cm</p> {% endif %}
           </div>
           <div id="csv-string-table-container-01">
             {% assign csv_string = block.settings.tablecontent01 %}
@@ -56,7 +56,7 @@
           </div>
           <div>
             <h6 class="flex-grow">{{- block.settings.heading02 -}}</h6>
-            <p class="shrink-0 min-w-0">cm</p>
+            {% if block.settings.display_cm_unit02 %}<p class="shrink-0 min-w-0">cm</p> {% endif %}
           </div>
           <div id="csv-string-table-container-02">
             {% assign csv_string = block.settings.tablecontent02 %}
