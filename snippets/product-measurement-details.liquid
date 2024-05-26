@@ -31,8 +31,8 @@
       <div class="flex-auto flex flex-col overflow-hidden overflow-y-auto overflow-x-auto p-8 lg:p-4 pb-8">
         <div class="rte space-y-spacer">
           <div>
-            <h6>{{- block.settings.heading01 -}}</h6>
-            <p>cm</p>
+            <h6 class="flex-grow">{{- block.settings.heading01 -}}</h6>
+            <p class="shrink-0 min-w-0">cm</p>
           </div>
           <div id="csv-string-table-container-01">
             {% assign csv_string = block.settings.tablecontent01 %}
@@ -55,8 +55,8 @@
             {% endif %}
           </div>
           <div>
-            <h6>{{- block.settings.heading02 -}}</h6>
-            <p>cm</p>
+            <h6 class="flex-grow">{{- block.settings.heading02 -}}</h6>
+            <p class="shrink-0 min-w-0">cm</p>
           </div>
           <div id="csv-string-table-container-02">
             {% assign csv_string = block.settings.tablecontent02 %}
