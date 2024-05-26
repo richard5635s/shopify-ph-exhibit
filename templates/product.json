@@ -77,7 +77,7 @@
             "tablecontent02": "<p>{{ product.metafields.custom.product_measurements | metafield_tag }}<\/p>",
             "heading03": "",
             "text_color": "text-scheme-text",
-            "space_above": 1
+            "space_above": 2
           }
         },
         "collapsible_tabs_eBfTLA": {
@@ -85,7 +85,7 @@
           "settings": {
             "show_borders": false,
             "show_caret": false,
-            "space_above": 2,
+            "space_above": 0,
             "heading_1": "Details & Care",
             "content_1": "<p>{{ product.metafields.custom.details_fit | metafield_tag }}<\/p>",
             "page_1": "",
