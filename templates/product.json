@@ -73,7 +73,7 @@
             "icon": "none",
             "heading01": "Size Conversion",
             "tablecontent01": "<p>{{ product.metafields.custom.measurement_details | metafield_tag }}<\/p>",
-            "heading02": "Product Measurement",
+            "heading02": "Product Measurements",
             "tablecontent02": "<p>{{ product.metafields.custom.measurement_details | metafield_tag }}<\/p>",
             "heading03": "",
             "text_color": "text-scheme-text",
