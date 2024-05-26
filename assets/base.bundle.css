@@ -1059,7 +1059,7 @@ shopify-payment-terms {
 .rte h6 {
   font-size: var(--font-size-base);
   line-height: var(--base-line-height);
-  font-weight: 700;
+  font-weight: 100;
 }
 .rte ul {
   list-style-type: disc;
