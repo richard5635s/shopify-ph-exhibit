@@ -9,7 +9,7 @@
     <div class="p-2 lg:p-4 w-full overflow-hidden shrink-0">
       <div class="relative flex items-center justify-between">
         <h2 tabindex="-1">
-          {{ 'facets.filters.title_tags' | t }}
+          {{ 'facets.filters.filter_and_sort' | t }}
         </h2>
         <button @click.prevent="$store.modals.close('filters')" class="block top-0 min-touch-target">
           <span class="sr-only">{{ 'general.accessibility.close_modal' | t }}</span>
@@ -48,7 +48,7 @@
   
           {%- if show_sort -%}
           <div
-            class="mt-0 py-2 lg:hidden"
+            class="mt-0 py-2"
             x-data="{ expanded : {{ expand_filters }} }"
             >
             <button type="button"
