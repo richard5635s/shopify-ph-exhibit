@@ -182,7 +182,7 @@
             "color_scheme": "",
             "overlay_color": "bg-scheme-background",
             "enable_custom_color": false,
-            "custom_overlay_color": "#FFFFFF",
+            "custom_overlay_color": "#ffffff",
             "opacity": 80,
             "blend_mode": "normal"
           }
@@ -238,6 +238,51 @@
         "space_above": 0.5,
         "space_below": 0.5
       }
+    },
+    "image_gallery_XiWEVV": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_44N9Te": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/John_Pawson_05.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_GPmeTQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/John_Pawson_04.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_44N9Te",
+        "image_GPmeTQ"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "modular",
+        "mobile_columns": "2",
+        "desktop_columns": 5,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
     }
   },
   "order": [
@@ -251,6 +296,7 @@
     "image_with_text_gC9gfC",
     "media_with_text_overlay_hGUJbB",
     "feature_text_Fx8HDF",
-    "main"
+    "main",
+    "image_gallery_XiWEVV"
   ]
 }
