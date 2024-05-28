@@ -24,7 +24,7 @@
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 1,
-        "disable_left_and_right_margins": false,
+        "disable_left_and_right_margins": true,
         "remove_grid_gaps": false
       }
     }

@@ -2,6 +2,7 @@
   "sections": {
     "header": {
       "type": "main-article-header",
+      "disabled": true,
       "settings": {
         "image_width_on_desktop": "6",
         "media_aspect_ratio": "0.6667",
@@ -17,23 +18,13 @@
         "space_below": 0
       }
     },
-    "main": {
-      "type": "main-article",
-      "settings": {
-        "show_share_buttons": true,
-        "show_next_previous_links": false,
-        "content_alignment_on_desktop": "lg:col-start-1",
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
     "rich_text_tBGdcF": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "title": "",
-        "richtext": "<p>STORIES<\/p>",
-        "text_alignment": "text-center",
+        "richtext": "",
+        "text_alignment": "text-left",
         "cta_link": "",
         "cta_label": "",
         "show_top_border": false,
@@ -62,12 +53,204 @@
         "space_above": 0.5,
         "space_below": 0.5
       }
+    },
+    "image_gallery_W6iBmC": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_mcXTGx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/John_Pawson_01-1529x2048.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mcXTGx"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "irregular",
+        "mobile_columns": "2",
+        "desktop_columns": 1,
+        "standard_layout_align_items": "items-center",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.2,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "feature_text_pTnBcr": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>JOHN PAWSON<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "font-heading",
+        "desktop_text_scale": 4,
+        "mobile_text_scale": 2,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 0
+      }
+    },
+    "feature_text_iNapP6": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Words EMMA MOORE<br\/>Photos ALIXE LAY<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 2,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    },
+    "feature_text_with_rich_text_kGb3k8": {
+      "type": "feature-text-with-rich-text",
+      "settings": {
+        "feature_text": "<h3>JOHN PAWSON pioneered an approach to architecture that has been variously celebrated, vilified and imitated—all without ever having qualified as an architect. Here the design icon reflects on four decades spent in the perpetual pursuit of less.<\/h3>",
+        "font": "font-main",
+        "desktop_text_scale": 4,
+        "mobile_text_scale": 2,
+        "feature_text_position_on_desktop": "left",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "<h4>By reputation, John Pawson defines minimalism, but it’s not a term he chooses to use. <em>Minimum<\/em>, however, the title of his 1996 book on the subject, is definitely in his lexicon. For Pawson, it describes the quality of an object or space when it is no longer possible to improve it by subtraction. It is, he will tell you, the foundation of his practice.<\/h4><h4>Disciplined and neutral, his style speaks of his Yorkshire Methodist roots and a desire to challenge conformism, though his wry sense of humor has also played its part. In his 20s, after working at his father’s textile firm in Halifax, he ran away to Japan and taught English for three years, before finally making his way to Tokyo.1 At the behest of the celebrated designer Shiro Kuramata, he returned to the UK to study architecture at the Architectural Association in London.<\/h4><h4>Pawson didn’t finish the course and arrived late to his architectural calling. But he did so with a strong sense of how he wanted to design and has been running a successful office now for 40 years, working on large projects such as London’s Design Museum and the monastery of Nový Dvur in Bohemia, as well as countless private houses, shops, boats, hotels, churches, furniture, textiles, and in 2018, his country retreat in the Cotswolds.2 <\/h4><h4>Emma Moore: What does it take to run an established practice for so long, navigating changes in the industry while at the same time staying true to your vision?<\/h4><h4>John Pawson: A great team, great clients, a lot of hard work—as I learnt from Kuramata—and a clear vision. I have always made work that makes sense to me, finding the essential and getting the design down to a point where you can’t add or subtract from it. And it’s the same approach for everything, including interior design and decoration. It’s a process of paring away to make spaces with atmosphere, where the emphasis is on the quality of the surfaces, junctions, light and proportions.<\/h4><h4>EM: How do you establish such a definitive and recognizable style and ensure it doesn’t become a parody of itself?<\/h4><h4>JP: It’s been there from the beginning. From a very young age I was interested in what makes space comfortable to be in. In Japan, in the very exclusive apartment that the foreign teachers were given, I found I couldn’t stand the wallpaper any longer. I painted the whole apartment white, but I got so obsessed that I started painting the second coat before the first coat had dried, which makes it forever sticky. I left Japan with that sticky wall as my legacy. The important thing is to remain true to what feels architecturally right, which is very personal. It’s why I’ve never wanted the practice to grow beyond its current size. I’ve always wanted to be properly involved in every project.… Perhaps it’s the Yorkshire in me. It goes back to that honest, plain-speaking approach. <\/h4>",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "image_with_text_gC9gfC": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/John_Pawson_01-1529x2048.jpg",
+        "media_aspect_ratio": "natural",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": true,
+        "title": "",
+        "heading_size": "text-heading-standard",
+        "richtext": "<p>JohnPawson<br\/>Words EMMA MOORE<br\/>Photos ALIXE LAY<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "6",
+        "content_width_on_desktop": "0.667",
+        "content_alignment": "lg:items-end lg:justify-start",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    },
+    "media_with_text_overlay_hGUJbB": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_YkrYF6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/John_Pawson_03.jpg"
+          }
+        },
+        "color_overlay_ri3DdQ": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#FFFFFF",
+            "opacity": 80,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_YkrYF6",
+        "color_overlay_ri3DdQ"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "same",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
+      }
+    },
+    "feature_text_Fx8HDF": {
+      "type": "feature-text",
+      "disabled": true,
+      "settings": {
+        "richtext": "<p>From the king of minimalism: “I find the essential and get the design down to a point where you can’t add or subtract from it.”<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 3,
+        "mobile_text_scale": 2,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_share_buttons": true,
+        "show_next_previous_links": false,
+        "content_alignment_on_desktop": "lg:col-start-1",
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
     }
   },
   "order": [
     "header",
-    "main",
     "rich_text_tBGdcF",
-    "blog_posts_R7mFX6"
+    "blog_posts_R7mFX6",
+    "image_gallery_W6iBmC",
+    "feature_text_pTnBcr",
+    "feature_text_iNapP6",
+    "feature_text_with_rich_text_kGb3k8",
+    "image_with_text_gC9gfC",
+    "media_with_text_overlay_hGUJbB",
+    "feature_text_Fx8HDF",
+    "main"
   ]
 }
