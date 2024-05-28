@@ -18,27 +18,6 @@
         "space_below": 0
       }
     },
-    "blog_posts_R7mFX6": {
-      "type": "blog-posts",
-      "disabled": true,
-      "settings": {
-        "heading": "STORIES",
-        "subheading": "",
-        "blog": "",
-        "max_posts": "4",
-        "show_view_all": true,
-        "show_author": false,
-        "show_date": true,
-        "show_excerpt": false,
-        "title_font": "font-main",
-        "crop": "0",
-        "desktop_post_columns": 3,
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
     "image_gallery_W6iBmC": {
       "type": "image-gallery",
       "blocks": {
@@ -332,7 +311,6 @@
   },
   "order": [
     "header",
-    "blog_posts_R7mFX6",
     "image_gallery_W6iBmC",
     "feature_text_pTnBcr",
     "feature_text_iNapP6",
