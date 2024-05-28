@@ -44,7 +44,7 @@
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "natural",
+        "media_aspect_ratio": "1",
         "media_fill_space": false,
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
@@ -92,6 +92,7 @@
     },
     "feature_text_with_rich_text_kGb3k8": {
       "type": "feature-text-with-rich-text",
+      "disabled": true,
       "settings": {
         "feature_text": "<h4>John Pawson pioneered an approach to architecture that has been variously celebrated, vilified and imitated––all without ever having qualified as an architect. Here the design icon reflects on for decades spent in the perpetual pursuit of less.<\/h4>",
         "font": "font-main",
@@ -110,7 +111,6 @@
     },
     "feature_text_with_rich_text_DrFHng": {
       "type": "feature-text-with-rich-text",
-      "disabled": true,
       "settings": {
         "feature_text": "<p>Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
         "font": "font-main",
@@ -249,6 +249,7 @@
     },
     "image_with_text_DEyP3m": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Odd_Jobs_DanMahboubianRosen-1593x2048.jpg",
         "media_aspect_ratio": "natural",
