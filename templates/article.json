@@ -113,10 +113,9 @@
     },
     "feature_text_with_rich_text_DrFHng": {
       "type": "feature-text-with-rich-text",
-      "disabled": true,
       "settings": {
         "feature_text": "<p>Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
-        "font": "font-heading",
+        "font": "font-main",
         "desktop_text_scale": 1,
         "mobile_text_scale": 2,
         "feature_text_position_on_desktop": "left",
@@ -132,6 +131,7 @@
     },
     "feature_text_with_rich_text_kGb3k8": {
       "type": "feature-text-with-rich-text",
+      "disabled": true,
       "settings": {
         "feature_text": "<h4>John Pawson pioneered an approach to architecture that has been variously celebrated, vilified and imitated––all without ever having qualified as an architect. Here the design icon reflects on for decades spent in the perpetual pursuit of less.<\/h4>",
         "font": "font-main",
@@ -287,6 +287,66 @@
         "space_above": 1,
         "space_below": 1
       }
+    },
+    "text_columns_g6P7qQ": {
+      "type": "text-columns",
+      "blocks": {
+        "column_H3W7CH": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>May 28, 2024<br\/>DESIGN<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_KfzWmG": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Words<br\/>LYDIA HARTANTO<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_A3Nye3": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Photographer<br\/>VICKY TANZIL<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_rzETwT": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Stylist<br\/>LILIAN NG<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_H3W7CH",
+        "column_KfzWmG",
+        "column_A3Nye3",
+        "column_rzETwT"
+      ],
+      "settings": {
+        "desktop_columns": 4,
+        "text_alignment": "text-center",
+        "max_width_of_icons": 50,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1.5
+      }
     }
   },
   "order": [
@@ -301,6 +361,7 @@
     "media_with_text_overlay_hGUJbB",
     "feature_text_Fx8HDF",
     "main",
-    "image_gallery_XiWEVV"
+    "image_gallery_XiWEVV",
+    "text_columns_g6P7qQ"
   ]
 }
