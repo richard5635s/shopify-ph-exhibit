@@ -307,6 +307,27 @@
         "space_above": 0,
         "space_below": 1.5
       }
+    },
+    "image_with_text_DEyP3m": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Odd_Jobs_DanMahboubianRosen-1593x2048.jpg",
+        "media_aspect_ratio": "natural",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": false,
+        "title": "",
+        "heading_size": "text-heading-secondary",
+        "richtext": "<h4>ODD JOBS The comedian with strong opinions about your home décor.<br\/><br\/>Dan Mahboubian Rosen hates your home. Well, “hate” might be too strong a word—but he certainly has opinions. The New York–based comedian (and regular contributor to <em>The New Yorker<\/em>) started posting roasts of popular interior trends on Instagram in 2020 after his stand-up gigs came to a halt during the pandemic. Now he’s taking his sometimes affronted, always informed criticism of interiors, art and design offline, judging people’s homes while they sit in the audience as part of his new show.<br\/><br\/>Elle Hunt: How does a stand-up comedian get into roasting interiors?<br\/><br\/>John Pawson: A great team, great clients, a lot of hard work—as I learnt from Kuramata—and a clear vision. I have always made work that makes sense to me, finding the essential and getting the design down to a point where you can’t add or subtract from it. And it’s the same approach for everything, including interior design and decoration. It’s a process of paring away to make spaces with atmosphere, where the emphasis is on the quality of the surfaces, junctions, light and proportions.<br\/><br\/>EM: How do you establish such a definitive and recognizable style and ensure it doesn’t become a parody of itself?<br\/><br\/>JP: It’s been there from the beginning. From a very young age I was interested in what makes space comfortable to be in. In Japan, in the very exclusive apartment that the foreign teachers were given, I found I couldn’t stand the wallpaper any longer. I painted the whole apartment white, but I got so obsessed that I started painting the second coat before the first coat had dried, which makes it forever sticky. I left Japan with that sticky wall as my legacy. The important thing is to remain true to what feels architecturally right, which is very personal. It’s why I’ve never wanted the practice to grow beyond its current size. I’ve always wanted to be properly involved in every project.… Perhaps it’s the Yorkshire in me. It goes back to that honest, plain-speaking approach.<br\/><br\/><\/h4>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "3",
+        "content_width_on_desktop": "0.6",
+        "content_alignment": "lg:items-top lg:justify-end",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
     }
   },
   "order": [
@@ -320,6 +341,7 @@
     "image_with_text_gC9gfC",
     "media_with_text_overlay_hGUJbB",
     "image_gallery_XiWEVV",
-    "text_columns_g6P7qQ"
+    "text_columns_g6P7qQ",
+    "image_with_text_DEyP3m"
   ]
 }
