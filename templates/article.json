@@ -18,21 +18,6 @@
         "space_below": 0
       }
     },
-    "rich_text_tBGdcF": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "richtext": "",
-        "text_alignment": "text-left",
-        "cta_link": "",
-        "cta_label": "",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0
-      }
-    },
     "blog_posts_R7mFX6": {
       "type": "blog-posts",
       "disabled": true,
@@ -97,7 +82,7 @@
         "cta_link": "",
         "cta_label": "",
         "font": "font-heading",
-        "desktop_text_scale": 4,
+        "desktop_text_scale": 5,
         "mobile_text_scale": 2,
         "text_alignment": "text-center",
         "content_width_on_desktop": "12",
@@ -116,7 +101,7 @@
         "cta_label": "",
         "font": "rte font-main",
         "desktop_text_scale": 0,
-        "mobile_text_scale": 2,
+        "mobile_text_scale": -1,
         "text_alignment": "text-center",
         "content_width_on_desktop": "12",
         "content_position_on_desktop": "center",
@@ -126,16 +111,35 @@
         "space_below": 1
       }
     },
-    "feature_text_with_rich_text_kGb3k8": {
+    "feature_text_with_rich_text_DrFHng": {
       "type": "feature-text-with-rich-text",
+      "disabled": true,
       "settings": {
-        "feature_text": "<h3>JOHN PAWSON pioneered an approach to architecture that has been variously celebrated, vilified and imitated—all without ever having qualified as an architect. Here the design icon reflects on four decades spent in the perpetual pursuit of less.<\/h3>",
-        "font": "font-main",
-        "desktop_text_scale": 4,
+        "feature_text": "<p>Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+        "font": "font-heading",
+        "desktop_text_scale": 1,
         "mobile_text_scale": 2,
         "feature_text_position_on_desktop": "left",
         "feature_text_width_on_desktop": "6",
-        "richtext": "<h4>By reputation, John Pawson defines minimalism, but it’s not a term he chooses to use. <em>Minimum<\/em>, however, the title of his 1996 book on the subject, is definitely in his lexicon. For Pawson, it describes the quality of an object or space when it is no longer possible to improve it by subtraction. It is, he will tell you, the foundation of his practice.<\/h4><h4>Disciplined and neutral, his style speaks of his Yorkshire Methodist roots and a desire to challenge conformism, though his wry sense of humor has also played its part. In his 20s, after working at his father’s textile firm in Halifax, he ran away to Japan and taught English for three years, before finally making his way to Tokyo.1 At the behest of the celebrated designer Shiro Kuramata, he returned to the UK to study architecture at the Architectural Association in London.<\/h4><h4>Pawson didn’t finish the course and arrived late to his architectural calling. But he did so with a strong sense of how he wanted to design and has been running a successful office now for 40 years, working on large projects such as London’s Design Museum and the monastery of Nový Dvur in Bohemia, as well as countless private houses, shops, boats, hotels, churches, furniture, textiles, and in 2018, his country retreat in the Cotswolds.2 <\/h4><h4>Emma Moore: What does it take to run an established practice for so long, navigating changes in the industry while at the same time staying true to your vision?<\/h4><h4>John Pawson: A great team, great clients, a lot of hard work—as I learnt from Kuramata—and a clear vision. I have always made work that makes sense to me, finding the essential and getting the design down to a point where you can’t add or subtract from it. And it’s the same approach for everything, including interior design and decoration. It’s a process of paring away to make spaces with atmosphere, where the emphasis is on the quality of the surfaces, junctions, light and proportions.<\/h4><h4>EM: How do you establish such a definitive and recognizable style and ensure it doesn’t become a parody of itself?<\/h4><h4>JP: It’s been there from the beginning. From a very young age I was interested in what makes space comfortable to be in. In Japan, in the very exclusive apartment that the foreign teachers were given, I found I couldn’t stand the wallpaper any longer. I painted the whole apartment white, but I got so obsessed that I started painting the second coat before the first coat had dried, which makes it forever sticky. I left Japan with that sticky wall as my legacy. The important thing is to remain true to what feels architecturally right, which is very personal. It’s why I’ve never wanted the practice to grow beyond its current size. I’ve always wanted to be properly involved in every project.… Perhaps it’s the Yorkshire in me. It goes back to that honest, plain-speaking approach. <\/h4>",
+        "richtext": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br\/><br\/>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.<br\/><br\/>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.<\/p>",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "feature_text_with_rich_text_kGb3k8": {
+      "type": "feature-text-with-rich-text",
+      "settings": {
+        "feature_text": "<h4>John Pawson pioneered an approach to architecture that has been variously celebrated, vilified and imitated––all without ever having qualified as an architect. Here the design icon reflects on for decades spent in the perpetual pursuit of less.<\/h4>",
+        "font": "font-main",
+        "desktop_text_scale": 4,
+        "mobile_text_scale": 0,
+        "feature_text_position_on_desktop": "left",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "<h4>By reputation, John Pawson defines minimalism, but it’s not a term he chooses to use. <em>Minimum<\/em>, however, the title of his 1996 book on the subject, is definitely in his lexicon. For Pawson, it describes the quality of an object or space when it is no longer possible to improve it by subtraction. It is, he will tell you, the foundation of his practice.<br\/><br\/>Disciplined and neutral, his style speaks of his Yorkshire Methodist roots and a desire to challenge conformism, though his wry sense of humor has also played its part. In his 20s, after working at his father’s textile firm in Halifax, he ran away to Japan and taught English for three years, before finally making his way to Tokyo.1 At the behest of the celebrated designer Shiro Kuramata, he returned to the UK to study architecture at the Architectural Association in London.<br\/><br\/>Pawson didn’t finish the course and arrived late to his architectural calling. But he did so with a strong sense of how he wanted to design and has been running a successful office now for 40 years, working on large projects such as London’s Design Museum and the monastery of Nový Dvur in Bohemia, as well as countless private houses, shops, boats, hotels, churches, furniture, textiles, and in 2018, his country retreat in the Cotswolds.<\/h4>",
         "cta_link": "",
         "cta_label": "",
         "show_top_border": false,
@@ -287,11 +291,11 @@
   },
   "order": [
     "header",
-    "rich_text_tBGdcF",
     "blog_posts_R7mFX6",
     "image_gallery_W6iBmC",
     "feature_text_pTnBcr",
     "feature_text_iNapP6",
+    "feature_text_with_rich_text_DrFHng",
     "feature_text_with_rich_text_kGb3k8",
     "image_with_text_gC9gfC",
     "media_with_text_overlay_hGUJbB",
