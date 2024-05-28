@@ -44,7 +44,7 @@
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "1",
+        "media_aspect_ratio": "natural",
         "media_fill_space": false,
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
@@ -90,25 +90,6 @@
         "space_below": 1
       }
     },
-    "feature_text_with_rich_text_kGb3k8": {
-      "type": "feature-text-with-rich-text",
-      "disabled": true,
-      "settings": {
-        "feature_text": "<h4>John Pawson pioneered an approach to architecture that has been variously celebrated, vilified and imitated––all without ever having qualified as an architect. Here the design icon reflects on for decades spent in the perpetual pursuit of less.<\/h4>",
-        "font": "font-main",
-        "desktop_text_scale": 4,
-        "mobile_text_scale": 0,
-        "feature_text_position_on_desktop": "left",
-        "feature_text_width_on_desktop": "6",
-        "richtext": "<h4>By reputation, John Pawson defines minimalism, but it’s not a term he chooses to use. <em>Minimum<\/em>, however, the title of his 1996 book on the subject, is definitely in his lexicon. For Pawson, it describes the quality of an object or space when it is no longer possible to improve it by subtraction. It is, he will tell you, the foundation of his practice.<br\/><br\/>Disciplined and neutral, his style speaks of his Yorkshire Methodist roots and a desire to challenge conformism, though his wry sense of humor has also played its part. In his 20s, after working at his father’s textile firm in Halifax, he ran away to Japan and taught English for three years, before finally making his way to Tokyo.1 At the behest of the celebrated designer Shiro Kuramata, he returned to the UK to study architecture at the Architectural Association in London.<br\/><br\/>Pawson didn’t finish the course and arrived late to his architectural calling. But he did so with a strong sense of how he wanted to design and has been running a successful office now for 40 years, working on large projects such as London’s Design Museum and the monastery of Nový Dvur in Bohemia, as well as countless private houses, shops, boats, hotels, churches, furniture, textiles, and in 2018, his country retreat in the Cotswolds.<\/h4>",
-        "cta_link": "",
-        "cta_label": "",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0
-      }
-    },
     "feature_text_with_rich_text_DrFHng": {
       "type": "feature-text-with-rich-text",
       "settings": {
@@ -133,6 +114,25 @@
         "show_share_buttons": true,
         "show_next_previous_links": false,
         "content_alignment_on_desktop": "lg:col-start-1",
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "feature_text_with_rich_text_kGb3k8": {
+      "type": "feature-text-with-rich-text",
+      "disabled": true,
+      "settings": {
+        "feature_text": "<h4>John Pawson pioneered an approach to architecture that has been variously celebrated, vilified and imitated––all without ever having qualified as an architect. Here the design icon reflects on for decades spent in the perpetual pursuit of less.<\/h4>",
+        "font": "font-main",
+        "desktop_text_scale": 4,
+        "mobile_text_scale": 0,
+        "feature_text_position_on_desktop": "left",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "<h4>By reputation, John Pawson defines minimalism, but it’s not a term he chooses to use. <em>Minimum<\/em>, however, the title of his 1996 book on the subject, is definitely in his lexicon. For Pawson, it describes the quality of an object or space when it is no longer possible to improve it by subtraction. It is, he will tell you, the foundation of his practice.<br\/><br\/>Disciplined and neutral, his style speaks of his Yorkshire Methodist roots and a desire to challenge conformism, though his wry sense of humor has also played its part. In his 20s, after working at his father’s textile firm in Halifax, he ran away to Japan and taught English for three years, before finally making his way to Tokyo.1 At the behest of the celebrated designer Shiro Kuramata, he returned to the UK to study architecture at the Architectural Association in London.<br\/><br\/>Pawson didn’t finish the course and arrived late to his architectural calling. But he did so with a strong sense of how he wanted to design and has been running a successful office now for 40 years, working on large projects such as London’s Design Museum and the monastery of Nový Dvur in Bohemia, as well as countless private houses, shops, boats, hotels, churches, furniture, textiles, and in 2018, his country retreat in the Cotswolds.<\/h4>",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 1
@@ -247,28 +247,6 @@
         "space_below": 1
       }
     },
-    "image_with_text_DEyP3m": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Odd_Jobs_DanMahboubianRosen-1593x2048.jpg",
-        "media_aspect_ratio": "natural",
-        "image_position_on_desktop": "right",
-        "enable_full_bleed": false,
-        "title": "",
-        "heading_size": "text-heading-standard",
-        "richtext": "<h4>ODD JOBS The comedian with strong opinions about your home décor.<br\/><br\/>Dan Mahboubian Rosen hates your home. Well, “hate” might be too strong a word—but he certainly has opinions. The New York–based comedian (and regular contributor to <em>The New Yorker<\/em>) started posting roasts of popular interior trends on Instagram in 2020 after his stand-up gigs came to a halt during the pandemic. Now he’s taking his sometimes affronted, always informed criticism of interiors, art and design offline, judging people’s homes while they sit in the audience as part of his new show.<br\/><br\/>Elle Hunt: How does a stand-up comedian get into roasting interiors?<br\/><br\/>John Pawson: A great team, great clients, a lot of hard work—as I learnt from Kuramata—and a clear vision. I have always made work that makes sense to me, finding the essential and getting the design down to a point where you can’t add or subtract from it. And it’s the same approach for everything, including interior design and decoration. It’s a process of paring away to make spaces with atmosphere, where the emphasis is on the quality of the surfaces, junctions, light and proportions.<br\/><br\/>EM: How do you establish such a definitive and recognizable style and ensure it doesn’t become a parody of itself?<br\/><br\/>JP: It’s been there from the beginning. From a very young age I was interested in what makes space comfortable to be in. In Japan, in the very exclusive apartment that the foreign teachers were given, I found I couldn’t stand the wallpaper any longer. I painted the whole apartment white, but I got so obsessed that I started painting the second coat before the first coat had dried, which makes it forever sticky. I left Japan with that sticky wall as my legacy. The important thing is to remain true to what feels architecturally right, which is very personal. It’s why I’ve never wanted the practice to grow beyond its current size. I’ve always wanted to be properly involved in every project.… Perhaps it’s the Yorkshire in me. It goes back to that honest, plain-speaking approach.<br\/><br\/><\/h4>",
-        "cta_link": "",
-        "cta_label": "",
-        "image_width_on_desktop": "3",
-        "content_width_on_desktop": "0.6",
-        "content_alignment": "lg:items-top lg:justify-start",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
-      }
-    },
     "text_columns_g6P7qQ": {
       "type": "text-columns",
       "blocks": {
@@ -329,6 +307,27 @@
         "space_above": 0,
         "space_below": 1.5
       }
+    },
+    "image_with_text_DEyP3m": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Odd_Jobs_DanMahboubianRosen-1593x2048.jpg",
+        "media_aspect_ratio": "natural",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": false,
+        "title": "",
+        "heading_size": "text-heading-secondary",
+        "richtext": "<h4>ODD JOBS The comedian with strong opinions about your home décor.<br\/><br\/>Dan Mahboubian Rosen hates your home. Well, “hate” might be too strong a word—but he certainly has opinions. The New York–based comedian (and regular contributor to <em>The New Yorker<\/em>) started posting roasts of popular interior trends on Instagram in 2020 after his stand-up gigs came to a halt during the pandemic. Now he’s taking his sometimes affronted, always informed criticism of interiors, art and design offline, judging people’s homes while they sit in the audience as part of his new show.<br\/><br\/>Elle Hunt: How does a stand-up comedian get into roasting interiors?<br\/><br\/>John Pawson: A great team, great clients, a lot of hard work—as I learnt from Kuramata—and a clear vision. I have always made work that makes sense to me, finding the essential and getting the design down to a point where you can’t add or subtract from it. And it’s the same approach for everything, including interior design and decoration. It’s a process of paring away to make spaces with atmosphere, where the emphasis is on the quality of the surfaces, junctions, light and proportions.<br\/><br\/>EM: How do you establish such a definitive and recognizable style and ensure it doesn’t become a parody of itself?<br\/><br\/>JP: It’s been there from the beginning. From a very young age I was interested in what makes space comfortable to be in. In Japan, in the very exclusive apartment that the foreign teachers were given, I found I couldn’t stand the wallpaper any longer. I painted the whole apartment white, but I got so obsessed that I started painting the second coat before the first coat had dried, which makes it forever sticky. I left Japan with that sticky wall as my legacy. The important thing is to remain true to what feels architecturally right, which is very personal. It’s why I’ve never wanted the practice to grow beyond its current size. I’ve always wanted to be properly involved in every project.… Perhaps it’s the Yorkshire in me. It goes back to that honest, plain-speaking approach.<br\/><br\/><\/h4>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "3",
+        "content_width_on_desktop": "0.6",
+        "content_alignment": "lg:items-top lg:justify-end",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
     }
   },
   "order": [
@@ -336,13 +335,13 @@
     "image_gallery_W6iBmC",
     "feature_text_pTnBcr",
     "feature_text_iNapP6",
-    "feature_text_with_rich_text_kGb3k8",
     "feature_text_with_rich_text_DrFHng",
     "main",
+    "feature_text_with_rich_text_kGb3k8",
     "image_with_text_gC9gfC",
     "media_with_text_overlay_hGUJbB",
     "image_gallery_XiWEVV",
-    "image_with_text_DEyP3m",
-    "text_columns_g6P7qQ"
+    "text_columns_g6P7qQ",
+    "image_with_text_DEyP3m"
   ]
 }
