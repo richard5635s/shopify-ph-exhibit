@@ -131,7 +131,6 @@
     },
     "feature_text_with_rich_text_kGb3k8": {
       "type": "feature-text-with-rich-text",
-      "disabled": true,
       "settings": {
         "feature_text": "<h4>John Pawson pioneered an approach to architecture that has been variously celebrated, vilified and imitated––all without ever having qualified as an architect. Here the design icon reflects on for decades spent in the perpetual pursuit of less.<\/h4>",
         "font": "font-main",
