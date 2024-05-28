@@ -111,48 +111,6 @@
         "space_below": 1
       }
     },
-    "media_with_text_overlay_hGUJbB": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "image_YkrYF6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/John_Pawson_03.jpg"
-          }
-        },
-        "color_overlay_ri3DdQ": {
-          "type": "color_overlay",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "overlay_color": "bg-scheme-background",
-            "enable_custom_color": false,
-            "custom_overlay_color": "#ffffff",
-            "opacity": 80,
-            "blend_mode": "normal"
-          }
-        }
-      },
-      "block_order": [
-        "image_YkrYF6",
-        "color_overlay_ri3DdQ"
-      ],
-      "settings": {
-        "enable_full_bleed": true,
-        "aspect_ratio_mobile": "full-screen",
-        "aspect_ratio_desktop": "same",
-        "content_position": "justify-center items-center",
-        "text_align": "text-center",
-        "content_width_on_desktop": "4",
-        "title": "",
-        "heading_size": "text-heading-feature",
-        "richtext": "",
-        "cta_link": "",
-        "cta_label": "",
-        "button_style": "",
-        "color_scheme": ""
-      }
-    },
     "feature_text_with_rich_text_DrFHng": {
       "type": "feature-text-with-rich-text",
       "settings": {
@@ -168,7 +126,7 @@
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 1
+        "space_below": 0
       }
     },
     "main": {
@@ -179,7 +137,7 @@
         "content_alignment_on_desktop": "lg:col-start-1",
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 0.5
+        "space_below": 1
       }
     },
     "feature_text_with_rich_text_kGb3k8": {
@@ -221,6 +179,48 @@
         "color_scheme": "",
         "space_above": 0,
         "space_below": 1
+      }
+    },
+    "media_with_text_overlay_hGUJbB": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_YkrYF6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/John_Pawson_03.jpg"
+          }
+        },
+        "color_overlay_ri3DdQ": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 80,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_YkrYF6",
+        "color_overlay_ri3DdQ"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "same",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
       }
     },
     "image_gallery_XiWEVV": {
@@ -336,11 +336,11 @@
     "image_gallery_W6iBmC",
     "feature_text_pTnBcr",
     "feature_text_iNapP6",
-    "media_with_text_overlay_hGUJbB",
     "feature_text_with_rich_text_DrFHng",
     "main",
     "feature_text_with_rich_text_kGb3k8",
     "image_with_text_gC9gfC",
+    "media_with_text_overlay_hGUJbB",
     "image_gallery_XiWEVV",
     "text_columns_g6P7qQ"
   ]
