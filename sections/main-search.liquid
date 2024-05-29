@@ -94,7 +94,7 @@
       </span>
       <span class="hidden lg:inline">
         {%- liquid
-          echo 'facets.filters.title_tags' | t
+          echo 'facets.filters.filter_and_sort' | t
           if total_active_values > 0
             echo '(' | append: total_active_values | append: ')'
           endif
@@ -176,7 +176,7 @@
 
               {% if show_sort %}
                 <div class="sw-hidden lg:block lg:col-span-4 lg:col-end-[-1] text-right">
-                  {%- render 'sort-dropdown', results: search -%}
+                  {% comment %} {%- render 'sort-dropdown', results: search -%} {% endcomment %}
                 </div>
               {%- endif %}
             </div>

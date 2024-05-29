@@ -130,7 +130,7 @@
 
               {% if show_sort %}
                 <div class="sw-hidden lg:block lg:col-span-3 lg:col-end-[-1] text-right">
-                  {%- render 'sort-dropdown', results: collection -%}
+                  {% comment %} {%- render 'sort-dropdown', results: collection -%} {% endcomment %}
                 </div>
               {%- endif %}
             </div>
