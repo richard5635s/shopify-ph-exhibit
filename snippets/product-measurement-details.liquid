@@ -1,13 +1,15 @@
 {%- liquid
   assign sidebar_drawer_id = 'sidebar-product-measurement'
 -%}
-<button
-  type="button"
-  class="py-2 text-left hover:underline"
-  @click="$store.modals.open('{{ sidebar_drawer_id }}');"
->
-  Measurement Details
-</button>
+<div class="mt-spacer" style="--spacing-adjust: {{ block.settings.space_above }};">
+  <button
+    type="button"
+    class="py-2 text-left hover:underline"
+    @click="$store.modals.open('{{ sidebar_drawer_id }}');"
+  >
+    Measurement Details
+  </button>
+</div>
 
 <div
   x-data
