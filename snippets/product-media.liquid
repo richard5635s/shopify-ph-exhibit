@@ -293,7 +293,6 @@
                 :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
               {% endunless %}
             >
-              {% comment %} {%- if media.alt ==  product.selected_or_first_available_variant.featured_image.alt or media.alt == blank -%} {% endcomment %}
 
               {%- render 'media',
                 media: media,
@@ -304,7 +303,6 @@
                 media_fit: section.settings.media_fit
               -%}
 
-              {% comment %} {%- endif -%} {% endcomment %}
             </li>
           {%- endif -%}
           {%- for media in product.media -%}
@@ -328,7 +326,7 @@
                   :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
                 {% endunless %}
               >
-                {%- if media.alt ==  product.selected_or_first_available_variant.featured_image.alt or media.alt == blank -%}
+                {%- if media.alt ==  product.selected_or_first_available_variant.featured_image.alt or media.alt != blank -%}
                 {%- render 'media',
                   media: media,
                   sizes: sizes,
