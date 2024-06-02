@@ -328,6 +328,7 @@
                   :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
                 {% endunless %}
               >
+                {%- if media.alt ==  product.selected_or_first_available_variant.featured_image.alt or media.alt == blank -%}
                 {%- render 'media',
                   media: media,
                   sizes: sizes,
@@ -336,6 +337,7 @@
                   loading: loading,
                   media_fit: section.settings.media_fit
                 -%}
+                {%- endif -%}
               </li>
             {%- endunless -%}
           {%- endfor -%}
