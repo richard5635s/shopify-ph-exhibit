@@ -287,7 +287,7 @@
               data-media-id="{{ media.id }}"
               x-ref="first-media"
               {% unless section.settings.desktop_media_layout contains 'carousel' %}
-                :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
+                :class="{ 'lg:-order-1' : {{ media.alt }} === {{ featured_media.alt }} }"
               {% endunless %}
             >
               {%- render 'media',
@@ -316,7 +316,7 @@
                 {% endif %}
                 data-media-id="{{ media.id }}"
                 {% unless section.settings.desktop_media_layout contains 'carousel' %}
-                  :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
+                  :class="{ 'lg:-order-1' : {{ media.alt }} === {{ featured_media.alt }} }"
                 {% endunless %}
               >
                 {% comment %} {%- if media.alt == featured_media.alt or media.alt == "#all" -%} {% endcomment %}
