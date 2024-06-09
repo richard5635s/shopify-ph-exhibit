@@ -290,6 +290,7 @@
                 :class="{ 'lg:-order-1' : {{ media.alt }} === {{ featured_media.alt }} }"
               {% endunless %}
             >
+              {{  featured_media.alt }}
               {%- render 'media',
                 media: media,
                 sizes: sizes,
