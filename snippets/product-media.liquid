@@ -317,7 +317,7 @@
                 {% endif %}
                 data-media-id="{{ media.id }}"
                 {% unless section.settings.desktop_media_layout contains 'carousel' %}
-                  :class="{ 'lg:-order-1' : {{current_variant.alt}} === {{ media.alt }} }"
+                  :class="{ 'lg:-order-1' : {{featured_media.alt}} === {{ media.alt }} }"
                 {% endunless %}
               >
                 {% comment %} {%- if media.alt == featured_media.alt or media.alt == "#all" -%} {% endcomment %}
