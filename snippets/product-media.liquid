@@ -274,7 +274,7 @@
           class="product-media-list {{ product_media_list_classes }}"
           {{ product_media_list_attributes }}
         >
-          {{ current_variant.featured_media.alt }}heyheyey
+          {{ product.selected_or_first_available_variant.featured_media.alt }}heyheyey
           {%- if featured_media != null -%}
             {%- assign media = featured_media -%}
             <li
