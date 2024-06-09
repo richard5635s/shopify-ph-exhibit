@@ -319,6 +319,7 @@
                   :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
                 {% endunless %}
               >
+                {%- media.alt -%}
                 {%- if media.alt == blank -%}
                   {%- render 'media',
                     media: media,
