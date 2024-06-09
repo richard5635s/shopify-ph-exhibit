@@ -274,7 +274,7 @@
           class="product-media-list {{ product_media_list_classes }}"
           {{ product_media_list_attributes }}
         >
-          {{ current_variant.featured_media.alt }}heyheyey
+          {{ featured_media.alt }}heyheyey
           {%- if featured_media != null -%}
             {%- assign media = featured_media -%}
             <li
@@ -288,7 +288,7 @@
               data-media-id="{{ media.id }}"
               x-ref="first-media"
               {% unless section.settings.desktop_media_layout contains 'carousel' %}
-                :class="{ 'lg:-order-1' : {{current_variant.alt }} === {{ media.alt }} }"
+                :class="{ 'lg:-order-1' : {{ featured_media.alt }} === {{ media.alt }} }"
               {% endunless %}
             >
               {%- render 'media',
