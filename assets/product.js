@@ -11,6 +11,7 @@ window['Theme_Product'] = ({
     current_variant: variant,
     featured_media_id: featuredMediaID,
     current_media_id: featuredMediaID,
+    current_media_alt: null,
     loading: false,
     quantity: '1',
     optionHandles: [],
@@ -216,6 +217,7 @@ window['Theme_Product'] = ({
           this.current_media_id !== this.current_variant.featured_media.id
         ) {
           this.current_media_id = this.current_variant.featured_media.id;
+          this.current_media_alt = this.current_variant.featured_media.alt;
           if (isLgBreakpoint()) {
             this.$refs['product-media'].scrollIntoView({
               behavior: 'smooth',
