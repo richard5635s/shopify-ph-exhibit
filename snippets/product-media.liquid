@@ -319,7 +319,7 @@
                   :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
                 {% endunless %}
               >
-                {%- if media.alt == featured_media.alt or media.alt == "#all" -%}
+                {% comment %} {%- if media.alt == featured_media.alt or media.alt == "#all" -%} {% endcomment %}
                   {%- render 'media',
                     media: media,
                     sizes: sizes,
@@ -328,7 +328,7 @@
                     loading: loading,
                     media_fit: section.settings.media_fit
                   -%}
-                {%- endif -%}
+                {% comment %} {%- endif -%} {% endcomment %}
               </li>
             {%- endunless -%}
           {%- endfor -%}
