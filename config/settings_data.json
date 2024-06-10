@@ -133,14 +133,14 @@
 
     ],
     "blocks": {
-      "6986766168588894248": {
-        "type": "shopify:\/\/apps\/preorder-now-wolf\/blocks\/app-embed\/7ee1d740-e67b-4ea8-b0c9-1f62cb8777ec",
-        "disabled": false,
+      "3782161271425840822": {
+        "type": "shopify:\/\/apps\/ns-image-swatch-variant-option\/blocks\/nestscale_product_variant\/53eb5ed4-3892-414c-808b-3ea84516b10d",
+        "disabled": true,
         "settings": {
         }
       },
-      "3782161271425840822": {
-        "type": "shopify:\/\/apps\/ns-image-swatch-variant-option\/blocks\/nestscale_product_variant\/53eb5ed4-3892-414c-808b-3ea84516b10d",
+      "6986766168588894248": {
+        "type": "shopify:\/\/apps\/preorder-now-wolf\/blocks\/app-embed\/7ee1d740-e67b-4ea8-b0c9-1f62cb8777ec",
         "disabled": true,
         "settings": {
         }
