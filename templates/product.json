@@ -15,6 +15,11 @@
             "space_above": 0
           }
         },
+        "color_swatch_NfgdDh": {
+          "type": "color-swatch",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -109,6 +114,7 @@
       "block_order": [
         "title",
         "price",
+        "color_swatch_NfgdDh",
         "description",
         "text_yUGFXr",
         "quantity",
