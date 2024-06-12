@@ -17,4 +17,7 @@
       <span class="rounded-button bg-scheme-text text-scheme-background px-2">{{ 'products.product.sold_out' | t }}</span>
     {%- endif -%}
   {%- endif -%}
+  {% if product.tags contains 'Exclusive' %}
+      <span class="rounded-button bg-scheme-accent text-scheme-accent-contrast px-2">EXCLUSIVE</span>
+  {% endif %}
 </div>
