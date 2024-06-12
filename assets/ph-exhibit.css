@@ -93,3 +93,6 @@ ul.swatches li.swatch img {
 .ProductMeta__Swatches {
     margin-top: 20px;
 }
+p.variant-options {
+    padding-bottom: 5px;
+}
