@@ -8,11 +8,6 @@
     {%- if product_tags contains tag_stripped -%}
       <span class="rounded-button bg-scheme-accent text-scheme-accent-contrast px-2">{{ tag }}</span>
     {%- endif -%}
-
-  {% if tag contains 'Exclusive' %}
-      <span class="rounded-button bg-scheme-accent text-scheme-accent-contrast px-2">EXCLUSIVE</span>
-  {% endif %}
-    
   {%- endfor -%}
   {%- if settings.products_show_on_sale_and_sold_out_badges -%}
     {%- if on_sale -%}
