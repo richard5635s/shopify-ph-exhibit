@@ -56,9 +56,9 @@
       {%- liquid
         assign enable_payment_buttons = block.settings.enable_payment_button
         if product.tags contains 'Preorder'
-        assign button_text = 'PREORDER NOW'
+          assign button_text = 'PREORDER NOW'
         else
-        assign button_text = 'products.product.add_to_cart' | t
+          assign button_text = 'products.product.add_to_cart' | t
         endif
 
         if template == 'product.preorder'
@@ -70,6 +70,10 @@
           assign enable_payment_buttons = false
         endif
       -%}
+
+      {% if product.tags contains 'Preorder' %}
+          <input style="display: none;" id="Preorder" type="text" name="properties[Preorder]">
+      {% endif %}
 
       {% if enable_payment_buttons %}
         {% capture add_to_cart_class %}btn--secondary{% endcapture %}
