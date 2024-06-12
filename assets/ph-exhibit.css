@@ -82,12 +82,6 @@ ul.swatches {
   border: 1px solid darkgray;
   box-shadow: none;
 }
-.color-variants {
-    //text-align: center;
-}
-p.variant-options {
-    //display: none;
-}
 ul.swatches li.swatch img {
     width: 100%;
     height: 100%;
