@@ -210,6 +210,8 @@
                 {%- liquid
                   for block in section.blocks
                     case block.type
+                      when 'color-swatch'
+                        render 'color-swatch', product: product, block: block
                       when '@app'
                         render 'product-block-app', block: block
                       when 'title'
