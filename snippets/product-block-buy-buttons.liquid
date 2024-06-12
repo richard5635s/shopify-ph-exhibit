@@ -72,7 +72,7 @@
       -%}
 
       {% if product.tags contains 'Preorder' %}
-          <input style="display: none;" id="Preorder" type="text" name="properties[Preorder]" form="{{ product_form_id }}">
+          <label style="display: none;" id="Preorder" type="text" name="properties[Preorder]" for="{{ product_form_id }}"></label
       {% endif %}
 
       {% if enable_payment_buttons %}
