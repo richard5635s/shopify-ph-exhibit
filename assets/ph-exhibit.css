@@ -90,3 +90,6 @@ ul.swatches li.swatch img {
     top: 0;
     border-radius: 99px;
 }
+.ProductMeta__Swatches {
+    margin-top: 20px;
+}
