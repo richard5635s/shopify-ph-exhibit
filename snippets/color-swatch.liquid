@@ -1,0 +1,103 @@
+<div class="ProductMeta__Swatches" {{ block.shopify_attributes }}>
+  {% assign smallest_collection  = 1000 %}
+
+  {% for collection in product.collections%}
+    {%- assign hand_col = collection.handle -%}
+    {%- unless hand_col contains 'last-pieces' 
+                  	or hand_col contains 'sale'
+          			or hand_col contains 'off-white'
+          			or hand_col contains 'beige'
+                      or hand_col contains 'black'
+                      or hand_col contains 'blue'
+                      or hand_col contains 'yellow'
+                      or hand_col contains 'burgundy'
+                      or hand_col contains 'charcoal'
+                      or hand_col contains 'raspberry'
+                      or hand_col contains 'rose'
+                      or hand_col contains 'pink'
+                      or hand_col contains 'light'
+                      or hand_col contains 'green'
+                      or hand_col contains 'purple'
+                      or hand_col contains 'rusty'
+                      or hand_col contains 'classic'
+                      or hand_col contains 'white'
+                      or hand_col contains 'wear'
+                      or hand_col contains 'best'
+      				or hand_col contains 'transit-collection'
+          		-%}
+      {% if collection.all_products_count < smallest_collection   %}
+        {% assign smallest_collection = collection.all_products_count %}
+        {% assign smallest_collection_name = collection.handle %}
+      {% endif %}
+    {%- endunless -%}
+  {% endfor %}
+
+  {% comment %}
+  {{ smallest_collection_name }}
+  {% endcomment %}
+  
+  <div class="color-variants">
+    {% assign product_count = 0 %}
+
+    {% for same-product in collections[smallest_collection_name].products %}
+      {% assign same-product-handle = same-product.title | split : 'in' | first %}
+      {% assign current-product-handle = product.title | split : 'in' | first %}
+      {% if same-product-handle == current-product-handle %}
+        {% if same-product.url != product.url %}
+          {% assign product_count = product_count | plus: 1 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <p class="variant-options">{{ product_count }} Other Available Options</p>
+
+    {% if product_count > 0 %}
+    <ul class="swatches">
+      {% paginate collections[smallest_collection_name].products by 250 %}
+        {% for same-product in collections[smallest_collection_name].products  %}
+            
+            {% assign handled = product.title | handleize %}
+            {% assign same-product-handle = same-product.title | split : 'in' | first%}
+            {% assign current-product-handle = product.title | split : 'in' | first %}
+      
+            {% if same-product-handle == current-product-handle %}
+              <li class="swatch">
+                {% if same-product.url != product.url %}
+                <a href="{{ same-product.url }}">
+                {% endif %}
+                  <!--<span class=tooltip> {{ tag | split: ':' | last }}</span>-->
+                  {% for image in same-product.images %}
+                    {% if image.src contains 'swatch-' %}
+                      {% capture image_swatch %}
+                        <img src="{{ image.src | img_url : '64x' }}" />
+                      {% endcapture %}
+                    {% endif %}
+                  {% endfor%}
+        
+                  <!-- Either use metafield tags or use product image -->
+                  {% if same-product.metafields.color.swatch %}
+                    <div class="bgcolor" style="background-color:{{same-product.metafields.color.swatch}};"></div>
+                  {% else %}
+                    {% if image_swatch != blank %}
+                      {{ image_swatch }}
+                    {% else %}
+                      {% comment %}
+                      <img src="{{ same-product.featured_image | img_url : '64x' }}" />
+                      {% endcomment %}
+                      <div class="bgcolor" style="background-color:#fff;">
+                       <img loading="lazy" src="https://cdn.shopify.com/s/files/1/1028/7813/files/{{ same-product.title | split : 'in' | last | handleize }}_64x.png" />
+                      </div>
+                    {% endif %}
+                  {% endif %}
+                {% if same-product.url != product.url %}
+                </a>
+                {% endif %}
+                <span class="swatch-name">{{ same-product.title | split : 'in' | last }}</span>
+              </li>
+            {% endif %}
+        {% endfor %}
+      {% endpaginate %}
+    </ul>
+    {% endif %}
+  </div>
+</div>
