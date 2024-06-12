@@ -40,8 +40,8 @@
     {% assign product_count = 0 %}
 
     {% for same-product in collections[smallest_collection_name].products %}
-      {% assign same-product-handle = same-product.title | split : 'in' | first %}
-      {% assign current-product-handle = product.title | split : 'in' | first %}
+      {% assign same-product-handle = same-product.title | split : ' in ' | first %}
+      {% assign current-product-handle = product.title | split : ' in ' | first %}
       {% if same-product-handle == current-product-handle %}
         {% if same-product.url != product.url %}
           {% assign product_count = product_count | plus: 1 %}
@@ -57,8 +57,8 @@
         {% for same-product in collections[smallest_collection_name].products  %}
             
             {% assign handled = product.title | handleize %}
-            {% assign same-product-handle = same-product.title | split : 'in' | first%}
-            {% assign current-product-handle = product.title | split : 'in' | first %}
+            {% assign same-product-handle = same-product.title | split : ' in ' | first%}
+            {% assign current-product-handle = product.title | split : ' in ' | first %}
       
             {% if same-product-handle == current-product-handle %}
               <li class="swatch">
@@ -85,14 +85,14 @@
                       <img src="{{ same-product.featured_image | img_url : '64x' }}" />
                       {% endcomment %}
                       <div class="bgcolor" style="background-color:#fff;">
-                       <img loading="lazy" src="https://cdn.shopify.com/s/files/1/1028/7813/files/{{ same-product.title | split : 'in' | last | handleize }}_64x.png" />
+                       <img loading="lazy" src="https://cdn.shopify.com/s/files/1/1028/7813/files/{{ same-product.title | split : ' in ' | last | handleize }}_64x.png" />
                       </div>
                     {% endif %}
                   {% endif %}
                 {% if same-product.url != product.url %}
                 </a>
                 {% endif %}
-                <span class="swatch-name">{{ same-product.title | split : 'in' | last }}</span>
+                <span class="swatch-name">{{ same-product.title | split : ' in ' | last }}</span>
               </li>
             {% endif %}
         {% endfor %}
