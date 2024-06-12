@@ -55,7 +55,11 @@
 
       {%- liquid
         assign enable_payment_buttons = block.settings.enable_payment_button
+        if product.tags contains 'Preorder'
+        assign button_text = 'Preorder'
+        else
         assign button_text = 'products.product.add_to_cart' | t
+        endif
 
         if template == 'product.preorder'
           assign enable_payment_buttons = false
