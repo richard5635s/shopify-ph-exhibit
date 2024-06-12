@@ -96,3 +96,6 @@ ul.swatches li.swatch img {
 p.variant-options {
     padding-bottom: 5px;
 }
+.text-scheme-accent-contrast {
+    text-transform: uppercase;
+}
