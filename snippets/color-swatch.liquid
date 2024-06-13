@@ -55,7 +55,7 @@
     {% if product_count > 1 %}
     <p class="variant-options">{{ product_count }} Other Available Options</p>
     <ul class="swatches">
-      {% paginate collections[smallest_collection_name].products by 250 %}
+      {% paginate collections[smallest_collection_name].products by 50 %}
         {% for same-product in collections[smallest_collection_name].products  %}
             
             {% assign handled = product.title | handleize %}
