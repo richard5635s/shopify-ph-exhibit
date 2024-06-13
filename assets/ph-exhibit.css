@@ -130,3 +130,9 @@ a.mainlink:hover {
 #DrawerMenu a.block.flex.justify-between.hover\:underline.underline {
     text-decoration-line: none;
 }
+
+
+#DrawerMenu li a.block.flex.justify-between {
+    font-family: 'Futura Medium';
+    font-weight: 800;
+}
