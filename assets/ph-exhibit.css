@@ -58,7 +58,6 @@ li.swatch:hover .swatch-name {
     height: 100%;
     border: 1px solid gray;
     position: relative;
-    border-radius: 99px;
 }
 ul.swatches {
   padding-left: 0;
@@ -88,7 +87,6 @@ ul.swatches li.swatch img {
     position: absolute;
     left: 0;
     top: 0;
-    border-radius: 99px;
 }
 .ProductMeta__Swatches {
     margin-top: 20px;
