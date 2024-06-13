@@ -73,18 +73,7 @@
             "text": "{{ product.metafields.custom.pre_order.value }}",
             "icon": "none",
             "text_color": "text-scheme-error",
-            "space_above": 2
-          }
-        },
-        "popup_r8mp7i": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "text": "",
-            "page": "size-guide",
-            "text_color": "text-scheme-text",
-            "space_above": 2
+            "space_above": 1
           }
         },
         "collapsible_tabs_eBfTLA": {
@@ -92,7 +81,7 @@
           "settings": {
             "show_borders": false,
             "show_caret": false,
-            "space_above": 0,
+            "space_above": 1.5,
             "heading_1": "Details & Care",
             "content_1": "<p>{{ product.metafields.custom.details_fit | metafield_tag }}<\/p>",
             "page_1": "",
@@ -120,7 +109,6 @@
         "measurementdetails_A3CKet",
         "buy-buttons",
         "text_yUGFXr",
-        "popup_r8mp7i",
         "collapsible_tabs_eBfTLA"
       ],
       "settings": {
