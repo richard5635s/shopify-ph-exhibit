@@ -84,10 +84,11 @@
                     {% else %}
 
                       <img src="{{ same-product.featured_image | img_url : '64x' }}" />
-
+                      {% comment %}
                       <div class="bgcolor" style="background-color:#fff;">
                        <img loading="lazy" src="https://cdn.shopify.com/s/files/1/1028/7813/files/{{ same-product.title | split : ' in ' | last | handleize }}_64x.png" />
                       </div>
+                      {% endcomment %}
                     {% endif %}
                   {% endif %}
                 {% if same-product.url != product.url %}
