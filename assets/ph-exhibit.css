@@ -106,3 +106,7 @@ ul.child-links.menu.dropdown-child {
 ul.grandchild-links.menu.dropdown-grandchild {
     padding-left: 10px;
 }
+.sidebar-nav ul[role="list"] {
+    margin-top: 10px;
+    padding-left: 10px;
+}
