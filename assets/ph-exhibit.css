@@ -97,11 +97,9 @@ p.variant-options {
     text-transform: uppercase;
 }
 ul.child-links.menu.dropdown-child {
-    padding-left: 10px;
 }
 
 ul.grandchild-links.menu.dropdown-grandchild {
-    padding-left: 10px;
 }
 
 @font-face {
