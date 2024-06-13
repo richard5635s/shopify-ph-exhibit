@@ -112,5 +112,6 @@ ul.grandchild-links.menu.dropdown-grandchild {
 }
 
 a.mainlink {
-  font-family: 'Futura Medium';
+    font-family: Futura Medium;
+    font-weight: 800;
 }
