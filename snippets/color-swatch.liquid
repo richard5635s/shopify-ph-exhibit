@@ -41,8 +41,9 @@
     {% for same-product in collections[smallest_collection_name].products %}
       {% assign same-product-handle = same-product.title | split : ' in ' | first | handleize %}
       {% assign current-product-handle = product.title | split : ' in ' | first | handleize %}
-      {{ same-product-handle }} - {{ current-product-handle }}
+      
       {% if same-product-handle == current-product-handle %}
+        {{ same-product-handle }} - {{ current-product-handle }}
         {% if same-product.url != product.url %}
           {% assign product_count = product_count | plus: 1 %}
         {% endif %}
