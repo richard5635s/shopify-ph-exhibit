@@ -126,3 +126,7 @@ a.mainlink:hover {
 #DrawerMenu li.menu-link {
     padding: 4px 0;
 }
+
+#DrawerMenu a.block.flex.justify-between.hover\:underline.underline {
+    text-decoration-line: none;
+}
