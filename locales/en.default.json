@@ -461,7 +461,7 @@
       "related_products_title": "Related Products"
     },
     "product": {
-      "sold_out": "Sold Out",
+      "sold_out": "SOLD OUT",
       "on_sale": "On Sale",
       "on_sale_from_html": "<strong>On Sale<\/strong> from {{ price }}",
       "unavailable": "Unavailable",
