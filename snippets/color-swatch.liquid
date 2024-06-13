@@ -70,6 +70,7 @@
                   {% for image in same-product.images %}
                     {% if image.src contains 'swatch-' %}
                       {% capture image_swatch %}
+                        <img src="{{ product.featured_image }}">
                         <img src="{{ image.src | img_url : '64x' }}" />
                       {% endcapture %}
                     {% endif %}
