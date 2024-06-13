@@ -126,7 +126,7 @@ a.mainlink:hover {
 }
 
 #DrawerMenu li.menu-link {
-    padding: 4px 0;
+    padding: 0px 0;
 }
 
 #DrawerMenu a.block.flex.justify-between.hover\:underline.underline {
@@ -137,4 +137,5 @@ a.mainlink:hover {
 #DrawerMenu li a.block.flex.justify-between {
     font-family: 'Futura Medium';
     font-weight: 400;
+    margin-bottom: 14px;
 }
