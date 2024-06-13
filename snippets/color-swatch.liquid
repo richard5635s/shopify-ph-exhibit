@@ -44,10 +44,9 @@
       
       {% if same-product-handle == current-product-handle %}
         
-        {% if same-product.url != product.url %}
+      
           {% assign product_count = product_count | plus: 1 %}
-          {{ same-product-handle }} - {{ current-product-handle }}
-        {% endif %}
+        
       {% endif %}
     {% endfor %}
 
