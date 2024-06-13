@@ -28,16 +28,6 @@
             "space_above": 2
           }
         },
-        "text_yUGFXr": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.metafields.custom.pre_order.value }}",
-            "icon": "none",
-            "text_color": "text-scheme-text",
-            "space_above": 2
-          }
-        },
         "quantity": {
           "type": "quantity_selector",
           "disabled": true,
@@ -75,6 +65,15 @@
             "space_above": 1,
             "show_pickup_availability": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "text_yUGFXr": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.pre_order.value }}",
+            "icon": "none",
+            "text_color": "text-scheme-error",
+            "space_above": 2
           }
         },
         "popup_r8mp7i": {
@@ -116,11 +115,11 @@
         "price",
         "color_swatch_NfgdDh",
         "description",
-        "text_yUGFXr",
         "quantity",
         "variant-picker",
         "measurementdetails_A3CKet",
         "buy-buttons",
+        "text_yUGFXr",
         "popup_r8mp7i",
         "collapsible_tabs_eBfTLA"
       ],
