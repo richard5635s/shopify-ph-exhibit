@@ -50,9 +50,8 @@
       {% endif %}
     {% endfor %}
 
+    {% if product_count > 1 %}
     <p class="variant-options">{{ product_count }} Other Available Options</p>
-
-    {% if product_count > 0 %}
     <ul class="swatches">
       {% paginate collections[smallest_collection_name].products by 250 %}
         {% for same-product in collections[smallest_collection_name].products  %}
