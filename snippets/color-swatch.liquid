@@ -82,9 +82,9 @@
                     {% if image_swatch != blank %}
                       {{ image_swatch }}
                     {% else %}
-                      {% comment %}
+
                       <img src="{{ same-product.featured_image | img_url : '64x' }}" />
-                      {% endcomment %}
+
                       <div class="bgcolor" style="background-color:#fff;">
                        <img loading="lazy" src="https://cdn.shopify.com/s/files/1/1028/7813/files/{{ same-product.title | split : ' in ' | last | handleize }}_64x.png" />
                       </div>
