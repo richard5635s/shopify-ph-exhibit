@@ -112,6 +112,8 @@ ul.grandchild-links.menu.dropdown-grandchild {
 a.mainlink {
     font-family: Futura Medium;
     font-weight: 400;
+    margin-bottom: 4px;
+    display: block;
 }
 
 a.mainlink:hover {
