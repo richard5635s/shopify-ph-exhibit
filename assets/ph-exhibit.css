@@ -105,14 +105,12 @@ ul.grandchild-links.menu.dropdown-grandchild {
 }
 
 @font-face {
-    font-family: 'Hira Grotestk STD';
-    src: url('https://cdn.shopify.com/s/files/1/0736/8255/1070/files/hiragroteskstd.woff2?v=1717996677') format('woff2'),
-         url('https://cdn.shopify.com/s/files/1/0736/8255/1070/files/hiragroteskstd.woff?v=1717996676') format('woff');
-    font-weight: normal;
+    font-family: 'Futura Medium';
+    src: url('https://cdn.shopify.com/s/files/1/1028/7813/files/futuramedium.woff2?v=1718261839') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/1028/7813/files/futuramedium.woff?v=1718261839') format('woff');
     font-style: normal;
 }
 
 a.mainlink {
   font-family: 'Futura Medium';
-}
 }
