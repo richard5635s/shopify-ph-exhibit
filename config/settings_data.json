@@ -59,7 +59,7 @@
     "follow_mouse_desktop_type_scale": 0,
     "round_images": false,
     "products_show_second_image_on_hover": true,
-    "products_show_on_sale_and_sold_out_badges": true,
+    "products_show_on_sale_and_sold_out_badges": false,
     "tag_badges": "Exclusive\nPreorder",
     "enable_color_swatches": true,
     "menu_icon_variation": 4,
