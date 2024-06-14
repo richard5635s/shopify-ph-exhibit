@@ -17,7 +17,8 @@ li.swatch a {
     display: block;
 }
 li.swatch .swatch-name {
-  display: block;
+  /*display: block;*/
+  display: none;
   position: absolute;
   text-align: center;
   transition: opacity 0.5s ease-in-out;
