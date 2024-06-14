@@ -55,7 +55,7 @@
 
 
 {% if same-product.url != product.url %}
-{{ same-product.title | split : ' in ' | last }} 
+{{ product.title | split : ' in ' | last }} 
 {% endif %}
       
     <ul class="swatches">
