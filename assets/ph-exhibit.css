@@ -48,7 +48,8 @@ li.swatch .swatch-name {
   }
 }
 li.swatch:hover .swatch-name {
-  display: block;
+  /*display: block;*/
+  display: none;
   transition: opacity 0.5s ease-in-out;
   opacity: 1;
 }
