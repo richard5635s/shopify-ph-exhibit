@@ -103,7 +103,7 @@ p.variant-options {
     padding-bottom: 5px;
 }
 .text-scheme-accent-contrast {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 ul.child-links.menu.dropdown-child {
   padding-left: 5px;
@@ -146,4 +146,9 @@ a.mainlink:hover {
     font-family: 'Futura Medium';
     font-weight: 400;
     margin-bottom: 4px;
+}
+
+span.exclusive, span.preorder {
+  background-color: transparent;
+  color: black;
 }
