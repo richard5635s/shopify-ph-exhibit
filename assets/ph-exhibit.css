@@ -4,11 +4,12 @@ ul.swatches {
   margin-bottom: 0;
 }
 ul.swatches li.swatch {
-  position: relative;
-  display: inline-block;
-    width: 40px;
-    height: 60px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 75px;
     border: 1px solid lightgray;
+    margin-right: 5px;
 }
 li.swatch a {
     width: 100%;
