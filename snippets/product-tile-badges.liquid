@@ -6,7 +6,7 @@
   {%- for tag in tag_badges -%}
     {%- assign tag_stripped = tag | strip -%}
     {%- if product_tags contains tag_stripped -%}
-      <span class="{{ tag | downcase }} rounded-button bg-scheme-accent text-scheme-accent-contrast px-2">{{ tag }}</span>
+      <span class="{{ tag | downcase }} additional_tag rounded-button bg-scheme-accent text-scheme-accent-contrast px-2">{{ tag }}</span>
     {%- endif -%}
   {%- endfor -%}
   {%- if settings.products_show_on_sale_and_sold_out_badges -%}
