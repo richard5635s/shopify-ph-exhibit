@@ -51,12 +51,11 @@
     {% endfor %}
 
     {% if product_count > 1 %}
-    <p class="variant-options">{{ product_count }} Available Options</p>
+    {% comment %}<p class="variant-options">{{ product_count }} Available Options</p>{% endcomment %}
 
-
-{% if same-product.url != product.url %}
-<p class="color_name">Color: {{ product.title | split : ' in ' | last }} </p>
-{% endif %}
+    {% if same-product.url != product.url %}
+    <p class="color_name">Color: {{ product.title | split : ' in ' | last }} </p>
+    {% endif %}
       
     <ul class="swatches">
 
