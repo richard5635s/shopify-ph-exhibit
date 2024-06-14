@@ -53,11 +53,10 @@
     {% if product_count > 1 %}
     <p class="variant-options">{{ product_count }} Available Options</p>
 
-        {% for same-product in collections[smallest_collection_name].products  %}
+
 {% if same-product.url != product.url %}
 {{ same-product.title | split : ' in ' | last }} 
 {% endif %}
-          {% endfor %}
       
     <ul class="swatches">
 
