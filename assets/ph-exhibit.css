@@ -60,7 +60,7 @@ li.swatch:hover .swatch-name {
     border: 1px solid gray;
     position: relative;
 }
-ul.swatches li.swatch(not:hover) > a > img {
+ul.swatches li.swatch:not(:hover) > a > img {
     opacity: .5;
 }
 ul.swatches {
