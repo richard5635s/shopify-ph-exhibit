@@ -63,7 +63,7 @@
             "display_cm_unit": true,
             "tablecontent02": "<p>{{ product.metafields.custom.product_measurements | metafield_tag }}<\/p>",
             "heading03": "",
-            "heading03text": "Text Content Here",
+            "heading03text": "",
             "text_color": "text-scheme-text"
           }
         },
