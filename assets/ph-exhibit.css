@@ -154,5 +154,5 @@ span.exclusive, span.preorder {
 }
 ul[role="list"] {
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 0px;
 }
