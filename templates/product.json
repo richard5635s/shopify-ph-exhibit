@@ -3,6 +3,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_haMqdd": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "icon": "none",
+            "text_color": "text-scheme-text",
+            "space_above": 1
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -100,6 +109,7 @@
         }
       },
       "block_order": [
+        "text_haMqdd",
         "title",
         "price",
         "description",
