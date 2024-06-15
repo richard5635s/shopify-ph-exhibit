@@ -85,6 +85,13 @@
             "space_above": 1
           }
         },
+        "rich_text_JnDnFm": {
+          "type": "rich_text",
+          "settings": {
+            "content": "<p>{{ product.metafields.custom.saleitemanddelivery | metafield_tag }}<\/p>",
+            "space_above": 1
+          }
+        },
         "collapsible_tabs_eBfTLA": {
           "type": "collapsible_tabs",
           "settings": {
@@ -119,6 +126,7 @@
         "measurementdetails_A3CKet",
         "buy-buttons",
         "text_yUGFXr",
+        "rich_text_JnDnFm",
         "collapsible_tabs_eBfTLA"
       ],
       "settings": {
