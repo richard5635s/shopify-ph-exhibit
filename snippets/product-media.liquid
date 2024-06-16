@@ -303,6 +303,8 @@
           {%- for media in product.media -%}
             {%- unless media.id == featured_media.id -%}
               {%- assign media_counter = media_counter | plus: 1 %}
+              {% comment %} use workaround, if the id is the same as  {% endcomment %}
+
               <li
                 class="product-media-list-item {{ product_media_list_item_classes }}"
                 {% if carousel_enabled %}
