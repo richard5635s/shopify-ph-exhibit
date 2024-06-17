@@ -7,9 +7,9 @@ ul.swatches li.swatch {
     position: relative;
     display: inline-block;
     width: 60px;
-    height: 75px;
-    border: 1px solid lightgray;
-    margin-right: 5px;
+    height: 90px;
+    border: 0px;
+    margin-right: 9px;
 }
 li.swatch a {
     width: 100%;
