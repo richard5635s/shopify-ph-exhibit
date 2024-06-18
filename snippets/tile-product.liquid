@@ -255,6 +255,12 @@
     {%- endif -%}
   {%- endif -%}
 
+    {%- for tag in product.tags -%}
+    {%- if tag contains 'Preorder' -%}
+      <p class="po_tag">Preorder</p>
+    {%- endif -%}
+    {%- endfor -%}
+
   {%- if render_labels_in_footer -%}
     <template
       x-teleport="#Section-{{ section.id }}-CaptionContainer"
