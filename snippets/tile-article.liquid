@@ -114,9 +114,11 @@
       </div>
     {% endif %}
 
-    {% if product.tags contains 'Preorder' %}
+    {%- for tag in tag_badges -%}
+    {%- if tag contains 'Preorder' -%}
       <p class="po_tag">Preorder</p>
-    {% endif %}
+    {%- endif -%}
+    {%- endfor -%}
 
   </div>
 
