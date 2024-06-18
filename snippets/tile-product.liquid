@@ -238,6 +238,7 @@
       </div>
     {% endif %}
 
+    {% comment %}
     {%- if settings.products_show_on_sale_and_sold_out_badges or settings.tag_badges != blank -%}
       {%- render 'product-tile-badges',
         on_sale: on_sale,
@@ -245,6 +246,7 @@
         product_tags: product.tags
       -%}
     {%- endif -%}
+    {% endcomment %}
   </div>
 
   {%- if render_labels_under_media -%}
@@ -255,11 +257,13 @@
     {%- endif -%}
   {%- endif -%}
 
-    {%- for tag in product.tags -%}
-    {%- if tag contains 'Preorder' -%}
-      <p class="po_tag">Preorder</p>
-    {%- endif -%}
-    {%- endfor -%}
+  {%- if settings.products_show_on_sale_and_sold_out_badges or settings.tag_badges != blank -%}
+      {%- render 'product-tile-badges',
+        on_sale: on_sale,
+        sold_out: sold_out,
+        product_tags: product.tags
+      -%}
+  {%- endif -%}
 
   {%- if render_labels_in_footer -%}
     <template
