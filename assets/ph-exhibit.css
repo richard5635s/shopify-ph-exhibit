@@ -156,3 +156,15 @@ ul[role="list"] {
     padding-left: 10px;
     padding-top: 0px;
 }
+.tag_new_post div {
+    position: relative;
+    text-align: left;
+    left: 0;
+    top: 0;
+}
+.tag_new_post div span {
+    padding-left: 0;
+}
+.tag_new_post {
+    text-align: left;
+}
