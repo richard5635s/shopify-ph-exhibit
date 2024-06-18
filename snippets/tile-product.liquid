@@ -258,11 +258,13 @@
   {%- endif -%}
 
   {%- if settings.products_show_on_sale_and_sold_out_badges or settings.tag_badges != blank -%}
+    <div class="tag_new_post">
       {%- render 'product-tile-badges',
         on_sale: on_sale,
         sold_out: sold_out,
         product_tags: product.tags
       -%}
+    </div>
   {%- endif -%}
 
   {%- if render_labels_in_footer -%}
