@@ -217,7 +217,7 @@
                     value="{{ value | escape }}"
                     data-handle="{{ value | handleize }}"
                     x-model="currentOption{{ option_array_index | plus: 1 }}"
-                    {% if option.selected_value == value %} checked{% endif %} data-single-option-selector
+                    data-single-option-selector
                   >
                   <label
                     class="{% unless variant_label_state %}text-scheme-secondary line-through{% else %}cursor-pointer{% endunless %}" for="Option{{ option.position }}-{{ value | escape }}"
