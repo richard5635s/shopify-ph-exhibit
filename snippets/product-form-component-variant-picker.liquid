@@ -222,7 +222,7 @@
                   <label
                     class="{% unless variant_label_state %}text-scheme-secondary line-through{% else %}cursor-pointer{% endunless %}" for="Option{{ option.position }}-{{ value | escape }}"
                   >
-                    <span :class="{ 'underline': optionHandles[{{ option_array_index }}] === '{{ value | handleize }}' }">{{ value }}</span>
+                    <span >{{ value }}</span>
                   </label>
                 </div>
               {% endfor %}
