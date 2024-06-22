@@ -92,11 +92,7 @@ window['Theme_Product'] = ({
       return '';
     },
     get current_price() {
-      if(current_variant == null){
-        
-      } else{
       return this.current_variant.price;
-      }
     },
     get isUsingSlideshowToDisplayMedia() {
       const splideEl = this.productRoot.querySelector('.splide');
