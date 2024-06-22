@@ -146,43 +146,6 @@
         "space_below": 1.5
       }
     },
-    "image_gallery_FeCdcr": {
-      "type": "image-gallery",
-      "blocks": {
-        "image_Rd3FwY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1.jpg",
-            "caption": "",
-            "link": "shopify:\/\/collections\/synthesis"
-          }
-        }
-      },
-      "block_order": [
-        "image_Rd3FwY"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "grid_type": "irregular",
-        "mobile_columns": "2",
-        "desktop_columns": 3,
-        "standard_layout_align_items": "items-start",
-        "modular_layout_variation": 1,
-        "modular_grid_item_aspect_ratio": 1,
-        "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
-        "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "natural",
-        "media_fill_space": true,
-        "labels_show_titles_and_captions": true,
-        "labels_display": "below_media",
-        "labels_always_show_on_mobile": false,
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 0
-      }
-    },
     "feature_text_BC7hzq": {
       "type": "feature-text",
       "disabled": true,
@@ -200,36 +163,6 @@
         "color_scheme": "",
         "space_above": 0,
         "space_below": 1
-      }
-    },
-    "products_carousel_UhnPLb": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "product_list": [
-          "whirlpool-black",
-          "whirpool-brown",
-          "whirlpool-bucket-bag-in-dark-teal",
-          "voyage-black",
-          "voyage-brown",
-          "voyage-tote-bag-in-white"
-        ],
-        "item_width_mobile": 60,
-        "item_width_desktop": 20,
-        "snap_alignment": "snap-center",
-        "align_items": "items-center",
-        "labels_show_titles_and_captions": false,
-        "labels_show_product_prices": false,
-        "labels_display": "below_media",
-        "labels_show_product_vendor": false,
-        "labels_always_show_on_mobile": false,
-        "show_index_and_total_slides": true,
-        "quick_view": "disabled",
-        "product_info_text_alignment": "center",
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
       }
     },
     "media_with_text_overlay_NaYhrA": {
@@ -267,7 +200,7 @@
         "content_width_on_desktop": "12",
         "title": "",
         "heading_size": "text-heading-feature",
-        "richtext": "<p><a href=\"\/collections\/archive-sale-end-2023\" title=\"SHOP ALL SALE\">Shop Now<\/a><\/p>",
+        "richtext": "<p><a href=\"\/collections\/archive-sale-end-2023\" title=\"SHOP ALL SALE\">Shop now<\/a><\/p>",
         "cta_link": "",
         "cta_label": "",
         "button_style": "",
@@ -333,7 +266,7 @@
             "color_scheme": "",
             "overlay_color": "bg-scheme-background",
             "enable_custom_color": false,
-            "custom_overlay_color": "#FFFFFF",
+            "custom_overlay_color": "#ffffff",
             "opacity": 80,
             "blend_mode": "normal"
           }
@@ -366,9 +299,7 @@
     "rich_text_4CJKqT",
     "feature_text_with_rich_text_yxM4Lm",
     "image_with_text_qEY4MV",
-    "image_gallery_FeCdcr",
     "feature_text_BC7hzq",
-    "products_carousel_UhnPLb",
     "media_with_text_overlay_NaYhrA",
     "media-with-text-overlay",
     "media_with_text_overlay_aBhf4w"
