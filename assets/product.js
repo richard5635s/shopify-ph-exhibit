@@ -229,7 +229,7 @@ window['Theme_Product'] = ({
 
         const url = ShopifyProductForm.getUrlWithVariant(
           window.location.href,
-          null
+          this.current_variant.id
         );
 
         if (!this.isQuickViewModal) {
