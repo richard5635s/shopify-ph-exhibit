@@ -8,7 +8,7 @@ window['Theme_Product'] = ({
     productForms: null,
     productRoot: null,
     product: product,
-    current_variant: null, // Do not set the variant initially
+    current_variant: variant,
     featured_media_id: featuredMediaID,
     current_media_id: featuredMediaID,
     current_media_alt: null,
@@ -21,9 +21,9 @@ window['Theme_Product'] = ({
     variantChanged: false,
     updateStoreAvailability: null,
     video_in_view: false,
-    currentOption1: '', // Initialize options as empty
-    currentOption2: '',
-    currentOption3: '',
+    currentOption1: variant.option1,
+    currentOption2: variant.option2,
+    currentOption3: variant.option3,
     inventoryData: null,
     isQuickViewModal: false,
     cartAddErrorMessage: null,
@@ -64,6 +64,7 @@ window['Theme_Product'] = ({
       }
     },
     get currentVariantAvailabilityClosestLocation() {
+      // this is on a lag to the actual current variant so that we can display an intermediary state while the fetch request is happening
       if (!Alpine.store('availability')) return null;
 
       const id = this.currentVariantId;
@@ -91,7 +92,7 @@ window['Theme_Product'] = ({
       return '';
     },
     get current_price() {
-      return this.current_variant ? this.current_variant.price : product.price;
+      return this.current_variant.price;
     },
     get isUsingSlideshowToDisplayMedia() {
       const splideEl = this.productRoot.querySelector('.splide');
@@ -110,6 +111,8 @@ window['Theme_Product'] = ({
         this.isQuickViewModal = true;
       }
 
+      // Set a product root for nested components
+      // to use instead of $root (which refers to their root)
       this.productRoot = this.$root;
 
       this.updateStoreAvailability = debounce(
@@ -127,6 +130,7 @@ window['Theme_Product'] = ({
         formEl.addEventListener('submit', this.submitForm.bind(this));
       }
 
+      //check if window is /cart page
       this.isCartPage = window.location.pathname === '/cart';
 
       this.getOptionHandles();
@@ -146,6 +150,12 @@ window['Theme_Product'] = ({
             ? true
             : false;
 
+        // There can be more than one media (e.g. for different breakpoints)
+        // so we check the offsetHeight to see if the wrapper could currently
+        // be visible
+
+        // https://davidwalsh.name/offsetheight-visibility
+
         this.$root
           .querySelectorAll(`[data-product-single-media-wrapper="${oldValue}"]`)
           .forEach((mediaWrapperEl) => {
@@ -162,6 +172,9 @@ window['Theme_Product'] = ({
           });
       });
 
+      this.updateStoreAvailability(this.current_variant);
+
+      //get inventory
       if (this.$root.querySelector('[data-variant-inventory]')) {
         this.inventoryData = JSON.parse(
           this.$root.querySelector('[data-variant-inventory]').innerHTML
@@ -173,8 +186,6 @@ window['Theme_Product'] = ({
           Shopify.PaymentButton.init();
         }
       }
-      
-      this.updatePriceDisplay();
     },
     __updateStoreAvailability(variant) {
       if (!this.$refs.storeAvailabilityContainer) return;
@@ -241,8 +252,6 @@ window['Theme_Product'] = ({
         );
 
         this.variantChanged = true;
-      } else {
-        this.updatePriceDisplay();
       }
     },
     getOptionHandles() {
@@ -314,6 +323,7 @@ window['Theme_Product'] = ({
             let errors = data.errors || data.description;
             let message = data.description || data.message;
 
+            // Gift card recipient form errors are handled in gift-card-recipient.js
             if (!this.hasGiftCardRecipientForm) {
               this.cartAddErrorMessage =
                 message || window.theme.strings.cartError;
@@ -364,14 +374,6 @@ window['Theme_Product'] = ({
             }
           }
         });
-    },
-    updatePriceDisplay() {
-      // Logic to update the displayed price when no variant is selected
-      // This could be setting the price to a default value, showing a message, etc.
-      const priceElement = this.$root.querySelector('.price');
-      if (priceElement) {
-        priceElement.textContent = this.formatMoney(product.price);
-      }
     },
     openZoom(mediaId) {
       const zoomModalId = `image-zoom-${this.productRoot.id}`;
