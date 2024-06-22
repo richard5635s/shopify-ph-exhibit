@@ -235,12 +235,6 @@
     "media_with_text_overlay_NaYhrA": {
       "type": "media-with-text-overlay",
       "blocks": {
-        "image_yjAzmN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHSALE_CPG.jpg"
-          }
-        },
         "color_overlay_QE9DEK": {
           "type": "color_overlay",
           "disabled": true,
@@ -252,11 +246,17 @@
             "opacity": 80,
             "blend_mode": "normal"
           }
+        },
+        "image_9AhFpV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHSALE2_CPG.jpg"
+          }
         }
       },
       "block_order": [
-        "image_yjAzmN",
-        "color_overlay_QE9DEK"
+        "color_overlay_QE9DEK",
+        "image_9AhFpV"
       ],
       "settings": {
         "enable_full_bleed": true,
