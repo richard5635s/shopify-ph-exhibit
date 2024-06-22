@@ -242,7 +242,7 @@
             "color_scheme": "",
             "overlay_color": "bg-scheme-background",
             "enable_custom_color": false,
-            "custom_overlay_color": "#FFFFFF",
+            "custom_overlay_color": "#ffffff",
             "opacity": 80,
             "blend_mode": "normal"
           }
@@ -262,16 +262,16 @@
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "1",
         "aspect_ratio_desktop": "full-screen",
-        "content_position": "justify-center items-center",
+        "content_position": "justify-center items-end",
         "text_align": "text-center",
         "content_width_on_desktop": "4",
         "title": "",
         "heading_size": "text-heading-feature",
         "richtext": "",
-        "cta_link": "",
+        "cta_link": "https:\/\/phcelebratesd100.com",
         "cta_label": "",
         "button_style": "",
-        "color_scheme": ""
+        "color_scheme": "scheme-d8d6f8e7-2871-4198-b5ea-fd2b7e1c641d"
       }
     },
     "media-with-text-overlay": {
