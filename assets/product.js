@@ -134,6 +134,7 @@ window['Theme_Product'] = ({
       this.isCartPage = window.location.pathname === '/cart';
 
       this.getOptionHandles();
+      console.log("option changed");
 
       this.$root.addEventListener('switch:product:slidechange', (e) => {
         this.current_media_id = parseInt(e.detail.current_media_id);
