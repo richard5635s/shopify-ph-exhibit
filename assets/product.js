@@ -92,6 +92,8 @@ window['Theme_Product'] = ({
       return '';
     },
     get current_price() {
+        console.log(current_variant);
+      console.log("variant");
       if(current_variant){
       return this.current_variant.price;
       } else {
