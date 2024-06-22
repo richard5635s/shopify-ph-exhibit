@@ -199,6 +199,7 @@ window['Theme_Product'] = ({
       }
     },
     optionChange() {
+      console.log("option changed");
       this.getOptionHandles();
 
       const matchedVariant = ShopifyProduct.getVariantFromOptionArray(
