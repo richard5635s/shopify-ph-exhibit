@@ -8,7 +8,7 @@ window['Theme_Product'] = ({
     productForms: null,
     productRoot: null,
     product: product,
-    current_variant: variant,
+    current_variant: null,
     featured_media_id: featuredMediaID,
     current_media_id: featuredMediaID,
     current_media_alt: null,
