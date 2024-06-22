@@ -8,7 +8,7 @@ window['Theme_Product'] = ({
     productForms: null,
     productRoot: null,
     product: product,
-    current_variant: null,
+    current_variant: variant,
     featured_media_id: featuredMediaID,
     current_media_id: featuredMediaID,
     current_media_alt: null,
@@ -21,9 +21,9 @@ window['Theme_Product'] = ({
     variantChanged: false,
     updateStoreAvailability: null,
     video_in_view: false,
-    currentOption1: "",
-    currentOption2: "",
-    currentOption3: "",
+    currentOption1: variant.option1,
+    currentOption2: variant.option2,
+    currentOption3: variant.option3,
     inventoryData: null,
     isQuickViewModal: false,
     cartAddErrorMessage: null,
@@ -66,7 +66,7 @@ window['Theme_Product'] = ({
     get currentVariantAvailabilityClosestLocation() {
       // this is on a lag to the actual current variant so that we can display an intermediary state while the fetch request is happening
       if (!Alpine.store('availability')) return null;
-     
+
       const id = this.currentVariantId;
       const storeData = Alpine.store('availability').availability[id];
 
@@ -134,7 +134,6 @@ window['Theme_Product'] = ({
       this.isCartPage = window.location.pathname === '/cart';
 
       this.getOptionHandles();
-      
 
       this.$root.addEventListener('switch:product:slidechange', (e) => {
         this.current_media_id = parseInt(e.detail.current_media_id);
@@ -190,6 +189,7 @@ window['Theme_Product'] = ({
     },
     __updateStoreAvailability(variant) {
       if (!this.$refs.storeAvailabilityContainer) return;
+
       this.storeAvailability =
         this.storeAvailability ||
         new StoreAvailability(this.$refs.storeAvailabilityContainer);
@@ -199,7 +199,6 @@ window['Theme_Product'] = ({
       }
     },
     optionChange() {
-      console.log("option changed");
       this.getOptionHandles();
 
       const matchedVariant = ShopifyProduct.getVariantFromOptionArray(
@@ -261,6 +260,7 @@ window['Theme_Product'] = ({
       const selectors = this.productForm.querySelectorAll(
         '[data-single-option-selector]'
       );
+
       selectors.forEach((selector) => {
         if (selector.nodeName === 'SELECT') {
           this.optionHandles.push(
