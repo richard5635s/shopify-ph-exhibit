@@ -8,6 +8,7 @@
 
 {% if current_variant != blank %}
   <button
+    data-text="{{- button_text -}}"
     class="add-to-cart-btn btn w-full {{ add_to_cart_class }} min-touch-target
     {% unless current_variant.available %} opacity-50 cursor-not-allowed {% endunless %}"
     type="submit"
