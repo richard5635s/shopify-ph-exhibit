@@ -92,7 +92,11 @@ window['Theme_Product'] = ({
       return '';
     },
     get current_price() {
+      if(variant){
       return this.current_variant.price;
+      } else {
+      return 30;
+      }
     },
     get isUsingSlideshowToDisplayMedia() {
       const splideEl = this.productRoot.querySelector('.splide');
@@ -190,10 +194,6 @@ window['Theme_Product'] = ({
     },
     __updateStoreAvailability(variant) {
       if (!this.$refs.storeAvailabilityContainer) return;
-if (variant){
-      console.log(variant);
-      console.log("variant");
-  
       this.storeAvailability =
         this.storeAvailability ||
         new StoreAvailability(this.$refs.storeAvailabilityContainer);
@@ -201,7 +201,6 @@ if (variant){
       if (this.storeAvailability && variant) {
         this.storeAvailability.fetchContent(variant);
       }
-}
     },
     optionChange() {
       console.log("option changed");
