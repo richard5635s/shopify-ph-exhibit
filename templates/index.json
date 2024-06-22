@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_gallery_taHeiy": {
@@ -223,6 +232,48 @@
         "space_below": 0.5
       }
     },
+    "media_with_text_overlay_NaYhrA": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_yjAzmN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHSALE_CPG.jpg"
+          }
+        },
+        "color_overlay_QE9DEK": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#FFFFFF",
+            "opacity": 80,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_yjAzmN",
+        "color_overlay_QE9DEK"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "same",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
+      }
+    },
     "media-with-text-overlay": {
       "type": "media-with-text-overlay",
       "blocks": {
@@ -275,6 +326,7 @@
     "image_gallery_FeCdcr",
     "feature_text_BC7hzq",
     "products_carousel_UhnPLb",
+    "media_with_text_overlay_NaYhrA",
     "media-with-text-overlay"
   ]
 }
