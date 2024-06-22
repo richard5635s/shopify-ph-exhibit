@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+  console.log("contentloaded");
     const sizeOptions = document.querySelectorAll('input[name="options[Size]"]');
     const button = document.querySelector('.add-to-cart-btn');
 
