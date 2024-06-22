@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     button.addEventListener('click', function () {
+      console.log("clicked");
       if (!document.querySelector('input[name="options[Size]"]:checked')) {
         button.innerText = 'Please select a size';
       }
