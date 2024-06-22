@@ -44,7 +44,7 @@ window['Theme_Product'] = ({
     },
     get currentVariantId() {
       if (this.current_variant) {
-        return this.current_variant.id;
+        return null;
       } else {
         return null;
       }
@@ -77,7 +77,6 @@ window['Theme_Product'] = ({
       }
     },
     get currentVariantAvailable() {
-       console.log("currentvariant");
       if (this.current_variant) {
         return this.current_variant.available;
       } else {
