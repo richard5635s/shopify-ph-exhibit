@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
       button.innerText = button.dataset.text;
       button.disabled = false;
     } else {
-      button.innerText = 'PLEASE SELECT A SIZE';
+      button.innerText = 'PLEASE SELECT SIZE';
       button.disabled = true;
     }
   }
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     if (!selectedOption) {
       event.preventDefault();
-      button.querySelector('div > span').innerText = 'PLEASE SELECT A SIZE';
+      button.querySelector('div > span').innerText = 'PLEASE SELECT SIZE';
     }
   });
 
