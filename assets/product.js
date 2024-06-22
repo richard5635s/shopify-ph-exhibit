@@ -191,7 +191,7 @@ window['Theme_Product'] = ({
     __updateStoreAvailability(variant) {
       if (!this.$refs.storeAvailabilityContainer) return;
       console.log(variant);
-
+if (variant){
       this.storeAvailability =
         this.storeAvailability ||
         new StoreAvailability(this.$refs.storeAvailabilityContainer);
@@ -199,6 +199,7 @@ window['Theme_Product'] = ({
       if (this.storeAvailability && variant) {
         this.storeAvailability.fetchContent(variant);
       }
+}
     },
     optionChange() {
       console.log("option changed");
