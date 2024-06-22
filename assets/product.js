@@ -92,13 +92,7 @@ window['Theme_Product'] = ({
       return '';
     },
     get current_price() {
-        console.log(current_variant);
-      console.log("variant");
-      if(current_variant){
       return this.current_variant.price;
-      } else {
-      return 30;
-      }
     },
     get isUsingSlideshowToDisplayMedia() {
       const splideEl = this.productRoot.querySelector('.splide');
@@ -106,6 +100,8 @@ window['Theme_Product'] = ({
       return splideIsNotDestroyed(splideEl);
     },
     formatMoney(price, moneyFormat = theme.defaultMoneyFormat) {
+        console.log(price);
+      console.log("price");
       return formatMoney(price, moneyFormat);
     },
     init() {
