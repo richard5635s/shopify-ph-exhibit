@@ -265,9 +265,9 @@ window['Theme_Product'] = ({
       console.log("getOptionHandles");
       selectors.forEach((selector) => {
         if (selector.nodeName === 'SELECT') {
-          this.optionHandles.push(
             console.log("option push");
-            
+          
+          this.optionHandles.push(
             selector.options[selector.selectedIndex].dataset.handle
           );
         } else {
