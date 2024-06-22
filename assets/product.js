@@ -92,7 +92,7 @@ window['Theme_Product'] = ({
       return '';
     },
     get current_price() {
-      return null;
+      return this.current_variant.price;
     },
     get isUsingSlideshowToDisplayMedia() {
       const splideEl = this.productRoot.querySelector('.splide');
