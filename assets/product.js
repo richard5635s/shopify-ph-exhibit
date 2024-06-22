@@ -66,7 +66,7 @@ window['Theme_Product'] = ({
     get currentVariantAvailabilityClosestLocation() {
       // this is on a lag to the actual current variant so that we can display an intermediary state while the fetch request is happening
       if (!Alpine.store('availability')) return null;
-      console.log("currentvariant");
+     
       const id = this.currentVariantId;
       const storeData = Alpine.store('availability').availability[id];
 
@@ -77,6 +77,7 @@ window['Theme_Product'] = ({
       }
     },
     get currentVariantAvailable() {
+       console.log("currentvariant");
       if (this.current_variant) {
         return this.current_variant.available;
       } else {
