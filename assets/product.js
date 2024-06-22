@@ -21,9 +21,9 @@ window['Theme_Product'] = ({
     variantChanged: false,
     updateStoreAvailability: null,
     video_in_view: false,
-    currentOption1: variant.option1,
-    currentOption2: variant.option2,
-    currentOption3: variant.option3,
+    currentOption1: "",
+    currentOption2: "",
+    currentOption3: "",
     inventoryData: null,
     isQuickViewModal: false,
     cartAddErrorMessage: null,
@@ -92,7 +92,7 @@ window['Theme_Product'] = ({
       return '';
     },
     get current_price() {
-      return 10000;
+      return this.current_variant.price;
     },
     get isUsingSlideshowToDisplayMedia() {
       const splideEl = this.productRoot.querySelector('.splide');
