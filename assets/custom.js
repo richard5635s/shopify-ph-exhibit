@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     if (!selectedOption) {
       event.preventDefault();
-      button.innerText = 'Please select a size';
+      button.querySelector('div > span').innerText = 'Please select a size';
     }
   });
 
