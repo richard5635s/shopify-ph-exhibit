@@ -4308,3 +4308,7 @@ html.no-js .no-js\:hidden {
   --tw-text-opacity: 1;
   color: rgb(var(--color-scheme-text) / var(--tw-text-opacity));
 }
+button.add-to-cart-btn.btn.w-full.btn--solid {
+    background-color: black;
+    color: white;
+}
