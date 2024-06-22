@@ -266,11 +266,12 @@ window['Theme_Product'] = ({
       selectors.forEach((selector) => {
         if (selector.nodeName === 'SELECT') {
           this.optionHandles.push(
+            console.log("option push");
+            
             selector.options[selector.selectedIndex].dataset.handle
           );
         } else {
           if (selector.checked) {
-            console.log("option push");
             this.optionHandles.push(selector.dataset.handle);
           }
         }
