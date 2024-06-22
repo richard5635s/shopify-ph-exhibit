@@ -315,6 +315,49 @@
         "button_style": "",
         "color_scheme": "scheme2"
       }
+    },
+    "media_with_text_overlay_aBhf4w": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_YU8AUU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOMA2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/STOMA3.jpg"
+          }
+        },
+        "color_overlay_qPGcdK": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#FFFFFF",
+            "opacity": 80,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_YU8AUU",
+        "color_overlay_qPGcdK"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "1",
+        "aspect_ratio_desktop": "full-screen",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
+      }
     }
   },
   "order": [
@@ -327,6 +370,7 @@
     "feature_text_BC7hzq",
     "products_carousel_UhnPLb",
     "media_with_text_overlay_NaYhrA",
-    "media-with-text-overlay"
+    "media-with-text-overlay",
+    "media_with_text_overlay_aBhf4w"
   ]
 }
