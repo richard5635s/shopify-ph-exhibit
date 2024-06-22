@@ -21,9 +21,9 @@ window['Theme_Product'] = ({
     variantChanged: false,
     updateStoreAvailability: null,
     video_in_view: false,
-    currentOption1: null,
-    currentOption2: null,
-    currentOption3: null,
+    currentOption1: "",
+    currentOption2: "",
+    currentOption3: "",
     inventoryData: null,
     isQuickViewModal: false,
     cartAddErrorMessage: null,
@@ -100,8 +100,6 @@ window['Theme_Product'] = ({
       return splideIsNotDestroyed(splideEl);
     },
     formatMoney(price, moneyFormat = theme.defaultMoneyFormat) {
-        console.log(price);
-      console.log("price");
       return formatMoney(price, moneyFormat);
     },
     init() {
