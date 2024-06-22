@@ -173,7 +173,7 @@ window['Theme_Product'] = ({
           });
       });
 
-      this.updateStoreAvailability(null);
+      this.updateStoreAvailability(this.current_variant);
 
       //get inventory
       if (this.$root.querySelector('[data-variant-inventory]')) {
@@ -229,7 +229,7 @@ window['Theme_Product'] = ({
 
         const url = ShopifyProductForm.getUrlWithVariant(
           window.location.href,
-          this.current_variant.id
+          null
         );
 
         if (!this.isQuickViewModal) {
