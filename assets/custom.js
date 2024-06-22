@@ -24,10 +24,11 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("clicked");
     const selectedOption = document.querySelector('input[name="options[Size]"]:checked');
     console.log(selectedOption);
-    
+    if (sizeOptions){
     if (!selectedOption) {
       event.preventDefault();
       button.querySelector('div > span').innerText = 'PLEASE SELECT SIZE';
+    }
     }
   });
 
