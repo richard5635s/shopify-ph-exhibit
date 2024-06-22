@@ -173,7 +173,7 @@ window['Theme_Product'] = ({
           });
       });
 
-      this.updateStoreAvailability(this.current_variant);
+      this.updateStoreAvailability(null);
 
       //get inventory
       if (this.$root.querySelector('[data-variant-inventory]')) {
