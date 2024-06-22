@@ -92,7 +92,7 @@ window['Theme_Product'] = ({
       return '';
     },
     get current_price() {
-      if(variant){
+      if(current_variant){
       return this.current_variant.price;
       } else {
       return 30;
