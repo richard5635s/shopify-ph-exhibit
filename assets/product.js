@@ -44,7 +44,7 @@ window['Theme_Product'] = ({
     },
     get currentVariantId() {
       if (this.current_variant) {
-        return null;
+        return this.current_variant.id;
       } else {
         return null;
       }
