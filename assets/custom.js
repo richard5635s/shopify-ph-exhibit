@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const selectedOption = document.querySelector('input[name="options[Size]"]:checked');
     
     if (selectedOption) {
-      button.innerText = 'PREORDER';
+      button.innerText = button.dataset.text;
       button.disabled = false;
     } else {
       button.innerText = 'Please select a size';
