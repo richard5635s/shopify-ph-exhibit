@@ -134,7 +134,7 @@ window['Theme_Product'] = ({
       this.isCartPage = window.location.pathname === '/cart';
 
       this.getOptionHandles();
-      console.log("init");
+      
 
       this.$root.addEventListener('switch:product:slidechange', (e) => {
         this.current_media_id = parseInt(e.detail.current_media_id);
@@ -262,7 +262,7 @@ window['Theme_Product'] = ({
       const selectors = this.productForm.querySelectorAll(
         '[data-single-option-selector]'
       );
-
+      console.log("getOptionHandles");
       selectors.forEach((selector) => {
         if (selector.nodeName === 'SELECT') {
           this.optionHandles.push(
@@ -270,6 +270,7 @@ window['Theme_Product'] = ({
           );
         } else {
           if (selector.checked) {
+            console.log("option push");
             this.optionHandles.push(selector.dataset.handle);
           }
         }
