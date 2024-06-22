@@ -66,7 +66,7 @@ window['Theme_Product'] = ({
     get currentVariantAvailabilityClosestLocation() {
       // this is on a lag to the actual current variant so that we can display an intermediary state while the fetch request is happening
       if (!Alpine.store('availability')) return null;
-
+      console.log("currentvariant");
       const id = this.currentVariantId;
       const storeData = Alpine.store('availability').availability[id];
 
@@ -262,11 +262,8 @@ window['Theme_Product'] = ({
       const selectors = this.productForm.querySelectorAll(
         '[data-single-option-selector]'
       );
-      console.log("getOptionHandles");
       selectors.forEach((selector) => {
         if (selector.nodeName === 'SELECT') {
-            console.log("option push");
-          
           this.optionHandles.push(
             selector.options[selector.selectedIndex].dataset.handle
           );
