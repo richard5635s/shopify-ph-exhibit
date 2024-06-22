@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const sizeOptions = document.querySelectorAll('input[name="options[Size]"]');
-    const button = document.getElementById('addToCartButton');
+    const button = document.querySelector('add-to-cart-btn');
 
     function optionChange() {
       const selectedOption = document.querySelector('input[name="options[Size]"]:checked');
