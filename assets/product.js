@@ -190,8 +190,10 @@ window['Theme_Product'] = ({
     },
     __updateStoreAvailability(variant) {
       if (!this.$refs.storeAvailabilityContainer) return;
-      console.log(variant);
 if (variant){
+      console.log(variant);
+      console.log("variant");
+  
       this.storeAvailability =
         this.storeAvailability ||
         new StoreAvailability(this.$refs.storeAvailabilityContainer);
