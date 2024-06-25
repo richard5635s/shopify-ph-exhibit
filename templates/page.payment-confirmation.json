@@ -14,7 +14,8 @@
       "custom_css": [
         "h1 {display: none;}",
         ".rte p:not(:first-child):not(:first-of-type) {text-indent: unset !important;}",
-        ".g-container p {opacity: 0;}"
+        ".g-container p {opacity: 0;}",
+        ".g-container .flex>.rte * {min-width: auto;}"
       ],
       "settings": {
         "text_alignment": "text-left",
