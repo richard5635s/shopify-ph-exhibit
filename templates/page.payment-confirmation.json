@@ -17,9 +17,26 @@
         "space_above": 1,
         "space_below": 1
       }
+    },
+    "1719293032afc2599e": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_QnpBNW": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "NDUzMjA"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_QnpBNW"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1719293032afc2599e"
   ]
 }
