@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "h1 {display: none;}"
+      ],
       "settings": {
         "text_alignment": "text-left",
         "color_scheme": "",
