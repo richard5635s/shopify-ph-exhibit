@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "text_alignment": "text-left",
         "color_scheme": "",
@@ -465,7 +466,6 @@
         "image_jUPHf4",
         "image_GbRRKH"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "standard",
@@ -507,7 +507,6 @@
       "block_order": [
         "text_dpdtWY"
       ],
-      "disabled": true,
       "settings": {
         "paral-full": true,
         "par_img_sz": "600",
