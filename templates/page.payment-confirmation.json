@@ -15,7 +15,8 @@
         "h1 {display: none;}",
         ".rte p:not(:first-child):not(:first-of-type) {text-indent: unset !important;}",
         ".g-container p {opacity: 0;}",
-        ".globo-form-control .gfb__dropzone--placeholder--description {text-align: center;}"
+        ".globo-form-control .gfb__dropzone--placeholder--description {text-align: center;}",
+        ".flex>.rte * {min-width: 0%;}"
       ],
       "settings": {
         "text_alignment": "text-left",
