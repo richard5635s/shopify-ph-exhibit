@@ -13,7 +13,8 @@
       "type": "main-page",
       "custom_css": [
         "h1 {display: none;}",
-        ".rte p:not(:first-child):not(:first-of-type) {text-indent: unset !important;}"
+        ".rte p:not(:first-child):not(:first-of-type) {text-indent: unset !important;}",
+        ".g-container p {opacity: 0;}"
       ],
       "settings": {
         "text_alignment": "text-left",
