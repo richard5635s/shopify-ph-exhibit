@@ -12,7 +12,8 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1 {display: none;}"
+        "h1 {display: none;}",
+        ".rte p:not(:first-child):not(:first-of-type) {text-indent: unset !important;}"
       ],
       "settings": {
         "text_alignment": "text-left",
