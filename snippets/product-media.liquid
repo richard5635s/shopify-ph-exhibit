@@ -264,7 +264,7 @@
     <div
       class="product-media-wrapper {{ product_media_wrapper_classes }}"
       {% if carousel_enabled %}
-        x-data="ThemeModule_Carousel({{ section.id | json }})"
+        x-data='ThemeModule_Carousel({{ section.id | json }})'
         x-init="mounted()"
         role="presentation"
       {% endif %}
@@ -286,7 +286,10 @@
               {% endif %}
               data-media-id="{{ media.id }}"
               x-ref="first-media"
-              {% unless section.settings.desktop_media_layout contains 'carousel' %}
+              {% unless section.settings.desktop_media_layout
+                  contains 'carousel'
+              %}
+              
                 :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
               {% endunless %}
             >
@@ -303,8 +306,6 @@
           {%- for media in product.media -%}
             {%- unless media.id == featured_media.id -%}
               {%- assign media_counter = media_counter | plus: 1 %}
-              {% comment %} use workaround, if the id is the same as  {% endcomment %}
-
               <li
                 class="product-media-list-item {{ product_media_list_item_classes }}"
                 {% if carousel_enabled %}
@@ -317,20 +318,20 @@
                   data-initial-slide="true"
                 {% endif %}
                 data-media-id="{{ media.id }}"
-                {% unless section.settings.desktop_media_layout contains 'carousel' %}
+                {% unless section.settings.desktop_media_layout
+                    contains 'carousel'
+                %}
                   :class="{ 'lg:-order-1' : current_media_id === {{ media.id }} }"
                 {% endunless %}
               >
-                {% comment %} {%- if media.alt == featured_media.alt or media.alt == "#all" -%} {% endcomment %}
-                  {%- render 'media',
-                    media: media,
-                    sizes: sizes,
-                    shown: true,
-                    always_shown: true,
-                    loading: loading,
-                    media_fit: section.settings.media_fit
-                  -%}
-                {% comment %} {%- endif -%} {% endcomment %}
+                {%- render 'media',
+                  media: media,
+                  sizes: sizes,
+                  shown: true,
+                  always_shown: true,
+                  loading: loading,
+                  media_fit: section.settings.media_fit
+                -%}
               </li>
             {%- endunless -%}
           {%- endfor -%}
