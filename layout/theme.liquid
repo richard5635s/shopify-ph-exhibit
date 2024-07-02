@@ -286,10 +286,12 @@
       {% render 'cart-drawer' %}
     {% endif %}
 
+    {% comment %}
     <script
       src="{{ 'alpine.bundle.min.js' | asset_url }}"
       type="module"
     ></script>
+    {% endcomment %}
 
     <script
       src="{{ 'load-images.js' | asset_url }}"
