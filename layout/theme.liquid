@@ -41,8 +41,8 @@
       render 'meta-tags'
       render 'js-bridge'
     -%}
-    {% comment %}
-    <script src="{{ 'custom.js' | asset_url }}" defer></script>{% endcomment %}
+
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
     <script src="{{ 'utils.js' | asset_url }}" defer></script>
     <script
       src="{{ 'polyfills-inert.bundle.min.js' | asset_url }}"
