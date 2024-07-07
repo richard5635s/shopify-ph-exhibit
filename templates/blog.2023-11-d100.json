@@ -1,0 +1,44 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "max_posts": 12,
+        "grid_type": "standard",
+        "mobile_columns": "1",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": true,
+        "enable_tags_navigation": true,
+        "show_title": true,
+        "show_author": false,
+        "show_date": true,
+        "show_excerpt": false,
+        "title_font": "font-heading text-heading-secondary",
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
