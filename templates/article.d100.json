@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "header": {
@@ -24,7 +33,7 @@
         "image_mcXTGx": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PH_DISNEYD100_CAVERN_MERFOLK_WHIRLPOOL.jpg",
+            "image": "shopify:\/\/shop_images\/DO01050367_dbf73522-13c1-4da5-b9b5-6487fd1ccfd4.jpg",
             "caption": "",
             "link": ""
           }
@@ -177,7 +186,7 @@
         "image_YkrYF6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/John_Pawson_03.jpg"
+            "image": "shopify:\/\/shop_images\/DO01050409_fecfe1c4-9421-4bce-89ae-3c19654b2654.jpg"
           }
         },
         "color_overlay_ri3DdQ": {
@@ -219,7 +228,7 @@
         "image_44N9Te": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/John_Pawson_05.jpg",
+            "image": "shopify:\/\/shop_images\/DO01050394_a71cff2b-d238-46a4-b0e7-a83df168cbd4.jpg",
             "caption": "",
             "link": ""
           }
@@ -227,7 +236,7 @@
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/John_Pawson_04.jpg",
+            "image": "shopify:\/\/shop_images\/DO01050385_105f3076-cf6d-44ba-89b3-7ba2f8f79fb5.jpg",
             "caption": "",
             "link": ""
           }
@@ -319,25 +328,86 @@
         "space_below": 1.5
       }
     },
-    "image_with_text_DEyP3m": {
-      "type": "image-with-text",
+    "image_slideshow_FaqLnN": {
+      "type": "image-slideshow",
+      "blocks": {
+        "image_aVTtMA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DO01050399_a1d2ba0d-dc6b-44ea-ad84-e72589df625b.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_HpGc7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DO01050422_48a58c7a-4c4f-4946-96c4-03be00512a9e.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_Y4VgKt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DO01050414_157b9125-0d60-4d7e-a532-bc5e2a52af8c.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_tbkfkH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DO01050419_96e23091-c3d6-464d-bfb6-88890f8f0393.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_dia7Ph": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DO01050411_bc3e4caa-433b-4727-92ea-7b4bd1f4eb0d.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_3UkgKY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DO01050410_faae569a-ca70-4f71-aee8-727a4c77ef93.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_kQHeh6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DO01050404_4f8b3020-9a33-449f-b712-9eadd4ff8626.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aVTtMA",
+        "image_HpGc7f",
+        "image_Y4VgKt",
+        "image_tbkfkH",
+        "image_dia7Ph",
+        "image_3UkgKY",
+        "image_kQHeh6"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Odd_Jobs_DanMahboubianRosen-1593x2048.jpg",
-        "media_aspect_ratio": "natural",
-        "image_position_on_desktop": "left",
-        "enable_full_bleed": false,
         "title": "",
-        "heading_size": "text-heading-secondary",
-        "richtext": "<h4>ODD JOBS The comedian with strong opinions about your home décor.<br\/><br\/>Dan Mahboubian Rosen hates your home. Well, “hate” might be too strong a word—but he certainly has opinions. The New York–based comedian (and regular contributor to <em>The New Yorker<\/em>) started posting roasts of popular interior trends on Instagram in 2020 after his stand-up gigs came to a halt during the pandemic. Now he’s taking his sometimes affronted, always informed criticism of interiors, art and design offline, judging people’s homes while they sit in the audience as part of his new show.<br\/><br\/>Elle Hunt: How does a stand-up comedian get into roasting interiors?<br\/><br\/>John Pawson: A great team, great clients, a lot of hard work—as I learnt from Kuramata—and a clear vision. I have always made work that makes sense to me, finding the essential and getting the design down to a point where you can’t add or subtract from it. And it’s the same approach for everything, including interior design and decoration. It’s a process of paring away to make spaces with atmosphere, where the emphasis is on the quality of the surfaces, junctions, light and proportions.<br\/><br\/>EM: How do you establish such a definitive and recognizable style and ensure it doesn’t become a parody of itself?<br\/><br\/>JP: It’s been there from the beginning. From a very young age I was interested in what makes space comfortable to be in. In Japan, in the very exclusive apartment that the foreign teachers were given, I found I couldn’t stand the wallpaper any longer. I painted the whole apartment white, but I got so obsessed that I started painting the second coat before the first coat had dried, which makes it forever sticky. I left Japan with that sticky wall as my legacy. The important thing is to remain true to what feels architecturally right, which is very personal. It’s why I’ve never wanted the practice to grow beyond its current size. I’ve always wanted to be properly involved in every project.… Perhaps it’s the Yorkshire in me. It goes back to that honest, plain-speaking approach.<br\/><br\/><\/h4>",
-        "cta_link": "",
-        "cta_label": "",
-        "image_width_on_desktop": "3",
-        "content_width_on_desktop": "0.6",
-        "content_alignment": "lg:items-top lg:justify-end",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
+        "section_height": "h-screen-adaptive",
+        "max_width_of_slides": 80,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "footer",
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": ""
       }
     }
   },
@@ -353,6 +423,6 @@
     "media_with_text_overlay_hGUJbB",
     "image_gallery_XiWEVV",
     "text_columns_g6P7qQ",
-    "image_with_text_DEyP3m"
+    "image_slideshow_FaqLnN"
   ]
 }
