@@ -169,3 +169,17 @@ ul[role="list"] {
 .tag_new_post {
     text-align: left;
 }
+
+/** SSDC edit **/
+
+.globo-form-app .message.success p {
+  opacity: 1 !important;
+}
+
+.globo-form-app .message.success {
+    background: white !important;
+      box-shadow: none !important;
+  text-align: left !important;
+  padding: 0 0 20px 0 !important;
+}
+
