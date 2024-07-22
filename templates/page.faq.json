@@ -33,7 +33,7 @@
           "type": "question",
           "settings": {
             "question": "Production Intern | Surabaya",
-            "answer": "<p>We are looking for a Production Intern to join our team.<br\/><br\/>This Position is only available to students undertaking an industry work placement, through university, studying fashion design or equivalent.<br\/><br\/><br\/>Requirements:<br\/><\/p><p>﻿﻿- Minimum 3-months period <\/p><p>﻿﻿- Knowledge of sewing and pattern making<\/p><p>﻿﻿- Motivated, organised and detail-oriented<\/p><p>﻿﻿- Ability to work with accuracy and meet deadlines<\/p><p>﻿﻿- Eager to learn and proactive with new tasks<\/p><p>﻿﻿- Proficient in Adobe Illustrator and Adobe Photoshop<\/p><p>﻿﻿- Located in Surabaya or willing to relocate<\/p><p><br\/>Submit your CV, portfolio and a cover letter to: <a href=\"mailto:career@peggyhartanto.com\" title=\"mailto:career@peggyhartanto.com\">career@peggyhartanto.com<\/a>, with the subject header 'Production Intern'<\/p>"
+            "answer": "<p>We are looking for a Production Intern to join our team.<br\/>This Position is only available to students undertaking an industry work placement, through university, studying fashion design or equivalent.<br\/><br\/>Requirements:<br\/><\/p><p>﻿﻿- Minimum 3-months period <\/p><p>- Knowledge of sewing and pattern making<\/p><p>﻿﻿- Motivated, organised and detail-oriented<\/p><p>﻿﻿- Ability to work with accuracy and meet deadlines<\/p><p>﻿﻿- Eager to learn and proactive with new tasks<\/p><p>﻿﻿- Proficient in Adobe Illustrator and Adobe Photoshop<\/p><p>﻿﻿- Located in Surabaya or willing to relocate<\/p><p><br\/>Submit your CV, portfolio and a cover letter to: <a href=\"mailto:career@peggyhartanto.com\" title=\"mailto:career@peggyhartanto.com\">career@peggyhartanto.com<\/a>, with the subject header 'Production Intern'<\/p>"
           }
         }
       },
@@ -41,6 +41,7 @@
         "question-1",
         "question-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "CAREERS",
         "question_font": "font-heading text-secondary",
@@ -49,10 +50,42 @@
         "space_above": 1,
         "space_below": 1
       }
+    },
+    "collapsible_rows_w86P73": {
+      "type": "collapsible-rows",
+      "blocks": {
+        "row_DqYBjb": {
+          "type": "row",
+          "settings": {
+            "title": "PRODUCTION ASSISTANT, Surabaya",
+            "expanded_content": "<p>We are looking a motivated Production Assistant to join our team.<br\/><br\/>Requirements:<\/p><ul><li> Degree in fashion or a related field<\/li><li>﻿﻿- Minimum 1 year Design Experience<\/li><li>﻿﻿- Proficient in MS Office, Adobe Photoshop, and Adobe Illustrator<\/li><li>﻿﻿- Strong design and conceptual skills with an understanding of PEGGY HARTANTO DNA<\/li><li>﻿﻿- Strong technical understanding of garment construction, pattern making, and garment fit<\/li><li>﻿﻿- Ability to hand sew and operate high-speed machines; ability to drape is a plus<\/li><li>﻿﻿- Strong communication, interpersonal skills, positive attitude and a team player<\/li><li>﻿﻿- Highly proactive, organised and takes initiative<\/li><li>﻿﻿- Ability to balance multiple projects, often with short deadlines<\/li><li>﻿﻿- Located in Surabaya<\/li><\/ul><p><br\/>Submit your CV, portfolio and a cover letter to: <a href=\"mailto:career@peggyhartanto.com\" title=\"mailto:career@peggyhartanto.com\">career@peggyhartanto.com<\/a>, with the subject header 'Production Assistant'<\/p>"
+          }
+        },
+        "row_rKPwtn": {
+          "type": "row",
+          "settings": {
+            "title": "PRODUCTION INTERN, Surabaya",
+            "expanded_content": "<p>We are looking for a Production Intern to join our team.<br\/>This Position is only available to students undertaking an industry work placement, through university, studying fashion design or equivalent.<br\/><br\/>Requirements:<\/p><ul><li>﻿﻿- Minimum 3-months period<\/li><li>- Knowledge of sewing and pattern making<\/li><li>﻿﻿- Motivated, organised and detail-oriented<\/li><li>﻿﻿- Ability to work with accuracy and meet deadlines<\/li><li>﻿﻿- Eager to learn and proactive with new tasks<\/li><li>﻿﻿- Proficient in Adobe Illustrator and Adobe Photoshop<\/li><li>﻿﻿- Located in Surabaya or willing to relocate<\/li><\/ul><p><br\/>Submit your CV, portfolio and a cover letter to: <a href=\"mailto:career@peggyhartanto.com\" title=\"mailto:career@peggyhartanto.com\">career@peggyhartanto.com<\/a>, with the subject header 'Production Intern'<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_DqYBjb",
+        "row_rKPwtn"
+      ],
+      "settings": {
+        "title": "CAREERS",
+        "heading_font": "font-heading text-secondary",
+        "expanded_content_max_width": "",
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
     }
   },
   "order": [
     "main",
-    "faq"
+    "faq",
+    "collapsible_rows_w86P73"
   ]
 }
