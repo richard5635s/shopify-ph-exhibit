@@ -151,7 +151,7 @@
         "text_dpdtWY": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_COL.jpg",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_ADAGIO2.jpg",
             "txt1-hd1": "",
             "parallax-h": "h2",
             "txt1-hd2": "",
@@ -165,7 +165,6 @@
       "block_order": [
         "text_dpdtWY"
       ],
-      "disabled": true,
       "settings": {
         "paral-full": true,
         "par_img_sz": "600",
