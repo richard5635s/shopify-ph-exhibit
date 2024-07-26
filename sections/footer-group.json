@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "Footer",
@@ -69,7 +78,7 @@
           "type": "newsletter",
           "settings": {
             "title": "Newsletter",
-            "richtext": "<p>Receive first access to our products, inspiration and services.<\/p>",
+            "richtext": "<p>Receive first access to our new collections and events.<\/p>",
             "show_top_border": false,
             "color_scheme": "scheme_1",
             "space_above": 1,
