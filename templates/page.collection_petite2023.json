@@ -48,64 +48,57 @@
         },
         "image_7pQebt": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_ZAKURO_KINCHAKU.jpg",
-            "caption": "ZAKURO set, KINCHAKU gloves",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_CADENZA_MESTO.jpg",
+            "caption": "CANDENZA dress, MESTO collar",
             "link": ""
           }
         },
         "image_NdegAC": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_MIKOSHI_SOMEN.jpg",
-            "caption": "MIKOSHI top, SOMEN skirt",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_PERCUSSION.jpg",
+            "caption": "PERCUSSION dress, TONE cap",
             "link": ""
           }
         },
         "image_ckAjjA": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_RIKSHA_ODORI_VOYAGE1.jpg",
-            "caption": "RIKSHA dress, VOYAGE tote bag, ODORI gloves",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_HARP_TIMBRE.jpg",
+            "caption": "HARP top, TIMBRE skirt",
             "link": ""
           }
         },
         "image_RbdBC8": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_OCHOKO_UCHIWA.jpg",
-            "caption": "OCHOKO top, UCHIWA skirt",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_TROMBONE.jpg",
+            "caption": "TROMBONE dress",
             "link": ""
           }
         },
         "image_8MhWkw": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_TSUKIMI_UCHIWA.jpg",
-            "caption": "TSUKIMI bralette, UCHIWA skirt",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_ARPEGGIO.jpg",
+            "caption": "ARPEGGIO dress, MESTO collar",
             "link": ""
           }
         },
         "image_dx8Eig": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_KANTO.jpg",
-            "caption": "KANTO dress",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_STRING_FANFARE.jpg",
+            "caption": "STRING top, FANFARE skirt",
             "link": ""
           }
         },
         "image_JjQyxE": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_ENICHI1.jpg",
-            "caption": "ENICHI dress",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_PRELUDE.jpg",
+            "caption": "PRELUDE dress",
             "link": ""
           }
         },
@@ -113,8 +106,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHARM_TSUKIMI_SANDO.jpg",
-            "caption": "TSUKIMI bralette, SANDO dress",
+            "image": "shopify:\/\/shop_images\/PH_PETITE_FANTASIA_ADAGIO.jpg",
+            "caption": "ADAGIO dress",
             "link": ""
           }
         },
