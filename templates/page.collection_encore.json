@@ -563,7 +563,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHENCORE_UNIVERS_FESTIN_ae22d75e-8e45-4b43-aeb3-fcf36f680c03.jpg",
-            "caption": "UNIVERS jacket, FESTIN dress",
+            "caption": "UNIVERS blazer, FESTIN dress",
             "link": ""
           }
         },
@@ -580,15 +580,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/PHENCORE_VARIETE_HIVER.jpg",
             "caption": "VARIETE coat, HIVER top",
-            "link": ""
-          }
-        },
-        "image_fPFgYB": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_SCENIQUE.jpg",
-            "caption": "SCENIQUE tote bag",
             "link": ""
           }
         },
@@ -618,7 +609,6 @@
         "image_bXz7ny",
         "image_TWwyYh",
         "image_3BkY8W",
-        "image_fPFgYB",
         "image_pKJrkT",
         "image_LmfAJK"
       ],
