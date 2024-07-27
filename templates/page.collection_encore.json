@@ -390,39 +390,19 @@
             "link": ""
           }
         },
-        "image_x6XTAm": {
+        "image_RgfMpp": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_GAIETE.jpg",
-            "caption": "GAIETE dress",
-            "link": ""
-          }
-        },
-        "image_VPpQVX": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_KINDER.jpg",
-            "caption": "KINDER dress",
+            "image": "shopify:\/\/shop_images\/PHENCORE_NUIT.jpg",
+            "caption": "NUIT bucket bag",
             "link": ""
           }
         },
         "image_rchfHJ": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_REVE_ESPRIT1.jpg",
-            "caption": "REVE bralette, ESPRIT skirt",
-            "link": ""
-          }
-        },
-        "image_RgfMpp": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_NUIT.jpg",
-            "caption": "NUIT bucket bag",
+            "image": "shopify:\/\/shop_images\/PHENCORE_SCENIQUE.jpg",
+            "caption": "SCENIQUE tote bag",
             "link": ""
           }
         }
@@ -474,10 +454,8 @@
         "image_HjaAbU",
         "image_9UxjVq",
         "image_r6MmMi",
-        "image_x6XTAm",
-        "image_VPpQVX",
-        "image_rchfHJ",
-        "image_RgfMpp"
+        "image_RgfMpp",
+        "image_rchfHJ"
       ],
       "settings": {
         "title": "",
@@ -565,15 +543,6 @@
             "link": ""
           }
         },
-        "image_UXc4cD": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_NUIT.jpg",
-            "caption": "NUIT bucket bag",
-            "link": ""
-          }
-        },
         "image_tyVL64": {
           "type": "image",
           "settings": {
@@ -614,29 +583,12 @@
             "link": ""
           }
         },
-        "image_brBTBC": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_SOURIS.jpg",
-            "caption": "SOURIS dress",
-            "link": ""
-          }
-        },
         "image_fPFgYB": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PHENCORE_SCENIQUE.jpg",
             "caption": "SCENIQUE tote bag",
-            "link": ""
-          }
-        },
-        "image_yQbytL": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_ELEGANCE.jpg",
-            "caption": "ELEGANCE coat",
             "link": ""
           }
         },
@@ -661,15 +613,12 @@
         "image_GRE3Vd",
         "image_dkWCCc",
         "image_UzYttW",
-        "image_UXc4cD",
         "image_tyVL64",
         "image_NmhJ36",
         "image_bXz7ny",
         "image_TWwyYh",
         "image_3BkY8W",
-        "image_brBTBC",
         "image_fPFgYB",
-        "image_yQbytL",
         "image_pKJrkT",
         "image_LmfAJK"
       ],
@@ -690,7 +639,7 @@
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
-        "space_above": 1,
+        "space_above": 0,
         "space_below": 1
       }
     }
