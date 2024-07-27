@@ -121,7 +121,7 @@
         "image_9CnB8t": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_REVERIE.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_REVERIE_003d3678-6ede-4d22-923a-965b7cd755e6.jpg",
             "caption": "REVERIE dress",
             "link": ""
           }
@@ -129,7 +129,7 @@
         "image_3VFqDc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_OVATION.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_OVATION_b9c956b0-51d2-4aaa-b117-b0d0da8905c1.jpg",
             "caption": "OVATION dress",
             "link": ""
           }
@@ -137,7 +137,7 @@
         "image_TwxrT3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_MERVEILLE.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_MERVEILLE_98a7e24a-8e57-403a-8c5e-d06cc432e581.jpg",
             "caption": "MERVEILLE dress",
             "link": ""
           }
@@ -145,15 +145,23 @@
         "image_zHeq6B": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_PIROUETTE_JOIE2.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_PIROUETTE_JOIE_1ac9c0f1-b599-4922-a2c0-97994813df8f.jpg",
             "caption": "PIROUETTE top, JOIE shorts",
+            "link": ""
+          }
+        },
+        "image_Dt6keQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHENCORE_ENFANT_be54a38c-5703-46e1-bcea-9d27594b3c16.jpg",
+            "caption": "ENFANT dress",
             "link": ""
           }
         },
         "image_pYpAQf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_RIDEAU.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_RIDEAU_686d2fd7-54ea-473f-9909-b9dd8136fb5c.jpg",
             "caption": "RIDEAU jumpsuit",
             "link": ""
           }
@@ -161,7 +169,7 @@
         "image_QYbNiq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_TRESOR_NUIT.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_TRESOR_NUIT_44bb7961-5dfa-49c5-a3b1-816c276cc1a4.jpg",
             "caption": "TRESOR jumpsuit, NUIT bucket bag",
             "link": ""
           }
@@ -169,23 +177,15 @@
         "image_Yc9wJz": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_SOURIS.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_SOURIS_08e2ee37-baa6-4d9f-a5ab-62efd76c9304.jpg",
             "caption": "SOURIS dress",
-            "link": ""
-          }
-        },
-        "image_Dt6keQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_ENFANT.jpg",
-            "caption": "ENFANT dress",
             "link": ""
           }
         },
         "image_7N4Awa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_FRISSON.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_FRISSON_f35c00e9-7a3b-4947-9db0-71177e90b16a.jpg",
             "caption": "FRISSON dress",
             "link": ""
           }
@@ -201,7 +201,7 @@
         "image_3Ty4xc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_MAITRE.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_MAITRE_3f1eeb4e-bced-4d0d-8b0b-611f3467610e.jpg",
             "caption": "MAITRE jumpsuit",
             "link": ""
           }
@@ -209,7 +209,7 @@
         "image_YBy8ie": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_FETE_ARTISTE1.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_FETE_ARTISTE1_206fc5d8-0f2a-4117-be6a-3bbc027540ab.jpg",
             "caption": "FETE top, ARTISTE pants",
             "link": ""
           }
@@ -217,7 +217,7 @@
         "image_pYnDwT": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_CASSE_PRECIS.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_CASSE_PRECIS_a633821b-c3c0-457b-8810-a9bb5c7a14e7.jpg",
             "caption": "CASSE top, PRECIS jumpsuit",
             "link": ""
           }
@@ -225,7 +225,7 @@
         "image_k8aGzF": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_MYSTERE.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_MYSTERE_bfae8c63-5b65-4831-af35-43a9cccf0177.jpg",
             "caption": "MYSTERE dress",
             "link": ""
           }
@@ -233,7 +233,7 @@
         "image_jzDjJw": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_ETOILE1.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_ETOILE2_c35aa8c4-1acd-44cc-9858-f715c44beae3.jpg",
             "caption": "ETOILE dress",
             "link": ""
           }
@@ -241,7 +241,7 @@
         "image_wgm49A": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_QUETE1.jpg",
+            "image": "shopify:\/\/shop_images\/PHENCORE_QUETE2_c096b5ef-9d5e-4b09-9d1b-b51a35153578.jpg",
             "caption": "QUETE dress",
             "link": ""
           }
@@ -424,10 +424,10 @@
         "image_3VFqDc",
         "image_TwxrT3",
         "image_zHeq6B",
+        "image_Dt6keQ",
         "image_pYpAQf",
         "image_QYbNiq",
         "image_Yc9wJz",
-        "image_Dt6keQ",
         "image_7N4Awa",
         "image_LWfBAN",
         "image_3Ty4xc",
