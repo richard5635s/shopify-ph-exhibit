@@ -54,19 +54,11 @@
             "link": ""
           }
         },
-        "image_KNtnbq": {
+        "image_AcyffR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_NUANCE.jpg",
-            "caption": "NUANCE dress",
-            "link": ""
-          }
-        },
-        "image_hXwjzx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_BARRE_FEERIE.jpg",
-            "caption": "BARRE top, FEERIE skirt",
+            "image": "shopify:\/\/shop_images\/PHENCORE_NOEL_GRACE.jpg",
+            "caption": "NOEL top, GRACE skirt",
             "link": ""
           }
         },
@@ -78,11 +70,19 @@
             "link": ""
           }
         },
-        "image_AcyffR": {
+        "image_KNtnbq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHENCORE_NOEL_GRACE.jpg",
-            "caption": "NOEL top, GRACE skirt",
+            "image": "shopify:\/\/shop_images\/PHENCORE_NUANCE.jpg",
+            "caption": "NUANCE dress",
+            "link": ""
+          }
+        },
+        "image_hXwjzx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHENCORE_BARRE_FEERIE2.jpg",
+            "caption": "BARRE top, FEERIE skirt",
             "link": ""
           }
         },
@@ -412,10 +412,10 @@
         "image_dzNqxE",
         "image_jUPHf4",
         "image_j6xUqU",
+        "image_AcyffR",
+        "image_RkfKqV",
         "image_KNtnbq",
         "image_hXwjzx",
-        "image_RkfKqV",
-        "image_AcyffR",
         "image_eanLRH",
         "image_n8hUdF",
         "image_FBpfT8",
