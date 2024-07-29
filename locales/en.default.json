@@ -585,7 +585,10 @@
         "optional_address2_label": "Subdistrict"
       },
       "delivery_options": {
-        "pick_up_in_five_or_more_days": "You will receive a notification once your order is ready"
+        "pick_up_in_five_or_more_days": "You will receive a notification once your order is ready",
+        "pick_up_in_two_to_four_days": "You will receive a notification once your order is ready",
+        "pick_up_in_zero_to_two_hours": "You will receive a notification once your order is ready",
+        "pick_up_in_two_to_four_hours": "You will receive a notification once your order is ready"
       }
     }
   }
