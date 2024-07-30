@@ -81,7 +81,7 @@
           "settings": {
             "enable_payment_button": false,
             "space_above": 1,
-            "show_pickup_availability": true,
+            "show_pickup_availability": false,
             "show_gift_card_recipient": true
           }
         },
