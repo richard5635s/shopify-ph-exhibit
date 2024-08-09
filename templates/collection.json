@@ -11,6 +11,7 @@
   "sections": {
     "rich_text_HHUykP": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "title": "2024, Petite",
         "richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
