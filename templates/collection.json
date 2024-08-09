@@ -1,5 +1,28 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "rich_text_HHUykP": {
+      "type": "rich-text",
+      "settings": {
+        "title": "2024, Petite",
+        "richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text_alignment": "text-left",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -90,6 +113,7 @@
     }
   },
   "order": [
+    "rich_text_HHUykP",
     "banner",
     "image_with_text_PtiLDG",
     "product-grid"
