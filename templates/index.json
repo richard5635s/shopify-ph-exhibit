@@ -12,12 +12,11 @@
     "image_gallery_taHeiy": {
       "type": "image-gallery",
       "blocks": {
-        "image_pWCpKT": {
+        "image_hJMHy4": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHD100_CPG_ee28fedb-e398-4b7d-9b11-8ddf7cbee3d3.jpg",
-            "caption": "PH Celebrates Disney100",
+            "image": "shopify:\/\/shop_images\/PHPETITE24_CPG2.jpg",
+            "caption": "2023, Atlantis",
             "link": ""
           }
         },
@@ -28,20 +27,11 @@
             "caption": "Leather Goods",
             "link": ""
           }
-        },
-        "image_hJMHy4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PH_ATLNT_CPG2_ee29746b-82d0-415d-bc04-4b5d97105543.jpg",
-            "caption": "2023, Atlantis",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "image_pWCpKT",
-        "image_Bi9cEQ",
-        "image_hJMHy4"
+        "image_hJMHy4",
+        "image_Bi9cEQ"
       ],
       "disabled": true,
       "settings": {
@@ -55,7 +45,7 @@
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "natural",
+        "media_aspect_ratio": "0.6667",
         "media_fill_space": true,
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
