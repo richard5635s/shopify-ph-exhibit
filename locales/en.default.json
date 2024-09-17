@@ -145,7 +145,7 @@
       "note": "Order Instructions\/Add a message if this order is a gift",
       "subtotal": "Subtotal",
       "new_subtotal": "New subtotal",
-      "shipping_at_checkout": "Shipping & taxes calculated at checkout",
+      "shipping_at_checkout": "Shipping fee calculated at checkout",
       "update": "Update Bag",
       "checkout": "Check Out",
       "empty": "Your bag is currently empty.",
