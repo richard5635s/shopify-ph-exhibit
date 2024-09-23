@@ -432,7 +432,7 @@
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "0.6667",
+        "media_aspect_ratio": "natural",
         "media_fill_space": false,
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
