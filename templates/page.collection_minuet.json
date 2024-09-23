@@ -1,0 +1,643 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "text-left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "image_gallery_rVVmqd": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_GbRRKH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_PRINCE_EQUILIBRE_c15a8210-ac8e-4922-911f-21028eac5312.jpg",
+            "caption": "PRINCE top, EQUILIBRE pants",
+            "link": ""
+          }
+        },
+        "image_dzNqxE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_ROI_TCHAIKO_DECOR_cb83ea60-589a-4f27-bf66-4e0058163b3c.jpg",
+            "caption": "TCHAIKO vest, ROI top, DECOR pants",
+            "link": ""
+          }
+        },
+        "image_jUPHf4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_SAUT_CLARA_cfd2e678-116d-405a-a2ad-df0931accb7a.jpg",
+            "caption": "SAUT top, CLARA skirt",
+            "link": ""
+          }
+        },
+        "image_j6xUqU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_MIME_COURAGE_8eecb02e-c4ad-47f6-b1ca-0c560404640c.jpg",
+            "caption": "MIME top, COURAGE shorts",
+            "link": ""
+          }
+        },
+        "image_AcyffR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_NOEL_GRACE_1e8a2e39-4ca2-4d23-938d-1c947d12675e.jpg",
+            "caption": "NOEL top, GRACE skirt",
+            "link": ""
+          }
+        },
+        "image_RkfKqV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_NOEL_SPECTACLE_CADEAU_81d81e1c-35ba-4496-b124-76efa0207a67.jpg",
+            "caption": "NOEL top, SPECTACLE vest, CADEAU pants",
+            "link": ""
+          }
+        },
+        "image_hXwjzx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_BARRE_FEERIE2.jpg",
+            "caption": "BARRE top, FEERIE skirt",
+            "link": ""
+          }
+        },
+        "image_KNtnbq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_NUANCE_d58b8458-0eb5-464c-82c1-0e01ed637b74.jpg",
+            "caption": "NUANCE dress",
+            "link": ""
+          }
+        },
+        "image_eanLRH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_SOURIRE_22b48416-a2e2-49d5-9be8-710ff496d050.jpg",
+            "caption": "SOURIRE dress",
+            "link": ""
+          }
+        },
+        "image_n8hUdF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_GIVRE_SOURIRE.jpg",
+            "caption": "GIVRE mini bag",
+            "link": ""
+          }
+        },
+        "image_FBpfT8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_INTERPRETE_f2130849-8990-4013-985e-e3ccd971abdc.jpg",
+            "caption": "INTERPRETE dress",
+            "link": ""
+          }
+        },
+        "image_Y4r3kx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_MUSIQUE1_de7d6733-3a9f-487d-9f2b-d59543d880de.jpg",
+            "caption": "MUSIQUE dress",
+            "link": ""
+          }
+        },
+        "image_9CnB8t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_REVERIE_003d3678-6ede-4d22-923a-965b7cd755e6.jpg",
+            "caption": "REVERIE dress",
+            "link": ""
+          }
+        },
+        "image_3VFqDc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_OVATION_b9c956b0-51d2-4aaa-b117-b0d0da8905c1.jpg",
+            "caption": "OVATION dress",
+            "link": ""
+          }
+        },
+        "image_TwxrT3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_MERVEILLE_98a7e24a-8e57-403a-8c5e-d06cc432e581.jpg",
+            "caption": "MERVEILLE dress",
+            "link": ""
+          }
+        },
+        "image_zHeq6B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_PIROUETTE_JOIE_1ac9c0f1-b599-4922-a2c0-97994813df8f.jpg",
+            "caption": "PIROUETTE top, JOIE shorts",
+            "link": ""
+          }
+        },
+        "image_Dt6keQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_ENFANT_be54a38c-5703-46e1-bcea-9d27594b3c16.jpg",
+            "caption": "ENFANT dress",
+            "link": ""
+          }
+        },
+        "image_Yc9wJz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_SOURIS_08e2ee37-baa6-4d9f-a5ab-62efd76c9304.jpg",
+            "caption": "SOURIS dress",
+            "link": ""
+          }
+        },
+        "image_QYbNiq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_TRESOR_NUIT_44bb7961-5dfa-49c5-a3b1-816c276cc1a4.jpg",
+            "caption": "TRESOR jumpsuit, NUIT bucket bag",
+            "link": ""
+          }
+        },
+        "image_pYpAQf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_RIDEAU_686d2fd7-54ea-473f-9909-b9dd8136fb5c.jpg",
+            "caption": "RIDEAU jumpsuit",
+            "link": ""
+          }
+        },
+        "image_7N4Awa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_FRISSON_f35c00e9-7a3b-4947-9db0-71177e90b16a.jpg",
+            "caption": "FRISSON dress",
+            "link": ""
+          }
+        },
+        "image_LWfBAN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_PAS.jpg",
+            "caption": "PAS top",
+            "link": ""
+          }
+        },
+        "image_3Ty4xc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_MAITRE_3f1eeb4e-bced-4d0d-8b0b-611f3467610e.jpg",
+            "caption": "MAITRE jumpsuit",
+            "link": ""
+          }
+        },
+        "image_YBy8ie": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_FETE_ARTISTE1_206fc5d8-0f2a-4117-be6a-3bbc027540ab.jpg",
+            "caption": "FETE top, ARTISTE pants",
+            "link": ""
+          }
+        },
+        "image_pYnDwT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_CASSE_PRECIS_a633821b-c3c0-457b-8810-a9bb5c7a14e7.jpg",
+            "caption": "CASSE top, PRECIS jumpsuit",
+            "link": ""
+          }
+        },
+        "image_k8aGzF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_MYSTERE_bfae8c63-5b65-4831-af35-43a9cccf0177.jpg",
+            "caption": "MYSTERE dress",
+            "link": ""
+          }
+        },
+        "image_jzDjJw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_ETOILE2_c35aa8c4-1acd-44cc-9858-f715c44beae3.jpg",
+            "caption": "ETOILE dress",
+            "link": ""
+          }
+        },
+        "image_wgm49A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_QUETE2_c096b5ef-9d5e-4b09-9d1b-b51a35153578.jpg",
+            "caption": "QUETE dress",
+            "link": ""
+          }
+        },
+        "image_YaLk3C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_ETOFFE_396431c6-112b-4226-bf53-f6de1042cd9f.jpg",
+            "caption": "ETOFFE gown",
+            "link": ""
+          }
+        },
+        "image_V6JPzm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_LUMINEUX2_a93997e0-a584-4bf5-a8a3-533eba28f558.jpg",
+            "caption": "LUMINEUX dress",
+            "link": ""
+          }
+        },
+        "image_6Jze3c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_CHAUSSON_d6a270fb-653b-4a4a-b85a-fd20c8e90c8b.jpg",
+            "caption": "CHAUSSON dress",
+            "link": ""
+          }
+        },
+        "image_4abjhj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_GALANT_a15c3255-3e36-4d46-af45-42ab118f494b.jpg",
+            "caption": "GALANT dress",
+            "link": ""
+          }
+        },
+        "image_JAqaR6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_CONTE_FLEXI_37d803a0-e3f5-498f-802a-bd53308ea8f8.jpg",
+            "caption": "CONTE top, FLEXI skirt",
+            "link": ""
+          }
+        },
+        "image_UWAPi4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_JEU_POINTES1_75a7fc88-710b-430f-89b2-eaa7d6c5b9c7.jpg",
+            "caption": "JEU top, POINTES dress",
+            "link": ""
+          }
+        },
+        "image_BArJW3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_POINTES_e5259e32-a449-4f12-b36d-3218ae38f92a.jpg",
+            "caption": "POINTES dress",
+            "link": ""
+          }
+        },
+        "image_xTzDwA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_ELEGANCE_edf1e8f8-6edd-414b-9c1a-1b38229f0773.jpg",
+            "caption": "ELEGANCE coat",
+            "link": ""
+          }
+        },
+        "image_H6bKG3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_FANTASIE_8d27b039-fd1f-48de-83c3-b3291bd1b68a.jpg",
+            "caption": "FANTASIE dress",
+            "link": ""
+          }
+        },
+        "image_MejG3c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_IVRESSE_ECHAUFFE_d9940b24-2f4f-4b66-a991-a3528e1e92b1.jpg",
+            "caption": "IVRESE cape, ECHAUFFE dress",
+            "link": ""
+          }
+        },
+        "image_x7Rr4x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_ECHAUFFE2.jpg",
+            "caption": "ECHAUFFE dress",
+            "link": ""
+          }
+        },
+        "image_KwHYBj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_ARABESQUE_b7bd9616-f231-41d3-a522-1b7784bef92e.jpg",
+            "caption": "ARABESQUE dress",
+            "link": ""
+          }
+        },
+        "image_g6TB3d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_PAILLETTE_DANSE_REVE2_a839693c-9530-4bda-beaa-e4edd2953b45.jpg",
+            "caption": "PAILLETTE jacket, REVE bralette, DANSE skirt",
+            "link": ""
+          }
+        },
+        "image_riwF6p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_ACTE_LUMIERE_COURAGE_8baee97f-af4b-44df-8026-0024b45be803.jpg",
+            "caption": "ACTE top, LUMIERE vest, COURAGE shorts",
+            "link": ""
+          }
+        },
+        "image_8YeaGm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_BATAILLE_5aa05aff-0ad0-4082-a157-9e4716c6ffe3.jpg",
+            "caption": "BATAILLE dress",
+            "link": ""
+          }
+        },
+        "image_HjaAbU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_MAGIE_8cbc867a-b927-4fde-a405-8666298fdfd6.jpg",
+            "caption": "MAGIE dress",
+            "link": ""
+          }
+        },
+        "image_9UxjVq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_POSTURE_e6d6cdda-415a-4766-8961-fba160228825.jpg",
+            "caption": "POSTURE dress",
+            "link": ""
+          }
+        },
+        "image_r6MmMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_AVENTURE_POSTURE_71817c6b-3cee-4015-85a7-c52a2bbc4228.jpg",
+            "caption": "AVENTURE jacket, POSTURE dress",
+            "link": ""
+          }
+        },
+        "image_RgfMpp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_NUIT.jpg",
+            "caption": "NUIT bucket bag",
+            "link": ""
+          }
+        },
+        "image_rchfHJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_SCENIQUE.jpg",
+            "caption": "SCENIQUE tote bag",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GbRRKH",
+        "image_dzNqxE",
+        "image_jUPHf4",
+        "image_j6xUqU",
+        "image_AcyffR",
+        "image_RkfKqV",
+        "image_hXwjzx",
+        "image_KNtnbq",
+        "image_eanLRH",
+        "image_n8hUdF",
+        "image_FBpfT8",
+        "image_Y4r3kx",
+        "image_9CnB8t",
+        "image_3VFqDc",
+        "image_TwxrT3",
+        "image_zHeq6B",
+        "image_Dt6keQ",
+        "image_Yc9wJz",
+        "image_QYbNiq",
+        "image_pYpAQf",
+        "image_7N4Awa",
+        "image_LWfBAN",
+        "image_3Ty4xc",
+        "image_YBy8ie",
+        "image_pYnDwT",
+        "image_k8aGzF",
+        "image_jzDjJw",
+        "image_wgm49A",
+        "image_YaLk3C",
+        "image_V6JPzm",
+        "image_6Jze3c",
+        "image_4abjhj",
+        "image_JAqaR6",
+        "image_UWAPi4",
+        "image_BArJW3",
+        "image_xTzDwA",
+        "image_H6bKG3",
+        "image_MejG3c",
+        "image_x7Rr4x",
+        "image_KwHYBj",
+        "image_g6TB3d",
+        "image_riwF6p",
+        "image_8YeaGm",
+        "image_HjaAbU",
+        "image_9UxjVq",
+        "image_r6MmMi",
+        "image_RgfMpp",
+        "image_rchfHJ"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "0.6667",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "parralax_ibnhY7": {
+      "type": "Parralax",
+      "blocks": {
+        "text_dpdtWY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_COL.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": false,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dpdtWY"
+      ],
+      "disabled": true,
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "600",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 1,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
+      }
+    },
+    "image_gallery_MKBccY": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_GRE3Vd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_GAIETE_5760bf11-7bbb-446e-98db-fb9092df8c6b.jpg",
+            "caption": "GAIETE dress",
+            "link": ""
+          }
+        },
+        "image_dkWCCc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_KINDER_8c6e9ce1-8544-47ca-b306-fe24a6ca6cb7.jpg",
+            "caption": "KINDER dress",
+            "link": ""
+          }
+        },
+        "image_UzYttW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_REVE_ESPRIT1_0cac77a3-8d54-42be-878a-d775a19569f7.jpg",
+            "caption": "REVE bralette, ESPRIT skirt",
+            "link": ""
+          }
+        },
+        "image_tyVL64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_GLISSE_HEROINE_JOIE_cea104a3-35a1-414b-a4b5-7ccb04cca864.jpg",
+            "caption": "GLISSE top, HEROINE jacket, JOIE shorts",
+            "link": ""
+          }
+        },
+        "image_NmhJ36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_FESTIN_98ba352c-6804-4819-91cc-c04c1b49ec3d.jpg",
+            "caption": "FESTIN dress",
+            "link": ""
+          }
+        },
+        "image_bXz7ny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_UNIVERS_FESTIN_ae22d75e-8e45-4b43-aeb3-fcf36f680c03.jpg",
+            "caption": "UNIVERS blazer, FESTIN dress",
+            "link": ""
+          }
+        },
+        "image_TWwyYh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_HIVER_TUTU_a479d9ef-aefd-4e3b-8d05-3b41286b3e19.jpg",
+            "caption": "HIVER top, TUTU skirt",
+            "link": ""
+          }
+        },
+        "image_3BkY8W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_VARIETE_HIVER.jpg",
+            "caption": "VARIETE coat, HIVER top",
+            "link": ""
+          }
+        },
+        "image_pKJrkT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_CHORE_FEERIE_9275f3ed-f248-4e8a-a807-d27416f92dc9.jpg",
+            "caption": "CHORE top, FEERIE skirt",
+            "link": ""
+          }
+        },
+        "image_LmfAJK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHENCORE_VOLIERE.jpg",
+            "caption": "VOLIERE dress",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GRE3Vd",
+        "image_dkWCCc",
+        "image_UzYttW",
+        "image_tyVL64",
+        "image_NmhJ36",
+        "image_bXz7ny",
+        "image_TWwyYh",
+        "image_3BkY8W",
+        "image_pKJrkT",
+        "image_LmfAJK"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_gallery_rVVmqd",
+    "parralax_ibnhY7",
+    "image_gallery_MKBccY"
+  ]
+}
