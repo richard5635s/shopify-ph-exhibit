@@ -102,19 +102,19 @@
             "link": ""
           }
         },
-        "image_TwxrT3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_GLISSADE.jpg",
-            "caption": "GLISADE jumpsuit",
-            "link": ""
-          }
-        },
         "image_zHeq6B": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHMINUET_TIPTOE_GALLOP.jpg",
             "caption": "TIPTOE top, GALLOP dress",
+            "link": ""
+          }
+        },
+        "image_pD3XKc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_GALLOP.jpg",
+            "caption": "GALLOP dress",
             "link": ""
           }
         },
@@ -126,8 +126,17 @@
             "link": ""
           }
         },
+        "image_r6MmMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_JIVE.jpg",
+            "caption": "JIVE dress",
+            "link": ""
+          }
+        },
         "image_Yc9wJz": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PHMINUET_LOCOMOTE.jpg",
             "caption": "LOCOMOTE dress",
@@ -326,14 +335,6 @@
             "link": ""
           }
         },
-        "image_8YeaGm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_SALCHOW.jpg",
-            "caption": "SALCHOW dress",
-            "link": ""
-          }
-        },
         "image_HjaAbU": {
           "type": "image",
           "settings": {
@@ -350,19 +351,19 @@
             "link": ""
           }
         },
-        "image_r6MmMi": {
+        "image_8YeaGm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_JIVE.jpg",
-            "caption": "JIVE dress",
+            "image": "shopify://shop_images/PHMINUET_SALCHOW.jpg",
+            "caption": "SALCHOW dress",
             "link": ""
           }
         },
-        "image_RgfMpp": {
+        "image_dimCnm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_TEMPSLEVE.jpg",
-            "caption": "TEMSPLEVE dress",
+            "image": "shopify://shop_images/PHMINUET_GLISSADE.jpg",
+            "caption": "GLISSADE jumpsuit",
             "link": ""
           }
         },
@@ -371,6 +372,14 @@
           "settings": {
             "image": "shopify://shop_images/PHMINUET_SOBRESAUT_FLICK_FLUTTER1.jpg",
             "caption": "FLUTTER top, SOBRESAUT jacket, FLICK shorts",
+            "link": ""
+          }
+        },
+        "image_DiFU6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_RONDDEJAMBE.jpg",
+            "caption": "RONDDEJAMBE dress",
             "link": ""
           }
         }
@@ -386,9 +395,10 @@
         "image_Y4r3kx",
         "image_9CnB8t",
         "image_3VFqDc",
-        "image_TwxrT3",
         "image_zHeq6B",
+        "image_pD3XKc",
         "image_Dt6keQ",
+        "image_r6MmMi",
         "image_Yc9wJz",
         "image_QYbNiq",
         "image_pYpAQf",
@@ -414,12 +424,12 @@
         "image_KwHYBj",
         "image_g6TB3d",
         "image_riwF6p",
-        "image_8YeaGm",
         "image_HjaAbU",
         "image_9UxjVq",
-        "image_r6MmMi",
-        "image_RgfMpp",
-        "image_rchfHJ"
+        "image_8YeaGm",
+        "image_dimCnm",
+        "image_rchfHJ",
+        "image_DiFU6d"
       ],
       "settings": {
         "title": "",
@@ -483,11 +493,11 @@
     "image_gallery_MKBccY": {
       "type": "image-gallery",
       "blocks": {
-        "image_GRE3Vd": {
+        "image_tyVL64": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_TWIZZLE.jpg",
-            "caption": "TWIZZLE dress",
+            "image": "shopify://shop_images/PHMINUET_VIREVOLTE.jpg",
+            "caption": "VIREVOLTE dress",
             "link": ""
           }
         },
@@ -499,43 +509,11 @@
             "link": ""
           }
         },
-        "image_UzYttW": {
+        "image_GRE3Vd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_RONDDEJAMBE.jpg",
-            "caption": "RONDDEJAMBE dress",
-            "link": ""
-          }
-        },
-        "image_tyVL64": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_VIREVOLTE.jpg",
-            "caption": "VIREVOLTE dress",
-            "link": ""
-          }
-        },
-        "image_NmhJ36": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_CABRIOLE_ZIG.jpg",
-            "caption": "CABRIOLE dress, ZIG bag",
-            "link": ""
-          }
-        },
-        "image_bXz7ny": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_PASDEDEUX1.jpg",
-            "caption": "PASDEDEUX dress",
-            "link": ""
-          }
-        },
-        "image_TWwyYh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_ATTITUDE.jpg",
-            "caption": "ATTITUDE gown",
+            "image": "shopify://shop_images/PHMINUET_TWIZZLE.jpg",
+            "caption": "TWIZZLE dress",
             "link": ""
           }
         },
@@ -547,11 +525,43 @@
             "link": ""
           }
         },
-        "image_pKJrkT": {
+        "image_TWwyYh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_GALLOP.jpg",
-            "caption": "GALLOP dress",
+            "image": "shopify://shop_images/PHMINUET_ATTITUDE.jpg",
+            "caption": "ATTITUDE gown",
+            "link": ""
+          }
+        },
+        "image_bXz7ny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_PASDEDEUX1.jpg",
+            "caption": "PASDEDEUX dress",
+            "link": ""
+          }
+        },
+        "image_j9NWe4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_LOCOMOTE.jpg",
+            "caption": "LOCOMOTE dress",
+            "link": ""
+          }
+        },
+        "image_UrYykX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_TEMPSLEVE.jpg",
+            "caption": "TEMPSLEVE dress",
+            "link": ""
+          }
+        },
+        "image_NmhJ36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_CABRIOLE_ZIG.jpg",
+            "caption": "CABRIOLE dress, ZIG bag",
             "link": ""
           }
         },
@@ -565,15 +575,15 @@
         }
       },
       "block_order": [
-        "image_GRE3Vd",
-        "image_dkWCCc",
-        "image_UzYttW",
         "image_tyVL64",
-        "image_NmhJ36",
-        "image_bXz7ny",
-        "image_TWwyYh",
+        "image_dkWCCc",
+        "image_GRE3Vd",
         "image_3BkY8W",
-        "image_pKJrkT",
+        "image_TWwyYh",
+        "image_bXz7ny",
+        "image_j9NWe4",
+        "image_UrYykX",
+        "image_NmhJ36",
         "image_LmfAJK"
       ],
       "settings": {
