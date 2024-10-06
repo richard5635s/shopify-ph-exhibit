@@ -86,14 +86,6 @@
             "link": ""
           }
         },
-        "image_9CnB8t": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_COURU_HOP.jpg",
-            "caption": "COURU top, HOP pants",
-            "link": ""
-          }
-        },
         "image_3VFqDc": {
           "type": "image",
           "settings": {
@@ -180,6 +172,14 @@
           "settings": {
             "image": "shopify://shop_images/PHMINUET_PASDECHAT.jpg",
             "caption": "PASDECHAT dress",
+            "link": ""
+          }
+        },
+        "image_9CnB8t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_COURU_HOP.jpg",
+            "caption": "COURU top, HOP pants",
             "link": ""
           }
         },
@@ -393,7 +393,6 @@
         "image_n8hUdF",
         "image_FBpfT8",
         "image_Y4r3kx",
-        "image_9CnB8t",
         "image_3VFqDc",
         "image_zHeq6B",
         "image_pD3XKc",
@@ -405,6 +404,7 @@
         "image_7N4Awa",
         "image_LWfBAN",
         "image_3Ty4xc",
+        "image_9CnB8t",
         "image_YBy8ie",
         "image_pYnDwT",
         "image_k8aGzF",
