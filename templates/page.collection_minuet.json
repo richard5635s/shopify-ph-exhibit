@@ -207,19 +207,19 @@
             "link": ""
           }
         },
-        "image_jzDjJw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_QUIVER2.jpg",
-            "caption": "QUIVER dress",
-            "link": ""
-          }
-        },
         "image_wgm49A": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHMINUET_REBOUND_SAFF.jpg",
             "caption": "REBOUND dress, SAFF mini bag",
+            "link": ""
+          }
+        },
+        "image_jzDjJw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_QUIVER2.jpg",
+            "caption": "QUIVER dress",
             "link": ""
           }
         },
@@ -408,8 +408,8 @@
         "image_YBy8ie",
         "image_pYnDwT",
         "image_k8aGzF",
-        "image_jzDjJw",
         "image_wgm49A",
+        "image_jzDjJw",
         "image_YaLk3C",
         "image_V6JPzm",
         "image_6Jze3c",
