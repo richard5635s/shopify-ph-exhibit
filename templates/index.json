@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "feature_text_NyfVw4": {
       "type": "feature-text",
       "disabled": true,
       "settings": {
-        "richtext": "<p>Leather Goods<\/p>",
+        "richtext": "<p>Leather Goods</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -36,7 +36,7 @@
       ],
       "settings": {
         "title": "",
-        "richtext": "<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br\/>Words by Francis Martine. Photography by Alixe Lay.<\/p>",
+        "richtext": "<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br/>Words by Francis Martine. Photography by Alixe Lay.</p>",
         "text_alignment": "text-center",
         "cta_link": "",
         "cta_label": "",
@@ -50,13 +50,13 @@
       "type": "feature-text-with-rich-text",
       "disabled": true,
       "settings": {
-        "feature_text": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+        "feature_text": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
         "font": "font-main",
         "desktop_text_scale": 0,
         "mobile_text_scale": 0,
         "feature_text_position_on_desktop": "left",
         "feature_text_width_on_desktop": "6",
-        "richtext": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+        "richtext": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
         "cta_link": "",
         "cta_label": "",
         "show_top_border": false,
@@ -72,13 +72,13 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/f1253408606625e994b8becb31f79c91.jpg",
+        "image": "shopify://shop_images/f1253408606625e994b8becb31f79c91.jpg",
         "media_aspect_ratio": "1.333",
         "image_position_on_desktop": "left",
         "enable_full_bleed": true,
         "title": "Efficacious pairings",
         "heading_size": "text-heading-standard",
-        "richtext": "<p>Our consultants have long combined complementary formulations to effect additional benefits for the skin. Incorporate this time-honoured practice into your regimen with our recommended bundles.<br\/><br\/><a href=\"\/collections\/atlantis\" title=\"ATLANTIS\">Browse Skin Care Bundles<\/a><\/p>",
+        "richtext": "<p>Our consultants have long combined complementary formulations to effect additional benefits for the skin. Incorporate this time-honoured practice into your regimen with our recommended bundles.<br/><br/><a href=\"/collections/atlantis\" title=\"ATLANTIS\">Browse Skin Care Bundles</a></p>",
         "cta_link": "",
         "cta_label": "",
         "image_width_on_desktop": "7",
@@ -115,7 +115,7 @@
         "image_CRzPLw": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHCHRM6_CPG.jpg"
+            "image": "shopify://shop_images/ENCORE_CPG3.jpg"
           }
         },
         "media-with-text-overlay-1": {
@@ -145,7 +145,7 @@
         "title": "",
         "heading_size": "text-heading-secondary",
         "richtext": "",
-        "cta_link": "shopify:\/\/collections\/collection-charm",
+        "cta_link": "shopify://collections/collection-charm",
         "cta_label": "",
         "button_style": "",
         "color_scheme": "scheme2"
@@ -157,17 +157,17 @@
         "image_hJMHy4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHPETITE24_CPG0.jpg",
+            "image": "shopify://shop_images/PHPETITE24_CPG0.jpg",
             "caption": "2024, Petite",
-            "link": "shopify:\/\/collections\/petite-2024"
+            "link": "shopify://collections/petite-2024"
           }
         },
         "image_Bi9cEQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_5661.jpg",
+            "image": "shopify://shop_images/IMG_5661.jpg",
             "caption": "Handbags, WHIRLPOOL",
-            "link": "shopify:\/\/collections\/handbags"
+            "link": "shopify://collections/handbags"
           }
         }
       },
@@ -202,8 +202,8 @@
         "image_YU8AUU": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/STOMA2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/STOMA3.jpg"
+            "image": "shopify://shop_images/STOMA2.jpg",
+            "image_mobile": "shopify://shop_images/STOMA3.jpg"
           }
         },
         "color_overlay_qPGcdK": {
@@ -233,7 +233,7 @@
         "title": "",
         "heading_size": "text-heading-feature",
         "richtext": "",
-        "cta_link": "shopify:\/\/collections\/category-wallets",
+        "cta_link": "shopify://collections/category-wallets",
         "cta_label": "",
         "button_style": "",
         "color_scheme": ""
