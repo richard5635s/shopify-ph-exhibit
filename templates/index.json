@@ -154,6 +154,14 @@
     "image_gallery_taHeiy": {
       "type": "image-gallery",
       "blocks": {
+        "image_Bi9cEQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/STOMA_Black3.jpg",
+            "caption": "STOMA, Card Holder",
+            "link": "shopify://collections/handbags"
+          }
+        },
         "image_hJMHy4": {
           "type": "image",
           "settings": {
@@ -161,19 +169,11 @@
             "caption": "2024, Petite",
             "link": "shopify://collections/petite-2024"
           }
-        },
-        "image_Bi9cEQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_5661.jpg",
-            "caption": "Handbags, WHIRLPOOL",
-            "link": "shopify://collections/handbags"
-          }
         }
       },
       "block_order": [
-        "image_hJMHy4",
-        "image_Bi9cEQ"
+        "image_Bi9cEQ",
+        "image_hJMHy4"
       ],
       "settings": {
         "title": "",
