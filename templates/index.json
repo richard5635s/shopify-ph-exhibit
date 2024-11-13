@@ -121,7 +121,7 @@
             "color_scheme": "",
             "overlay_color": "bg-scheme-background",
             "enable_custom_color": false,
-            "custom_overlay_color": "#FFFFFF",
+            "custom_overlay_color": "#ffffff",
             "opacity": 80,
             "blend_mode": "normal"
           }
@@ -131,7 +131,6 @@
         "image_aixUDT",
         "color_overlay_6AnTMc"
       ],
-      "disabled": true,
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "0.66",
@@ -142,7 +141,7 @@
         "title": "",
         "heading_size": "text-heading-feature",
         "richtext": "",
-        "cta_link": "",
+        "cta_link": "https://peggyhartanto.com/collections/archive-sale-2024",
         "cta_label": "",
         "button_style": "",
         "color_scheme": ""
@@ -174,6 +173,7 @@
         "image_CRzPLw",
         "media-with-text-overlay-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "1",
@@ -214,6 +214,7 @@
         "image_hJMHy4",
         "image_Bi9cEQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "justified",
