@@ -31,9 +31,7 @@
     "rich_text_4CJKqT": {
       "type": "rich-text",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "richtext": "<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br/>Words by Francis Martine. Photography by Alixe Lay.</p>",
@@ -68,9 +66,7 @@
     "image_with_text_qEY4MV": {
       "type": "image-with-text",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/f1253408606625e994b8becb31f79c91.jpg",
         "media_aspect_ratio": "1.333",
@@ -107,6 +103,49 @@
         "color_scheme": "",
         "space_above": 0,
         "space_below": 1
+      }
+    },
+    "media_with_text_overlay_YMmQP3": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_aixUDT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WEB.jpg"
+          }
+        },
+        "color_overlay_6AnTMc": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#FFFFFF",
+            "opacity": 80,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_aixUDT",
+        "color_overlay_6AnTMc"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "0.66",
+        "aspect_ratio_desktop": "full-screen",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
       }
     },
     "media-with-text-overlay": {
@@ -246,6 +285,7 @@
     "feature_text_with_rich_text_yxM4Lm",
     "image_with_text_qEY4MV",
     "feature_text_BC7hzq",
+    "media_with_text_overlay_YMmQP3",
     "media-with-text-overlay",
     "image_gallery_taHeiy",
     "media_with_text_overlay_aBhf4w"
