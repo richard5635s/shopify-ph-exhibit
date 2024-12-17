@@ -15,10 +15,10 @@
       "type": "announcement-bar",
       "settings": {
         "home_page_only": false,
-        "display": "static",
-        "text": "Our office will be closed from 25 December 2024 to 1 January 2025 — please place your orders by 23 December 2024 to ensure shipment before year-end.",
+        "display": "scrolling_text",
+        "text": "We are closed 25 Dec 2024 – 1 Jan 2025. Order by 23 Dec for year-end shipping.",
         "link": "",
-        "repeat_text": true,
+        "repeat_text": false,
         "speed": 60,
         "direction": "",
         "color_scheme": "scheme-68476694-1360-4dd7-b10b-5953d15ce8c6"
