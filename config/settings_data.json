@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "enable_sidebar": false,
@@ -17,8 +17,8 @@
     "sidebar_width_on_desktop": "2",
     "sidebar_max_content_width": 720,
     "sidebar_color_scheme": "scheme1",
-    "logo": "shopify:\/\/shop_images\/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png",
-    "logo_alternate": "shopify:\/\/shop_images\/PH___LOGOTYPE-02.png",
+    "logo": "shopify://shop_images/PH___LOGOTYPE-01_93c13755-4a71-46c0-9363-2f33b96e3936.png",
+    "logo_alternate": "shopify://shop_images/PH___LOGOTYPE-02.png",
     "logo_liquid": "",
     "site_title_font": "font-main",
     "base_font_size": 13,
@@ -88,20 +88,20 @@
     "cart_vendor_enable": false,
     "cart_notes_enable": true,
     "open_drawer_on_add_to_cart": true,
-    "social_instagram_link": "https:\/\/www.instagram.com\/peggyhartanto",
-    "social_facebook_link": "https:\/\/www.facebook.com\/peggyhartantortw",
+    "social_instagram_link": "https://www.instagram.com/peggyhartanto",
+    "social_facebook_link": "https://www.facebook.com/peggyhartantortw",
     "social_twitter_link": "",
     "social_pinterest_link": "",
     "social_snapchat_link": "",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_youtube_link": "",
-    "social_linkedin_link": "https:\/\/id.linkedin.com\/company\/peggyhartanto",
+    "social_linkedin_link": "https://id.linkedin.com/company/peggyhartanto",
     "social_email_link": "contaact@peggyhartanto.com",
     "outline_color": "text",
     "outline_thickness": "0.05rem",
-    "favicon": "shopify:\/\/shop_images\/PEGGY___FA___LOGOGRAM_WEB_Black_97f6998d-a341-49d2-b9b9-41fbb2566736.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/PH___LOGOTYPE-01_e5d49dd7-3198-4904-adad-95d8dc62015e.png",
+    "favicon": "shopify://shop_images/PEGGY___FA___LOGOGRAM_WEB_Black_97f6998d-a341-49d2-b9b9-41fbb2566736.png",
+    "checkout_logo_image": "shopify://shop_images/PH___LOGOTYPE-01_e5d49dd7-3198-4904-adad-95d8dc62015e.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#ffffff",
@@ -139,27 +139,22 @@
     "heading_text_transform": "uppercase",
     "base_heading_size": "text-2xl lg:text-5xl",
     "grid_gutter": 112,
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "3782161271425840822": {
-        "type": "shopify:\/\/apps\/ns-image-swatch-variant-option\/blocks\/nestscale_product_variant\/53eb5ed4-3892-414c-808b-3ea84516b10d",
+        "type": "shopify://apps/ns-image-swatch-variant-option/blocks/nestscale_product_variant/53eb5ed4-3892-414c-808b-3ea84516b10d",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "3294164036280357830": {
-        "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3",
+        "type": "shopify://apps/mlv-auto-currency-switcher/blocks/mlveda-currencies-head/92ab730f-097e-4571-b27c-3f449e098ca3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6279071938380501511": {
-        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -205,7 +200,7 @@
       },
       "scheme-68476694-1360-4dd7-b10b-5953d15ce8c6": {
         "settings": {
-          "background": "#f9f9f9",
+          "background": "#daffda",
           "text": "#000000",
           "accent": "#000000",
           "accent_contrast": "#050505",
@@ -327,9 +322,7 @@
       "heading_text_transform": "uppercase",
       "base_heading_size": "text-2xl lg:text-5xl",
       "grid_gutter": 112,
-      "content_for_index": [
-
-      ],
+      "content_for_index": [],
       "color_schemes": {
         "scheme1": {
           "settings": {
@@ -454,9 +447,7 @@
       "heading_text_transform": "uppercase",
       "base_heading_size": "text-2xl lg:text-5xl",
       "grid_gutter": 112,
-      "content_for_index": [
-
-      ],
+      "content_for_index": [],
       "color_schemes": {
         "scheme1": {
           "settings": {
@@ -579,9 +570,7 @@
       "heading_text_transform": "uppercase",
       "base_heading_size": "text-2xl lg:text-5xl",
       "grid_gutter": 112,
-      "content_for_index": [
-
-      ],
+      "content_for_index": [],
       "color_schemes": {
         "scheme1": {
           "settings": {
@@ -607,8 +596,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
