@@ -15,8 +15,8 @@
       "type": "announcement-bar",
       "settings": {
         "home_page_only": false,
-        "display": "scrolling_text",
-        "text": "We are closed 25 Dec 2024 – 1 Jan 2025. Order by 23 Dec for year-end shipping.",
+        "display": "static",
+        "text": "Holiday Closure: 25 December – 1 January. Orders placed after 23 December will be shipped on 2 January",
         "link": "",
         "repeat_text": false,
         "speed": 60,
