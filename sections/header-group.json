@@ -14,7 +14,7 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "settings": {
-        "home_page_only": false,
+        "home_page_only": true,
         "display": "static",
         "text": "Holiday Closure: 25 December – 1 January. Orders placed after 23 December will be shipped on 2 January",
         "link": "",
