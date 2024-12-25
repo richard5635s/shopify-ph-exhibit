@@ -1553,7 +1553,7 @@ button {
   right: var(--button-padding-x);
 }
 .top-0 {
-  top:none;
+  top:auto;
 }
 .top-1 {
   top: 0.25rem;
