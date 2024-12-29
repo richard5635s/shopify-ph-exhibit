@@ -111,7 +111,7 @@
         "image_aixUDT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WEB.jpg"
+            "image": "shopify://shop_images/2_c4c2337f-0cf6-4776-ae9c-13cb21475618.jpg"
           }
         },
         "color_overlay_6AnTMc": {
@@ -134,10 +134,10 @@
       "disabled": true,
       "settings": {
         "enable_full_bleed": true,
-        "aspect_ratio_mobile": "0.66",
+        "aspect_ratio_mobile": "1",
         "aspect_ratio_desktop": "full-screen",
         "content_position": "justify-center items-start",
-        "text_align": "text-center",
+        "text_align": "text-right",
         "content_width_on_desktop": "4",
         "title": "",
         "heading_size": "text-heading-feature",
