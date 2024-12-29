@@ -163,7 +163,7 @@
 <header
   id="{{ section.id }}"
   x-data="{}"
-  class="{% if overlay_header %}{{ overlay_color_classes }} absolute top-0 left-0 right-0 z-20 transition-colors duration-300 {% else %}bg-scheme-background text-scheme-text {% endif %} {% render 'type-scale-classes', mobile_text_scale: section.settings.mobile_text_scale, desktop_text_scale: section.settings.desktop_text_scale %}"
+  class="{% if overlay_header %}{{ overlay_color_classes }} absolute {% comment %} top-0 {% endcomment %} left-0 right-0 z-20 transition-colors duration-300 {% else %}bg-scheme-background text-scheme-text {% endif %} {% render 'type-scale-classes', mobile_text_scale: section.settings.mobile_text_scale, desktop_text_scale: section.settings.desktop_text_scale %}"
   data-css-variable="--header-height"
   data-color-scheme="{{ color_scheme }}"
   data-theme-header
