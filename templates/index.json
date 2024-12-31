@@ -193,6 +193,14 @@
     "image_gallery_taHeiy": {
       "type": "image-gallery",
       "blocks": {
+        "image_Bi9cEQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCNY4.jpg",
+            "caption": "Exclusive, Lunar New Year 2025",
+            "link": "https://www.masarishop.com/brands/peggy-hartanto.html"
+          }
+        },
         "image_GpJy8R": {
           "type": "image",
           "settings": {
@@ -203,26 +211,18 @@
         },
         "image_hJMHy4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PHPETITE24_CPG0.jpg",
             "caption": "2024, Petite",
             "link": "shopify://collections/petite-2024"
           }
-        },
-        "image_Bi9cEQ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/WHIRLPOOL_Brown1_69ed296f-db47-46f6-99bc-ecda367ab290.jpg",
-            "caption": "WHIRLPOOL, Bucket Bag",
-            "link": "shopify://collections/handbags"
-          }
         }
       },
       "block_order": [
+        "image_Bi9cEQ",
         "image_GpJy8R",
-        "image_hJMHy4",
-        "image_Bi9cEQ"
+        "image_hJMHy4"
       ],
       "settings": {
         "title": "",
