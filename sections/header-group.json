@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "home_page_only": false,
         "display": "static",
-        "text": "HOLIDAY CLOSURE:  25 DECEMBER – 1 JANUARY. ORDERS PLACED AFTER 23 DECEMBER WILL BE SHIPPED ON 2 JANUARY",
+        "text": "HOLIDAY CLOSURE:  27 – 29 JANUARY. ORDERS PLACED AFTER 26 JANUARY WILL BE SHIPPED ON 30 JANUARY",
         "link": "",
         "repeat_text": false,
         "speed": 60,
