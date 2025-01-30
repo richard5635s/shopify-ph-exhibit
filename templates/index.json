@@ -195,6 +195,7 @@
       "blocks": {
         "image_Bi9cEQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/LNYEDIT.jpg",
             "caption": "2025, Lunar New Year Edit",
@@ -211,7 +212,6 @@
         },
         "image_hJMHy4": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PHPETITE24_CPG0.jpg",
             "caption": "2024, Petite",
