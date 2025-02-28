@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -23,7 +23,7 @@
       "type": "feature-text",
       "disabled": true,
       "settings": {
-        "richtext": "<p>Customer Service Hours:<br\/>Mon–Sat 10:00–17:00 (GMT+7)<br\/>Closed on Sundays\/Holidays<br\/><br\/>General Enquiries: <a href=\"mailto:contact@peggyhartanto.com\" target=\"_blank\" title=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com<br\/><\/a>WhatsApp: <a href=\"https:\/\/wa.me\/62818877988\" target=\"_blank\" title=\"https:\/\/wa.me\/62818877988\">+62 818 877 988<br\/><br\/><\/a>Wholesale Enquiries: <a href=\"mailto:lydia@peggyhartanto.com\" target=\"_blank\" title=\"mailto:lydia@peggyhartanto.com\">lydia@peggyhartanto.com<br\/><\/a>Press Enquiries: <a href=\"mailto:press@peggyhartanto.com\" target=\"_blank\" title=\"mailto:press@peggyhartanto.com\">press@peggyhartanto.com<br\/><\/a><\/p>",
+        "richtext": "<p>Customer Service Hours:<br/>Mon–Sat 10:00–17:00 (GMT+7)<br/>Closed on Sundays/Holidays<br/><br/>General Enquiries: <a href=\"mailto:contact@peggyhartanto.com\" target=\"_blank\" title=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com<br/></a>WhatsApp: <a href=\"https://wa.me/62818877988\" target=\"_blank\" title=\"https://wa.me/62818877988\">+62 818 877 988<br/><br/></a>Wholesale Enquiries: <a href=\"mailto:lydia@peggyhartanto.com\" target=\"_blank\" title=\"mailto:lydia@peggyhartanto.com\">lydia@peggyhartanto.com<br/></a>Press Enquiries: <a href=\"mailto:press@peggyhartanto.com\" target=\"_blank\" title=\"mailto:press@peggyhartanto.com\">press@peggyhartanto.com<br/></a></p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -46,7 +46,7 @@
           "disabled": true,
           "settings": {
             "title": "Heading",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "cta_link": "",
             "cta_label": ""
           }
@@ -55,7 +55,7 @@
           "type": "row",
           "settings": {
             "title": "",
-            "text": "<p>PEGGY HARTANTO HQ<br\/>Surabaya Showroom<br\/><a href=\"https:\/\/calendly.com\/peggyhartanto\/phhq?month=2024-03\" title=\"https:\/\/calendly.com\/peggyhartanto\/phhq?month=2024-03\">by appointment only<\/a><br\/><br\/>Jl. Imam Bonjol 29, 3rd floor<br\/>Dr. Soetomo, Tegalsari<br\/>Surabaya 60264<br\/><a href=\"https:\/\/maps.app.goo.gl\/WSiogjRrGFtFy2vz7\" title=\"https:\/\/maps.app.goo.gl\/WSiogjRrGFtFy2vz7\">Directions<\/a><br\/><br\/>Customer Service Hours:<br\/>Mon–Sat 10:00–17:00 (GMT+7)<br\/>Closed on Sundays\/Holidays<br\/><br\/>General Enquiries: <a href=\"mailto:contact@peggyhartanto.com\" target=\"_blank\" title=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com<br\/><\/a>WhatsApp: <a href=\"https:\/\/wa.me\/62818877988\" target=\"_blank\" title=\"https:\/\/wa.me\/62818877988\">+62 818 877 988<br\/><br\/><\/a>Wholesale Enquiries: <a href=\"mailto:lydia@peggyhartanto.com\" target=\"_blank\" title=\"mailto:lydia@peggyhartanto.com\">lydia@peggyhartanto.com<br\/><\/a>Press Enquiries: <a href=\"mailto:press@peggyhartanto.com\" target=\"_blank\" title=\"mailto:press@peggyhartanto.com\">press@peggyhartanto.com<br\/><\/a><br\/><br\/>PR REPRESENTATIVE<br\/><br\/>Brooklyn PR<br\/>4515 West Adams Blvd, Los Angeles,<br\/>CA 90016, United States<br\/><a href=\"https:\/\/brooklynprla.com\/\" target=\"_blank\" title=\"https:\/\/brooklynprla.com\">brooklynprla.com<\/a><\/p>",
+            "text": "<p>PEGGY HARTANTO HQ<br/>Surabaya Showroom<br/><a href=\"https://calendly.com/peggyhartanto/phhq?month=2024-03\" title=\"https://calendly.com/peggyhartanto/phhq?month=2024-03\">by appointment only</a><br/><br/>Jl. Imam Bonjol 29, 3rd floor<br/>Dr. Soetomo, Tegalsari<br/>Surabaya 60264, Indonesia<br/><a href=\"https://maps.app.goo.gl/WSiogjRrGFtFy2vz7\" title=\"https://maps.app.goo.gl/WSiogjRrGFtFy2vz7\">Directions</a><br/><br/>Customer Service Hours:<br/>Mon–Sat 10:00–17:00 (GMT+7)<br/>Closed on Sundays/Holidays<br/><br/>General Enquiries: <a href=\"mailto:contact@peggyhartanto.com\" target=\"_blank\" title=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com<br/></a>WhatsApp: <a href=\"https://wa.me/62818877988\" target=\"_blank\" title=\"https://wa.me/62818877988\">+62 818 877 988<br/><br/></a>Wholesale Enquiries: <a href=\"mailto:lydia@peggyhartanto.com\" target=\"_blank\" title=\"mailto:lydia@peggyhartanto.com\">lydia@peggyhartanto.com<br/></a>Press Enquiries: <a href=\"mailto:press@peggyhartanto.com\" target=\"_blank\" title=\"mailto:press@peggyhartanto.com\">press@peggyhartanto.com<br/></a><br/><br/>FLAGSHIP STORE<br/>Plaza Senayan, Level 2 Unit 246A<br/>Jl. Asia Afrika No. 8 <br/>Jakarta Pusat 10270, Indonesia<br/>General Enquiries: <a href=\"mailto:contact@peggyhartanto.com\" target=\"_blank\" title=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com</a><br/>WhatsApp: <a href=\"https://wa.me/62818307988\" target=\"_blank\" title=\"https://wa.me/62818307988\">+62 818 307 988<br/></a><br/><br/>PR REPRESENTATIVE<br/><br/>Brooklyn PR<br/>4515 West Adams Blvd, Los Angeles,<br/>CA 90016, United States<br/><a href=\"https://brooklynprla.com/\" target=\"_blank\" title=\"https://brooklynprla.com\">brooklynprla.com</a></p>",
             "cta_link": "",
             "cta_label": ""
           }
