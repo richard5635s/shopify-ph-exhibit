@@ -513,22 +513,6 @@
             "link": ""
           }
         },
-        "image_4TdCiF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_MAXILLAE1.jpg",
-            "caption": "MAXILLAE dress",
-            "link": ""
-          }
-        },
-        "image_qWMYCp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_METAMERE.jpg",
-            "caption": "METAMERE gown",
-            "link": ""
-          }
-        },
         "image_3zQREn": {
           "type": "image",
           "settings": {
@@ -542,6 +526,22 @@
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_OCELLI_FRON.jpg",
             "caption": "OCELLI gown, FRON collar",
+            "link": ""
+          }
+        },
+        "image_qWMYCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_METAMERE.jpg",
+            "caption": "METAMERE gown",
+            "link": ""
+          }
+        },
+        "image_4TdCiF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_MAXILLAE1.jpg",
+            "caption": "MAXILLAE dress",
             "link": ""
           }
         },
@@ -595,10 +595,10 @@
         "image_EgeFrL",
         "image_UYW68t",
         "image_Giw4Tb",
-        "image_4TdCiF",
-        "image_qWMYCp",
         "image_3zQREn",
         "image_rQMEdF",
+        "image_qWMYCp",
+        "image_4TdCiF",
         "image_9qFQ7J",
         "image_VxDTj4",
         "image_NkWkBe",
