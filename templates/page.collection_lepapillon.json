@@ -128,7 +128,6 @@
         },
         "image_Yc9wJz": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_CROP_NOTUM_LOCULE.jpg",
             "caption": "FEMUR top, CROP shorts, NOTUM cap, LOCULE cone bag",
@@ -138,144 +137,144 @@
         "image_QYbNiq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_RELEVE.jpg",
-            "caption": "RELEVE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_CROP_FOREWING_LOCULE.jpg",
+            "caption": "FEMUR top, FOREWING vest, CROP shorts, LOCULE cone bag",
             "link": ""
           }
         },
         "image_pYpAQf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_ASSEMBLE.jpg",
-            "caption": "ASSEMBLE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_OOTHECA_NOTUM_GIVRE.jpg",
+            "caption": "OOTHECA dress, NOTUM cap, GIVRE mini bag",
             "link": ""
           }
         },
         "image_7N4Awa": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_BATTEMENT.jpg",
-            "caption": "BATTEMENT jumpsuit",
+            "image": "shopify://shop_images/PHLEPAPILLON_GLOSSA_PHARYNX_FRON_LABRUM.jpg",
+            "caption": "GLOSSA top, PHARYNX pants, FRON collar, LABRUM bucket bag",
             "link": ""
           }
         },
         "image_LWfBAN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_ENTOURNANT_DEGAGE.jpg",
-            "caption": "ENTOURNANT dress, DEGAGE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_MANDIBLE_LABRUM.jpg",
+            "caption": "MANDIBLE dress, LABRUM bucket hat",
             "link": ""
           }
         },
         "image_3Ty4xc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_PASDECHAT.jpg",
-            "caption": "PASDECHAT dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_FRINGE_DISCAL.jpg",
+            "caption": "FRINGE top, DISCAL skirt",
             "link": ""
           }
         },
         "image_9CnB8t": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_COURU_HOP.jpg",
-            "caption": "COURU top, HOP pants",
+            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM.jpg",
+            "caption": "AROLIUM dress",
             "link": ""
           }
         },
         "image_YBy8ie": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_FLIP_BOB.jpg",
-            "caption": "FLIP top, BOB shorts",
+            "image": "shopify://shop_images/PHLEPAPILLON_SPICULE_FURCA_LABRUM.jpg",
+            "caption": "SPICULE top, FURCA skirt, LABRUM bucket hat",
             "link": ""
           }
         },
         "image_pYnDwT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_GLIDE_RIPPLE.jpg",
-            "caption": "GLIDE top, RIPPLE pants",
+            "image": "shopify://shop_images/PHLEPAPILLON_APODEME_HINDGUT.jpg",
+            "caption": "APODEME dress, HINDGUT bucket hat",
             "link": ""
           }
         },
         "image_k8aGzF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_FOUETTE.jpg",
-            "caption": "FOUETTE jumpsuit",
+            "image": "shopify://shop_images/PHLEPAPILLON_ELYTRON_LABRUM.jpg",
+            "caption": "ELYTRON dress, LABRUM bucket hat",
             "link": ""
           }
         },
         "image_jzDjJw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_QUIVER2.jpg",
-            "caption": "QUIVER dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_GANGLION_LABRUM.jpg",
+            "caption": "GANGLION dress, LABRUM bucket hat",
             "link": ""
           }
         },
         "image_wgm49A": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_REBOUND_SAFF.jpg",
-            "caption": "REBOUND dress, SAFF mini bag",
+            "image": "shopify://shop_images/PHLEPAPILLON_TRACHEA_LOCULE.jpg",
+            "caption": "TRACHEA dress, LOCULE cone bag",
             "link": ""
           }
         },
         "image_YaLk3C": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_CAPER_SISSONE.jpg",
-            "caption": "CAPER top, SISSONE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_CORNEA_AXIL1.jpg",
+            "caption": "CORNEA dress, AXIL mini bag",
             "link": ""
           }
         },
         "image_V6JPzm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_SISSONE.jpg",
-            "caption": "SISSONE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_FRINGE_TIBIA.jpg",
+            "caption": "FRINGE top, TIBIA pants",
             "link": ""
           }
         },
         "image_6Jze3c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_CHAINE_DEVELOPPE2.jpg",
-            "caption": "CHAINE top, DEVELOPPE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_COSTA_CERCUS_TIBIA.jpg",
+            "caption": "COSTA top, CERCUS top, TIBIA pants",
             "link": ""
           }
         },
         "image_4abjhj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_AXEL_FRAPPE.jpg",
-            "caption": "AXEL top, FRAPPE skirt",
+            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_PLEURA_PROBOSCIS.jpg",
+            "caption": "CHITIN top, PLEURA pants, PROBOSCIS jacket",
             "link": ""
           }
         },
         "image_JAqaR6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_ENCLOCHE.jpg",
-            "caption": "ENCLOCHE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM_MALPIGHIAN_LABRUM_BUD.jpg",
+            "caption": "MALPIGHIAN jacket, AROLIUM dress, LABRUM bucket hat, BUD cone bag",
             "link": ""
           }
         },
         "image_UWAPi4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_PLOW_SOMERSAULT.jpg",
-            "caption": "PLOW top, SOMERSAULT dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_EPIPROCT_LABRUM.jpg",
+            "caption": "EPIPROCT dress, LABRUM bucket hat",
             "link": ""
           }
         },
         "image_BArJW3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_SOMERSAULT.jpg",
-            "caption": "SOMERSAULT dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_PARAPROCT.jpg",
+            "caption": "PARAPROCT dress",
             "link": ""
           }
         },
