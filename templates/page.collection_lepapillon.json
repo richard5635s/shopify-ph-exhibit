@@ -385,24 +385,6 @@
     "image_gallery_MKBccY": {
       "type": "image-gallery",
       "blocks": {
-        "image_tyVL64": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_MARGIN_SPIRACULAR.jpg",
-            "caption": "CHITIN top, SPIRACULAR jacket,MARGIN skirt",
-            "link": ""
-          }
-        },
-        "image_dkWCCc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_OCCIPUT_BUD.jpg",
-            "caption": "OCCIPUT dress, BUD cone bag",
-            "link": ""
-          }
-        },
         "image_DULHxP": {
           "type": "image",
           "settings": {
@@ -419,15 +401,6 @@
             "link": ""
           }
         },
-        "image_GRE3Vd": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_TERGITES_HINDGUT.jpg",
-            "caption": "TERGITES dress, HINDGUT bucket hat",
-            "link": ""
-          }
-        },
         "image_HUrUFy": {
           "type": "image",
           "settings": {
@@ -441,15 +414,6 @@
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_PLEURA_PROBOSCIS.jpg",
             "caption": "CHITIN top, PLEURA pants, PROBOSCIS jacket",
-            "link": ""
-          }
-        },
-        "image_3BkY8W": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CUBITUS.jpg",
-            "caption": "CUBITUS dress",
             "link": ""
           }
         },
@@ -509,12 +473,11 @@
             "link": ""
           }
         },
-        "image_UT7WXW": {
+        "image_a47JcC": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_RADIAL_AXIL1.jpg",
-            "caption": "RADIAL dress, AXIL mini bag",
+            "image": "shopify://shop_images/PHLEPAPILLON_TROCHANTER_LABRUM.jpg",
+            "caption": "TROCHANTER dress, LABRUM bucket hat",
             "link": ""
           }
         },
@@ -531,14 +494,6 @@
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_PRETARSUS_HINDGUT.jpg",
             "caption": "PRETARUS dress, HINDGUT bucket hat",
-            "link": ""
-          }
-        },
-        "image_a47JcC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_TROCHANTER_LABRUM.jpg",
-            "caption": "TROCHANTER dress, LABRUM bucket hat",
             "link": ""
           }
         },
@@ -624,14 +579,10 @@
         }
       },
       "block_order": [
-        "image_tyVL64",
-        "image_dkWCCc",
         "image_DULHxP",
         "image_XJjMVX",
-        "image_GRE3Vd",
         "image_HUrUFy",
         "image_rdaCdp",
-        "image_3BkY8W",
         "image_TWwyYh",
         "image_bXz7ny",
         "image_j9NWe4",
@@ -639,10 +590,9 @@
         "image_LmfAJK",
         "image_NmhJ36",
         "image_7y3HiP",
-        "image_UT7WXW",
+        "image_a47JcC",
         "image_yWBtaM",
         "image_EgeFrL",
-        "image_a47JcC",
         "image_UYW68t",
         "image_Giw4Tb",
         "image_4TdCiF",
