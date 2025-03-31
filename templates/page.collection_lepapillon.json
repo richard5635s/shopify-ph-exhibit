@@ -449,14 +449,6 @@
             "link": ""
           }
         },
-        "image_LmfAJK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_PHARATE.jpg",
-            "caption": "PHARATE dress",
-            "link": ""
-          }
-        },
         "image_NmhJ36": {
           "type": "image",
           "settings": {
@@ -470,6 +462,14 @@
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_RADIAL_MESOTHORAX_AXIL.jpg",
             "caption": "RADIAL dress, MESOTHORAX jacket, AXIL mini bag",
+            "link": ""
+          }
+        },
+        "image_LmfAJK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_PHARATE.jpg",
+            "caption": "PHARATE dress",
             "link": ""
           }
         },
@@ -587,9 +587,9 @@
         "image_bXz7ny",
         "image_j9NWe4",
         "image_UrYykX",
-        "image_LmfAJK",
         "image_NmhJ36",
         "image_7y3HiP",
+        "image_LmfAJK",
         "image_a47JcC",
         "image_yWBtaM",
         "image_EgeFrL",
