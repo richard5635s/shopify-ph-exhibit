@@ -473,6 +473,7 @@
         },
         "image_UT7WXW": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_RADIAL_AXIL1.jpg",
             "caption": "RADIAL dress, AXIL mini bag",
