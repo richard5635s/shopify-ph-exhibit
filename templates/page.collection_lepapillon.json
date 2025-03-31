@@ -482,49 +482,104 @@
         "image_yWBtaM": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify://shop_images/PHLEPAPILLON_CELL_MIDGUT_HINDGUT.jpg",
+            "caption": "CELL top, MIDGUT skirt, HINDGUT bucket hat",
             "link": ""
           }
         },
         "image_EgeFrL": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify://shop_images/PHLEPAPILLON_PRETARSUS_HINDGUT.jpg",
+            "caption": "PRETARUS dress, HINDGUT bucket hat",
             "link": ""
           }
         },
         "image_a47JcC": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify://shop_images/PHLEPAPILLON_TROCHANTER_LABRUM.jpg",
+            "caption": "TROCHANTER dress, LABRUM bucket hat",
             "link": ""
           }
         },
         "image_VxDTj4": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify://shop_images/PHLEPAPILLON_HAUSTELLUM1.jpg",
+            "caption": "HAUSTELLUM gown",
+            "link": ""
+          }
+        },
+        "image_UYW68t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_PROTHORAX_HINDGUT.jpg",
+            "caption": "PROTHORAX jumpsuit",
+            "link": ""
+          }
+        },
+        "image_Giw4Tb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_PROTHORAX_PROBOSCIS.jpg",
+            "caption": "PROTHORAX jumpsuit, PROBOSCIS jacket",
+            "link": ""
+          }
+        },
+        "image_9qFQ7J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_BASITARSUS.jpg",
+            "caption": "BASITARSUS gown",
+            "link": ""
+          }
+        },
+        "image_4TdCiF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_MAXILLAE1.jpg",
+            "caption": "MAXILLAE dress",
+            "link": ""
+          }
+        },
+        "image_qWMYCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_METAMERE.jpg",
+            "caption": "METAMERE gown",
+            "link": ""
+          }
+        },
+        "image_3zQREn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_OCELLI.jpg",
+            "caption": "OCELLI gown",
             "link": ""
           }
         },
         "image_rQMEdF": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify://shop_images/PHLEPAPILLON_OCELLI_FRON.jpg",
+            "caption": "OCELLI gown, FRON collar",
             "link": ""
           }
         },
         "image_NkWkBe": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify://shop_images/PHLEPAPILLON_MESONOTUM.jpg",
+            "caption": "MESONOTUM dress",
             "link": ""
           }
         },
         "image_YMXyCY": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify://shop_images/PHLEPAPILLON_ANDROCONIA_LABRUM.jpg",
+            "caption": "ANDROCONIA coat, LABRUM bucket hat",
             "link": ""
           }
         }
@@ -547,6 +602,12 @@
         "image_EgeFrL",
         "image_a47JcC",
         "image_VxDTj4",
+        "image_UYW68t",
+        "image_Giw4Tb",
+        "image_9qFQ7J",
+        "image_4TdCiF",
+        "image_qWMYCp",
+        "image_3zQREn",
         "image_rQMEdF",
         "image_NkWkBe",
         "image_YMXyCY"
