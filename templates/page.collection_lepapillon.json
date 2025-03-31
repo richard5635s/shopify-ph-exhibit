@@ -134,15 +134,6 @@
             "link": ""
           }
         },
-        "image_Yc9wJz": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_CROP_NOTUM_LOCULE.jpg",
-            "caption": "FEMUR top, CROP shorts, NOTUM cap, LOCULE cone bag",
-            "link": ""
-          }
-        },
         "image_QYbNiq": {
           "type": "image",
           "settings": {
@@ -159,11 +150,11 @@
             "link": ""
           }
         },
-        "image_7N4Awa": {
+        "image_eK3rDV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_GLOSSA_PHARYNX_FRON_LABRUM.jpg",
-            "caption": "GLOSSA top, PHARYNX pants, FRON collar, LABRUM bucket bag",
+            "image": "shopify://shop_images/PHLEPAPILLON_CUBITUS.jpg",
+            "caption": "CUBITUS dress",
             "link": ""
           }
         },
@@ -175,19 +166,19 @@
             "link": ""
           }
         },
+        "image_7N4Awa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_GLOSSA_PHARYNX_FRON_LABRUM.jpg",
+            "caption": "GLOSSA top, PHARYNX pants, FRON collar, LABRUM bucket bag",
+            "link": ""
+          }
+        },
         "image_3Ty4xc": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_FRINGE_DISCAL.jpg",
             "caption": "FRINGE top, DISCAL skirt",
-            "link": ""
-          }
-        },
-        "image_eK3rDV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CUBITUS.jpg",
-            "caption": "CUBITUS dress",
             "link": ""
           }
         },
@@ -207,19 +198,19 @@
             "link": ""
           }
         },
-        "image_6FQeAB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_MARGIN_SPIRACULAR.jpg",
-            "caption": "CHITIN top, SPIRACULAR jacket,MARGIN skirt",
-            "link": ""
-          }
-        },
         "image_UfPHbT": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_OCCIPUT_BUD.jpg",
             "caption": "OCCIPUT dress, BUD cone bag",
+            "link": ""
+          }
+        },
+        "image_6FQeAB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_MARGIN_SPIRACULAR.jpg",
+            "caption": "CHITIN top, SPIRACULAR jacket,MARGIN skirt",
             "link": ""
           }
         },
@@ -303,17 +294,16 @@
         "image_Dt6keQ",
         "image_r6MmMi",
         "image_pYpAQf",
-        "image_Yc9wJz",
         "image_QYbNiq",
         "image_DdqHge",
-        "image_7N4Awa",
-        "image_LWfBAN",
-        "image_3Ty4xc",
         "image_eK3rDV",
+        "image_LWfBAN",
+        "image_7N4Awa",
+        "image_3Ty4xc",
         "image_pYnDwT",
         "image_YBy8ie",
-        "image_6FQeAB",
         "image_UfPHbT",
+        "image_6FQeAB",
         "image_9CnB8t",
         "image_JAqaR6",
         "image_jzDjJw",
