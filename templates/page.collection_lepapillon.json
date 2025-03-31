@@ -277,110 +277,6 @@
             "caption": "PARAPROCT dress",
             "link": ""
           }
-        },
-        "image_xTzDwA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_SAUTE_ROLL2.jpg",
-            "caption": "SAUT top, ROLL pants",
-            "link": ""
-          }
-        },
-        "image_H6bKG3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_ENTRECHAT.jpg",
-            "caption": "ENTRECHAT dress",
-            "link": ""
-          }
-        },
-        "image_MejG3c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_PASDEBOURREE.jpg",
-            "caption": "PASDEBOURREE dress",
-            "link": ""
-          }
-        },
-        "image_x7Rr4x": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_PLIE_BRISE_FLING.jpg",
-            "caption": "PLIE bralette, BRISE top, FLING skirt",
-            "link": ""
-          }
-        },
-        "image_KwHYBj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_CISEAUX.jpg",
-            "caption": "CISEAUX dress",
-            "link": ""
-          }
-        },
-        "image_g6TB3d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_DEVELOPPE2.jpg",
-            "caption": "DEVELOPPE dress",
-            "link": ""
-          }
-        },
-        "image_riwF6p": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_DEVELOPPE_FLAIR_SAFF.jpg",
-            "caption": "FLAIR collar, DEVELOPPE dress, SAFF mini bag",
-            "link": ""
-          }
-        },
-        "image_HjaAbU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_GYRATE1.jpg",
-            "caption": "GYRATE dress",
-            "link": ""
-          }
-        },
-        "image_9UxjVq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_MANEGE_GYRATE.jpg",
-            "caption": "MANEGE jacket, GYRATE dress",
-            "link": ""
-          }
-        },
-        "image_8YeaGm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_SALCHOW.jpg",
-            "caption": "SALCHOW dress",
-            "link": ""
-          }
-        },
-        "image_dimCnm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_GLISSADE.jpg",
-            "caption": "GLISSADE jumpsuit",
-            "link": ""
-          }
-        },
-        "image_rchfHJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_SOBRESAUT_FLICK_FLUTTER1.jpg",
-            "caption": "FLUTTER top, SOBRESAUT jacket, FLICK shorts",
-            "link": ""
-          }
-        },
-        "image_DiFU6d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHMINUET_RONDDEJAMBE.jpg",
-            "caption": "RONDDEJAMBE dress",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -415,20 +311,7 @@
         "image_4abjhj",
         "image_JAqaR6",
         "image_UWAPi4",
-        "image_BArJW3",
-        "image_xTzDwA",
-        "image_H6bKG3",
-        "image_MejG3c",
-        "image_x7Rr4x",
-        "image_KwHYBj",
-        "image_g6TB3d",
-        "image_riwF6p",
-        "image_HjaAbU",
-        "image_9UxjVq",
-        "image_8YeaGm",
-        "image_dimCnm",
-        "image_rchfHJ",
-        "image_DiFU6d"
+        "image_BArJW3"
       ],
       "settings": {
         "title": "",
@@ -495,80 +378,153 @@
         "image_tyVL64": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_VIREVOLTE.jpg",
-            "caption": "VIREVOLTE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_MARGIN_SPIRACULAR.jpg",
+            "caption": "CHITIN top, SPIRACULAR jacket,MARGIN skirt",
             "link": ""
           }
         },
         "image_dkWCCc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_MOXIE.jpg",
-            "caption": "MOXIE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_OCCIPUT_BUD.jpg",
+            "caption": "OCCIPUT dress, BUD cone bag",
             "link": ""
           }
         },
         "image_GRE3Vd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_TWIZZLE.jpg",
-            "caption": "TWIZZLE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_TERGITES_HINDGUT.jpg",
+            "caption": "TERGITES dress, HINDGUT bucket hat",
             "link": ""
           }
         },
         "image_3BkY8W": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_ECHAPPE.jpg",
-            "caption": "ECHAPPE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_CUBITUS.jpg",
+            "caption": "CUBITUS dress",
             "link": ""
           }
         },
         "image_TWwyYh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_ATTITUDE.jpg",
-            "caption": "ATTITUDE gown",
+            "image": "shopify://shop_images/PHLEPAPILLON_AXILLA.jpg",
+            "caption": "AXILLA dress",
             "link": ""
           }
         },
         "image_bXz7ny": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_PASDEDEUX1.jpg",
-            "caption": "PASDEDEUX dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_POSTNOTUM_FRON_HINDGUT.jpg",
+            "caption": "POSTNOTUM jumpsuit, FRON collar, HINDGUT bucket hat",
             "link": ""
           }
         },
         "image_j9NWe4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_LOCOMOTE.jpg",
-            "caption": "LOCOMOTE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_LACINIA_RETINULA.jpg",
+            "caption": "RETINULA jacket, LACINIA jumpsuit",
             "link": ""
           }
         },
         "image_UrYykX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_TEMPSLEVE.jpg",
-            "caption": "TEMPSLEVE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_LACINIA.jpg",
+            "caption": "LACINIA jumpsuit",
             "link": ""
           }
         },
         "image_NmhJ36": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_CABRIOLE_ZIG.jpg",
-            "caption": "CABRIOLE dress, ZIG bag",
+            "image": "shopify://shop_images/PHLEPAPILLON_CORIUM.jpg",
+            "caption": "CORIUM dress",
             "link": ""
           }
         },
         "image_LmfAJK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_GRANDJETE.jpg",
-            "caption": "GRANDJETE gown",
+            "image": "shopify://shop_images/PHLEPAPILLON_PHARATE.jpg",
+            "caption": "PHARATE dress",
+            "link": ""
+          }
+        },
+        "image_HUrUFy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_COXA_VENTER_PROBOSCIS.jpg",
+            "caption": "COXA top, VENTER pants, PROBOSCIS jacket",
+            "link": ""
+          }
+        },
+        "image_7y3HiP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_RADIAL_MESOTHORAX_AXIL.jpg",
+            "caption": "RADIAL dress, MESOTHORAX jacket, AXIL mini bag",
+            "link": ""
+          }
+        },
+        "image_UT7WXW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_RADIAL_AXIL1.jpg",
+            "caption": "RADIAL dress, AXIL mini bag",
+            "link": ""
+          }
+        },
+        "image_yWBtaM": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_EgeFrL": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_a47JcC": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_VxDTj4": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_rQMEdF": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_NkWkBe": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_YMXyCY": {
+          "type": "image",
+          "settings": {
+            "caption": "",
             "link": ""
           }
         }
@@ -583,7 +539,17 @@
         "image_j9NWe4",
         "image_UrYykX",
         "image_NmhJ36",
-        "image_LmfAJK"
+        "image_LmfAJK",
+        "image_HUrUFy",
+        "image_7y3HiP",
+        "image_UT7WXW",
+        "image_yWBtaM",
+        "image_EgeFrL",
+        "image_a47JcC",
+        "image_VxDTj4",
+        "image_rQMEdF",
+        "image_NkWkBe",
+        "image_YMXyCY"
       ],
       "disabled": true,
       "settings": {
