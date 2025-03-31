@@ -1,0 +1,617 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "text-left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "image_gallery_rVVmqd": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_AcyffR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_GLIDE_LUTZ.jpg",
+            "caption": "GLIDE top, LUTZ skirt",
+            "link": ""
+          }
+        },
+        "image_RkfKqV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_SPIRAL_DRIFT.jpg",
+            "caption": "SPIRAL top, DRIFT pants, SAFF mini bag",
+            "link": ""
+          }
+        },
+        "image_hXwjzx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_STRUT_POUNCE.jpg",
+            "caption": "STRUT top, POUNCE pants",
+            "link": ""
+          }
+        },
+        "image_KNtnbq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_SOAR.jpg",
+            "caption": "SOAR dress",
+            "link": ""
+          }
+        },
+        "image_eanLRH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_BOUND_CAMBRE1.jpg",
+            "caption": "BOUND top, CAMBRE skirt",
+            "link": ""
+          }
+        },
+        "image_n8hUdF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_HOVER_CISEAUX.jpg",
+            "caption": "HOVER dress, CISEAUX dress",
+            "link": ""
+          }
+        },
+        "image_FBpfT8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_COURU_LOOP.jpg",
+            "caption": "COURU top, LOOP pants",
+            "link": ""
+          }
+        },
+        "image_Y4r3kx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_BALANCE.jpg",
+            "caption": "BALANCE jumpsuit",
+            "link": ""
+          }
+        },
+        "image_3VFqDc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_CARTWHEEL_FLICK_TIPTOE.jpg",
+            "caption": "TIPTOE top, CARTWHEEL vest, FLICK shorts",
+            "link": ""
+          }
+        },
+        "image_zHeq6B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_TIPTOE_GALLOP.jpg",
+            "caption": "TIPTOE top, GALLOP dress",
+            "link": ""
+          }
+        },
+        "image_pD3XKc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_GALLOP.jpg",
+            "caption": "GALLOP dress",
+            "link": ""
+          }
+        },
+        "image_Dt6keQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_FONDU_GALLOP1.jpg",
+            "caption": "FONDU top, GALLOP dress",
+            "link": ""
+          }
+        },
+        "image_r6MmMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_JIVE.jpg",
+            "caption": "JIVE dress",
+            "link": ""
+          }
+        },
+        "image_Yc9wJz": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_LOCOMOTE.jpg",
+            "caption": "LOCOMOTE dress",
+            "link": ""
+          }
+        },
+        "image_QYbNiq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_RELEVE.jpg",
+            "caption": "RELEVE dress",
+            "link": ""
+          }
+        },
+        "image_pYpAQf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_ASSEMBLE.jpg",
+            "caption": "ASSEMBLE dress",
+            "link": ""
+          }
+        },
+        "image_7N4Awa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_BATTEMENT.jpg",
+            "caption": "BATTEMENT jumpsuit",
+            "link": ""
+          }
+        },
+        "image_LWfBAN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_ENTOURNANT_DEGAGE.jpg",
+            "caption": "ENTOURNANT dress, DEGAGE dress",
+            "link": ""
+          }
+        },
+        "image_3Ty4xc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_PASDECHAT.jpg",
+            "caption": "PASDECHAT dress",
+            "link": ""
+          }
+        },
+        "image_9CnB8t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_COURU_HOP.jpg",
+            "caption": "COURU top, HOP pants",
+            "link": ""
+          }
+        },
+        "image_YBy8ie": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_FLIP_BOB.jpg",
+            "caption": "FLIP top, BOB shorts",
+            "link": ""
+          }
+        },
+        "image_pYnDwT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_GLIDE_RIPPLE.jpg",
+            "caption": "GLIDE top, RIPPLE pants",
+            "link": ""
+          }
+        },
+        "image_k8aGzF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_FOUETTE.jpg",
+            "caption": "FOUETTE jumpsuit",
+            "link": ""
+          }
+        },
+        "image_jzDjJw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_QUIVER2.jpg",
+            "caption": "QUIVER dress",
+            "link": ""
+          }
+        },
+        "image_wgm49A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_REBOUND_SAFF.jpg",
+            "caption": "REBOUND dress, SAFF mini bag",
+            "link": ""
+          }
+        },
+        "image_YaLk3C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_CAPER_SISSONE.jpg",
+            "caption": "CAPER top, SISSONE dress",
+            "link": ""
+          }
+        },
+        "image_V6JPzm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_SISSONE.jpg",
+            "caption": "SISSONE dress",
+            "link": ""
+          }
+        },
+        "image_6Jze3c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_CHAINE_DEVELOPPE2.jpg",
+            "caption": "CHAINE top, DEVELOPPE dress",
+            "link": ""
+          }
+        },
+        "image_4abjhj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_AXEL_FRAPPE.jpg",
+            "caption": "AXEL top, FRAPPE skirt",
+            "link": ""
+          }
+        },
+        "image_JAqaR6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_ENCLOCHE.jpg",
+            "caption": "ENCLOCHE dress",
+            "link": ""
+          }
+        },
+        "image_UWAPi4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_PLOW_SOMERSAULT.jpg",
+            "caption": "PLOW top, SOMERSAULT dress",
+            "link": ""
+          }
+        },
+        "image_BArJW3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_SOMERSAULT.jpg",
+            "caption": "SOMERSAULT dress",
+            "link": ""
+          }
+        },
+        "image_xTzDwA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_SAUTE_ROLL2.jpg",
+            "caption": "SAUT top, ROLL pants",
+            "link": ""
+          }
+        },
+        "image_H6bKG3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_ENTRECHAT.jpg",
+            "caption": "ENTRECHAT dress",
+            "link": ""
+          }
+        },
+        "image_MejG3c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_PASDEBOURREE.jpg",
+            "caption": "PASDEBOURREE dress",
+            "link": ""
+          }
+        },
+        "image_x7Rr4x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_PLIE_BRISE_FLING.jpg",
+            "caption": "PLIE bralette, BRISE top, FLING skirt",
+            "link": ""
+          }
+        },
+        "image_KwHYBj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_CISEAUX.jpg",
+            "caption": "CISEAUX dress",
+            "link": ""
+          }
+        },
+        "image_g6TB3d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_DEVELOPPE2.jpg",
+            "caption": "DEVELOPPE dress",
+            "link": ""
+          }
+        },
+        "image_riwF6p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_DEVELOPPE_FLAIR_SAFF.jpg",
+            "caption": "FLAIR collar, DEVELOPPE dress, SAFF mini bag",
+            "link": ""
+          }
+        },
+        "image_HjaAbU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_GYRATE1.jpg",
+            "caption": "GYRATE dress",
+            "link": ""
+          }
+        },
+        "image_9UxjVq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_MANEGE_GYRATE.jpg",
+            "caption": "MANEGE jacket, GYRATE dress",
+            "link": ""
+          }
+        },
+        "image_8YeaGm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_SALCHOW.jpg",
+            "caption": "SALCHOW dress",
+            "link": ""
+          }
+        },
+        "image_dimCnm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_GLISSADE.jpg",
+            "caption": "GLISSADE jumpsuit",
+            "link": ""
+          }
+        },
+        "image_rchfHJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_SOBRESAUT_FLICK_FLUTTER1.jpg",
+            "caption": "FLUTTER top, SOBRESAUT jacket, FLICK shorts",
+            "link": ""
+          }
+        },
+        "image_DiFU6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_RONDDEJAMBE.jpg",
+            "caption": "RONDDEJAMBE dress",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AcyffR",
+        "image_RkfKqV",
+        "image_hXwjzx",
+        "image_KNtnbq",
+        "image_eanLRH",
+        "image_n8hUdF",
+        "image_FBpfT8",
+        "image_Y4r3kx",
+        "image_3VFqDc",
+        "image_zHeq6B",
+        "image_pD3XKc",
+        "image_Dt6keQ",
+        "image_r6MmMi",
+        "image_Yc9wJz",
+        "image_QYbNiq",
+        "image_pYpAQf",
+        "image_7N4Awa",
+        "image_LWfBAN",
+        "image_3Ty4xc",
+        "image_9CnB8t",
+        "image_YBy8ie",
+        "image_pYnDwT",
+        "image_k8aGzF",
+        "image_jzDjJw",
+        "image_wgm49A",
+        "image_YaLk3C",
+        "image_V6JPzm",
+        "image_6Jze3c",
+        "image_4abjhj",
+        "image_JAqaR6",
+        "image_UWAPi4",
+        "image_BArJW3",
+        "image_xTzDwA",
+        "image_H6bKG3",
+        "image_MejG3c",
+        "image_x7Rr4x",
+        "image_KwHYBj",
+        "image_g6TB3d",
+        "image_riwF6p",
+        "image_HjaAbU",
+        "image_9UxjVq",
+        "image_8YeaGm",
+        "image_dimCnm",
+        "image_rchfHJ",
+        "image_DiFU6d"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "parralax_ibnhY7": {
+      "type": "Parralax",
+      "blocks": {
+        "text_dpdtWY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_COL.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": false,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dpdtWY"
+      ],
+      "disabled": true,
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "600",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 1,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
+      }
+    },
+    "image_gallery_MKBccY": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_tyVL64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_VIREVOLTE.jpg",
+            "caption": "VIREVOLTE dress",
+            "link": ""
+          }
+        },
+        "image_dkWCCc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_MOXIE.jpg",
+            "caption": "MOXIE dress",
+            "link": ""
+          }
+        },
+        "image_GRE3Vd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_TWIZZLE.jpg",
+            "caption": "TWIZZLE dress",
+            "link": ""
+          }
+        },
+        "image_3BkY8W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_ECHAPPE.jpg",
+            "caption": "ECHAPPE dress",
+            "link": ""
+          }
+        },
+        "image_TWwyYh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_ATTITUDE.jpg",
+            "caption": "ATTITUDE gown",
+            "link": ""
+          }
+        },
+        "image_bXz7ny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_PASDEDEUX1.jpg",
+            "caption": "PASDEDEUX dress",
+            "link": ""
+          }
+        },
+        "image_j9NWe4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_LOCOMOTE.jpg",
+            "caption": "LOCOMOTE dress",
+            "link": ""
+          }
+        },
+        "image_UrYykX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_TEMPSLEVE.jpg",
+            "caption": "TEMPSLEVE dress",
+            "link": ""
+          }
+        },
+        "image_NmhJ36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_CABRIOLE_ZIG.jpg",
+            "caption": "CABRIOLE dress, ZIG bag",
+            "link": ""
+          }
+        },
+        "image_LmfAJK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHMINUET_GRANDJETE.jpg",
+            "caption": "GRANDJETE gown",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tyVL64",
+        "image_dkWCCc",
+        "image_GRE3Vd",
+        "image_3BkY8W",
+        "image_TWwyYh",
+        "image_bXz7ny",
+        "image_j9NWe4",
+        "image_UrYykX",
+        "image_NmhJ36",
+        "image_LmfAJK"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_gallery_rVVmqd",
+    "parralax_ibnhY7",
+    "image_gallery_MKBccY"
+  ]
+}
