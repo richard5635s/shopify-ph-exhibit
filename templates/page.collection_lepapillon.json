@@ -25,104 +25,104 @@
         "image_AcyffR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_GLIDE_LUTZ.jpg",
-            "caption": "GLIDE top, LUTZ skirt",
+            "image": "shopify://shop_images/PHLEPAPILLON_LUMEN_STERNUM_HINDGUT.jpg",
+            "caption": "LUMEN top, STERNUM pants, HINDGUT bucket hat, BENTHIC slippers",
             "link": ""
           }
         },
         "image_RkfKqV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_SPIRAL_DRIFT.jpg",
-            "caption": "SPIRAL top, DRIFT pants, SAFF mini bag",
+            "image": "shopify://shop_images/PHLEPAPILLON_DORSUM_MARGIN_FRON.jpg",
+            "caption": "DORSUM top, MARGIN skirt, FRON collar",
             "link": ""
           }
         },
         "image_hXwjzx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_STRUT_POUNCE.jpg",
-            "caption": "STRUT top, POUNCE pants",
+            "image": "shopify://shop_images/PHLEPAPILLON_COMPOUND_TEGMEN_STERNUM.jpg",
+            "caption": "TEGMEN top, COMPOUND top, STERNUM pants",
             "link": ""
           }
         },
         "image_KNtnbq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_SOAR.jpg",
-            "caption": "SOAR dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM_CLAW_TORNUS.jpg",
+            "caption": "CLAW top, AROLIUM dress, TORNUS cap",
             "link": ""
           }
         },
         "image_eanLRH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_BOUND_CAMBRE1.jpg",
-            "caption": "BOUND top, CAMBRE skirt",
+            "image": "shopify://shop_images/PHLEPAPILLON_TENTORIUM.jpg",
+            "caption": "TENTORIUM dress",
             "link": ""
           }
         },
         "image_n8hUdF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_HOVER_CISEAUX.jpg",
-            "caption": "HOVER dress, CISEAUX dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_COXA_CARDO.jpg",
+            "caption": "COXA top, CARDO skirt",
             "link": ""
           }
         },
         "image_FBpfT8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_COURU_LOOP.jpg",
-            "caption": "COURU top, LOOP pants",
+            "image": "shopify://shop_images/PHLEPAPILLON_METANOTUM.jpg",
+            "caption": "METANOTUM dress",
             "link": ""
           }
         },
         "image_Y4r3kx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_BALANCE.jpg",
-            "caption": "BALANCE jumpsuit",
+            "image": "shopify://shop_images/PHLEPAPILLON_COSTA_LOBES_ROSTRUM.jpg",
+            "caption": "COSTA top, ROSTRUM vest, LOBES shorts",
             "link": ""
           }
         },
         "image_3VFqDc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_CARTWHEEL_FLICK_TIPTOE.jpg",
-            "caption": "TIPTOE top, CARTWHEEL vest, FLICK shorts",
+            "image": "shopify://shop_images/PHLEPAPILLON_SCALES_GENA.jpg",
+            "caption": "SCALES top, GENA skirt",
             "link": ""
           }
         },
         "image_zHeq6B": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_TIPTOE_GALLOP.jpg",
-            "caption": "TIPTOE top, GALLOP dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_CERCI_NEURON1.jpg",
+            "caption": "CERCI top, NEURON skirt",
             "link": ""
           }
         },
         "image_pD3XKc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_GALLOP.jpg",
-            "caption": "GALLOP dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_LABELLUM_SCUTELLUM1.jpg",
+            "caption": "SCUTELLUM jacket, LABELLUM dress",
             "link": ""
           }
         },
         "image_Dt6keQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_FONDU_GALLOP1.jpg",
-            "caption": "FONDU top, GALLOP dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_LABELLUM.jpg",
+            "caption": "LABELLUM dress",
             "link": ""
           }
         },
         "image_r6MmMi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_JIVE.jpg",
-            "caption": "JIVE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_BASAL.jpg",
+            "caption": "FEMUR top, BASAL skirt",
             "link": ""
           }
         },
@@ -130,8 +130,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/PHMINUET_LOCOMOTE.jpg",
-            "caption": "LOCOMOTE dress",
+            "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_CROP_NOTUM_LOCULE.jpg",
+            "caption": "FEMUR top, CROP shorts, NOTUM cap, LOCULE cone bag",
             "link": ""
           }
         },
@@ -586,6 +586,7 @@
         "image_NmhJ36",
         "image_LmfAJK"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "standard",
