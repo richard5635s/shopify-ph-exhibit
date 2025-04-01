@@ -463,19 +463,19 @@
             "link": ""
           }
         },
-        "image_a47JcC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_TROCHANTER_LABRUM.jpg",
-            "caption": "TROCHANTER dress, LABRUM bucket hat",
-            "link": ""
-          }
-        },
         "image_yWBtaM": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHLEPAPILLON_CELL_MIDGUT_HINDGUT.jpg",
             "caption": "CELL top, MIDGUT skirt, HINDGUT bucket hat",
+            "link": ""
+          }
+        },
+        "image_a47JcC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_TROCHANTER_LABRUM.jpg",
+            "caption": "TROCHANTER dress, LABRUM bucket hat",
             "link": ""
           }
         },
@@ -580,8 +580,8 @@
         "image_NmhJ36",
         "image_7y3HiP",
         "image_LmfAJK",
-        "image_a47JcC",
         "image_yWBtaM",
+        "image_a47JcC",
         "image_EgeFrL",
         "image_UYW68t",
         "image_Giw4Tb",
