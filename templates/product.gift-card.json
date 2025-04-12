@@ -62,6 +62,7 @@
         },
         "measurementdetails_A3CKet": {
           "type": "measurementdetails",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "space_above": 0,
@@ -103,6 +104,7 @@
         },
         "collapsible_tabs_eBfTLA": {
           "type": "collapsible_tabs",
+          "disabled": true,
           "settings": {
             "show_borders": false,
             "show_caret": false,
