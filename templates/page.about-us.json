@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,7 +23,7 @@
       "type": "feature-text",
       "disabled": true,
       "settings": {
-        "richtext": "<p>ASIA\/MIDDLE EAST<br\/><br\/>China, Heilongjiang - Yi Pin Yi Ge<br\/>Dubai - By Symphony<br\/>Hongkong - Harvey Nichols<br\/>Indonesia, Jakarta - Galeries Lafayette<br\/>Indonesia, Jakarta - PILLAR<br\/>Indonesia, Jakarta - MASARI<br\/>Japan, Tokyo - Le Charme de Fifi et Fafa<br\/>Japan, Tokyo - Mahna<br\/>Kuwait - Ganash<br\/>Lebanon, Beirut - Label Queen<br\/>Qatar, Doha - Perlei Couture<br\/>Saudi Arabia - Avanti<br\/>Singapore - SocietyA<br\/>Taiwan, Taipei - Lightwell<br\/><br\/><br\/>EUROPE<br\/><br\/>Copenhagen - Reve de Renard<br\/>Germany, Hamburg - TEMPEL<br\/><br\/><br\/>UNITED STATES<br\/><br\/>New York - Plan de Ville<\/p>",
+        "richtext": "<p>ASIA/MIDDLE EAST<br/><br/>China, Heilongjiang - Yi Pin Yi Ge<br/>Dubai - By Symphony<br/>Hongkong - Harvey Nichols<br/>Indonesia, Jakarta - Galeries Lafayette<br/>Indonesia, Jakarta - PILLAR<br/>Indonesia, Jakarta - MASARI<br/>Japan, Tokyo - Le Charme de Fifi et Fafa<br/>Japan, Tokyo - Mahna<br/>Kuwait - Ganash<br/>Lebanon, Beirut - Label Queen<br/>Qatar, Doha - Perlei Couture<br/>Saudi Arabia - Avanti<br/>Singapore - SocietyA<br/>Taiwan, Taipei - Lightwell<br/><br/><br/>EUROPE<br/><br/>Copenhagen - Reve de Renard<br/>Germany, Hamburg - TEMPEL<br/><br/><br/>UNITED STATES<br/><br/>New York - Plan de Ville</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -36,7 +45,7 @@
           "type": "row",
           "settings": {
             "title": "",
-            "text": "<p>ASIA\/MIDDLE EAST<br\/><br\/>China, Heilongjiang - Yi Pin Yi Ge<br\/>Dubai - By Symphony<br\/>Hongkong - Harvey Nichols<br\/>Indonesia, Jakarta - Galeries Lafayette<br\/>Indonesia, Jakarta - PILLAR<br\/>Indonesia, Jakarta - MASARI<br\/>Japan, Tokyo - Le Charme de Fifi et Fafa<br\/>Japan, Tokyo - Mahna<br\/>Kuwait - Ganash<br\/>Lebanon, Beirut - Label Queen<br\/>Qatar, Doha - Perlei Couture<br\/>Saudi Arabia - Avanti<br\/>Singapore - SocietyA<br\/>Taiwan, Taipei - Lightwell<br\/><br\/><br\/>EUROPE<br\/><br\/>Copenhagen - Reve de Renard<br\/>Germany, Hamburg - TEMPEL<br\/><br\/><br\/>UNITED STATES<br\/><br\/>New York - Plan de Ville<\/p>",
+            "text": "<p>INDONESIA<br/><br/>Surabaya - PEGGY HARTANTO Showroom<br/>Jakarta - PEGGY HARTANTO Flagship, Plaza Senayan<br/>Jakarta - Galeries Lafayette, Pacific Place<br/>Jakarta - PILLAR, Plaza Indonesia<br/>Jakarta - MASARI, Senayan City<br/><br/><br/>ASIA/MIDDLE EAST<br/><br/>China, Heilongjiang - Yi Pin Yi Ge<br/>Dubai - By Symphony<br/>Hongkong - Harvey Nichols<br/>Japan, Tokyo - Le Charme de Fifi et Fafa<br/>Japan, Tokyo - Mahna<br/>Kuwait - Ganash<br/>Lebanon, Beirut - Label Queen<br/>Qatar, Doha - Perlei Couture<br/>Saudi Arabia - Avanti<br/>Singapore - SocietyA<br/>Taiwan, Taipei - Lightwell<br/><br/><br/>EUROPE<br/><br/>Copenhagen - Reve de Renard<br/>Germany, Hamburg - TEMPEL<br/><br/><br/>UNITED STATES<br/><br/>New York - Plan de Ville</p>",
             "cta_link": "",
             "cta_label": ""
           }
@@ -46,7 +55,7 @@
           "disabled": true,
           "settings": {
             "title": "Europe",
-            "text": "<p>Copenhagen - Reve de Renard<br\/>Germany, Hamburg - TEMPEL<\/p>",
+            "text": "<p>Copenhagen - Reve de Renard<br/>Germany, Hamburg - TEMPEL</p>",
             "cta_link": "",
             "cta_label": ""
           }
@@ -56,7 +65,7 @@
           "disabled": true,
           "settings": {
             "title": "United States",
-            "text": "<p>New York - Plan de Ville<\/p>",
+            "text": "<p>New York - Plan de Ville</p>",
             "cta_link": "",
             "cta_label": ""
           }
