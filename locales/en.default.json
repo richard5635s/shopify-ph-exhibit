@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": {
@@ -92,12 +92,12 @@
       "login_form_submit": "Enter",
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
-      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"theme-link\">Log in here<\/a>",
+      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"theme-link\">Log in here</a>",
       "password_link": "Enter using password",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
     "country": {
-      "dropdown_label": "Country\/region"
+      "dropdown_label": "Country/region"
     },
     "language": {
       "dropdown_label": "Language"
@@ -142,7 +142,7 @@
     "general": {
       "title": "Your  bag",
       "remove": "Remove",
-      "note": "Order Instructions\/Add a message if this order is a gift",
+      "note": "Order Instructions/Add a message if this order is a gift",
       "subtotal": "Subtotal",
       "new_subtotal": "New subtotal",
       "shipping_at_checkout": "Shipping fee calculated at checkout",
@@ -150,12 +150,12 @@
       "checkout": "Check Out",
       "empty": "Your bag is currently empty.",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "cookies_required": "Enable cookies to use the shopping bag",
       "continue_shopping": "Continue shopping",
-      "continue_browsing_html": "Continue browsing <a href=\"{{ link_url }}\">here<\/a>.",
+      "continue_browsing_html": "Continue browsing <a href=\"{{ link_url }}\">here</a>.",
       "close_cart": "Close bag",
       "cart_error": "There was an error while updating your bag. Please try again.",
       "cart_add_error": "All {{ title }} are in your bag."
@@ -220,7 +220,7 @@
   "facets": {
     "filters": {
       "all": "All",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>",
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all</a>",
       "title_tags": "Filter",
       "filter_and_sort": "Filter and sort",
       "clear": "Clear",
@@ -280,9 +280,9 @@
       "address1": "Address 1",
       "address2": "Address 2",
       "city": "City",
-      "country": "Country\/region",
+      "country": "Country/region",
       "province": "Province",
-      "zip": "Postal\/ZIP code",
+      "zip": "Postal/ZIP code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
@@ -370,7 +370,7 @@
       "pause_slideshow": "Pause slideshow",
       "rotate_slideshow": "Play slideshow",
       "load_slide": "Load slide {{ slide_number }}",
-      "navigation_instructions": "Use left\/right arrows to navigate the slideshow or swipe left\/right if using a mobile device",
+      "navigation_instructions": "Use left/right arrows to navigate the slideshow or swipe left/right if using a mobile device",
       "play_slideshow": "Play slideshow"
     },
     "tour": {
@@ -383,14 +383,14 @@
     },
     "onboarding": {
       "modal_title": "Almost there...",
-      "no_products_html": "You have no products in your Frontpage collection. This placeholder will appear until you <a href=\"\/admin\/collections?tutorial=Frontpage\">add a product to this collection<\/a>.",
+      "no_products_html": "You have no products in your Frontpage collection. This placeholder will appear until you <a href=\"/admin/collections?tutorial=Frontpage\">add a product to this collection</a>.",
       "add_product": "Add a Product",
       "product_title": "Example Product Title",
-      "no_collections_html": "You don't have any collections to show here. <a href=\"\/admin\/custom_collections\">Add some collections<\/a> to go along with the default Frontpage.",
+      "no_collections_html": "You don't have any collections to show here. <a href=\"/admin/custom_collections\">Add some collections</a> to go along with the default Frontpage.",
       "add_collection": "Add a Collection",
       "collection_title": "Collection Title",
       "collection_cta": "Shop Now",
-      "complete_setup_html": "Go to your <a href=\"\/admin\/themes\/{{ theme_id }}\/settings\">Customize theme<\/a> page to complete setup.",
+      "complete_setup_html": "Go to your <a href=\"/admin/themes/{{ theme_id }}/settings\">Customize theme</a> page to complete setup.",
       "blog_section-title": "Blog",
       "blog_title": "Your post’s title",
       "blog_excerpt": "Your store hasn’t published any blog posts yet. A blog can be used to talk about new product launches, tips, or other news you want to share with your customers. You can check out Shopify’s ecommerce blog for inspiration and advice for your own store and blog.",
@@ -410,16 +410,16 @@
     },
     "onboarding": {
       "modal_title": "Almost there...",
-      "no_products_html": "You have no products in your Frontpage collection. This placeholder will appear until you <a href=\"\/admin\/collections?tutorial=Frontpage\">add a product to this collection<\/a>.",
+      "no_products_html": "You have no products in your Frontpage collection. This placeholder will appear until you <a href=\"/admin/collections?tutorial=Frontpage\">add a product to this collection</a>.",
       "add_product": "Add a Product",
       "product_title": "Product Title",
       "image_title": "Image Caption",
       "video_title": "Video Caption",
-      "no_collections_html": "You don't have any collections to show here. <a href=\"\/admin\/custom_collections\">Add some collections<\/a> to go along with the default Frontpage.",
+      "no_collections_html": "You don't have any collections to show here. <a href=\"/admin/custom_collections\">Add some collections</a> to go along with the default Frontpage.",
       "add_collection": "Add a Collection",
       "collection_title": "Collection Title",
       "collection_cta": "Shop Now",
-      "complete_setup_html": "Go to your <a href=\"\/admin\/themes\/{{ theme_id }}\/settings\">Customize theme<\/a> page to complete setup.",
+      "complete_setup_html": "Go to your <a href=\"/admin/themes/{{ theme_id }}/settings\">Customize theme</a> page to complete setup.",
       "blog_section-title": "Blog",
       "blog_title": "Your post's title",
       "blog_excerpt": "Your store hasn’t published any blog posts yet. A blog can be used to talk about new product launches, tips, or other news you want to share with your customers. You can check out Shopify’s ecommerce blog for inspiration and advice for your own store and blog.",
@@ -472,7 +472,7 @@
     "product": {
       "sold_out": "SOLD OUT",
       "on_sale": "On Sale",
-      "on_sale_from_html": "<strong>On Sale<\/strong> from {{ price }}",
+      "on_sale_from_html": "<strong>On Sale</strong> from {{ price }}",
       "unavailable": "Unavailable",
       "unit_price_label": "Unit price",
       "compare_at": "Compare at",
@@ -481,7 +481,7 @@
       "preorder": "Pre-order",
       "adding_to_cart": "Adding",
       "added_to_cart": "Added to Bag",
-      "add_to_cart_confirm_html": "<a class=\"theme-link\" href=\"{{ cart_url }}\">View cart<\/a> or <a class=\"theme-link\" href=\"{{ link_url }}\">continue shopping<\/a>",
+      "add_to_cart_confirm_html": "<a class=\"theme-link\" href=\"{{ cart_url }}\">View cart</a> or <a class=\"theme-link\" href=\"{{ link_url }}\">continue shopping</a>",
       "color_swatch_trigger": "Color",
       "read_more": "Read more",
       "in_stock": "In Stock",
@@ -489,7 +489,7 @@
       "inventory_in_stock": "Ready to ship",
       "inventory_low_stock_html": "Only {{ count }} in stock",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a class=\"theme-link\" href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "shipping_policy_html": "<a class=\"theme-link\" href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "onboarding": {
         "supporting_link": "Supporting link"
       },
@@ -562,7 +562,7 @@
   },
   "recipient": {
     "form": {
-      "checkbox": "I want to send this as a gift",
+      "checkbox": "Send to a friend",
       "email_label": "Recipient email",
       "email_label_optional_for_no_js_behavior": "Recipient email (optional)",
       "email": "Email",
