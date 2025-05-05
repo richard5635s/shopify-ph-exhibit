@@ -272,6 +272,7 @@
         "image_YU8AUU",
         "color_overlay_qPGcdK"
       ],
+      "disabled": true,
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "1",
