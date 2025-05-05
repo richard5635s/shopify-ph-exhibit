@@ -202,14 +202,6 @@
             "link": "shopify://collections/lunar-new-year-2025"
           }
         },
-        "image_GpJy8R": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/White_WHIRLPOOL.jpg",
-            "caption": "WHIRLPOOL bucket bag",
-            "link": "shopify://collections/handbags"
-          }
-        },
         "image_hJMHy4": {
           "type": "image",
           "settings": {
@@ -217,12 +209,20 @@
             "caption": "JAMBOREE, Petite",
             "link": "shopify://collections/petite-2024"
           }
+        },
+        "image_GpJy8R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6209.jpg",
+            "caption": "WHIRLPOOL bucket bag",
+            "link": "shopify://collections/category-wallets"
+          }
         }
       },
       "block_order": [
         "image_Bi9cEQ",
-        "image_GpJy8R",
-        "image_hJMHy4"
+        "image_hJMHy4",
+        "image_GpJy8R"
       ],
       "settings": {
         "title": "",
