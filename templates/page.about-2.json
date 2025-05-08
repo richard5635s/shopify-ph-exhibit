@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,7 +25,7 @@
         "image_awc7Jz": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/P1_BW_TPPH_b5e90001-0108-4f1f-972a-6ec3437760f1.jpg",
+            "image": "shopify://shop_images/P1_BW_TPPH_b5e90001-0108-4f1f-972a-6ec3437760f1.jpg",
             "caption": "",
             "link": ""
           }
@@ -49,7 +58,7 @@
     "feature_text_Vj93Ta": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>PEGGY HARTANTO is an Indonesia-based contemporary womenswear brand founded in 2012 by sisters Petty, Peggy, and Lydia Hartanto. The brand is celebrated for its progressive design aesthetic, featuring organic, whimsical, and surreal elements. Its feminine yet dynamic pieces are designed to celebrate the multidimensional modern woman, empowering them with body-conscious silhouettes.<br\/><br\/>The modern woman is defined by diverse roles and expressions. PEGGY HARTANTO embraces this complexity by creating bold pieces that encourage women to express their individuality and take up space. The brand's commitment to precise construction ensures a perfect fit, allowing the pattern to serve the body. This dedication to authenticity and adaptability has earned PEGGY HARTANTO international acclaim, including a spot in Forbes Asia's '30 under 30: The Arts' list in February 2016 and representation as a finalist at the International Woolmark Prize Asia 2017.<\/p>",
+        "richtext": "<p>THE BRAND<br/><br/>PEGGY HARTANTO is an Indonesia-based contemporary womenswear brand known for its sculptural elegance and emotionally resonant design. Since the establishment in 2012, the brand has cultivated a strong visual identity that merges organic forms with whimsical and surrealist touches—creating clothing that speaks to modern femininity in all its complexity.<br/><br/>The design philosophy of PEGGY HARTANTO centers on the belief that women contain multitudes. This is expressed through bold silhouettes, vibrant color palettes, and imaginative details that offer both strength and softness. Each piece is meticulously constructed with an emphasis on fit and technique, resulting in ready-to-wear garments that are at once empowering, graceful, and unapologetically feminine.<br/><br/>With a foundation in craftsmanship and a spirit of reinvention, the brand continues to evolve across categories, including childrenswear and leather goods. Through each collection, PEGGY HARTANTO continues to reimagine the codes of modern femininity—and redefine what it means to dress with power and purpose.<br/><br/><br/><br/><strong>THE FOUNDERS<br/><br/></strong>Founded by sisters Peggy, Petty, and Lydia Hartanto, the brand began as a shared vision to create fashion collections that celebrate individuality and timeless design. Peggy serves as the Creative Director, drawing from her formal training at Raffles College of Design and Commerce in Sydney, Australia, while Petty acts as the Visual Director, and Lydia oversees the brand’s business development and operations as the Managing Director<br/><br/>Their combined skillset has earned PEGGY HARTANTO notable recognition on both regional and international stages. The brand was named in <em>Forbes Asia’s </em>30 Under 30: The Arts list in 2016, and was selected as a finalist for the International Woolmark Prize Asia in 2017. In 2023, it launched a special capsule collection to celebrate Disney’s 100th anniversary.<br/><br/>PEGGY HARTANTO is now available in select boutiques and retail spaces across Asia, the Middle East, Europe, and the United States, and continues to grow its global presence through curated collaborations and seasonal collections.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
