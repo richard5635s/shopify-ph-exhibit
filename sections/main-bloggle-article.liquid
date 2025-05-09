@@ -361,13 +361,11 @@
   <div id="bloggle_article-layout" class="sideBar__right{%if localization.language.iso_code == "ar" or localization.language.iso_code == "he" %} blggle-rtl{%endif%}">
   <div id="bloggle_article" >
       <div id="article" class="flex-column-reverse">
-      {% if article.image %}
-      <img class="bloggle--blog-item-img lazybloggle" data-src="{{ article.image | img_url:'1200x' }}" alt="{{ article.image.alt }}">
-      {% endif %}
+      
     <div id="article-header" class="text__center">
       
        
-      <h1 id="bloggle--article-title" class="text--1636212957474">{{article.title }}</h1>
+      <h1 id="bloggle--article-title" class="text--1636212952126">{{article.title }}</h1>
       <div class="info_header">
         
         
