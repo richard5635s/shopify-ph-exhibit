@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "home_page_only": false,
         "display": "static",
-        "text": "ONLINE HOLIDAY CLOSURE:  29 MARCH - 7 APRIL 2025. ORDERS PLACED AFTER 25 MARCH WILL BE SHIPPED AFTER 8 APRIL 2025.",
+        "text": "ORDERS PLACED ON 11-12 MAY WILL BE SHIPPED ON 13 MAY 2025",
         "link": "",
         "repeat_text": false,
         "speed": 60,
