@@ -176,7 +176,7 @@
       ],
       "settings": {
         "enable_full_bleed": true,
-        "aspect_ratio_mobile": "1",
+        "aspect_ratio_mobile": "full-screen",
         "aspect_ratio_desktop": "full-screen",
         "content_position": "justify-center items-start",
         "text_align": "text-right",
