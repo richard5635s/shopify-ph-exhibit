@@ -91,7 +91,7 @@
  {% capture emptyTitle %}{% endcapture %}
 {% endif %}
   <script async src="https://d2xvgzwm836rzd.cloudfront.net/lazysizes-bloggle.min.js" defer></script>
-  <link href="https://d2xvgzwm836rzd.cloudfront.net/blog_styles--peggyhartanto.min.css?v=1747075926219" type="text/css" rel="stylesheet">
+  <link href="https://d2xvgzwm836rzd.cloudfront.net/blog_styles--peggyhartanto.min.css?v=1747207851456" type="text/css" rel="stylesheet">
   <link href="https://d2xvgzwm836rzd.cloudfront.net/blog-layout.min.css" type="text/css" rel="stylesheet">
 
 <div id="bloggle--blog_layout"  class="{%if localization.language.iso_code == "ar" or localization.language.iso_code == "he" %} blggle-rtl{%endif%}">
@@ -157,38 +157,8 @@
             {% endif %}
             <div class="article-text-container responsive-div ai--flex-start-layout">
               <p class="bloggle--blog-item-title ">{{ article.title }}</p>
-              <p class="bloggle--blog-item-date">{{ article.published_at | time_tag: format: 'date' }}</p>
-              {% if article.excerpt.size != 0 %}
-                    {% assign allWords = article.excerpt | strip_html | split: " " %}
-                    {% assign excerptBuilt = "" %}
-                    {% for word in allWords %}
-                      {% if forloop.index <= 25 %}
-                        {% if forloop.index == 25 %}
-                          {% assign excerptBuilt = excerptBuilt | append: word %}
-                        {% else %}
-                          {% assign excerptBuilt = excerptBuilt | append: word | append: " " %}
-                        {% endif %}
-                      {% else %}
-                        {% break %}
-                      {% endif %}
-                    {% endfor %}
-                    <p class="bloggle--blog-item-desc text__left-layout  ">{% if localization.language.iso_code == "zh" or localization.language.iso_code contains "zh-" or localization.language.iso_code == "ja" or localization.language.iso_code contains "ja-"  %}{{ excerptBuilt | truncate : 60 }}{% else %}{{ excerptBuilt }}{% endif %}...</p>
-                  {% else %}
-                    {% assign allWords = article.content | strip_html | split: " " %}
-                    {% assign excerptBuilt = "" %}
-                    {% for word in allWords %}
-                      {% if forloop.index <= 25 %}
-                        {% if forloop.index == 25 %}
-                          {% assign excerptBuilt = excerptBuilt | append: word %}
-                        {% else %}
-                          {% assign excerptBuilt = excerptBuilt | append: word | append: " " %}
-                        {% endif %}
-                      {% else %}
-                        {% break %}
-                      {% endif %}
-                    {% endfor %}
-                    <p class="bloggle--blog-item-desc text__left-layout  ">{% if localization.language.iso_code == "zh" or localization.language.iso_code contains "zh-" or localization.language.iso_code == "ja" or localization.language.iso_code contains "ja-"  %}{{ excerptBuilt | truncate : 60 }}{% else %}{{ excerptBuilt }}{% endif %}...</p>
-                  {% endif %}
+              
+              
               
               
             </div>
