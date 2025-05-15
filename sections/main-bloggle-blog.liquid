@@ -91,7 +91,7 @@
  {% capture emptyTitle %}{% endcapture %}
 {% endif %}
   <script async src="https://d2xvgzwm836rzd.cloudfront.net/lazysizes-bloggle.min.js" defer></script>
-  <link href="https://d2xvgzwm836rzd.cloudfront.net/blog_styles--peggyhartanto.min.css?v=1747207851456" type="text/css" rel="stylesheet">
+  <link href="https://d2xvgzwm836rzd.cloudfront.net/blog_styles--peggyhartanto.min.css?v=1747294634541" type="text/css" rel="stylesheet">
   <link href="https://d2xvgzwm836rzd.cloudfront.net/blog-layout.min.css" type="text/css" rel="stylesheet">
 
 <div id="bloggle--blog_layout"  class="{%if localization.language.iso_code == "ar" or localization.language.iso_code == "he" %} blggle-rtl{%endif%}">
@@ -123,23 +123,10 @@
     {% assign localizationParam = "" %}
   {% endif %}
   <div class="bloggle--sub-header  left" >
-    
+    <div class="bloggle--nav">
+      
+    </div>
 
-    <div class="bloggle--search bloggle--search-icon" style="margin-left: 0px !important;">
-      <svg id="bloggle--icon_search" viewBox="0 0 18 19" fill="none">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z" fill="currentColor"></path>
-      </svg>
-    </div>
-    <div id="bloggle--input_search_container">
-      <div id="bloggle--search_input_container">
-        <input id="bloggle--input_search" type="search" placeholder="{{searchPlaceholder}}" >
-        <svg id="bloggle--icon_close" fill="none" viewBox="0 0 18 17">
-          <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
-          </path>
-        </svg>
-      </div>
-      <div id="bloggle--search_results" ></div>
-    </div>
     
 
     
@@ -227,27 +214,7 @@
 <script>
   var canonicalUrl = "{{ canonical_url }}";
   var searchBar = document.getElementById("bloggle--input_search_container");
-   var searchBarClose = document.getElementById("bloggle--icon_close");
-      var searcBarButton = document.getElementById("bloggle--icon_search");
-      searcBarButton.addEventListener("click", function() {
-        searchBar.classList.add("bloggle--visible");
-      })
-      searchBarClose.addEventListener("click", function() {
-        searchBar.classList.remove('bloggle--visible');
-        document.getElementById("bloggle--input_search").value = "";
-        document.getElementById("bloggle--search_results").innerHTML = "";
-      })
-      window.addEventListener('click', function(e){
-        if (!document.getElementById('bloggle--input_search_container').contains(e.target) && !document.getElementById('bloggle--icon_search').contains(e.target)){
-          searchBar.classList.remove('bloggle--visible');
-        }
-      });
-      var barWidth = document.querySelector('.bloggle--sub-header').offsetWidth;
-      if (barWidth > 320) {
-        searchBar.style.left = "initial";
-        searchBar.style.right = "0";
-      }
-      
+  
 
   var navigationLinks = document.getElementsByClassName('bloggle--nav-item');
   if (navigationLinks.length > 0) {
