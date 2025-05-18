@@ -192,7 +192,7 @@
       "all_of_collection": "View All",
       "view_all": "View all",
       "view_all_label": "View all products in the {{ collection_name }} collection",
-      "no_matches": "Sorry, there are no products in this collection",
+      "no_matches": "This collection is currently not available. Please explore our other pieces.",
       "link_title": "Browse our {{ title }} collection",
       "grid_view": "Grid view",
       "list_view": "List view",
