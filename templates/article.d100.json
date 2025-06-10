@@ -27,19 +27,38 @@
         "space_below": 0
       }
     },
+    "feature_text_iNapP6": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>UNVEILING A LIMITED EDITION CAPSULE COLLECTION NAMED 'WONDER', INSPIRED BY 'THE LITTLE MERMAID'</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
     "image_gallery_XiWEVV": {
       "type": "image-gallery",
       "blocks": {
         "image_44N9Te": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DO01050394_a71cff2b-d238-46a4-b0e7-a83df168cbd4.jpg",
+            "image": "shopify://shop_images/X_OPPO.jpg",
             "caption": "",
             "link": ""
           }
         },
         "image_GPmeTQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DO01050385_105f3076-cf6d-44ba-89b3-7ba2f8f79fb5.jpg",
             "caption": "",
@@ -51,12 +70,11 @@
         "image_44N9Te",
         "image_GPmeTQ"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
-        "grid_type": "standard",
-        "mobile_columns": "2",
-        "desktop_columns": 2,
+        "grid_type": "irregular",
+        "mobile_columns": "1",
+        "desktop_columns": 1,
         "standard_layout_align_items": "items-start",
         "modular_layout_variation": 1,
         "modular_grid_item_aspect_ratio": 1,
@@ -64,31 +82,13 @@
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "natural",
-        "media_fill_space": false,
+        "media_fill_space": true,
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
-      }
-    },
-    "feature_text_iNapP6": {
-      "type": "feature-text",
-      "settings": {
-        "richtext": "<p>UNVEILING A LIMITED EDITION CAPSULE COLLECTION NAMED 'WONDER', INSPIRED BY 'THE LITTLE MERMAID'</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 1,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "6",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 0
+        "space_below": 0.5
       }
     },
     "feature_text_pTnBcr": {
@@ -100,13 +100,13 @@
         "font": "rte font-main",
         "desktop_text_scale": -1,
         "mobile_text_scale": -1,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "12",
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
         "content_position_on_desktop": "center",
         "show_top_border": false,
         "color_scheme": "scheme1",
-        "space_above": 0.5,
-        "space_below": 0
+        "space_above": 0,
+        "space_below": 0.5
       }
     },
     "feature_text_ih6F7C": {
@@ -213,14 +213,15 @@
     },
     "feature_text_with_rich_text_DrFHng": {
       "type": "feature-text-with-rich-text",
+      "disabled": true,
       "settings": {
-        "feature_text": "<p>PEGGY HARTANTO is excited to announce its first collaboration with Disney, unveiling a limited edition capsule collection named ‘WONDER’, inspired by ‘The Little Mermaid’—the all-time favorite childhood animation of Peggy Hartanto, Creative Director of PH.</p>",
+        "feature_text": "<p>PEGGY HARTANTO is excited to announce its first collaboration with Disney, unveiling a limited edition capsule collection named ‘WONDER’, inspired by ‘The Little Mermaid’—the all-time favorite childhood animation of Peggy Hartanto, Creative Director of PH.<br/><br/>As part of Disney’s 100th anniversary, the WONDER collection, encapsulates Ariel’s boundless curiosity, inspired by the iconic Disney character's exploration of worlds both beneath the waves and above.</p><p> Visual Director Petty Hartanto, explains the inspirations and ambitions behind this collection:</p><p> “Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement. We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”</p><p>Comprising 22 unique SKUs, the line offers a diverse range of ready-to-wear pieces. From the brand's signature occasion wear pieces to casual sweatshirt sets, each item seamlessly integrates PEGGY HARTANTO’s iconic designs. The collection also boasts styles with original prints, harmoniously blending Disney100-inspired artwork with PEGGY HARTANTO’s distinctive aesthetic and color palette. Using delicate touch embroidery, expanses of iridescent sequins, soft coral prints and lightweight 3D detailing, PEGGY HARTANTO has created a mature and beautifully subtle collection inspired by the classic Disney story. The collection also incorporates the brand's recently launched signature bags, adorned with charms of beloved characters Sebastian and Flounder.</p>",
         "font": "font-main",
-        "desktop_text_scale": 1,
-        "mobile_text_scale": 1,
-        "feature_text_position_on_desktop": "left",
-        "feature_text_width_on_desktop": "4",
-        "richtext": "<h4>As part of Disney’s 100th anniversary, the WONDER collection, encapsulates Ariel’s boundless curiosity, inspired by the iconic Disney character's exploration of worlds both beneath the waves and above.</h4><h4> Visual Director Petty Hartanto, explains the inspirations and ambitions behind this collection:</h4><h4> “Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement. We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”</h4><h4>Comprising 22 unique SKUs, the line offers a diverse range of ready-to-wear pieces. From the brand's signature occasion wear pieces to casual sweatshirt sets, each item seamlessly integrates PEGGY HARTANTO’s iconic designs. The collection also boasts styles with original prints, harmoniously blending Disney100-inspired artwork with PEGGY HARTANTO’s distinctive aesthetic and color palette. Using delicate touch embroidery, expanses of iridescent sequins, soft coral prints and lightweight 3D detailing, PEGGY HARTANTO has created a mature and beautifully subtle collection inspired by the classic Disney story. The collection also incorporates the brand's recently launched signature bags, adorned with charms of beloved characters Sebastian and Flounder.</h4>",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "feature_text_position_on_desktop": "right",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "",
         "cta_link": "",
         "cta_label": "",
         "show_top_border": false,
@@ -403,8 +404,8 @@
   },
   "order": [
     "header",
-    "image_gallery_XiWEVV",
     "feature_text_iNapP6",
+    "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
     "feature_text_ih6F7C",
     "image_slideshow_FaqLnN",
