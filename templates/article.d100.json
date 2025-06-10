@@ -27,10 +27,52 @@
         "space_below": 0
       }
     },
+    "image_with_text_cey4bN": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
+        "media_aspect_ratio": "natural",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": false,
+        "title": "",
+        "heading_size": "text-heading-standard",
+        "richtext": "<h4>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</h4>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "6",
+        "content_width_on_desktop": "0.6",
+        "content_alignment": "lg:items-center lg:justify-center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_DjJVWG": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>WONDER</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 3,
+        "mobile_text_scale": 2,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
     "feature_text_iNapP6": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>UNVEILING A LIMITED EDITION CAPSULE COLLECTION NAMED 'WONDER', INSPIRED BY 'THE LITTLE MERMAID'</p>",
+        "richtext": "<p>UNVEILING A LIMITED EDITION CAPSULE COLLECTION, INSPIRED BY 'THE LITTLE MERMAID'</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -276,33 +318,12 @@
         "space_above": 0.5,
         "space_below": 0.5
       }
-    },
-    "image_with_text_cey4bN": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
-        "media_aspect_ratio": "natural",
-        "image_position_on_desktop": "left",
-        "enable_full_bleed": false,
-        "title": "",
-        "heading_size": "text-heading-standard",
-        "richtext": "<p>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "image_width_on_desktop": "6",
-        "content_width_on_desktop": "0.6",
-        "content_alignment": "lg:items-end lg:justify-start",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
-      }
     }
   },
   "order": [
     "header",
+    "image_with_text_cey4bN",
+    "feature_text_DjJVWG",
     "feature_text_iNapP6",
     "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
@@ -311,7 +332,6 @@
     "feature_text_with_rich_text_kGb3k8",
     "text_columns_g6P7qQ",
     "feature_text_zLWGap",
-    "image_gallery_n7944y",
-    "image_with_text_cey4bN"
+    "image_gallery_n7944y"
   ]
 }
