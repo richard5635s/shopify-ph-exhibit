@@ -1,56 +1,28 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "header": {
-      "type": "main-article-header",
-      "disabled": true,
-      "settings": {
-        "image_width_on_desktop": "6",
-        "media_aspect_ratio": "0.6667",
-        "image_position_on_desktop": "left",
-        "enable_full_bleed": true,
-        "show_author": false,
-        "show_date": true,
-        "show_tags": false,
-        "text_alignment": "text-center",
-        "align_content": "items-center",
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 0
-      }
-    },
     "image_gallery_W6iBmC": {
       "type": "image-gallery",
       "blocks": {
         "image_mcXTGx": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050367_dbf73522-13c1-4da5-b9b5-6487fd1ccfd4.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_cmTGJk": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PH_DISNEYD100_GUPPY_66518e8f-328e-4f6e-ac50-48bb181b1460.jpg",
+            "image": "shopify://shop_images/DO01050367_dbf73522-13c1-4da5-b9b5-6487fd1ccfd4.jpg",
             "caption": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "image_mcXTGx",
-        "image_cmTGJk"
+        "image_mcXTGx"
       ],
       "settings": {
         "title": "",
@@ -73,53 +45,52 @@
         "space_below": 0
       }
     },
-    "feature_text_pTnBcr": {
+    "feature_text_iNapP6": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>PEGGY HARTANTO <br\/>Celebrates Disney 100 <\/p>",
+        "richtext": "<p>PEGGY HARTANTO Celebrates Disney100<br/><br/></p>",
         "cta_link": "",
         "cta_label": "",
-        "font": "font-heading",
-        "desktop_text_scale": 5,
-        "mobile_text_scale": 2,
+        "font": "rte font-main",
+        "desktop_text_scale": 2,
+        "mobile_text_scale": 0,
         "text_alignment": "text-center",
         "content_width_on_desktop": "12",
-        "content_position_on_desktop": "left",
+        "content_position_on_desktop": "center",
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0
       }
     },
-    "feature_text_iNapP6": {
+    "feature_text_pTnBcr": {
       "type": "feature-text",
-      "disabled": true,
       "settings": {
-        "richtext": "<p>Words EMMA MOORE<br\/>Photos ALIXE LAY<\/p>",
+        "richtext": "<p>Words NIKODEMUS<br/>Photos MARCEL GUNAWAN</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
-        "desktop_text_scale": 0,
+        "desktop_text_scale": -1,
         "mobile_text_scale": -1,
         "text_alignment": "text-center",
         "content_width_on_desktop": "12",
         "content_position_on_desktop": "center",
         "show_top_border": false,
-        "color_scheme": "",
+        "color_scheme": "scheme1",
         "space_above": 0,
-        "space_below": 1
+        "space_below": 0
       }
     },
     "feature_text_with_rich_text_DrFHng": {
       "type": "feature-text-with-rich-text",
       "settings": {
-        "feature_text": "<p>PEGGY HARTANTO is excited to announce its first collaboration with Disney, unveiling a limited edition capsule collection named ‘WONDER’, inspired by ‘The Little Mermaid’—the all-time favorite childhood animation of Peggy Hartanto, Creative Director of PH.<\/p>",
+        "feature_text": "<p>PEGGY HARTANTO is excited to announce its first collaboration with Disney, unveiling a limited edition capsule collection named ‘WONDER’, inspired by ‘The Little Mermaid’—the all-time favorite childhood animation of Peggy Hartanto, Creative Director of PH.</p>",
         "font": "font-main",
         "desktop_text_scale": 1,
         "mobile_text_scale": 1,
         "feature_text_position_on_desktop": "left",
         "feature_text_width_on_desktop": "6",
-        "richtext": "<p>As part of Disney’s 100th anniversary, the WONDER collection, encapsulates Ariel’s boundless curiosity, inspired by the iconic Disney character's exploration of worlds both beneath the waves and above.<\/p><p> Visual Director Petty Hartanto, explains the inspirations and ambitions behind this collection:<\/p><p> <em>“Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement. We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”<\/em><\/p><p>Comprising 22 unique SKUs, the line offers a diverse range of ready-to-wear pieces. From the brand's signature occasion wear pieces to casual sweatshirt sets, each item seamlessly integrates PEGGY HARTANTO’s iconic designs. The collection also boasts styles with original prints, harmoniously blending Disney100-inspired artwork with PEGGY HARTANTO’s distinctive aesthetic and color palette. Using delicate touch embroidery, expanses of iridescent sequins, soft coral prints and lightweight 3D detailing, PEGGY HARTANTO has created a mature and beautifully subtle collection inspired by the classic Disney story. The collection also incorporates the brand's recently launched signature bags, adorned with charms of beloved characters Sebastian and Flounder.<\/p>",
+        "richtext": "<h4>As part of Disney’s 100th anniversary, the WONDER collection, encapsulates Ariel’s boundless curiosity, inspired by the iconic Disney character's exploration of worlds both beneath the waves and above.</h4><h4> Visual Director Petty Hartanto, explains the inspirations and ambitions behind this collection:</h4><h4> <em>“Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement. We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”</em></h4><h4>Comprising 22 unique SKUs, the line offers a diverse range of ready-to-wear pieces. From the brand's signature occasion wear pieces to casual sweatshirt sets, each item seamlessly integrates PEGGY HARTANTO’s iconic designs. The collection also boasts styles with original prints, harmoniously blending Disney100-inspired artwork with PEGGY HARTANTO’s distinctive aesthetic and color palette. Using delicate touch embroidery, expanses of iridescent sequins, soft coral prints and lightweight 3D detailing, PEGGY HARTANTO has created a mature and beautifully subtle collection inspired by the classic Disney story. The collection also incorporates the brand's recently launched signature bags, adorned with charms of beloved characters Sebastian and Flounder.</h4>",
         "cta_link": "",
         "cta_label": "",
         "show_top_border": false,
@@ -130,13 +101,73 @@
     },
     "main": {
       "type": "main-article",
-      "disabled": true,
       "settings": {
         "show_share_buttons": true,
-        "show_next_previous_links": false,
-        "content_alignment_on_desktop": "lg:col-start-1",
+        "show_next_previous_links": true,
+        "content_alignment_on_desktop": "lg:col-end-[-1]",
         "color_scheme": "",
-        "space_above": 0.5,
+        "space_above": 0,
+        "space_below": 0.5
+      }
+    },
+    "text_columns_g6P7qQ": {
+      "type": "text-columns",
+      "blocks": {
+        "column_H3W7CH": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>May 28, 2024<br/>DESIGN</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_KfzWmG": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Words<br/>LYDIA HARTANTO</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_A3Nye3": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Photographer<br/>VICKY TANZIL</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_rzETwT": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Stylist<br/>LILIAN NG</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_H3W7CH",
+        "column_KfzWmG",
+        "column_A3Nye3",
+        "column_rzETwT"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_columns": 4,
+        "text_alignment": "text-left",
+        "max_width_of_icons": 50,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
         "space_below": 1
       }
     },
@@ -144,21 +175,21 @@
       "type": "image-with-text",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/John_Pawson_01-1529x2048.jpg",
+        "image": "shopify://shop_images/John_Pawson_01-1529x2048.jpg",
         "media_aspect_ratio": "natural",
         "image_position_on_desktop": "left",
-        "enable_full_bleed": true,
+        "enable_full_bleed": false,
         "title": "",
-        "heading_size": "text-heading-standard",
-        "richtext": "<p>JohnPawson<br\/>Words EMMA MOORE<br\/>Photos ALIXE LAY<\/p>",
+        "heading_size": "text-heading-secondary",
+        "richtext": "<h4>PEGGY HARTANTO is excited to announce its first collaboration with Disney, unveiling a limited edition capsule collection named ‘WONDER’, inspired by ‘The Little Mermaid’—the all-time favorite childhood animation of Peggy Hartanto, Creative Director of PH.<br/><br/>As part of Disney’s 100th anniversary, the WONDER collection, encapsulates Ariel’s boundless curiosity, inspired by the iconic Disney character's exploration of worlds both beneath the waves and above.</h4><h4> Visual Director Petty Hartanto, explains the inspirations and ambitions behind this collection:</h4><h4> <em>“Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement. We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”</em></h4><h4>Comprising 22 unique SKUs, the line offers a diverse range of ready-to-wear pieces. From the brand's signature occasion wear pieces to casual sweatshirt sets, each item seamlessly integrates PEGGY HARTANTO’s iconic designs. The collection also boasts styles with original prints, harmoniously blending Disney100-inspired artwork with PEGGY HARTANTO’s distinctive aesthetic and color palette. Using delicate touch embroidery, expanses of iridescent sequins, soft coral prints and lightweight 3D detailing, PEGGY HARTANTO has created a mature and beautifully subtle collection inspired by the classic Disney story. The collection also incorporates the brand's recently launched signature bags, adorned with charms of beloved characters Sebastian and Flounder.</h4>",
         "cta_link": "",
         "cta_label": "",
-        "image_width_on_desktop": "6",
-        "content_width_on_desktop": "0.667",
-        "content_alignment": "lg:items-end lg:justify-start",
+        "image_width_on_desktop": "3",
+        "content_width_on_desktop": "0.6",
+        "content_alignment": "lg:items-top lg:justify-end",
         "show_top_border": false,
         "color_scheme": "",
-        "space_above": 0,
+        "space_above": 0.5,
         "space_below": 1
       }
     },
@@ -168,7 +199,7 @@
         "image_YkrYF6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050409_fecfe1c4-9421-4bce-89ae-3c19654b2654.jpg"
+            "image": "shopify://shop_images/DO01050409_fecfe1c4-9421-4bce-89ae-3c19654b2654.jpg"
           }
         },
         "color_overlay_ri3DdQ": {
@@ -188,6 +219,7 @@
         "image_YkrYF6",
         "color_overlay_ri3DdQ"
       ],
+      "disabled": true,
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "full-screen",
@@ -210,7 +242,7 @@
         "image_44N9Te": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050394_a71cff2b-d238-46a4-b0e7-a83df168cbd4.jpg",
+            "image": "shopify://shop_images/DO01050394_a71cff2b-d238-46a4-b0e7-a83df168cbd4.jpg",
             "caption": "",
             "link": ""
           }
@@ -218,7 +250,7 @@
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050385_105f3076-cf6d-44ba-89b3-7ba2f8f79fb5.jpg",
+            "image": "shopify://shop_images/DO01050385_105f3076-cf6d-44ba-89b3-7ba2f8f79fb5.jpg",
             "caption": "",
             "link": ""
           }
@@ -228,6 +260,7 @@
         "image_44N9Te",
         "image_GPmeTQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "standard",
@@ -251,8 +284,9 @@
     },
     "feature_text_with_rich_text_kGb3k8": {
       "type": "feature-text-with-rich-text",
+      "disabled": true,
       "settings": {
-        "feature_text": "<h4>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.<\/h4>",
+        "feature_text": "<h4>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</h4>",
         "font": "font-main",
         "desktop_text_scale": 4,
         "mobile_text_scale": 0,
@@ -267,74 +301,13 @@
         "space_below": 0.5
       }
     },
-    "text_columns_g6P7qQ": {
-      "type": "text-columns",
-      "blocks": {
-        "column_H3W7CH": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>May 28, 2024<br\/>DESIGN<\/p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_KfzWmG": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Words<br\/>LYDIA HARTANTO<\/p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_A3Nye3": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Photographer<br\/>VICKY TANZIL<\/p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_rzETwT": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Stylist<br\/>LILIAN NG<\/p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_H3W7CH",
-        "column_KfzWmG",
-        "column_A3Nye3",
-        "column_rzETwT"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_columns": 4,
-        "text_alignment": "text-center",
-        "max_width_of_icons": 50,
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 1.5
-      }
-    },
     "image_slideshow_FaqLnN": {
       "type": "image-slideshow",
       "blocks": {
         "image_aVTtMA": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050399_a1d2ba0d-dc6b-44ea-ad84-e72589df625b.jpg",
+            "image": "shopify://shop_images/DO01050399_a1d2ba0d-dc6b-44ea-ad84-e72589df625b.jpg",
             "caption": "",
             "link": ""
           }
@@ -342,7 +315,7 @@
         "image_HpGc7f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050422_48a58c7a-4c4f-4946-96c4-03be00512a9e.jpg",
+            "image": "shopify://shop_images/DO01050422_48a58c7a-4c4f-4946-96c4-03be00512a9e.jpg",
             "caption": "",
             "link": ""
           }
@@ -350,7 +323,7 @@
         "image_Y4VgKt": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050414_157b9125-0d60-4d7e-a532-bc5e2a52af8c.jpg",
+            "image": "shopify://shop_images/DO01050414_157b9125-0d60-4d7e-a532-bc5e2a52af8c.jpg",
             "caption": "",
             "link": ""
           }
@@ -358,7 +331,7 @@
         "image_tbkfkH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050419_96e23091-c3d6-464d-bfb6-88890f8f0393.jpg",
+            "image": "shopify://shop_images/DO01050419_96e23091-c3d6-464d-bfb6-88890f8f0393.jpg",
             "caption": "",
             "link": ""
           }
@@ -366,7 +339,7 @@
         "image_dia7Ph": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050411_bc3e4caa-433b-4727-92ea-7b4bd1f4eb0d.jpg",
+            "image": "shopify://shop_images/DO01050411_bc3e4caa-433b-4727-92ea-7b4bd1f4eb0d.jpg",
             "caption": "",
             "link": ""
           }
@@ -374,7 +347,7 @@
         "image_3UkgKY": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050410_faae569a-ca70-4f71-aee8-727a4c77ef93.jpg",
+            "image": "shopify://shop_images/DO01050410_faae569a-ca70-4f71-aee8-727a4c77ef93.jpg",
             "caption": "",
             "link": ""
           }
@@ -382,7 +355,7 @@
         "image_kQHeh6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DO01050404_4f8b3020-9a33-449f-b712-9eadd4ff8626.jpg",
+            "image": "shopify://shop_images/DO01050404_4f8b3020-9a33-449f-b712-9eadd4ff8626.jpg",
             "caption": "",
             "link": ""
           }
@@ -397,6 +370,7 @@
         "image_3UkgKY",
         "image_kQHeh6"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "section_height": "h-screen-adaptive",
@@ -409,20 +383,38 @@
         "change_slides_speed": 5,
         "color_scheme": ""
       }
+    },
+    "header": {
+      "type": "main-article-header",
+      "disabled": true,
+      "settings": {
+        "image_width_on_desktop": "6",
+        "media_aspect_ratio": "0.6667",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": true,
+        "show_author": false,
+        "show_date": true,
+        "show_tags": false,
+        "text_alignment": "text-center",
+        "align_content": "items-center",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0
+      }
     }
   },
   "order": [
-    "header",
     "image_gallery_W6iBmC",
-    "feature_text_pTnBcr",
     "feature_text_iNapP6",
+    "feature_text_pTnBcr",
     "feature_text_with_rich_text_DrFHng",
     "main",
+    "text_columns_g6P7qQ",
     "image_with_text_gC9gfC",
     "media_with_text_overlay_hGUJbB",
     "image_gallery_XiWEVV",
     "feature_text_with_rich_text_kGb3k8",
-    "text_columns_g6P7qQ",
-    "image_slideshow_FaqLnN"
+    "image_slideshow_FaqLnN",
+    "header"
   ]
 }
