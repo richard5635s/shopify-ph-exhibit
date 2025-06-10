@@ -52,6 +52,7 @@
     },
     "feature_text_DjJVWG": {
       "type": "feature-text",
+      "disabled": true,
       "name": "Feature text",
       "settings": {
         "richtext": "<p>WONDER</p>",
@@ -72,7 +73,7 @@
     "feature_text_iNapP6": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>UNVEILING A LIMITED EDITION CAPSULE COLLECTION, INSPIRED BY 'THE LITTLE MERMAID'</p>",
+        "richtext": "<p>UNVEILING A LIMITED EDITION CAPSULE COLLECTION TITLED 'WONDER', INSPIRED BY 'THE LITTLE MERMAID'</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
