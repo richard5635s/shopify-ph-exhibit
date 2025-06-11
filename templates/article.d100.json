@@ -103,6 +103,7 @@
       "block_order": [
         "image_GPmeTQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "irregular",
@@ -126,6 +127,7 @@
     },
     "feature_text_pTnBcr": {
       "type": "feature-text",
+      "disabled": true,
       "settings": {
         "richtext": "<p>Words NIKODEMUS<br/>Photos MARCEL GUNAWAN</p>",
         "cta_link": "",
@@ -138,7 +140,7 @@
         "content_position_on_desktop": "center",
         "show_top_border": false,
         "color_scheme": "scheme1",
-        "space_above": 0,
+        "space_above": 0.5,
         "space_below": 0
       }
     },
@@ -158,18 +160,6 @@
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "main": {
-      "type": "main-article",
-      "disabled": true,
-      "settings": {
-        "show_share_buttons": true,
-        "show_next_previous_links": true,
-        "content_alignment_on_desktop": "lg:col-start-4",
-        "color_scheme": "",
-        "space_above": 0,
         "space_below": 0.5
       }
     },
@@ -297,7 +287,6 @@
         "image_qUCJqp",
         "image_4nE9pL"
       ],
-      "disabled": true,
       "name": "Image gallery",
       "settings": {
         "title": "",
@@ -319,6 +308,17 @@
         "space_above": 0.5,
         "space_below": 0.5
       }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_share_buttons": true,
+        "show_next_previous_links": true,
+        "content_alignment_on_desktop": "lg:col-end-[-1]",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0.5
+      }
     }
   },
   "order": [
@@ -329,10 +329,10 @@
     "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
     "feature_text_ih6F7C",
-    "main",
     "feature_text_with_rich_text_kGb3k8",
     "text_columns_g6P7qQ",
     "feature_text_zLWGap",
-    "image_gallery_n7944y"
+    "image_gallery_n7944y",
+    "main"
   ]
 }
