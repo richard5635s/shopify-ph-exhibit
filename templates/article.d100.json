@@ -70,7 +70,7 @@
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D100_2.jpg",
+            "image": "shopify://shop_images/D1002.jpg",
             "caption": "",
             "link": ""
           }
@@ -90,7 +90,7 @@
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "1.778",
+        "media_aspect_ratio": "natural",
         "media_fill_space": false,
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
@@ -103,7 +103,7 @@
     "feature_text_pTnBcr": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>Words NIKODEMUS<br/>Photos VICKY TANZIL</p>",
+        "richtext": "<p>Words NIKODEMUS<br/>Photos MARCEL GUNAWAN</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -122,7 +122,7 @@
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
-        "richtext": "<p>As part of Disney’s 100th anniversary, the <a href=\"https://peggyhartanto.com/pages/collaboration_disney100\" title=\"https://peggyhartanto.com/pages/collaboration_disney100\">WONDER</a> collection, encapsulates Ariel’s boundless curiosity, inspired by the iconic Disney character's exploration of worlds both beneath the waves and above.<br/><br/>Visual Director Petty Hartanto, explains the inspirations and ambitions behind this collection: “Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement. We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”<br/><br/>Comprising 22 unique SKUs, the line offers a diverse range of ready-to-wear pieces. From the brand's signature occasion wear pieces to casual sweatshirt sets, each item seamlessly integrates PEGGY HARTANTO’s iconic designs. The collection also boasts styles with original prints, harmoniously blending Disney100-inspired artwork with PEGGY HARTANTO’s distinctive aesthetic and color palette. Using delicate touch embroidery, expanses of iridescent sequins, soft coral prints and lightweight 3D detailing, PEGGY HARTANTO has created a mature and beautifully subtle collection inspired by the classic Disney story. The collection also incorporates the brand's recently launched signature bags, adorned with charms of beloved characters Sebastian and Flounder.</p>",
+        "richtext": "<p>As part of Disney’s 100th anniversary, the <a href=\"https://peggyhartanto.com/pages/collaboration_disney100\" title=\"https://peggyhartanto.com/pages/collaboration_disney100\">WONDER</a> collection, encapsulates Ariel’s boundless curiosity, inspired by the iconic Disney character's exploration of worlds both beneath the waves and above.<br/><br/>Visual Director Petty Hartanto, explains the inspirations and ambitions behind this collection: “Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement. We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”<br/><br/>Comprising 22 unique SKUs, the line offers a diverse range of ready-to-wear pieces. From the brand's signature occasion wear pieces to casual sweatshirt sets, each item seamlessly integrates PEGGY HARTANTO’s iconic designs. The collection also boasts styles with original prints, harmoniously blending Disney100-inspired artwork with PEGGY HARTANTO’s distinctive aesthetic and color palette. Using delicate touch embroidery, expanses of iridescent sequins, soft coral prints and lightweight 3D detailing, PEGGY HARTANTO has created a mature and beautifully subtle collection inspired by the classic Disney story. The collection also incorporates the brand's recently launched signature bags, adorned with charms of beloved characters Sebastian and Flounder.<br/><br/>On 18 October 2023, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -266,15 +266,24 @@
         "image_qUCJqp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
+            "image": "shopify://shop_images/D100_a549e8f5-acd9-4354-b2c2-d056242c01d0.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_p8U49m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/D1005.jpg",
             "caption": "",
             "link": ""
           }
         },
         "image_4nE9pL": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/X_OPPO.jpg",
+            "image": "shopify://shop_images/D1003.jpg",
             "caption": "",
             "link": ""
           }
@@ -282,23 +291,24 @@
       },
       "block_order": [
         "image_qUCJqp",
+        "image_p8U49m",
         "image_4nE9pL"
       ],
       "name": "Image gallery",
       "settings": {
         "title": "",
-        "grid_type": "justified",
+        "grid_type": "standard",
         "mobile_columns": "2",
         "desktop_columns": 2,
         "standard_layout_align_items": "items-start",
-        "modular_layout_variation": 1,
+        "modular_layout_variation": 12,
         "modular_grid_item_aspect_ratio": 1,
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "natural",
         "media_fill_space": false,
-        "labels_show_titles_and_captions": true,
+        "labels_show_titles_and_captions": false,
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
