@@ -20,6 +20,14 @@
             "link": "shopify://collections/collection-minuet"
           }
         },
+        "image_9ERMzK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HOMEPAGE_Campaign_3_3_574cc755-accd-41e7-a7c5-54ce2351246f.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_hJMHy4": {
           "type": "image",
           "disabled": true,
@@ -31,6 +39,7 @@
         },
         "image_GpJy8R": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_6209.jpg",
             "caption": "Introducing: STOMA Stone",
@@ -40,6 +49,7 @@
       },
       "block_order": [
         "image_Bi9cEQ",
+        "image_9ERMzK",
         "image_hJMHy4",
         "image_GpJy8R"
       ],
