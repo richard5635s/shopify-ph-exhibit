@@ -119,7 +119,7 @@
       "settings": {
         "title": "",
         "item_width_mobile": 80,
-        "item_width_desktop": 75,
+        "item_width_desktop": 70,
         "snap_alignment": "snap-center",
         "align_items": "items-center",
         "labels_show_titles_and_captions": false,
