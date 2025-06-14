@@ -64,73 +64,6 @@
         "space_below": 0
       }
     },
-    "image_carousel_PaEVW3": {
-      "type": "image-carousel",
-      "blocks": {
-        "image_fFwhz3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WONDERLANDLightwell6.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_HKHQYa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WONDERLANDLightwell1.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_nVwHEb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WONDERLANDLightwell4.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_TMzNNn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WONDERLANDLightwell9.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_pHg8mM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WONDERLANDLightwell5.jpg",
-            "caption": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_fFwhz3",
-        "image_HKHQYa",
-        "image_nVwHEb",
-        "image_TMzNNn",
-        "image_pHg8mM"
-      ],
-      "name": "Image carousel",
-      "settings": {
-        "title": "",
-        "item_width_mobile": 80,
-        "item_width_desktop": 70,
-        "snap_alignment": "snap-center",
-        "align_items": "items-center",
-        "labels_show_titles_and_captions": false,
-        "labels_display": "below_media",
-        "labels_always_show_on_mobile": false,
-        "show_index_and_total_slides": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0
-      }
-    },
     "feature_text_pTnBcr": {
       "type": "feature-text",
       "settings": {
@@ -204,6 +137,73 @@
         "space_below": 0.5
       }
     },
+    "image_carousel_PaEVW3": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_fFwhz3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell6.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_HKHQYa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_nVwHEb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell4.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_TMzNNn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell9.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_pHg8mM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell5.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fFwhz3",
+        "image_HKHQYa",
+        "image_nVwHEb",
+        "image_TMzNNn",
+        "image_pHg8mM"
+      ],
+      "name": "Image carousel",
+      "settings": {
+        "title": "",
+        "item_width_mobile": 80,
+        "item_width_desktop": 70,
+        "snap_alignment": "snap-center",
+        "align_items": "items-center",
+        "labels_show_titles_and_captions": false,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
     "main": {
       "type": "main-article",
       "settings": {
@@ -220,10 +220,10 @@
     "header",
     "feature_text_DjJVWG",
     "feature_text_iNapP6",
-    "image_carousel_PaEVW3",
     "feature_text_pTnBcr",
     "feature_text_ih6F7C",
     "image_gallery_XiWEVV",
+    "image_carousel_PaEVW3",
     "main"
   ]
 }
