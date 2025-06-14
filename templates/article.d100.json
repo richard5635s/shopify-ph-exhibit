@@ -70,7 +70,7 @@
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DO01050385_105f3076-cf6d-44ba-89b3-7ba2f8f79fb5.jpg",
+            "image": "shopify://shop_images/D1002.jpg",
             "caption": "",
             "link": ""
           }
@@ -79,7 +79,6 @@
       "block_order": [
         "image_GPmeTQ"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "irregular",
@@ -275,7 +274,7 @@
         "image_4nE9pL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/X_OPPO.jpg",
+            "image": "shopify://shop_images/D1005.jpg",
             "caption": "",
             "link": ""
           }
