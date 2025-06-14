@@ -195,6 +195,7 @@
         "image_jCbLmz",
         "image_4nE9pL"
       ],
+      "disabled": true,
       "name": "Image gallery",
       "settings": {
         "title": "",
@@ -217,6 +218,74 @@
         "space_below": 0.5
       }
     },
+    "collage_RkwJhi": {
+      "type": "collage",
+      "blocks": {
+        "image_3ET3XX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell6.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_W9WA9d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_mFfhah": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell4.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_MAa96i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell5.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3ET3XX",
+        "image_W9WA9d",
+        "image_mFfhah",
+        "image_MAa96i"
+      ],
+      "disabled": true,
+      "name": "Collage",
+      "settings": {
+        "title": "",
+        "grid_type": "justified",
+        "mobile_columns": "2",
+        "desktop_columns": 2,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": false,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    },
     "main": {
       "type": "main-article",
       "settings": {
@@ -226,6 +295,73 @@
         "color_scheme": "",
         "space_above": 0,
         "space_below": 0.5
+      }
+    },
+    "image_carousel_PaEVW3": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_fFwhz3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell6.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_HKHQYa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_nVwHEb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell4.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_TMzNNn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell9.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_pHg8mM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell5.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fFwhz3",
+        "image_HKHQYa",
+        "image_nVwHEb",
+        "image_TMzNNn",
+        "image_pHg8mM"
+      ],
+      "name": "Image carousel",
+      "settings": {
+        "title": "",
+        "item_width_mobile": 80,
+        "item_width_desktop": 40,
+        "snap_alignment": "snap-center",
+        "align_items": "items-start",
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": true,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
       }
     }
   },
@@ -238,6 +374,8 @@
     "feature_text_ih6F7C",
     "image_with_text_cey4bN",
     "image_gallery_n7944y",
-    "main"
+    "collage_RkwJhi",
+    "main",
+    "image_carousel_PaEVW3"
   ]
 }
