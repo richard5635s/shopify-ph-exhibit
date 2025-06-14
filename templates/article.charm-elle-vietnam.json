@@ -136,7 +136,7 @@
           "settings": {
             "icon": "none",
             "title": "",
-            "text": "<p>PEGGY HARTANTO made a landmark appearance at the ELLE Fashion Show 2023 organized by <em>ELLE Vietnam </em>in Ho Chi Minh City—becoming the sole international label invited to showcase at the prestigious event. Held at the historic Independence Palace, the event also showcased Vietnam’s most celebrated designers, such as Truong Thanh Hai, Khaar, and Luu VietAnh.<br/><br/>The occasion marked the official debut of our Spring/Summer 2024 collection, CHARM, a vibrant celebration of femininity and tradition. Inspired by Japan’s Hinano Tsurushi Kazari Festival, a centuries-old cultural tradition from the Edo period, the collection paid homage to the joyful symbolism and colorful aesthetics of handcrafted hanging dolls, reinterpreted through the brand’s signature sculptural lens.</p>",
+            "text": "<p>PEGGY HARTANTO made a landmark appearance at the ELLE Fashion Show 2023 organized by <em>ELLE Vietnam </em>in Ho Chi Minh City—becoming the sole international label invited to showcase at the prestigious event. Held at the historic Independence Palace, the event also showcased Vietnam’s most celebrated designers, such as Truong Thanh Hai, Khaar, and Luu VietAnh.<br/><br/>The occasion marked the official debut of our Spring/Summer 2024 collection, <a href=\"https://peggyhartanto.com/pages/collection_charm\" title=\"https://peggyhartanto.com/pages/collection_charm\">CHARM</a>, a vibrant celebration of femininity and tradition. Inspired by Japan’s Hinano Tsurushi Kazari Festival, a centuries-old cultural tradition from the Edo period, the collection paid homage to the joyful symbolism and colorful aesthetics of handcrafted hanging dolls, reinterpreted through the brand’s signature sculptural lens.</p>",
             "cta_link": "",
             "cta_label": ""
           }
@@ -160,149 +160,6 @@
       "settings": {
         "title": "",
         "desktop_columns": 2,
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "feature_text_ih6F7C": {
-      "type": "feature-text",
-      "disabled": true,
-      "name": "Feature text",
-      "settings": {
-        "richtext": "<p>PEGGY HARTANTO made a landmark appearance at the ELLE Fashion Show 2023 organized by <em>ELLE Vietnam </em>in Ho Chi Minh City—becoming the sole international label invited to showcase at the prestigious event. Held at the historic Independence Palace, the event also showcased Vietnam’s most celebrated designers, such as Truong Thanh Hai, Khaar, and Luu VietAnh.<br/><br/>The occasion marked the official debut of our Spring/Summer 2024 collection, CHARM, a vibrant celebration of femininity and tradition. Inspired by Japan’s Hinano Tsurushi Kazari Festival, a centuries-old cultural tradition from the Edo period, the collection paid homage to the joyful symbolism and colorful aesthetics of handcrafted hanging dolls, reinterpreted through the brand’s signature sculptural lens.<br/><br/>Versatility remained at the heart of CHARM, with fluid separates, ultra-feminine gowns, and bold jumpsuits designed to transition seamlessly between everyday elegance and festive flair. Eye-catching accents such as ruffles, pleats, peplum, and bows adorned the pieces, while whimsical accessories tied the looks together with playful sophistication.<br/><br/>The show closed on a high note with a striking final look worn by Vietnamese supermodel and actress Thanh Hằng, drawing thunderous applause from the crowd and cementing PEGGY HARTANTO’s status as a contemporary voice in the global fashion scene.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "feature_text_with_rich_text_kGb3k8": {
-      "type": "feature-text-with-rich-text",
-      "disabled": true,
-      "settings": {
-        "feature_text": "<h4>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</h4>",
-        "font": "font-main",
-        "desktop_text_scale": 4,
-        "mobile_text_scale": 0,
-        "feature_text_position_on_desktop": "left",
-        "feature_text_width_on_desktop": "6",
-        "richtext": "",
-        "cta_link": "",
-        "cta_label": "",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "text_columns_g6P7qQ": {
-      "type": "text-columns",
-      "blocks": {
-        "column_H3W7CH": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>May 28, 2024<br/>DESIGN</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_KfzWmG": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Words<br/>LYDIA HARTANTO</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_A3Nye3": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Photographer<br/>VICKY TANZIL</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_rzETwT": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Stylist<br/>LILIAN NG</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_H3W7CH",
-        "column_KfzWmG",
-        "column_A3Nye3",
-        "column_rzETwT"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_columns": 4,
-        "text_alignment": "text-center",
-        "max_width_of_icons": 50,
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 0
-      }
-    },
-    "feature_text_zLWGap": {
-      "type": "feature-text",
-      "disabled": true,
-      "name": "Feature text",
-      "settings": {
-        "richtext": "<p>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "left",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "image_with_text_cey4bN": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
-        "media_aspect_ratio": "natural",
-        "image_position_on_desktop": "left",
-        "enable_full_bleed": false,
-        "title": "",
-        "heading_size": "text-heading-standard",
-        "richtext": "<p>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "image_width_on_desktop": "6",
-        "content_width_on_desktop": "0.5",
-        "content_alignment": "lg:items-end lg:justify-start",
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
@@ -430,11 +287,6 @@
     "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
     "text_blocks_bpeLpd",
-    "feature_text_ih6F7C",
-    "feature_text_with_rich_text_kGb3k8",
-    "text_columns_g6P7qQ",
-    "feature_text_zLWGap",
-    "image_with_text_cey4bN",
     "parralax_9XAYUg",
     "image_gallery_n7944y",
     "main"
