@@ -413,7 +413,6 @@
     },
     "main": {
       "type": "main-article",
-      "disabled": true,
       "settings": {
         "show_share_buttons": true,
         "show_next_previous_links": true,
