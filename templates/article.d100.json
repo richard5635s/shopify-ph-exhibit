@@ -49,7 +49,7 @@
     "feature_text_iNapP6": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>PEGGY HARTANTO LAUNCHED DISNEY100 COLLABORATION AT PILLAR</p>",
+        "richtext": "<p>UNVEILING A LIMITED EDITION CAPSULE COLLECTION TITLED 'WONDER', INSPIRED BY 'THE LITTLE MERMAID'</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -70,7 +70,7 @@
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D1002.jpg",
+            "image": "shopify://shop_images/DO01050385_105f3076-cf6d-44ba-89b3-7ba2f8f79fb5.jpg",
             "caption": "",
             "link": ""
           }
@@ -79,6 +79,7 @@
       "block_order": [
         "image_GPmeTQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "irregular",
@@ -91,7 +92,7 @@
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "natural",
-        "media_fill_space": false,
+        "media_fill_space": true,
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
@@ -103,7 +104,7 @@
     "feature_text_pTnBcr": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>Words NIKODEMUS<br/>Photos MARCEL GUNAWAN</p>",
+        "richtext": "<p>Words NIKO NOVITO<br/>Photos MARCEL GUNAWAN</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -122,7 +123,7 @@
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
-        "richtext": "<p>In October 2024, PEGGY HARTANTO unveiled <a href=\"https://peggyhartanto.com/pages/collaboration_disney100\" title=\"https://peggyhartanto.com/pages/collaboration_disney100\"><em>WONDER</em></a>, a limited-edition capsule collection commemorating the 100th anniversary of Disney, with an exclusive launch event at PILLAR, Plaza Indonesia. The event featured a striking coral-inspired installation, designed to evoke the enchanting underwater world of <em>The Little Mermaid</em>—a personal favorite of Creative Director Peggy Hartanto.<br/><br/>The <em>WONDER</em> collection showcased 22 ready-to-wear pieces that celebrated the animated classic’s jubilant spirit, blending the brand’s sculptural elegance with playful nods to Disney’s beloved characters. Highlights included tops adorned with original Disney100 artwork, dresses and skirts featuring intricate coral embroidery and 3D appliqués, and collectible charms shaped like Sebastian and Flounder, paired with PEGGY HARTANTO’s signature leather bags.<br/><br/>“Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement,” said our Visual Director Petty Hartanto about the inspiration behind the collection. “We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”<br/><br/>With <em>WONDER</em>, the brand reimagined childhood nostalgia through the lens of modern femininity—bridging fashion and fantasy in a collaboration that delighted both longtime Disney fans and style insiders.</p>",
+        "richtext": "<p>As part of Disney’s 100th anniversary, the WONDER collection, encapsulates Ariel’s boundless curiosity, inspired by the iconic Disney character's exploration of worlds both beneath the waves and above.<br/><br/>Visual Director Petty Hartanto, explains the inspirations and ambitions behind this collection: “Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement. We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”<br/><br/>Comprising 22 unique SKUs, the line offers a diverse range of ready-to-wear pieces. From the brand's signature occasion wear pieces to casual sweatshirt sets, each item seamlessly integrates PEGGY HARTANTO’s iconic designs. The collection also boasts styles with original prints, harmoniously blending Disney100-inspired artwork with PEGGY HARTANTO’s distinctive aesthetic and color palette. Using delicate touch embroidery, expanses of iridescent sequins, soft coral prints and lightweight 3D detailing, PEGGY HARTANTO has created a mature and beautifully subtle collection inspired by the classic Disney story. The collection also incorporates the brand's recently launched signature bags, adorned with charms of beloved characters Sebastian and Flounder.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -266,24 +267,15 @@
         "image_qUCJqp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D100_a549e8f5-acd9-4354-b2c2-d056242c01d0.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_p8U49m": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/D1005.jpg",
+            "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
             "caption": "",
             "link": ""
           }
         },
         "image_4nE9pL": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/D1003.jpg",
+            "image": "shopify://shop_images/X_OPPO.jpg",
             "caption": "",
             "link": ""
           }
@@ -291,24 +283,23 @@
       },
       "block_order": [
         "image_qUCJqp",
-        "image_p8U49m",
         "image_4nE9pL"
       ],
       "name": "Image gallery",
       "settings": {
         "title": "",
-        "grid_type": "standard",
+        "grid_type": "justified",
         "mobile_columns": "2",
         "desktop_columns": 2,
         "standard_layout_align_items": "items-start",
-        "modular_layout_variation": 12,
+        "modular_layout_variation": 1,
         "modular_grid_item_aspect_ratio": 1,
         "modular_no_crop_media_mobile": false,
         "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "natural",
         "media_fill_space": false,
-        "labels_show_titles_and_captions": false,
+        "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
         "color_scheme": "",

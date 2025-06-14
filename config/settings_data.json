@@ -237,16 +237,6 @@
           "secondary": "#393939",
           "border": "#ffffff"
         }
-      },
-      "scheme-e893195c-de23-41c7-aa4e-6d5f7c52c87f": {
-        "settings": {
-          "background": "#ffffff",
-          "text": "#121212",
-          "accent": "#3b3b3b",
-          "accent_contrast": "#ffffff",
-          "secondary": "#121212",
-          "border": "#dedede"
-        }
       }
     }
   },
