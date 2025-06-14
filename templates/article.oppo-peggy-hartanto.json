@@ -31,7 +31,7 @@
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
-        "richtext": "<p>18 October 2023</p>",
+        "richtext": "<p>27 December 2023</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -49,7 +49,7 @@
     "feature_text_iNapP6": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>PEGGY HARTANTO LAUNCHED DISNEY100 COLLABORATION AT PILLAR</p>",
+        "richtext": "<p>OPPO | PEGGY HARTANTO</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -70,7 +70,7 @@
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D1002.jpg",
+            "image": "shopify://shop_images/X_OPPO.jpg",
             "caption": "",
             "link": ""
           }
@@ -102,6 +102,7 @@
     },
     "feature_text_pTnBcr": {
       "type": "feature-text",
+      "disabled": true,
       "settings": {
         "richtext": "<p>Words NIKO NOVITO<br/>Photos MARCEL GUNAWAN</p>",
         "cta_link": "",
@@ -120,6 +121,7 @@
     },
     "feature_text_ih6F7C": {
       "type": "feature-text",
+      "disabled": true,
       "name": "Feature text",
       "settings": {
         "richtext": "<p>In October 2024, PEGGY HARTANTO unveiled <a href=\"https://peggyhartanto.com/pages/collaboration_disney100\" title=\"https://peggyhartanto.com/pages/collaboration_disney100\"><em>WONDER</em></a>, a limited-edition capsule collection commemorating the 100th anniversary of Disney, with an exclusive launch event at PILLAR, Plaza Indonesia. The event featured a striking coral-inspired installation, designed to evoke the enchanting underwater world of <em>The Little Mermaid</em>—a personal favorite of Creative Director Peggy Hartanto.<br/><br/>The <em>WONDER </em>collection showcased 22 ready-to-wear pieces that celebrated the animated classic’s jubilant spirit, blending the brand’s sculptural elegance with playful nods to Disney’s beloved characters. Highlights included tops adorned with original Disney100 artwork, dresses and skirts featuring intricate coral embroidery and 3D appliqués, and collectible charms shaped like Sebastian and Flounder, paired with PEGGY HARTANTO’s signature leather bags.<br/><br/>“Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement,” said our Visual Director Petty Hartanto about the inspiration behind the collection. “We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”<br/><br/>With <em>WONDER </em>, the brand reimagined childhood nostalgia through the lens of modern femininity—bridging fashion and fantasy in a collaboration that delighted both longtime Disney fans and style insiders.</p>",
@@ -135,86 +137,6 @@
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0.5
-      }
-    },
-    "feature_text_with_rich_text_kGb3k8": {
-      "type": "feature-text-with-rich-text",
-      "disabled": true,
-      "settings": {
-        "feature_text": "<h4>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</h4>",
-        "font": "font-main",
-        "desktop_text_scale": 4,
-        "mobile_text_scale": 0,
-        "feature_text_position_on_desktop": "left",
-        "feature_text_width_on_desktop": "6",
-        "richtext": "",
-        "cta_link": "",
-        "cta_label": "",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "text_columns_g6P7qQ": {
-      "type": "text-columns",
-      "blocks": {
-        "column_H3W7CH": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>May 28, 2024<br/>DESIGN</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_KfzWmG": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Words<br/>LYDIA HARTANTO</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_A3Nye3": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Photographer<br/>VICKY TANZIL</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "column_rzETwT": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Stylist<br/>LILIAN NG</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_H3W7CH",
-        "column_KfzWmG",
-        "column_A3Nye3",
-        "column_rzETwT"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_columns": 4,
-        "text_alignment": "text-center",
-        "max_width_of_icons": 50,
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 0
       }
     },
     "feature_text_zLWGap": {
@@ -266,7 +188,23 @@
         "image_qUCJqp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
+            "image": "shopify://shop_images/SnapInsta.to_414876633_18408199684017804_297179330232419053_n.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_fHyaKC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SnapInsta.to_414919008_18408199702017804_4328027473269405669_n.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_nmaJ9p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SnapInsta.to_415391915_18408199675017804_8439876685983153963_n.jpg",
             "caption": "",
             "link": ""
           }
@@ -274,7 +212,7 @@
         "image_4nE9pL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D1005.jpg",
+            "image": "shopify://shop_images/SnapInsta.to_414885954_18408199666017804_34791598196677022_n.jpg",
             "caption": "",
             "link": ""
           }
@@ -282,6 +220,8 @@
       },
       "block_order": [
         "image_qUCJqp",
+        "image_fHyaKC",
+        "image_nmaJ9p",
         "image_4nE9pL"
       ],
       "name": "Image gallery",
@@ -289,7 +229,7 @@
         "title": "",
         "grid_type": "justified",
         "mobile_columns": "2",
-        "desktop_columns": 2,
+        "desktop_columns": 4,
         "standard_layout_align_items": "items-start",
         "modular_layout_variation": 1,
         "modular_grid_item_aspect_ratio": 1,
@@ -325,8 +265,6 @@
     "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
     "feature_text_ih6F7C",
-    "feature_text_with_rich_text_kGb3k8",
-    "text_columns_g6P7qQ",
     "feature_text_zLWGap",
     "image_with_text_cey4bN",
     "image_gallery_n7944y",
