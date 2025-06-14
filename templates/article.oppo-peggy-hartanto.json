@@ -88,7 +88,7 @@
         "modular_layout_variation": 1,
         "modular_grid_item_aspect_ratio": 1,
         "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
+        "irregular_layout_variation": 3,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "natural",
         "media_fill_space": true,
