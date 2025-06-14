@@ -70,7 +70,7 @@
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WONDERLANDLightwell1.jpg",
+            "image": "shopify://shop_images/WONDERLANDLightwell2.jpg",
             "caption": "",
             "link": ""
           }
@@ -265,14 +265,24 @@
       "blocks": {
         "image_qUCJqp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
             "caption": "",
             "link": ""
           }
         },
+        "image_jCbLmz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell3.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_4nE9pL": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/D1005.jpg",
             "caption": "",
@@ -282,6 +292,7 @@
       },
       "block_order": [
         "image_qUCJqp",
+        "image_jCbLmz",
         "image_4nE9pL"
       ],
       "name": "Image gallery",
@@ -308,6 +319,7 @@
     },
     "main": {
       "type": "main-article",
+      "disabled": true,
       "settings": {
         "show_share_buttons": true,
         "show_next_previous_links": true,
