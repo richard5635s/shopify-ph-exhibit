@@ -350,26 +350,44 @@
     "image_gallery_n7944y": {
       "type": "image-gallery",
       "blocks": {
-        "image_qUCJqp": {
+        "image_p8U49m": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D100_a549e8f5-acd9-4354-b2c2-d056242c01d0.jpg",
+            "image": "shopify://shop_images/ELLEVT10.jpg",
             "caption": "",
             "link": ""
           }
         },
-        "image_p8U49m": {
+        "image_YDU84V": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D1005.jpg",
+            "image": "shopify://shop_images/ELLEVT9.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_qUCJqp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT7.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_fjc7jy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT11.jpg",
             "caption": "",
             "link": ""
           }
         }
       },
       "block_order": [
+        "image_p8U49m",
+        "image_YDU84V",
         "image_qUCJqp",
-        "image_p8U49m"
+        "image_fjc7jy"
       ],
       "name": "Image gallery",
       "settings": {
