@@ -251,9 +251,9 @@
       "settings": {
         "show_share_buttons": true,
         "show_next_previous_links": true,
-        "content_alignment_on_desktop": "lg:col-end-[-1]",
+        "content_alignment_on_desktop": "lg:col-start-4",
         "color_scheme": "",
-        "space_above": 0,
+        "space_above": 0.5,
         "space_below": 0.5
       }
     }
