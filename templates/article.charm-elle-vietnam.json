@@ -200,8 +200,8 @@
         "color_over": "#000000",
         "par_opacity": 50,
         "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#ccc",
-        "color_par1_but_txt": "#FFFFFF"
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
       }
     },
     "image_gallery_n7944y": {
@@ -215,18 +215,18 @@
             "link": ""
           }
         },
-        "image_YDU84V": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ELLEVT9.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
         "image_qUCJqp": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/ELLEVT7.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_YDU84V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT9.jpg",
             "caption": "",
             "link": ""
           }
@@ -242,8 +242,8 @@
       },
       "block_order": [
         "image_p8U49m",
-        "image_YDU84V",
         "image_qUCJqp",
+        "image_YDU84V",
         "image_fjc7jy"
       ],
       "name": "Image gallery",
