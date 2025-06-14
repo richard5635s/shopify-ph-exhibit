@@ -64,90 +64,6 @@
         "space_below": 0
       }
     },
-    "image_gallery_XiWEVV": {
-      "type": "image-gallery",
-      "blocks": {
-        "image_GPmeTQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WONDERLANDLightwell2.jpg",
-            "caption": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_GPmeTQ"
-      ],
-      "settings": {
-        "title": "",
-        "grid_type": "irregular",
-        "mobile_columns": "1",
-        "desktop_columns": 1,
-        "standard_layout_align_items": "items-start",
-        "modular_layout_variation": 1,
-        "modular_grid_item_aspect_ratio": 1,
-        "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
-        "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "natural",
-        "media_fill_space": true,
-        "labels_show_titles_and_captions": true,
-        "labels_display": "below_media",
-        "labels_always_show_on_mobile": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "feature_text_pTnBcr": {
-      "type": "feature-text",
-      "settings": {
-        "richtext": "<p>Words NIKO NOVITO<br/>Photos LIGHTWELL</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": -1,
-        "mobile_text_scale": -1,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "scheme1",
-        "space_above": 0.5,
-        "space_below": 0
-      }
-    },
-    "feature_text_ih6F7C": {
-      "type": "feature-text",
-      "name": "Feature text",
-      "settings": {
-        "richtext": "<p>In May 2022, we introduced the signature design aesthetic of PEGGY HARTANTO to Taipei’s stylish set with the launch of a month-long <a href=\"https://peggyhartanto.com/pages/collection_wonderland\" title=\"https://peggyhartanto.com/pages/collection_wonderland\">WONDERLAND</a> pop-up at LIGHTWELL, Taiwan’s pioneering concept store that merged fashion retail with art gallery-style installations. This pop-up marked the brand’s first solo presence in Taiwan.<br/><br/>Inspired by <em>Alice in Wonderland</em>, the immersive retail space was imagined by Surabaya-based creatives Raymond Halim and Ryan Tandya, transforming the store into a dreamscape of rabbit holes, chess pieces, rose gardens, and keyhole motifs—a surreal escape from reality echoing the narrative arc of Lewis Carroll’s beloved tale.<br/><br/>We featured our Spring/Summer 2022 collection, WONDERLAND, which was designed during a period of global uncertainty. Through vibrant prints and uplifting silhouettes, the collection offered a message of hope and resilience—a vision of light in dark times.<br/><br/>Staying true to this spirit, LIGHTWELL committed to donating a fraction of proceeds from this event to One-Forty, a nonprofit startup that supported Southeast Asian migrant workers in Taiwan through education and cultural exchange programs.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "main": {
-      "type": "main-article",
-      "settings": {
-        "show_share_buttons": true,
-        "show_next_previous_links": true,
-        "content_alignment_on_desktop": "lg:col-end-[-1]",
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 0.5
-      }
-    },
     "image_carousel_PaEVW3": {
       "type": "image-carousel",
       "blocks": {
@@ -203,7 +119,7 @@
       "settings": {
         "title": "",
         "item_width_mobile": 80,
-        "item_width_desktop": 40,
+        "item_width_desktop": 70,
         "snap_alignment": "snap-center",
         "align_items": "items-start",
         "labels_show_titles_and_captions": true,
@@ -212,7 +128,91 @@
         "show_index_and_total_slides": true,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 1
+        "space_below": 0
+      }
+    },
+    "feature_text_pTnBcr": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Words NIKO NOVITO<br/>Photos LIGHTWELL</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "scheme1",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "feature_text_ih6F7C": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>In May 2022, we introduced the signature design aesthetic of PEGGY HARTANTO to Taipei’s stylish set with the launch of a month-long <a href=\"https://peggyhartanto.com/pages/collection_wonderland\" title=\"https://peggyhartanto.com/pages/collection_wonderland\">WONDERLAND</a> pop-up at LIGHTWELL, Taiwan’s pioneering concept store that merged fashion retail with art gallery-style installations. This pop-up marked the brand’s first solo presence in Taiwan.<br/><br/>Inspired by <em>Alice in Wonderland</em>, the immersive retail space was imagined by Surabaya-based creatives Raymond Halim and Ryan Tandya, transforming the store into a dreamscape of rabbit holes, chess pieces, rose gardens, and keyhole motifs—a surreal escape from reality echoing the narrative arc of Lewis Carroll’s beloved tale.<br/><br/>We featured our Spring/Summer 2022 collection, WONDERLAND, which was designed during a period of global uncertainty. Through vibrant prints and uplifting silhouettes, the collection offered a message of hope and resilience—a vision of light in dark times.<br/><br/>Staying true to this spirit, LIGHTWELL committed to donating a fraction of proceeds from this event to One-Forty, a nonprofit startup that supported Southeast Asian migrant workers in Taiwan through education and cultural exchange programs.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "image_gallery_XiWEVV": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_GPmeTQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WONDERLANDLightwell2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GPmeTQ"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "irregular",
+        "mobile_columns": "1",
+        "desktop_columns": 1,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_share_buttons": true,
+        "show_next_previous_links": true,
+        "content_alignment_on_desktop": "lg:col-end-[-1]",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0.5
       }
     }
   },
@@ -220,10 +220,10 @@
     "header",
     "feature_text_DjJVWG",
     "feature_text_iNapP6",
-    "image_gallery_XiWEVV",
+    "image_carousel_PaEVW3",
     "feature_text_pTnBcr",
     "feature_text_ih6F7C",
-    "main",
-    "image_carousel_PaEVW3"
+    "image_gallery_XiWEVV",
+    "main"
   ]
 }
