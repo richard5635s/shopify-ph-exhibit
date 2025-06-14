@@ -137,6 +137,17 @@
         "space_below": 0.5
       }
     },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_share_buttons": true,
+        "show_next_previous_links": true,
+        "content_alignment_on_desktop": "lg:col-end-[-1]",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0.5
+      }
+    },
     "image_carousel_PaEVW3": {
       "type": "image-carousel",
       "blocks": {
@@ -192,7 +203,7 @@
       "settings": {
         "title": "",
         "item_width_mobile": 80,
-        "item_width_desktop": 70,
+        "item_width_desktop": 50,
         "snap_alignment": "snap-center",
         "align_items": "items-center",
         "labels_show_titles_and_captions": false,
@@ -201,17 +212,6 @@
         "show_index_and_total_slides": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 0
-      }
-    },
-    "main": {
-      "type": "main-article",
-      "settings": {
-        "show_share_buttons": true,
-        "show_next_previous_links": true,
-        "content_alignment_on_desktop": "lg:col-end-[-1]",
-        "color_scheme": "",
-        "space_above": 0,
         "space_below": 0.5
       }
     }
