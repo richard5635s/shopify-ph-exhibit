@@ -122,7 +122,7 @@
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
-        "richtext": "<p>In May 2022, we introduced the signature design aesthetic of PEGGY HARTANTO to Taipei’s stylish set with the launch of a month-long <a href=\"https://peggyhartanto.com/pages/collection_wonderland\" title=\"https://peggyhartanto.com/pages/collection_wonderland\">WONDERLAND</a> pop-up at LIGHTWELL, Taiwan’s pioneering concept store that merged fashion retail with art gallery-style installations. This pop-up marked the brand’s first solo presence in Taiwan.<br/><br/>Inspired by <em>Alice in Wonderland</em>, the immersive retail space was imagined by Surabaya-based creatives Raymond Halim and Ryan Tandya, transforming the store into a dreamscape of rabbit holes, chess pieces, rose gardens, and keyhole motifs—a surreal escape from reality echoing the narrative arc of Lewis Carroll’s beloved tale.<br/><br/>We featured our Spring/Summer 2022 collection, WONDERLAND, which was designed during a period of global uncertainty. Through vibrant prints and uplifting silhouettes, the collection offered a message of hope and resilience—a vision of light in dark times.<br/><br/>Staying true to this spirit, LIGHTWELL committed to donating a fraction of proceeds from this event to One-Forty, a nonprofit startup that supported Southeast Asian migrant workers in Taiwan through education and cultural exchange programs.</p>",
+        "richtext": "<p>In May 2022, we introduced the signature design aesthetic of PEGGY HARTANTO to Taipei’s stylish set with the launch of a month-long <a href=\"https://peggyhartanto.com/pages/collection_wonderland\" title=\"https://peggyhartanto.com/pages/collection_wonderland\">WONDERLAND</a> pop-up at LIGHTWELL, Taiwan’s pioneering concept store that merged fashion retail with art gallery-style installations. This pop-up marked the brand’s first solo presence in Taiwan.<br/><br/>Inspired by <em>Alice in Wonderland</em>, the immersive retail space was imagined by Surabaya-based creatives Raymond Halim and Ryan Tandya, transforming the store into a dreamscape of rabbit holes, chess pieces, rose gardens, and keyhole motifs—a surreal escape from reality echoing the narrative arc of Lewis Carroll’s beloved tale.<br/><br/>We featured our Spring/Summer 2022 collection, WONDERLAND, which was designed during a period of global uncertainty. Through vibrant prints and uplifting silhouettes, the collection offered a message of hope and resilience—a vision of light in dark times.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -131,25 +131,6 @@
         "text_alignment": "text-left",
         "content_width_on_desktop": "4",
         "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "feature_text_zLWGap": {
-      "type": "feature-text",
-      "name": "Feature text",
-      "settings": {
-        "richtext": "<p>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "left",
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
@@ -231,6 +212,25 @@
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_zLWGap": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>Staying true to this spirit, LIGHTWELL committed to donating a fraction of proceeds from this event to One-Forty, a nonprofit startup that supported Southeast Asian migrant workers in Taiwan through education and cultural exchange programs.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0.5
