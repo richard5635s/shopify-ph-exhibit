@@ -239,7 +239,6 @@
     },
     "feature_text_pTnBcr": {
       "type": "feature-text",
-      "disabled": true,
       "settings": {
         "richtext": "<p>Words NIKO NOVITO<br/>Photos MARCEL GUNAWAN</p>",
         "cta_link": "",
