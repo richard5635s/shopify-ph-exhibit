@@ -100,11 +100,49 @@
         "space_below": 0.5
       }
     },
+    "feature_text_pTnBcr": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Words NIKO NOVITO<br/>Photos MARCEL GUNAWAN</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "scheme1",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
     "feature_text_TV4BYU": {
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
         "richtext": "<p>To mark its decade in fashion, PEGGY HARTANTO launched SYNTHESIS, a special anniversary exhibition held at Orasis Art Space in Surabaya. Opened in September 2023, the show featured key pieces from the brand’s archive alongside a capsule collection created specifically for the occasion.<br/><br/>Curated by Jo Elaine, the exhibition invited visitors to step inside the creative world of the Hartanto sisters—Peggy, Petty, and Lydia—through a curated pathway of signature designs, ambient soundscapes, and multisensory installations.<br/></p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_ih6F7C": {
+      "type": "feature-text",
+      "disabled": true,
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>To mark its decade in fashion, PEGGY HARTANTO launched SYNTHESIS, a special anniversary exhibition held at Orasis Art Space in Surabaya. Opened in September 2023, the show featured key pieces from the brand’s archive alongside a capsule collection created specifically for the occasion.<br/><br/>Curated by Jo Elaine, the exhibition invited visitors to step inside the creative world of the Hartanto sisters—Peggy, Petty, and Lydia—through a curated pathway of signature designs, ambient soundscapes, and multisensory installations.<br/><br/>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.<br/><br/>Beyond the gallery walls, visitors encountered playful outdoor installations—like fuchsia shrubs made from thousands of broomsticks—created by Sciencewerk, a design studio from Surabaya. A pop-up café offered exclusive confections and a capsule collection, while a monogram shaped like a three-leaf clover—an emblem of the three Hartanto sisters designed by the Bandung-based graphic design studio NUSAE—appeared throughout the space, hinting at the next identity for the brand.<br/><br/>The exhibition also included talk sessions with the Hartanto sisters and longtime collaborators. It served not only as a celebration of past achievements but as a platform to signal future plans, including a refreshed visual identity and continued focus on creating for modern women.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -238,44 +276,6 @@
         "space_below": 0.5
       }
     },
-    "feature_text_pTnBcr": {
-      "type": "feature-text",
-      "settings": {
-        "richtext": "<p>Words NIKO NOVITO<br/>Photos MARCEL GUNAWAN</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": -1,
-        "mobile_text_scale": -1,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "scheme1",
-        "space_above": 0.5,
-        "space_below": 0
-      }
-    },
-    "feature_text_ih6F7C": {
-      "type": "feature-text",
-      "disabled": true,
-      "name": "Feature text",
-      "settings": {
-        "richtext": "<p>To mark its decade in fashion, PEGGY HARTANTO launched SYNTHESIS, a special anniversary exhibition held at Orasis Art Space in Surabaya. Opened in September 2023, the show featured key pieces from the brand’s archive alongside a capsule collection created specifically for the occasion.<br/><br/>Curated by Jo Elaine, the exhibition invited visitors to step inside the creative world of the Hartanto sisters—Peggy, Petty, and Lydia—through a curated pathway of signature designs, ambient soundscapes, and multisensory installations.<br/><br/>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.<br/><br/>Beyond the gallery walls, visitors encountered playful outdoor installations—like fuchsia shrubs made from thousands of broomsticks—created by Sciencewerk, a design studio from Surabaya. A pop-up café offered exclusive confections and a capsule collection, while a monogram shaped like a three-leaf clover—an emblem of the three Hartanto sisters designed by the Bandung-based graphic design studio NUSAE—appeared throughout the space, hinting at the next identity for the brand.<br/><br/>The exhibition also included talk sessions with the Hartanto sisters and longtime collaborators. It served not only as a celebration of past achievements but as a platform to signal future plans, including a refreshed visual identity and continued focus on creating for modern women.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
     "main": {
       "type": "main-article",
       "disabled": true,
@@ -294,13 +294,13 @@
     "feature_text_DjJVWG",
     "feature_text_iNapP6",
     "image_gallery_XiWEVV",
+    "feature_text_pTnBcr",
     "feature_text_TV4BYU",
     "feature_text_ih6F7C",
     "feature_text_with_rich_text_kGb3k8",
     "feature_text_with_rich_text_yTT7mV",
     "image_gallery_n7944y",
     "image_with_text_cey4bN",
-    "feature_text_pTnBcr",
     "main"
   ]
 }
