@@ -176,25 +176,6 @@
         "space_below": 0.5
       }
     },
-    "feature_text_with_rich_text_yTT7mV": {
-      "type": "feature-text-with-rich-text",
-      "name": "Feature text with content",
-      "settings": {
-        "feature_text": "<p>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. </p>",
-        "font": "font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "feature_text_position_on_desktop": "left",
-        "feature_text_width_on_desktop": "6",
-        "richtext": "<p>Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
     "image_gallery_n7944y": {
       "type": "image-gallery",
       "blocks": {
@@ -230,7 +211,6 @@
         "image_qUCJqp",
         "image_4nE9pL"
       ],
-      "disabled": true,
       "name": "Image gallery",
       "settings": {
         "title": "",
@@ -251,6 +231,25 @@
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0
+      }
+    },
+    "feature_text_with_rich_text_yTT7mV": {
+      "type": "feature-text-with-rich-text",
+      "name": "Feature text with content",
+      "settings": {
+        "feature_text": "<p>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. </p>",
+        "font": "font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "feature_text_position_on_desktop": "left",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "<p>Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
       }
     },
     "image_with_text_cey4bN": {
@@ -298,8 +297,8 @@
     "feature_text_TV4BYU",
     "feature_text_ih6F7C",
     "feature_text_with_rich_text_kGb3k8",
-    "feature_text_with_rich_text_yTT7mV",
     "image_gallery_n7944y",
+    "feature_text_with_rich_text_yTT7mV",
     "image_with_text_cey4bN",
     "main"
   ]
