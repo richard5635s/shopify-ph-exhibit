@@ -135,7 +135,7 @@
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 1
+        "space_below": 0
       }
     },
     "media_with_text_overlay_PbrpeP": {
@@ -144,7 +144,7 @@
         "image_wPYPFH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_7bf04e7c-005a-4951-95e9-5cddeb022684.jpg"
+            "image": "shopify://shop_images/SYNTHESIS5.jpg"
           }
         },
         "color_overlay_6ctjFT": {
@@ -166,8 +166,8 @@
       ],
       "name": "Media with text overlay",
       "settings": {
-        "enable_full_bleed": true,
-        "aspect_ratio_mobile": "full-screen",
+        "enable_full_bleed": false,
+        "aspect_ratio_mobile": "1.33",
         "aspect_ratio_desktop": "same",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
@@ -195,11 +195,11 @@
         "cta_link": "",
         "cta_label": "",
         "image_width_on_desktop": "6",
-        "content_width_on_desktop": "0.5",
+        "content_width_on_desktop": "0.667",
         "content_alignment": "lg:items-center lg:justify-center",
         "show_top_border": false,
         "color_scheme": "",
-        "space_above": 0.5,
+        "space_above": 0,
         "space_below": 0.5
       }
     },
