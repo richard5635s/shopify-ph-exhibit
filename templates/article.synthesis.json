@@ -243,17 +243,17 @@
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
-        "media_aspect_ratio": "natural",
+        "media_aspect_ratio": "0.6667",
         "image_position_on_desktop": "left",
         "enable_full_bleed": false,
         "title": "",
         "heading_size": "text-heading-standard",
-        "richtext": "<p>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</p>",
+        "richtext": "<p>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.<br/><br/></p>",
         "cta_link": "",
         "cta_label": "",
         "image_width_on_desktop": "6",
-        "content_width_on_desktop": "0.5",
-        "content_alignment": "lg:items-end lg:justify-start",
+        "content_width_on_desktop": "0.75",
+        "content_alignment": "lg:items-center lg:justify-center",
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
@@ -299,16 +299,16 @@
       "name": "Image gallery",
       "settings": {
         "title": "",
-        "grid_type": "masonry",
+        "grid_type": "justified",
         "mobile_columns": "2",
-        "desktop_columns": 2,
+        "desktop_columns": 1,
         "standard_layout_align_items": "items-center",
-        "modular_layout_variation": 2,
+        "modular_layout_variation": 1,
         "modular_grid_item_aspect_ratio": 0.7,
         "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 5,
+        "irregular_layout_variation": 1,
         "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "natural",
+        "media_aspect_ratio": "1.778",
         "media_fill_space": false,
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
@@ -330,53 +330,47 @@
         "space_below": 0.5
       }
     },
-    "profile_hftd6B": {
-      "type": "profile",
+    "media_with_text_overlay_PbrpeP": {
+      "type": "media-with-text-overlay",
       "blocks": {
-        "row_6yCyTN": {
-          "type": "row",
+        "image_wPYPFH": {
+          "type": "image",
           "settings": {
-            "title": "Heading",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "cta_link": "",
-            "cta_label": ""
+            "image": "shopify://shop_images/SYNTHESIS2.jpg"
           }
         },
-        "row_NGgRCP": {
-          "type": "row",
+        "color_overlay_6ctjFT": {
+          "type": "color_overlay",
+          "disabled": true,
           "settings": {
-            "title": "Heading",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "row_GgDYPU": {
-          "type": "row",
-          "settings": {
-            "title": "Heading",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "cta_link": "",
-            "cta_label": ""
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#FFFFFF",
+            "opacity": 80,
+            "blend_mode": "normal"
           }
         }
       },
       "block_order": [
-        "row_6yCyTN",
-        "row_NGgRCP",
-        "row_GgDYPU"
+        "image_wPYPFH",
+        "color_overlay_6ctjFT"
       ],
-      "disabled": true,
-      "name": "Profile",
+      "name": "Media with text overlay",
       "settings": {
-        "heading_font": "font-heading text-heading-secondary",
-        "heading_width_on_desktop": "3",
-        "text_width_on_desktop": "6",
-        "right_align_content_on_desktop": true,
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "same",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "8",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
       }
     }
   },
@@ -393,6 +387,6 @@
     "image_with_text_cey4bN",
     "image_gallery_n7944y",
     "main",
-    "profile_hftd6B"
+    "media_with_text_overlay_PbrpeP"
   ]
 }
