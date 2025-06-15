@@ -64,6 +64,25 @@
         "space_below": 0
       }
     },
+    "feature_text_pktt7B": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>To mark its decade in fashion, PEGGY HARTANTO launched SYNTHESIS, a special anniversary exhibition held at Orasis Art Space in Surabaya. Opened in September 2023, the show featured key pieces from the brand’s archive alongside a capsule collection created specifically for the occasion.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
     "image_gallery_XiWEVV": {
       "type": "image-gallery",
       "blocks": {
@@ -100,8 +119,93 @@
         "space_below": 0.5
       }
     },
+    "feature_text_TV4BYU": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>Curated by Jo Elaine, the exhibition invited visitors to step inside the creative world of the Hartanto sisters—Peggy, Petty, and Lydia—through a curated pathway of signature designs, ambient soundscapes, and multisensory installations.<br/></p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "media_with_text_overlay_PbrpeP": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_wPYPFH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_7bf04e7c-005a-4951-95e9-5cddeb022684.jpg"
+          }
+        },
+        "color_overlay_6ctjFT": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 80,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_wPYPFH",
+        "color_overlay_6ctjFT"
+      ],
+      "name": "Media with text overlay",
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "same",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "8",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
+      }
+    },
+    "image_with_text_cey4bN": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
+        "media_aspect_ratio": "natural",
+        "image_position_on_desktop": "right",
+        "enable_full_bleed": false,
+        "title": "",
+        "heading_size": "text-heading-standard",
+        "richtext": "<p>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.<br/><br/></p>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "6",
+        "content_width_on_desktop": "0.6",
+        "content_alignment": "lg:items-center lg:justify-center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
     "feature_text_pTnBcr": {
       "type": "feature-text",
+      "disabled": true,
       "settings": {
         "richtext": "<p>Words NIKO NOVITO<br/>Photos MARCEL GUNAWAN</p>",
         "cta_link": "",
@@ -120,6 +224,7 @@
     },
     "feature_text_ih6F7C": {
       "type": "feature-text",
+      "disabled": true,
       "name": "Feature text",
       "settings": {
         "richtext": "<p>To mark its decade in fashion, PEGGY HARTANTO launched SYNTHESIS, a special anniversary exhibition held at Orasis Art Space in Surabaya. Opened in September 2023, the show featured key pieces from the brand’s archive alongside a capsule collection created specifically for the occasion.<br/><br/>Curated by Jo Elaine, the exhibition invited visitors to step inside the creative world of the Hartanto sisters—Peggy, Petty, and Lydia—through a curated pathway of signature designs, ambient soundscapes, and multisensory installations.<br/><br/>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.<br/><br/>Beyond the gallery walls, visitors encountered playful outdoor installations—like fuchsia shrubs made from thousands of broomsticks—created by Sciencewerk, a design studio from Surabaya. A pop-up café offered exclusive confections and a capsule collection, while a monogram shaped like a three-leaf clover—an emblem of the three Hartanto sisters designed by the Bandung-based graphic design studio NUSAE—appeared throughout the space, hinting at the next identity for the brand.<br/><br/>The exhibition also included talk sessions with the Hartanto sisters and longtime collaborators. It served not only as a celebration of past achievements but as a platform to signal future plans, including a refreshed visual identity and continued focus on creating for modern women.</p>",
@@ -237,29 +342,6 @@
         "space_below": 0.5
       }
     },
-    "image_with_text_cey4bN": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
-        "media_aspect_ratio": "0.6667",
-        "image_position_on_desktop": "left",
-        "enable_full_bleed": false,
-        "title": "",
-        "heading_size": "text-heading-standard",
-        "richtext": "<p>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.<br/><br/></p>",
-        "cta_link": "",
-        "cta_label": "",
-        "image_width_on_desktop": "6",
-        "content_width_on_desktop": "0.75",
-        "content_alignment": "lg:items-center lg:justify-center",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
     "image_gallery_n7944y": {
       "type": "image-gallery",
       "blocks": {
@@ -329,64 +411,23 @@
         "space_above": 0,
         "space_below": 0.5
       }
-    },
-    "media_with_text_overlay_PbrpeP": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "image_wPYPFH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SYNTHESIS2.jpg"
-          }
-        },
-        "color_overlay_6ctjFT": {
-          "type": "color_overlay",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "overlay_color": "bg-scheme-background",
-            "enable_custom_color": false,
-            "custom_overlay_color": "#ffffff",
-            "opacity": 80,
-            "blend_mode": "normal"
-          }
-        }
-      },
-      "block_order": [
-        "image_wPYPFH",
-        "color_overlay_6ctjFT"
-      ],
-      "name": "Media with text overlay",
-      "settings": {
-        "enable_full_bleed": true,
-        "aspect_ratio_mobile": "full-screen",
-        "aspect_ratio_desktop": "same",
-        "content_position": "justify-center items-center",
-        "text_align": "text-center",
-        "content_width_on_desktop": "8",
-        "title": "",
-        "heading_size": "text-heading-feature",
-        "richtext": "",
-        "cta_link": "",
-        "cta_label": "",
-        "button_style": "",
-        "color_scheme": ""
-      }
     }
   },
   "order": [
     "header",
     "feature_text_DjJVWG",
     "feature_text_iNapP6",
+    "feature_text_pktt7B",
     "image_gallery_XiWEVV",
+    "feature_text_TV4BYU",
+    "media_with_text_overlay_PbrpeP",
+    "image_with_text_cey4bN",
     "feature_text_pTnBcr",
     "feature_text_ih6F7C",
     "feature_text_with_rich_text_kGb3k8",
     "text_columns_g6P7qQ",
     "feature_text_zLWGap",
-    "image_with_text_cey4bN",
     "image_gallery_n7944y",
-    "main",
-    "media_with_text_overlay_PbrpeP"
+    "main"
   ]
 }
