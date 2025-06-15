@@ -195,7 +195,7 @@
         "cta_link": "",
         "cta_label": "",
         "image_width_on_desktop": "6",
-        "content_width_on_desktop": "0.6",
+        "content_width_on_desktop": "0.5",
         "content_alignment": "lg:items-center lg:justify-center",
         "show_top_border": false,
         "color_scheme": "",
