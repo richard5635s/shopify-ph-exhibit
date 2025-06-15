@@ -192,6 +192,7 @@
         "image_qUCJqp",
         "image_4nE9pL"
       ],
+      "disabled": true,
       "name": "Image gallery",
       "settings": {
         "title": "",
@@ -294,12 +295,12 @@
     "feature_text_iNapP6",
     "image_gallery_XiWEVV",
     "feature_text_TV4BYU",
+    "feature_text_ih6F7C",
     "feature_text_with_rich_text_kGb3k8",
     "feature_text_with_rich_text_yTT7mV",
     "image_gallery_n7944y",
     "image_with_text_cey4bN",
     "feature_text_pTnBcr",
-    "feature_text_ih6F7C",
     "main"
   ]
 }
