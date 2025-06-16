@@ -243,14 +243,6 @@
     "image_gallery_bBknJL": {
       "type": "image-gallery",
       "blocks": {
-        "image_eCUWQH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/F1.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
         "image_z3qcnt": {
           "type": "image",
           "settings": {
@@ -258,23 +250,32 @@
             "caption": "",
             "link": ""
           }
+        },
+        "image_eCUWQH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/F1.jpg",
+            "caption": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "image_eCUWQH",
-        "image_z3qcnt"
+        "image_z3qcnt",
+        "image_eCUWQH"
       ],
+      "disabled": true,
       "name": "Image gallery",
       "settings": {
         "title": "",
-        "grid_type": "justified",
+        "grid_type": "irregular",
         "mobile_columns": "2",
-        "desktop_columns": 5,
-        "standard_layout_align_items": "items-start",
-        "modular_layout_variation": 1,
+        "desktop_columns": 3,
+        "standard_layout_align_items": "items-center",
+        "modular_layout_variation": 9,
         "modular_grid_item_aspect_ratio": 1,
         "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
+        "irregular_layout_variation": 7,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "natural",
         "media_fill_space": false,
@@ -344,16 +345,15 @@
     },
     "image_with_text_cey4bN": {
       "type": "image-with-text",
-      "disabled": true,
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/SYNTHESIS4.jpg",
+        "image": "shopify://shop_images/F1.jpg",
         "media_aspect_ratio": "natural",
         "image_position_on_desktop": "right",
         "enable_full_bleed": false,
         "title": "",
         "heading_size": "text-heading-standard",
-        "richtext": "<p>More than a retrospective, SYNTHESIS served as a meditation on the female form, the meaning of craft, and the evolution of a label that had quietly yet confidently shaped the contours of modern femininity in fashion. Inspired by the Japanese notion of beauty in simplicity and structure, the exhibition wove together standout pieces such as the Anther Dress from the UNSEEN Spring/Summer 2023 collection and the scalloped Philharmonic Gown from FANTASIA, showcasing the brand’s signature approach to precision tailoring, fabric manipulation, and sculptural elegance.<br/><br/></p>",
+        "richtext": "<p>Beyond the gallery walls, visitors encountered playful outdoor installations—like fuchsia shrubs made from thousands of broomsticks—created by Sciencewerk, a design studio from Surabaya.</p>",
         "cta_link": "",
         "cta_label": "",
         "image_width_on_desktop": "6",
