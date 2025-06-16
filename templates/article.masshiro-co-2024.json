@@ -137,44 +137,6 @@
         "space_below": 1
       }
     },
-    "parralax_9XAYUg": {
-      "type": "Parralax",
-      "blocks": {
-        "text_CLKrgb": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/ELLEVT6_ff3c8f37-3a33-4d84-9b5e-6fe4f1a799fc.jpg",
-            "txt1-hd1": "",
-            "parallax-h": "h2",
-            "txt1-hd2": "",
-            "parallax-subh": "h3",
-            "par1_showbutton": false,
-            "par1_button_label": "",
-            "par1_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_CLKrgb"
-      ],
-      "name": "Parallax",
-      "settings": {
-        "paral-full": true,
-        "par_img_sz": "400",
-        "par_hd_sz": "55",
-        "par_subhd_sz": "25",
-        "par_button_sz": "25",
-        "par_letter_sp": "1",
-        "par_txt_align": "center",
-        "par_txt_top_pos": "50",
-        "par-en-over": false,
-        "color_over": "#000000",
-        "par_opacity": 50,
-        "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#cccccc",
-        "color_par1_but_txt": "#ffffff"
-      }
-    },
     "image_gallery_n7944y": {
       "type": "image-gallery",
       "blocks": {
@@ -217,6 +179,7 @@
         "image_YDU84V",
         "image_fjc7jy"
       ],
+      "disabled": true,
       "name": "Image gallery",
       "settings": {
         "title": "",
@@ -259,7 +222,6 @@
     "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
     "feature_text_myidkF",
-    "parralax_9XAYUg",
     "image_gallery_n7944y",
     "main"
   ]
