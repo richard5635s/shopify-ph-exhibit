@@ -70,7 +70,7 @@
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MCOP11.jpg",
+            "image": "shopify://shop_images/MCOP1_cd363091-8158-4c6c-b86a-d9582d7e88f7.jpg",
             "caption": "",
             "link": ""
           }
@@ -103,8 +103,9 @@
     "image_gallery_bTeyBT": {
       "type": "image-gallery",
       "blocks": {
-        "image_gYz4wb": {
+        "image_QrCmed": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/MCOP12.jpg",
             "caption": "",
@@ -119,26 +120,44 @@
             "link": ""
           }
         },
+        "image_phqr9K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MCOP3_a63903f2-44bf-4773-b7dd-e85b21f685c5.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_HBQ4zJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MCOP8.jpg",
+            "image": "shopify://shop_images/MCOP9.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_gYz4wb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MCOP13.jpg",
             "caption": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "image_gYz4wb",
+        "image_QrCmed",
         "image_E9JNjU",
-        "image_HBQ4zJ"
+        "image_phqr9K",
+        "image_HBQ4zJ",
+        "image_gYz4wb"
       ],
       "name": "Image gallery",
       "settings": {
         "title": "",
         "grid_type": "justified",
         "mobile_columns": "2",
-        "desktop_columns": 3,
+        "desktop_columns": 5,
         "standard_layout_align_items": "items-start",
         "modular_layout_variation": 1,
         "modular_grid_item_aspect_ratio": 1,
@@ -152,7 +171,7 @@
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 1
+        "space_below": 0.5
       }
     },
     "feature_text_myidkF": {
@@ -189,6 +208,7 @@
     },
     "image_with_text_dKqCTa": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/MCOP3_a63903f2-44bf-4773-b7dd-e85b21f685c5.jpg",
@@ -256,6 +276,25 @@
         "space_below": 1
       }
     },
+    "feature_text_dKFRn9": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>Rich in festive spirit, the collection featured bold hues of merlot red, bright orange, and navy blue, brought to life through puppet-inspired detailing—think string-like accents, structured pleats, scalloped edges, and generous silhouettes. The collaboration seamlessly blended our signature sculptural playfulness with MASSHIRO&Co.’s refined tailoring and versatility.<br/><br/>MARIONETTE captured the celebratory mood of the season in all its diversity, offering statement pieces designed to dazzle across multiple cultural festivities.<br/><br/>Launched in two phases, MARIONETTE made its debut exclusively at MASARI, Senayan City, and online at MASARISHOP.COM in late November 2024. The collection was subsequently available in all MASSHIRO&Co. stores starting 5 December 2024.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
     "feature_text_pTnBcr": {
       "type": "feature-text",
       "settings": {
@@ -265,31 +304,12 @@
         "font": "rte font-main",
         "desktop_text_scale": -1,
         "mobile_text_scale": -1,
-        "text_alignment": "text-left",
+        "text_alignment": "text-center",
         "content_width_on_desktop": "4",
         "content_position_on_desktop": "center",
         "show_top_border": false,
         "color_scheme": "scheme1",
         "space_above": 0,
-        "space_below": 0
-      }
-    },
-    "feature_text_dKFRn9": {
-      "type": "feature-text",
-      "name": "Feature text",
-      "settings": {
-        "richtext": "<p>Launched in two phases, MARIONETTE made its debut exclusively at MASARI, Senayan City, and online at MASARISHOP.COM in late November 2024. The collection was subsequently available in all MASSHIRO&Co. stores starting 5 December 2024.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "left",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
         "space_below": 1
       }
     }
@@ -304,7 +324,7 @@
     "main",
     "image_with_text_dKqCTa",
     "image_gallery_n7944y",
-    "feature_text_pTnBcr",
-    "feature_text_dKFRn9"
+    "feature_text_dKFRn9",
+    "feature_text_pTnBcr"
   ]
 }
