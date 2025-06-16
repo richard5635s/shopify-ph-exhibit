@@ -186,30 +186,10 @@
             "caption": "",
             "link": ""
           }
-        },
-        "image_qUCJqp": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
-        "image_4nE9pL": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/D1005.jpg",
-            "caption": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "image_tCyJVK",
-        "image_qUCJqp",
-        "image_4nE9pL"
+        "image_tCyJVK"
       ],
       "name": "Image gallery",
       "settings": {
@@ -231,6 +211,70 @@
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0
+      }
+    },
+    "image_gallery_CJwe4x": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_ecprKT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ST2_8bdf2706-4171-409e-9aad-4cc93a05699d.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_rbNLDN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ST4_fd9c95d7-198a-4383-822e-8be6f0df7d2c.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_GJFNf9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ST7.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_9r9kzM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ST6.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ecprKT",
+        "image_rbNLDN",
+        "image_GJFNf9",
+        "image_9r9kzM"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
       }
     },
     "feature_text_with_rich_text_yTT7mV": {
@@ -255,6 +299,7 @@
     },
     "image_with_text_cey4bN": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/SYNTHESIS4.jpg",
@@ -298,6 +343,7 @@
     "feature_text_ih6F7C",
     "feature_text_with_rich_text_kGb3k8",
     "image_gallery_n7944y",
+    "image_gallery_CJwe4x",
     "feature_text_with_rich_text_yTT7mV",
     "image_with_text_cey4bN",
     "main"
