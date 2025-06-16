@@ -67,26 +67,16 @@
     "image_gallery_XiWEVV": {
       "type": "image-gallery",
       "blocks": {
-        "image_cwahAP": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/ELLEVT2.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ELLEVT1.jpg",
+            "image": "shopify://shop_images/MCOP1_cd363091-8158-4c6c-b86a-d9582d7e88f7.jpg",
             "caption": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "image_cwahAP",
         "image_GPmeTQ"
       ],
       "settings": {
