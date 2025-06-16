@@ -119,7 +119,7 @@
         "font": "rte font-main",
         "desktop_text_scale": -1,
         "mobile_text_scale": -1,
-        "text_alignment": "text-center",
+        "text_alignment": "text-left",
         "content_width_on_desktop": "4",
         "content_position_on_desktop": "center",
         "show_top_border": false,
@@ -128,38 +128,19 @@
         "space_below": 0
       }
     },
-    "text_blocks_bpeLpd": {
-      "type": "text-blocks",
-      "blocks": {
-        "block_iH7LCF": {
-          "type": "block",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>PEGGY HARTANTO made a landmark appearance at the ELLE Fashion Show 2023 organized by <em>ELLE Vietnam </em>in Ho Chi Minh City—becoming the sole international label invited to showcase at the prestigious event. Held at the historic Independence Palace, the event also showcased Vietnam’s most celebrated designers, such as Truong Thanh Hai, Khaar, and Luu VietAnh.<br/><br/>The occasion marked the official debut of our Spring/Summer 2024 collection, <a href=\"https://peggyhartanto.com/pages/collection_charm\" title=\"https://peggyhartanto.com/pages/collection_charm\">CHARM</a>, a vibrant celebration of femininity and tradition. Inspired by Japan’s Hinano Tsurushi Kazari Festival, a centuries-old cultural tradition from the Edo period, the collection paid homage to the joyful symbolism and colorful aesthetics of handcrafted hanging dolls, reinterpreted through the brand’s signature sculptural lens.</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        },
-        "block_LWDnXH": {
-          "type": "block",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "<p>Versatility remained at the heart of CHARM, with fluid separates, ultra-feminine gowns, and bold jumpsuits designed to transition seamlessly between everyday elegance and festive flair. Eye-catching accents such as ruffles, pleats, peplum, and bows adorned the pieces, while whimsical accessories tied the looks together with playful sophistication.<br/><br/>The show closed on a high note with a striking final look worn by Vietnamese supermodel and actress Thanh Hằng, drawing thunderous applause from the crowd and cementing PEGGY HARTANTO’s status as a contemporary voice in the global fashion scene.</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "block_iH7LCF",
-        "block_LWDnXH"
-      ],
-      "name": "Text blocks",
+    "feature_text_myidkF": {
+      "type": "feature-text",
+      "name": "Feature text",
       "settings": {
-        "title": "",
-        "desktop_columns": 2,
+        "richtext": "<p>To celebrate the 2024/2025 holiday season—which stretched from Christmas and Chinese New Year to Eid al-Fitr—PEGGY HARTANTO partnered with fashion label MASSHIRO&Co. to debut MARIONETTE, a whimsical ready-to-wear collection inspired by the theatricality of puppet shows.</p><p>Rich in festive spirit, the collection featured bold hues of merlot red, bright orange, and navy blue, brought to life through puppet-inspired detailing—think string-like accents, structured pleats, scalloped edges, and generous silhouettes. The collaboration seamlessly blended our signature sculptural playfulness with MASSHIRO&Co.’s refined tailoring and versatility.</p><p>MARIONETTE captured the celebratory mood of the season in all its diversity, offering statement pieces designed to dazzle across multiple cultural festivities.</p><p>Launched in two phases, MARIONETTE made its debut exclusively at MASARI, Senayan City, and online at MASARISHOP.COM in late November 2024. The collection was subsequently available in all MASSHIRO&Co. stores starting 5 December 2024.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
@@ -287,7 +268,7 @@
     "feature_text_iNapP6",
     "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
-    "text_blocks_bpeLpd",
+    "feature_text_myidkF",
     "parralax_9XAYUg",
     "image_gallery_n7944y",
     "main"
