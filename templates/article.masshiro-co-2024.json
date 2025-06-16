@@ -67,6 +67,15 @@
     "image_gallery_XiWEVV": {
       "type": "image-gallery",
       "blocks": {
+        "image_VnxFjL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/MCOP4.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_GPmeTQ": {
           "type": "image",
           "settings": {
@@ -74,19 +83,11 @@
             "caption": "",
             "link": ""
           }
-        },
-        "image_VnxFjL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MCOP4.jpg",
-            "caption": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "image_GPmeTQ",
-        "image_VnxFjL"
+        "image_VnxFjL",
+        "image_GPmeTQ"
       ],
       "settings": {
         "title": "",
