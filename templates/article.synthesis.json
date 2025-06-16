@@ -218,7 +218,26 @@
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
         "space_above": 1,
-        "space_below": 1
+        "space_below": 0.5
+      }
+    },
+    "feature_text_t3it3r": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>Photos VICKY TANZIL</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0.5
       }
     },
     "image_gallery_bBknJL": {
@@ -263,7 +282,7 @@
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
-        "space_above": 0.5,
+        "space_above": 1,
         "space_below": 0.5
       }
     },
@@ -271,7 +290,7 @@
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
-        "richtext": "<p>Beyond the gallery walls, visitors encountered playful outdoor installations—like fuchsia shrubs made from thousands of broomsticks—created by Sciencewerk, a design studio from Surabaya. A pop-up café offered exclusive confections and a capsule collection, while a monogram shaped like a three-leaf clover—an emblem of the three Hartanto sisters designed by the Bandung-based graphic design studio NUSAE—appeared throughout the space, hinting at the next identity for the brand.<br/><br/>The exhibition also included talk sessions with the Hartanto sisters and longtime collaborators. It served not only as a celebration of past achievements but as a platform to signal future plans, including a refreshed visual identity and continued focus on creating for modern women.</p>",
+        "richtext": "<p>Beyond the gallery walls, visitors encountered playful outdoor installations—like fuchsia shrubs made from thousands of broomsticks—created by Sciencewerk, a design studio from Surabaya. A pop-up café offered exclusive confections and a capsule collection, while a monogram shaped like a three-leaf clover—an emblem of the three Hartanto sisters designed by the Bandung-based graphic design studio NUSAE—appeared throughout the space, hinting at the next identity for the brand.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -368,6 +387,7 @@
     "feature_text_TV4BYU",
     "feature_text_ih6F7C",
     "image_gallery_CJwe4x",
+    "feature_text_t3it3r",
     "image_gallery_bBknJL",
     "feature_text_FkATnM",
     "image_gallery_n7944y",
