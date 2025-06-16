@@ -217,7 +217,7 @@
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
-        "space_above": 1,
+        "space_above": 0.5,
         "space_below": 0.5
       }
     },
@@ -376,6 +376,25 @@
         "space_above": 0,
         "space_below": 0.5
       }
+    },
+    "feature_text_yEcBc3": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>The exhibition also included talk sessions with the Hartanto sisters and longtime collaborators. It served not only as a celebration of past achievements but as a platform to signal future plans, including a refreshed visual identity and continued focus on creating for modern women.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
     }
   },
   "order": [
@@ -392,6 +411,7 @@
     "feature_text_FkATnM",
     "image_gallery_n7944y",
     "image_with_text_cey4bN",
-    "main"
+    "main",
+    "feature_text_yEcBc3"
   ]
 }
