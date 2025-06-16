@@ -289,6 +289,7 @@
         },
         "image_rAbWjE": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/OFS3.jpg",
             "caption": "",
@@ -305,14 +306,14 @@
       "name": "Image gallery",
       "settings": {
         "title": "",
-        "grid_type": "justified",
+        "grid_type": "irregular",
         "mobile_columns": "2",
         "desktop_columns": 2,
         "standard_layout_align_items": "items-start",
-        "modular_layout_variation": 1,
-        "modular_grid_item_aspect_ratio": 1,
+        "modular_layout_variation": 11,
+        "modular_grid_item_aspect_ratio": 1.4,
         "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
+        "irregular_layout_variation": 8,
         "irregular_alignment_of_items": "items-center justify-center",
         "media_aspect_ratio": "natural",
         "media_fill_space": false,
