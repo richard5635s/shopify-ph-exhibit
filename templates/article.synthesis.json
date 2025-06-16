@@ -255,7 +255,6 @@
     },
     "image_with_text_cey4bN": {
       "type": "image-with-text",
-      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/SYNTHESIS4.jpg",
@@ -272,7 +271,7 @@
         "content_alignment": "lg:items-center lg:justify-center",
         "show_top_border": false,
         "color_scheme": "",
-        "space_above": 0,
+        "space_above": 0.5,
         "space_below": 0.5
       }
     },
