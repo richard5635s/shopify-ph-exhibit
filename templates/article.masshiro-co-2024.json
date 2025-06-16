@@ -306,7 +306,7 @@
         "mobile_text_scale": 0,
         "text_alignment": "text-left",
         "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
+        "content_position_on_desktop": "right",
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
