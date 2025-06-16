@@ -49,7 +49,7 @@
     "feature_text_iNapP6": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>PEGGY HARTANTO AND MASSHIRO&CO. UNVEILED FESTIVE SEASON COLLABORATION</p>",
+        "richtext": "<p>PEGGY HARTANTO AND MASSHIRO&CO. UNVEILED FESTIVE SEASON COLLABORATION<br/><br/><br/>To celebrate the 2024/2025 holiday season—which stretched from Christmas and Chinese New Year to Eid al-Fitr—PEGGY HARTANTO partnered with fashion label MASSHIRO&Co. to debut MARIONETTE, a whimsical ready-to-wear collection inspired by the theatricality of puppet shows.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -61,7 +61,7 @@
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 0
+        "space_below": 0.5
       }
     },
     "image_gallery_XiWEVV": {
@@ -122,7 +122,7 @@
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
-        "richtext": "<p>To celebrate the 2024/2025 holiday season—which stretched from Christmas and Chinese New Year to Eid al-Fitr—PEGGY HARTANTO partnered with fashion label MASSHIRO&Co. to debut MARIONETTE, a whimsical ready-to-wear collection inspired by the theatricality of puppet shows.<br/><br/>Rich in festive spirit, the collection featured bold hues of merlot red, bright orange, and navy blue, brought to life through puppet-inspired detailing—think string-like accents, structured pleats, scalloped edges, and generous silhouettes. The collaboration seamlessly blended our signature sculptural playfulness with MASSHIRO&Co.’s refined tailoring and versatility.<br/><br/>MARIONETTE captured the celebratory mood of the season in all its diversity, offering statement pieces designed to dazzle across multiple cultural festivities.<br/><br/>Launched in two phases, MARIONETTE made its debut exclusively at MASARI, Senayan City, and online at MASARISHOP.COM in late November 2024. The collection was subsequently available in all MASSHIRO&Co. stores starting 5 December 2024.</p>",
+        "richtext": "<p>Rich in festive spirit, the collection featured bold hues of merlot red, bright orange, and navy blue, brought to life through puppet-inspired detailing—think string-like accents, structured pleats, scalloped edges, and generous silhouettes. The collaboration seamlessly blended our signature sculptural playfulness with MASSHIRO&Co.’s refined tailoring and versatility.<br/><br/>MARIONETTE captured the celebratory mood of the season in all its diversity, offering statement pieces designed to dazzle across multiple cultural festivities.<br/><br/>Launched in two phases, MARIONETTE made its debut exclusively at MASARI, Senayan City, and online at MASARISHOP.COM in late November 2024. The collection was subsequently available in all MASSHIRO&Co. stores starting 5 December 2024.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
