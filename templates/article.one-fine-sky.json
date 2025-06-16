@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "main-article-header",
+      "disabled": true,
+      "settings": {
+        "image_width_on_desktop": "6",
+        "media_aspect_ratio": "0.6667",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": true,
+        "show_author": false,
+        "show_date": true,
+        "show_tags": false,
+        "text_alignment": "text-center",
+        "align_content": "items-center",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0
+      }
+    },
+    "feature_text_DjJVWG": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>18 October 2023</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "feature_text_iNapP6": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>PEGGY HARTANTO LAUNCHED DISNEY100 COLLABORATION AT PILLAR</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "image_gallery_XiWEVV": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_GPmeTQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/D1002.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GPmeTQ"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "irregular",
+        "mobile_columns": "1",
+        "desktop_columns": 1,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_pTnBcr": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Words NICO NOVITO<br/>Photos MARCEL GUNAWAN</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "scheme1",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "feature_text_ih6F7C": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>In October 2024, PEGGY HARTANTO unveiled <a href=\"https://peggyhartanto.com/pages/collaboration_disney100\" title=\"https://peggyhartanto.com/pages/collaboration_disney100\"><em>WONDER</em></a>, a limited-edition capsule collection commemorating the 100th anniversary of Disney, with an exclusive launch event at PILLAR, Plaza Indonesia. The event featured a striking coral-inspired installation, designed to evoke the enchanting underwater world of <em>The Little Mermaid</em>—a personal favorite of Creative Director Peggy Hartanto.<br/><br/>The <em>WONDER </em>collection showcased 22 ready-to-wear pieces that celebrated the animated classic’s jubilant spirit, blending the brand’s sculptural elegance with playful nods to Disney’s beloved characters. Highlights included tops adorned with original Disney100 artwork, dresses and skirts featuring intricate coral embroidery and 3D appliqués, and collectible charms shaped like Sebastian and Flounder, paired with PEGGY HARTANTO’s signature leather bags.<br/><br/>“Through Ariel’s eyes, the world is filled with endless possibilities, adventure and excitement,” said our Visual Director Petty Hartanto about the inspiration behind the collection. “We were inspired by Ariel’s captivation and attention to the smallest details while holding a positive outlook on what the future brings. We wanted to capture this spirit in our capsule collection.”<br/><br/>With <em>WONDER </em>, the brand reimagined childhood nostalgia through the lens of modern femininity—bridging fashion and fantasy in a collaboration that delighted both longtime Disney fans and style insiders.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_with_rich_text_kGb3k8": {
+      "type": "feature-text-with-rich-text",
+      "disabled": true,
+      "settings": {
+        "feature_text": "<h4>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</h4>",
+        "font": "font-main",
+        "desktop_text_scale": 4,
+        "mobile_text_scale": 0,
+        "feature_text_position_on_desktop": "left",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "text_columns_g6P7qQ": {
+      "type": "text-columns",
+      "blocks": {
+        "column_H3W7CH": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>May 28, 2024<br/>DESIGN</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_KfzWmG": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Words<br/>LYDIA HARTANTO</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_A3Nye3": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Photographer<br/>VICKY TANZIL</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "column_rzETwT": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Stylist<br/>LILIAN NG</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_H3W7CH",
+        "column_KfzWmG",
+        "column_A3Nye3",
+        "column_rzETwT"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_columns": 4,
+        "text_alignment": "text-center",
+        "max_width_of_icons": 50,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0
+      }
+    },
+    "feature_text_zLWGap": {
+      "type": "feature-text",
+      "disabled": true,
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "image_with_text_cey4bN": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/D100_466d2143-c866-4526-a11e-291c71029bbd.jpg",
+        "media_aspect_ratio": "natural",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": false,
+        "title": "",
+        "heading_size": "text-heading-standard",
+        "richtext": "<p>On 18 October 2024, the WONDER collection was exclusively launched at PILLAR, Plaza Indonesia. The collection features the Coral Cove installation, designed to mimic Ariel and the princesses' dressing room in their Atlantica palace.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "6",
+        "content_width_on_desktop": "0.5",
+        "content_alignment": "lg:items-end lg:justify-start",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "image_gallery_n7944y": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_qUCJqp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/D1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_4nE9pL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/D2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qUCJqp",
+        "image_4nE9pL"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "title": "",
+        "grid_type": "justified",
+        "mobile_columns": "2",
+        "desktop_columns": 2,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_share_buttons": true,
+        "show_next_previous_links": true,
+        "content_alignment_on_desktop": "lg:col-end-[-1]",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0.5
+      }
+    }
+  },
+  "order": [
+    "header",
+    "feature_text_DjJVWG",
+    "feature_text_iNapP6",
+    "image_gallery_XiWEVV",
+    "feature_text_pTnBcr",
+    "feature_text_ih6F7C",
+    "feature_text_with_rich_text_kGb3k8",
+    "text_columns_g6P7qQ",
+    "feature_text_zLWGap",
+    "image_with_text_cey4bN",
+    "image_gallery_n7944y",
+    "main"
+  ]
+}
