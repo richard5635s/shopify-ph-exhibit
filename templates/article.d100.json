@@ -303,11 +303,12 @@
         "labels_always_show_on_mobile": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 0.5
+        "space_below": 1
       }
     },
     "main": {
       "type": "main-article",
+      "disabled": true,
       "settings": {
         "show_share_buttons": true,
         "show_next_previous_links": true,
