@@ -109,6 +109,43 @@
         "space_below": 0.5
       }
     },
+    "feature_text_pTnBcr": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Words NICO NOVITO<br/>Photos THOMAS SITO</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "scheme1",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "feature_text_myidkF": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>To celebrate the 2024/2025 holiday season—which stretched from Christmas and Chinese New Year to Eid al-Fitr—PEGGY HARTANTO partnered with fashion label MASSHIRO&Co. to debut MARIONETTE, a whimsical ready-to-wear collection inspired by the theatricality of puppet shows.<br/><br/>Rich in festive spirit, the collection featured bold hues of merlot red, bright orange, and navy blue, brought to life through puppet-inspired detailing—think string-like accents, structured pleats, scalloped edges, and generous silhouettes. The collaboration seamlessly blended our signature sculptural playfulness with MASSHIRO&Co.’s refined tailoring and versatility.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
     "image_gallery_bTeyBT": {
       "type": "image-gallery",
       "blocks": {
@@ -181,25 +218,6 @@
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0.5
-      }
-    },
-    "feature_text_myidkF": {
-      "type": "feature-text",
-      "name": "Feature text",
-      "settings": {
-        "richtext": "<p>Rich in festive spirit, the collection featured bold hues of merlot red, bright orange, and navy blue, brought to life through puppet-inspired detailing—think string-like accents, structured pleats, scalloped edges, and generous silhouettes. The collaboration seamlessly blended our signature sculptural playfulness with MASSHIRO&Co.’s refined tailoring and versatility.<br/><br/>MARIONETTE captured the celebratory mood of the season in all its diversity, offering statement pieces designed to dazzle across multiple cultural festivities.<br/><br/>Launched in two phases, MARIONETTE made its debut exclusively at MASARI, Senayan City, and online at MASARISHOP.COM in late November 2024. The collection was subsequently available in all MASSHIRO&Co. stores starting 5 December 2024.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 1
       }
     },
     "main": {
@@ -275,29 +293,11 @@
         "space_below": 1
       }
     },
-    "feature_text_pTnBcr": {
-      "type": "feature-text",
-      "settings": {
-        "richtext": "<p>Words NICO NOVITO<br/>Photos THOMAS SITO</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": -1,
-        "mobile_text_scale": -1,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "scheme1",
-        "space_above": 0,
-        "space_below": 1
-      }
-    },
     "feature_text_dKFRn9": {
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
-        "richtext": "<p>Rich in festive spirit, the collection featured bold hues of merlot red, bright orange, and navy blue, brought to life through puppet-inspired detailing—think string-like accents, structured pleats, scalloped edges, and generous silhouettes. The collaboration seamlessly blended our signature sculptural playfulness with MASSHIRO&Co.’s refined tailoring and versatility.<br/><br/>MARIONETTE captured the celebratory mood of the season in all its diversity, offering statement pieces designed to dazzle across multiple cultural festivities.<br/><br/>Launched in two phases, MARIONETTE made its debut exclusively at MASARI, Senayan City, and online at MASARISHOP.COM in late November 2024. The collection was subsequently available in all MASSHIRO&Co. stores starting 5 December 2024.</p>",
+        "richtext": "<p>MARIONETTE captured the celebratory mood of the season in all its diversity, offering statement pieces designed to dazzle across multiple cultural festivities.<br/><br/>Launched in two phases, MARIONETTE made its debut exclusively at MASARI, Senayan City, and online at MASARISHOP.COM in late November 2024. The collection was subsequently available in all MASSHIRO&Co. stores starting 5 December 2024.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -309,7 +309,7 @@
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
-        "space_below": 0.5
+        "space_below": 1
       }
     }
   },
@@ -318,12 +318,12 @@
     "feature_text_DjJVWG",
     "feature_text_iNapP6",
     "image_gallery_XiWEVV",
-    "image_gallery_bTeyBT",
+    "feature_text_pTnBcr",
     "feature_text_myidkF",
+    "image_gallery_bTeyBT",
     "main",
     "image_with_text_dKqCTa",
     "image_gallery_n7944y",
-    "feature_text_pTnBcr",
     "feature_text_dKFRn9"
   ]
 }
