@@ -280,6 +280,14 @@
     "image_gallery_bBknJL": {
       "type": "image-gallery",
       "blocks": {
+        "image_z3qcnt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SYNTHESIS20.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_eCUWQH": {
           "type": "image",
           "settings": {
@@ -287,19 +295,11 @@
             "caption": "",
             "link": ""
           }
-        },
-        "image_z3qcnt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/F2_42700fa2-c259-4241-ae66-11e834318948.jpg",
-            "caption": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "image_eCUWQH",
-        "image_z3qcnt"
+        "image_z3qcnt",
+        "image_eCUWQH"
       ],
       "name": "Image gallery",
       "settings": {
@@ -325,6 +325,7 @@
     },
     "feature_text_FkATnM": {
       "type": "feature-text",
+      "disabled": true,
       "name": "Feature text",
       "settings": {
         "richtext": "<p>Beyond the gallery walls, visitors encountered playful outdoor installations—like fuchsia shrubs made from thousands of broomsticks—created by Sciencewerk, a design studio from Surabaya. A pop-up café offered exclusive confections and a capsule collection, while a monogram shaped like a three-leaf clover—an emblem of the three Hartanto sisters designed by the Bandung-based graphic design studio NUSAE—appeared throughout the space, hinting at the next identity for the brand.<br/><br/>The exhibition also included talk sessions with the Hartanto sisters and longtime collaborators. It served not only as a celebration of past achievements but as a platform to signal future plans, including a refreshed visual identity and continued focus on creating for modern women.</p>",
@@ -353,6 +354,28 @@
         "space_above": 0,
         "space_below": 0.5
       }
+    },
+    "image_with_text_VRdzhm": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/F2_42700fa2-c259-4241-ae66-11e834318948.jpg",
+        "media_aspect_ratio": "natural",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": false,
+        "title": "",
+        "heading_size": "text-heading-standard",
+        "richtext": "<p>Beyond the gallery walls, visitors encountered playful outdoor installations—like fuchsia shrubs made from thousands of broomsticks—created by Sciencewerk, a design studio from Surabaya. A pop-up café offered exclusive confections and a capsule collection, while a monogram shaped like a three-leaf clover—an emblem of the three Hartanto sisters designed by the Bandung-based graphic design studio NUSAE—appeared throughout the space, hinting at the next identity for the brand.<br/><br/>The exhibition also included talk sessions with the Hartanto sisters and longtime collaborators. It served not only as a celebration of past achievements but as a platform to signal future plans, including a refreshed visual identity and continued focus on creating for modern women.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "3",
+        "content_width_on_desktop": "0.5",
+        "content_alignment": "lg:items-center lg:justify-center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
     }
   },
   "order": [
@@ -368,6 +391,7 @@
     "image_gallery_n7944y",
     "image_gallery_bBknJL",
     "feature_text_FkATnM",
-    "main"
+    "main",
+    "image_with_text_VRdzhm"
   ]
 }
