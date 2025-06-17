@@ -166,6 +166,90 @@
         "space_below": 1
       }
     },
+    "image_slideshow_QkAKYd": {
+      "type": "image-slideshow",
+      "blocks": {
+        "image_Vg39Ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT4.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_6rXFFn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT10.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_9DqgyR": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT11.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_PYrUWW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VT22.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_wenqpF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VT21.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_JHgFqa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT12.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_4LQy8P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Vg39Ca",
+        "image_6rXFFn",
+        "image_9DqgyR",
+        "image_PYrUWW",
+        "image_wenqpF",
+        "image_JHgFqa",
+        "image_4LQy8P"
+      ],
+      "name": "Image slideshow",
+      "settings": {
+        "title": "",
+        "section_height": "h-screen-80",
+        "max_width_of_slides": 80,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "footer",
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": ""
+      }
+    },
     "parralax_9XAYUg": {
       "type": "Parralax",
       "blocks": {
@@ -209,6 +293,7 @@
       "blocks": {
         "image_p8U49m": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ELLEVT10.jpg",
             "caption": "",
@@ -217,6 +302,7 @@
         },
         "image_qUCJqp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ELLEVT7.jpg",
             "caption": "",
@@ -246,6 +332,7 @@
         "image_YDU84V",
         "image_fjc7jy"
       ],
+      "disabled": true,
       "name": "Image gallery",
       "settings": {
         "title": "",
@@ -288,6 +375,7 @@
     "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
     "text_blocks_bpeLpd",
+    "image_slideshow_QkAKYd",
     "parralax_9XAYUg",
     "image_gallery_n7944y",
     "main"
