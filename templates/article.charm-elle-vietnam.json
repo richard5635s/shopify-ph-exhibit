@@ -187,6 +187,7 @@
         },
         "image_4LQy8P": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/VTC3.jpg",
             "caption": "",
