@@ -239,8 +239,8 @@
       "name": "Image slideshow",
       "settings": {
         "title": "",
-        "section_height": "h-screen-80",
-        "max_width_of_slides": 80,
+        "section_height": "h-screen-adaptive",
+        "max_width_of_slides": 70,
         "labels_show_titles_and_captions": true,
         "labels_display": "footer",
         "labels_always_show_on_mobile": false,
