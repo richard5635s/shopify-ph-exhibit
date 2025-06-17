@@ -177,6 +177,14 @@
             "link": ""
           }
         },
+        "image_ymi8Ym": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VT25.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_4LQy8P": {
           "type": "image",
           "settings": {
@@ -188,6 +196,7 @@
       },
       "block_order": [
         "image_Vg39Ca",
+        "image_ymi8Ym",
         "image_4LQy8P"
       ],
       "name": "Image slideshow",
