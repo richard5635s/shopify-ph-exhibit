@@ -204,7 +204,7 @@
       "settings": {
         "title": "",
         "section_height": "h-screen",
-        "max_width_of_slides": 70,
+        "max_width_of_slides": 65,
         "labels_show_titles_and_captions": false,
         "labels_display": "footer",
         "labels_always_show_on_mobile": false,
