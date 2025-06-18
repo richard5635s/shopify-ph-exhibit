@@ -369,7 +369,7 @@
       "type": "image-with-text",
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/F2_42700fa2-c259-4241-ae66-11e834318948.jpg",
+        "image": "shopify://shop_images/ST2.gif",
         "media_aspect_ratio": "natural",
         "image_position_on_desktop": "left",
         "enable_full_bleed": false,
