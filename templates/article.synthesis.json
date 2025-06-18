@@ -168,6 +168,15 @@
             "link": ""
           }
         },
+        "image_dhDbN8": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ST4_f8377440-e51f-47aa-8c56-e0766c8f81ff.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_rbNLDN": {
           "type": "image",
           "settings": {
@@ -195,6 +204,7 @@
       },
       "block_order": [
         "image_ecprKT",
+        "image_dhDbN8",
         "image_rbNLDN",
         "image_GJFNf9",
         "image_9r9kzM"
