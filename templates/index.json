@@ -15,7 +15,7 @@
         "image_YU8AUU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BANNER3.jpg",
+            "image": "shopify://shop_images/BANNER5.jpg",
             "image_mobile": "shopify://shop_images/BANNER2.jpg"
           }
         }
@@ -27,7 +27,7 @@
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "0.66",
-        "aspect_ratio_desktop": "full-screen",
+        "aspect_ratio_desktop": "1.78",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
         "content_width_on_desktop": "4",
