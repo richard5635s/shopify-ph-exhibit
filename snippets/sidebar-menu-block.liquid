@@ -10,13 +10,7 @@
 >
   
   <ul id="Menu-{{ id }}" class="menu {{ link_classes }}">
-    {%- comment %}<locksmith:2650>{% endcomment -%}
-      {%- assign locksmith_67fe_forloop__size = 0 %}{%- for link in menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_67fe_forloop__size = locksmith_67fe_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_67fe_forloop__index = nil -%}
-    {%- comment %}</locksmith:2650>{% endcomment -%}
     {%- for link in menu.links -%}
-      {%- comment %}<locksmith:06b4>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_67fe_forloop__index == nil %}{% assign locksmith_67fe_forloop__index = 1 %}{% assign locksmith_67fe_forloop__index0 = 0 %}{% else %}{% assign locksmith_67fe_forloop__index = locksmith_67fe_forloop__index | plus: 1 %}{% assign locksmith_67fe_forloop__index0 = locksmith_67fe_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_67fe_forloop__index == 1 %}{% assign locksmith_67fe_forloop__first = true %}{% else %}{% assign locksmith_67fe_forloop__first = false %}{% endif %}{% if locksmith_67fe_forloop__index == locksmith_67fe_forloop__size %}{% assign locksmith_67fe_forloop__last = true %}{% else %}{% assign locksmith_67fe_forloop__last = false %}{% endif %}{% assign locksmith_67fe_forloop__rindex = locksmith_67fe_forloop__size | minus: locksmith_67fe_forloop__index | minus: 1 %}{% assign locksmith_67fe_forloop__rindex0 = locksmith_67fe_forloop__size | minus: locksmith_67fe_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
-      {%- comment %}</locksmith:06b4>{% endcomment -%}
       {% comment %}
         First level
       {% endcomment %}
@@ -59,7 +53,7 @@
         <span>{{ link.title }}{% if has_count %}<sup class="pl-0.5">{{ products_count }}</sup>{% endif %}</span>
       </a>
       {%- endcapture -%}
-      <li class="menu-link menu-item-{{ locksmith_67fe_forloop__index0 }}">
+      <li class="menu-link menu-item-{{ forloop.index0 }}">
 
         
         {%- if link.links.size > 0 and render_child_links -%}
@@ -103,10 +97,6 @@
           {% endcomment %}
           <ul class="child-links menu dropdown-child pl-5" {% if nested_navigation_style == 'accordion' %}x-show="expanded"{% endif %}>
             {%- for child_link in link.links -%}
-
-              {%- comment %}<locksmith:9cfd>{% endcomment -%}
-                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: child_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-              {%- comment %}</locksmith:9cfd>{% endcomment -%}
 
               <li class="menu-link">
                 
@@ -185,9 +175,6 @@
                   {%- endif -%}
                   <ul class="grandchild-links pl-5 menu dropdown-grandchild" {% if nested_navigation_style == 'accordion' %}x-show="grandchild_expanded"{% endif %}>
                     {%- for grandchild_link in child_link.links -%}
-                      {%- comment %}<locksmith:f54f>{% endcomment -%}
-                        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchild_link, subject_parent: child_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                      {%- comment %}</locksmith:f54f>{% endcomment -%}
                       <li class="menu-link">
                         <a class="flex items-center justify-between hover:underline {% if grandchild_link.current %}underline{% endif %}" href="{{ grandchild_link.url }}">
                           <span class="min-w-[40%]">{{ grandchild_link.title }}{% if show_collection_products_count and grandchild_link.type == 'collection_link' %}<sup class="pl-0.5">{{ grandchild_link.object.all_products_count }}</sup>{% endif %}</span>

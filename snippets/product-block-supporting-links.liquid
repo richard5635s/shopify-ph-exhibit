@@ -13,9 +13,6 @@
       {% endfor %}
     {% else %}
       {% for supporting_link in block.settings.linklist.links %}
-        {%- comment %}<locksmith:71bc>{% endcomment -%}
-          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: supporting_link, subject_parent: block.settings.linklist, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-        {%- comment %}</locksmith:71bc>{% endcomment -%}
         <li class="break-words">
           <a
             href="{{ supporting_link.url }}"

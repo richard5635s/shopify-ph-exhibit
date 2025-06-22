@@ -2,19 +2,6 @@
   assign use_collection_vendor_link = false
 
   for collection in product.collections
-    comment
-      <locksmith:8040> Code added automatically by the Locksmith app. Do not modify or remove.
-    endcomment
-    capture var
-      render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: product, variable: 'transparent'
-    endcapture
-    if var == "true"
-    else
-      continue
-    endif
-    comment
-      </locksmith:8040> End Locksmith code block.
-    endcomment
     if collection.title == product.vendor
       assign use_collection_vendor_link = true
       assign vendor_collection = collection
