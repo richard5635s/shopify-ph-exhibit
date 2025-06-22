@@ -119,12 +119,44 @@
         "disable_left_and_right_margins": false,
         "remove_grid_gaps": false
       }
+    },
+    "featured_products_7XMQBg": {
+      "type": "featured-products",
+      "name": "Featured products",
+      "settings": {
+        "title": "FEATURED FROM THE ARCHIVE",
+        "product_list": [],
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": true,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "quick_view": "disabled",
+        "product_info_text_alignment": "left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
     }
   },
   "order": [
     "main",
     "parralax_ibnhY7",
     "collection_list_rGpBiL",
-    "collection_list_q7FMpi"
+    "collection_list_q7FMpi",
+    "featured_products_7XMQBg"
   ]
 }
