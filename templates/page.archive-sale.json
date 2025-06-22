@@ -19,41 +19,35 @@
         "space_below": 1
       }
     },
-    "parralax_ibnhY7": {
-      "type": "Parralax",
+    "media_with_text_overlay_Xdm7He": {
+      "type": "media-with-text-overlay",
       "blocks": {
-        "text_dpdtWY": {
-          "type": "text",
+        "image_jAA96f": {
+          "type": "image",
           "settings": {
             "image": "shopify://shop_images/Banner_Web.jpg",
-            "txt1-hd1": "",
-            "parallax-h": "h2",
-            "txt1-hd2": "",
-            "parallax-subh": "h3",
-            "par1_showbutton": false,
-            "par1_button_label": "",
-            "par1_button_link": ""
+            "image_mobile": "shopify://shop_images/BANNER2.jpg"
           }
         }
       },
       "block_order": [
-        "text_dpdtWY"
+        "image_jAA96f"
       ],
+      "name": "Media with text overlay",
       "settings": {
-        "paral-full": true,
-        "par_img_sz": "600",
-        "par_hd_sz": "55",
-        "par_subhd_sz": "25",
-        "par_button_sz": "25",
-        "par_letter_sp": "1",
-        "par_txt_align": "left",
-        "par_txt_top_pos": "50",
-        "par-en-over": true,
-        "color_over": "#000000",
-        "par_opacity": 1,
-        "color_par1_hd_clr": "#000000",
-        "color_par1_subhd_clr": "#cccccc",
-        "color_par1_but_txt": "#ffffff"
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "same",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
       }
     },
     "collection_list_rGpBiL": {
@@ -154,7 +148,7 @@
   },
   "order": [
     "main",
-    "parralax_ibnhY7",
+    "media_with_text_overlay_Xdm7He",
     "collection_list_rGpBiL",
     "collection_list_q7FMpi",
     "featured_products_7XMQBg"
