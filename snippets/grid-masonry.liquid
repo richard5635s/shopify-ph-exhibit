@@ -80,6 +80,19 @@
           endfor
         when 'blocks'
           for block in section.blocks
+            comment
+              <locksmith:a547> Code added automatically by the Locksmith app. Do not modify or remove.
+            endcomment
+            capture var
+              render 'locksmith-variables', scope: 'subject', subject: block.settings.collection, subject_parent: section, variable: 'transparent'
+            endcapture
+            if var == "true"
+            else
+              continue
+            endif
+            comment
+              </locksmith:a547> End Locksmith code block.
+            endcomment
             case block.type
               when 'image'
                 assign media = block.settings.image

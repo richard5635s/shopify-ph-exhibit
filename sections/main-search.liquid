@@ -50,18 +50,57 @@
 
     capture product_results_content
       for item in product_results
+        comment
+          <locksmith:c769> Code added automatically by the Locksmith app. Do not modify or remove.
+        endcomment
+        capture var
+          render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent'
+        endcapture
+        if var == "true"
+        else
+          continue
+        endif
+        comment
+          </locksmith:c769> End Locksmith code block.
+        endcomment
         render 'tile-product', product: item, sizes: sizes
       endfor
     endcapture
 
     capture article_results_content
       for item in article_results
+        comment
+          <locksmith:1ca4> Code added automatically by the Locksmith app. Do not modify or remove.
+        endcomment
+        capture var
+          render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent'
+        endcapture
+        if var == "true"
+        else
+          continue
+        endif
+        comment
+          </locksmith:1ca4> End Locksmith code block.
+        endcomment
         render 'tile-article', article: item, show_title: true, show_author: section.settings.show_author, show_date: section.settings.show_date, show_excerpt: section.settings.show_excerpt, sizes: sizes
       endfor
     endcapture
 
     capture page_results_content
       for item in page_results
+        comment
+          <locksmith:7394> Code added automatically by the Locksmith app. Do not modify or remove.
+        endcomment
+        capture var
+          render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent'
+        endcapture
+        if var == "true"
+        else
+          continue
+        endif
+        comment
+          </locksmith:7394> End Locksmith code block.
+        endcomment
         echo '<li>'
         echo '<a href="' | append: item.url | append: '" class="theme-link">'
         echo item.title
@@ -188,6 +227,19 @@
               <ul class="grid grid-cols-section-mobile lg:grid-cols-section-desktop  gap-theme">
                 {%- liquid
                   for result in search.results
+                    comment
+                      <locksmith:584a> Code added automatically by the Locksmith app. Do not modify or remove.
+                    endcomment
+                    capture var
+                      render 'locksmith-variables', scope: 'subject', subject: result, subject_parent: search, variable: 'transparent'
+                    endcapture
+                    if var == "true"
+                    else
+                      continue
+                    endif
+                    comment
+                      </locksmith:584a> End Locksmith code block.
+                    endcomment
                     case result.object_type
                       when 'product'
                         render 'tile-product', product: result, sizes: sizes

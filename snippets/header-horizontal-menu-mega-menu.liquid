@@ -1,6 +1,12 @@
 <nav>
   <ul class="menu {% unless block.settings.separate_with_comma %}-mx-2{% endunless %} {{ link_classes }}  flex flex-wrap {{ block.settings.desktop_text_alignment }}">
+    {%- comment %}<locksmith:3785>{% endcomment -%}
+      {%- assign locksmith_5a22_forloop__size = 0 %}{%- for link in block.settings.menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_5a22_forloop__size = locksmith_5a22_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_5a22_forloop__index = nil -%}
+    {%- comment %}</locksmith:3785>{% endcomment -%}
     {%- for link in block.settings.menu.links -%}
+      {%- comment %}<locksmith:b4ad>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_5a22_forloop__index == nil %}{% assign locksmith_5a22_forloop__index = 1 %}{% assign locksmith_5a22_forloop__index0 = 0 %}{% else %}{% assign locksmith_5a22_forloop__index = locksmith_5a22_forloop__index | plus: 1 %}{% assign locksmith_5a22_forloop__index0 = locksmith_5a22_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_5a22_forloop__index == 1 %}{% assign locksmith_5a22_forloop__first = true %}{% else %}{% assign locksmith_5a22_forloop__first = false %}{% endif %}{% if locksmith_5a22_forloop__index == locksmith_5a22_forloop__size %}{% assign locksmith_5a22_forloop__last = true %}{% else %}{% assign locksmith_5a22_forloop__last = false %}{% endif %}{% assign locksmith_5a22_forloop__rindex = locksmith_5a22_forloop__size | minus: locksmith_5a22_forloop__index | minus: 1 %}{% assign locksmith_5a22_forloop__rindex0 = locksmith_5a22_forloop__size | minus: locksmith_5a22_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:b4ad>{% endcomment -%}
       <li class="menu-link {% unless block.settings.separate_with_comma %}px-2{% endunless %}">
         {%- if link.links.size > 0 -%}
           <div
@@ -47,6 +53,9 @@
               <div class="wrapper">
                 <ul class="grid grid-cols-2 lg:grid-cols-12 w-full gap-theme z-0 grid-flow-dense items-top">
                   {%- for childlink in link.links -%}
+                    {%- comment %}<locksmith:95e2>{% endcomment -%}
+                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: childlink, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                    {%- comment %}</locksmith:95e2>{% endcomment -%}
                     <li class="md:col-span-6 lg:col-span-item min-w-0 overflow-hidden" style="--item-col-span: 3;">
                       <a
                         href="{{ childlink.url }}"
@@ -60,6 +69,9 @@
                       {%- if childlink.links != blank -%}
                         <ul class="mt-4" role="list">
                           {%- for grandchildlink in childlink.links -%}
+                            {%- comment %}<locksmith:74ef>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchildlink, subject_parent: childlink, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:74ef>{% endcomment -%}
                             <li>
                               <a
                                 href="{{ grandchildlink.url }}"
@@ -94,7 +106,7 @@
               assign show_comma_on_last_item_in_loop = true
             endif
           -%}
-          {%- unless forloop.last and show_comma_on_last_item_in_loop == false -%}
+          {%- unless locksmith_5a22_forloop__last and show_comma_on_last_item_in_loop == false -%}
           &#44;&nbsp;
           {%- endunless -%}
         {%- endif -%}

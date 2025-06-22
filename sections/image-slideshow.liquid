@@ -28,6 +28,19 @@
   assign links = section.blocks | map: 'settings' | map: 'link'
   assign raise_cursor_buttons = true
   for link in links
+    comment
+      <locksmith:f981> Code added automatically by the Locksmith app. Do not modify or remove.
+    endcomment
+    capture var
+      render 'locksmith-variables', scope: 'subject', subject: link, variable: 'transparent'
+    endcapture
+    if var == "true"
+    else
+      continue
+    endif
+    comment
+      </locksmith:f981> End Locksmith code block.
+    endcomment
     if link != blank
       assign raise_cursor_buttons = false
     endif

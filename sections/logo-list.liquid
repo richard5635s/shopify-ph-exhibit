@@ -54,6 +54,9 @@
               "
             >
               {% for block in logos %}
+                {%- comment %}<locksmith:686e>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:686e>{% endcomment -%}
                 {% liquid
                   capture image_content
                     if block.settings.image != blank

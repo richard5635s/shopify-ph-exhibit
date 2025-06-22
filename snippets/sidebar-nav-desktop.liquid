@@ -14,6 +14,9 @@
     </div>
     <ul class="px-4">
       {%- for childlink in link.links -%}
+        {%- comment %}<locksmith:f520>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: childlink, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:f520>{% endcomment -%}
         <li>
           <a
             href="{{ childlink.url }}"
@@ -33,6 +36,9 @@
             -%}
             <ul role="list" class="{{ padding }}">
               {%- for grandchildlink in childlink.links -%}
+                {%- comment %}<locksmith:f7c9>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchildlink, subject_parent: childlink, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:f7c9>{% endcomment -%}
                 <li>
                   <a
                     href="{{ grandchildlink.url }}"

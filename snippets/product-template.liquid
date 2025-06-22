@@ -296,6 +296,9 @@
                       {%- endif -%}
                       <ul class="grid {{ grid_cols_class }} gap-theme">
                         {%- for product in recommendations.products -%}
+                          {%- comment %}<locksmith:71e0>{% endcomment -%}
+                            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                          {%- comment %}</locksmith:71e0>{% endcomment -%}
                           {%- render 'tile-product',
                             product: product,
                             sizes: complementary_sizes
