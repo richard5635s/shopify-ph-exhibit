@@ -61,7 +61,7 @@
       "name": "Newsletter",
       "settings": {
         "title": "ENTER BEFORE THE DOOR OPENS",
-        "richtext": "<p>Sign up now for early access to the Archive Sale<br/></p>",
+        "richtext": "<p>Sign up to our newsletter now for early access to the Archive Sale<br/></p>",
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 1,
