@@ -1,0 +1,533 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "text-left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "image_gallery_rVVmqd": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_q7fBn9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_GION_RAKUGO_ODORI.jpg",
+            "caption": "GION top, RAKUGO pants",
+            "link": ""
+          }
+        },
+        "image_mW3TqT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_MOCHI1.jpg",
+            "caption": "MOCHI dress",
+            "link": ""
+          }
+        },
+        "image_PpVB4A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KAKIGORI_MOCHI__ODORI_WHIRLPOOL3.jpg",
+            "caption": "KAKIGORI top, WHIRLPOOL bucket bag, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_7pQebt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_ZAKURO_KINCHAKU.jpg",
+            "caption": "ZAKURO set, KINCHAKU gloves",
+            "link": ""
+          }
+        },
+        "image_NdegAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_MIKOSHI_SOMEN.jpg",
+            "caption": "MIKOSHI top, SOMEN skirt",
+            "link": ""
+          }
+        },
+        "image_ckAjjA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_RIKSHA_ODORI_VOYAGE1.jpg",
+            "caption": "RIKSHA dress, VOYAGE tote bag, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_RbdBC8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_OCHOKO_UCHIWA.jpg",
+            "caption": "OCHOKO top, UCHIWA skirt",
+            "link": ""
+          }
+        },
+        "image_8MhWkw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_TSUKIMI_UCHIWA.jpg",
+            "caption": "TSUKIMI bralette, UCHIWA skirt",
+            "link": ""
+          }
+        },
+        "image_dx8Eig": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KANTO.jpg",
+            "caption": "KANTO dress",
+            "link": ""
+          }
+        },
+        "image_JjQyxE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_ENICHI1.jpg",
+            "caption": "ENICHI dress",
+            "link": ""
+          }
+        },
+        "image_xPCUgz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_TSUKIMI_SANDO.jpg",
+            "caption": "TSUKIMI bralette, SANDO dress",
+            "link": ""
+          }
+        },
+        "image_AjmebL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_TSUKIMI_NEBUTA1.jpg",
+            "caption": "TSUKIMI bralette, NEBUTA skirt",
+            "link": ""
+          }
+        },
+        "image_iaiWLf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_ONDO.jpg",
+            "caption": "ONDO dress",
+            "link": ""
+          }
+        },
+        "image_ccaHEx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_NATSU_TENGU.jpg",
+            "caption": "NATSU top, TENGU dress",
+            "link": ""
+          }
+        },
+        "image_Fazbf8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_ZUTSUMI_TABI.jpg",
+            "caption": "TABI jumpsuit",
+            "link": ""
+          }
+        },
+        "image_zV8dTW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_YUZU_KODO_WHIRLPOOL.jpg",
+            "caption": "YUZU vest, KODO pants, WHIRLPOOL bucket bag",
+            "link": ""
+          }
+        },
+        "image_6zHDER": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KENDAMA1.jpg",
+            "caption": "KENDAMA dress",
+            "link": ""
+          }
+        },
+        "image_U3WqRe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_OMAMORI_TSURI_KOINOBORI_VOYAGE.jpg",
+            "caption": "OMAMORI bonnet, TSURI top, KOINOBORI pants",
+            "link": ""
+          }
+        },
+        "image_dxVWK8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_FURIN_KADOMATSU.jpg",
+            "caption": "FURIN jacket, KADOMATSU dress",
+            "link": ""
+          }
+        },
+        "image_FHRHaW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KADOMATSU_ODORI.jpg",
+            "caption": "KADOMATSU dress, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_fWbm7h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_OMIKOSHI.jpg",
+            "caption": "OMIKOSHI dress",
+            "link": ""
+          }
+        },
+        "image_6JrXQg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_OBON_KINCHAKU.jpg",
+            "caption": "OBON dress",
+            "link": ""
+          }
+        },
+        "image_9HmcaV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_SUMO.jpg",
+            "caption": "SUMO dress",
+            "link": ""
+          }
+        },
+        "image_Aq8mjD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KUSHI.jpg",
+            "caption": "KUSHI jumpsuit",
+            "link": ""
+          }
+        },
+        "image_GJ3PEB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_YOMISE_ODORI.jpg",
+            "caption": "YOMISE dress",
+            "link": ""
+          }
+        },
+        "image_3AgPnx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_BIWA_ODORI.jpg",
+            "caption": "BIWA dress",
+            "link": ""
+          }
+        },
+        "image_zGrTPE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_WARAJI_ODORI.jpg",
+            "caption": "WARAJI dress, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_JEmEVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_SENSU_ODORI2.jpg",
+            "caption": "SENSU dress, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_miApCf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_TEMARI_SOMEN_ODORI1.jpg",
+            "caption": "TEMARI top, SOMEN skirt",
+            "link": ""
+          }
+        },
+        "image_BthbPB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_DANGO.jpg",
+            "caption": "DANGO jumpsuit",
+            "link": ""
+          }
+        },
+        "image_LQ8ApP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_UCHIMIZU2.jpg",
+            "caption": "UCHIMIZU dress",
+            "link": ""
+          }
+        },
+        "image_WBrGFz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KAWA_SHAMISEN.jpg",
+            "caption": "KAWA top, SHAMISEN skirt",
+            "link": ""
+          }
+        },
+        "image_HT7M8z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_TORO_SHAMISEN_ODORI.jpg",
+            "caption": "TORO top, SHAMISEN skirt, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_Y8G7CD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KABUKI.jpg",
+            "caption": "KABUKI dress",
+            "link": ""
+          }
+        },
+        "image_q8Lfb7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_AMAZAKE_NEBUTA.jpg",
+            "caption": "AMAZAKE top, NEBUTA skirt",
+            "link": ""
+          }
+        },
+        "image_KMqyXU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_ZUTSUMI_ONI_KANZASHI.jpg",
+            "caption": "ZUTSUMI top, KANZASHI dress",
+            "link": ""
+          }
+        },
+        "image_Fw8T8A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KANZASHI_KINCHAKU1.jpg",
+            "caption": "KANZASHI dress, KINCHAKU gloves",
+            "link": ""
+          }
+        },
+        "image_X4kjzF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_HACHIMAKI2.jpg",
+            "caption": "HACHIMAKI dress",
+            "link": ""
+          }
+        },
+        "image_K7niJx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_HOZUKI_ODORI.jpg",
+            "caption": "HOZUKI dress, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_U6XV6k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_TAIKO_YATAI1.jpg",
+            "caption": "TAIKO top, YATAI dress",
+            "link": ""
+          }
+        },
+        "image_APxM9T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_EMA1.jpg",
+            "caption": "EMA dress",
+            "link": ""
+          }
+        },
+        "image_78LEca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_KYUDO2.jpg",
+            "caption": "KYUDO dress",
+            "link": ""
+          }
+        },
+        "image_ryQmxG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_HARU_CHANKO_DARUMA.jpg",
+            "caption": "HARU jacket, CHANKO top, DARUMA skirt",
+            "link": ""
+          }
+        },
+        "image_kB4Hi6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_ZUTSUMI_MATSURI_WASABI_ODORI2.jpg",
+            "caption": "MATSURI top, WASABI shorts, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_N9aYVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_TANABATA.jpg",
+            "caption": "TANABATA dress",
+            "link": ""
+          }
+        },
+        "image_yKxBhB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_HAORI.jpg",
+            "caption": "HAORI dress",
+            "link": ""
+          }
+        },
+        "image_j6xUqU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_HANETO.jpg",
+            "caption": "HANETO jumpsuit",
+            "link": ""
+          }
+        },
+        "image_jUPHf4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_TEGATA_ODORI1.jpg",
+            "caption": "TEGATA gown, ODORI gloves",
+            "link": ""
+          }
+        },
+        "image_GbRRKH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_YOSAKOI1.jpg",
+            "caption": "YOSAKOI gown",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_q7fBn9",
+        "image_mW3TqT",
+        "image_PpVB4A",
+        "image_7pQebt",
+        "image_NdegAC",
+        "image_ckAjjA",
+        "image_RbdBC8",
+        "image_8MhWkw",
+        "image_dx8Eig",
+        "image_JjQyxE",
+        "image_xPCUgz",
+        "image_AjmebL",
+        "image_iaiWLf",
+        "image_ccaHEx",
+        "image_Fazbf8",
+        "image_zV8dTW",
+        "image_6zHDER",
+        "image_U3WqRe",
+        "image_dxVWK8",
+        "image_FHRHaW",
+        "image_fWbm7h",
+        "image_6JrXQg",
+        "image_9HmcaV",
+        "image_Aq8mjD",
+        "image_GJ3PEB",
+        "image_3AgPnx",
+        "image_zGrTPE",
+        "image_JEmEVL",
+        "image_miApCf",
+        "image_BthbPB",
+        "image_LQ8ApP",
+        "image_WBrGFz",
+        "image_HT7M8z",
+        "image_Y8G7CD",
+        "image_q8Lfb7",
+        "image_KMqyXU",
+        "image_Fw8T8A",
+        "image_X4kjzF",
+        "image_K7niJx",
+        "image_U6XV6k",
+        "image_APxM9T",
+        "image_78LEca",
+        "image_ryQmxG",
+        "image_kB4Hi6",
+        "image_N9aYVL",
+        "image_yKxBhB",
+        "image_j6xUqU",
+        "image_jUPHf4",
+        "image_GbRRKH"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "0.6667",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "parralax_ibnhY7": {
+      "type": "Parralax",
+      "blocks": {
+        "text_dpdtWY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_COL.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": false,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dpdtWY"
+      ],
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "600",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 1,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_gallery_rVVmqd",
+    "parralax_ibnhY7"
+  ]
+}
