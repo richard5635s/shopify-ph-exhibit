@@ -8,6 +8,267 @@
  * ------------------------------------------------------------
  */
 {
+  "sections": {
+    "media_with_text_overlay_aBhf4w": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_YU8AUU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER5.jpg",
+            "image_mobile": "shopify://shop_images/BANNER2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_YU8AUU"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "0.66",
+        "aspect_ratio_desktop": "1.78",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "shopify://collections/category-wallets",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
+      }
+    },
+    "image_gallery_taHeiy": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_Bi9cEQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Campaign_MINUET4.jpg",
+            "caption": "2025, Minuet",
+            "link": "shopify://collections/collection-minuet"
+          }
+        },
+        "image_9ERMzK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Whirlpool_Olive_2.jpg",
+            "caption": "WHIRLPOOL, Bucket Bag",
+            "link": "https://peggyhartanto.com/collections/handbags"
+          }
+        },
+        "image_hJMHy4": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/PHPETITE24_JAMBOREE.jpg",
+            "caption": "JAMBOREE, Petite",
+            "link": "shopify://collections/petite-2024"
+          }
+        },
+        "image_GpJy8R": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/IMG_6209.jpg",
+            "caption": "Introducing: STOMA Stone",
+            "link": "shopify://collections/line-stoma"
+          }
+        }
+      },
+      "block_order": [
+        "image_Bi9cEQ",
+        "image_9ERMzK",
+        "image_hJMHy4",
+        "image_GpJy8R"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "justified",
+        "mobile_columns": "1",
+        "desktop_columns": 2,
+        "standard_layout_align_items": "items-center",
+        "modular_layout_variation": 2,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "0.6667",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "scheme1",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "media-with-text-overlay": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_CRzPLw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENCORE_CPG.jpg",
+            "image_mobile": "shopify://shop_images/HOMEPAGE_Campaign_3_3.jpg"
+          }
+        },
+        "media-with-text-overlay-1": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme1",
+            "overlay_color": "bg-scheme-text",
+            "enable_custom_color": true,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 8,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_CRzPLw",
+        "media-with-text-overlay-1"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "full-screen",
+        "content_position": "justify-center items-start",
+        "text_align": "text-right",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-secondary",
+        "richtext": "",
+        "cta_link": "shopify://collections/collection-encore",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": "scheme2"
+      }
+    },
+    "rich_text_4CJKqT": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "richtext": "<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br/>Words by Francis Martine. Photography by Alixe Lay.</p>",
+        "text_alignment": "text-center",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": true,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    },
+    "feature_text_with_rich_text_yxM4Lm": {
+      "type": "feature-text-with-rich-text",
+      "disabled": true,
+      "settings": {
+        "feature_text": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+        "font": "font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "feature_text_position_on_desktop": "left",
+        "feature_text_width_on_desktop": "6",
+        "richtext": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "image_with_text_qEY4MV": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/f1253408606625e994b8becb31f79c91.jpg",
+        "media_aspect_ratio": "1.333",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": true,
+        "title": "Efficacious pairings",
+        "heading_size": "text-heading-standard",
+        "richtext": "<p>Our consultants have long combined complementary formulations to effect additional benefits for the skin. Incorporate this time-honoured practice into your regimen with our recommended bundles.<br/><br/><a href=\"/collections/atlantis\" title=\"ATLANTIS\">Browse Skin Care Bundles</a></p>",
+        "cta_link": "",
+        "cta_label": "",
+        "image_width_on_desktop": "7",
+        "content_width_on_desktop": "1.0",
+        "content_alignment": "lg:items-top lg:justify-start",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1.5
+      }
+    },
+    "feature_text_BC7hzq": {
+      "type": "feature-text",
+      "disabled": true,
+      "settings": {
+        "richtext": "",
+        "cta_link": "#",
+        "cta_label": "LEATHER GOODS",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    },
+    "media_with_text_overlay_YMmQP3": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_aixUDT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Campaign_MINUET1.jpg"
+          }
+        },
+        "color_overlay_6AnTMc": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 80,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_aixUDT",
+        "color_overlay_6AnTMc"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "full-screen",
+        "content_position": "justify-center items-start",
+        "text_align": "text-right",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-secondary",
+        "richtext": "",
+        "cta_link": "https://peggyhartanto.com/collections/archive-sale-2024",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": "scheme2"
+      }
+    }
+  },
   "order": [
     "media_with_text_overlay_aBhf4w",
     "image_gallery_taHeiy",
@@ -17,266 +278,5 @@
     "image_with_text_qEY4MV",
     "feature_text_BC7hzq",
     "media_with_text_overlay_YMmQP3"
-  ],
-  "sections": {
-    "feature_text_BC7hzq": {
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "content_position_on_desktop": "left",
-        "content_width_on_desktop": "12",
-        "cta_label": "LEATHER GOODS",
-        "cta_link": "#",
-        "desktop_text_scale": 0,
-        "font": "rte font-main",
-        "mobile_text_scale": 0,
-        "richtext": "",
-        "show_top_border": false,
-        "space_above": 0,
-        "space_below": 1,
-        "text_alignment": "text-center"
-      },
-      "type": "feature-text"
-    },
-    "feature_text_with_rich_text_yxM4Lm": {
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "cta_label": "",
-        "cta_link": "",
-        "desktop_text_scale": 0,
-        "feature_text": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
-        "feature_text_position_on_desktop": "left",
-        "feature_text_width_on_desktop": "6",
-        "font": "font-main",
-        "mobile_text_scale": 0,
-        "richtext": "<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
-        "show_top_border": false,
-        "space_above": 0.5,
-        "space_below": 1
-      },
-      "type": "feature-text-with-rich-text"
-    },
-    "image_gallery_taHeiy": {
-      "block_order": [
-        "image_Bi9cEQ",
-        "image_9ERMzK",
-        "image_hJMHy4",
-        "image_GpJy8R"
-      ],
-      "blocks": {
-        "image_9ERMzK": {
-          "settings": {
-            "caption": "WHIRLPOOL, Bucket Bag",
-            "image": "shopify://shop_images/Whirlpool_Olive_2.jpg",
-            "link": "https://peggyhartanto.com/collections/handbags"
-          },
-          "type": "image"
-        },
-        "image_Bi9cEQ": {
-          "settings": {
-            "caption": "2025, Minuet",
-            "image": "shopify://shop_images/Campaign_MINUET4.jpg",
-            "link": "shopify://collections/collection-minuet"
-          },
-          "type": "image"
-        },
-        "image_GpJy8R": {
-          "disabled": true,
-          "settings": {
-            "caption": "Introducing: STOMA Stone",
-            "image": "shopify://shop_images/IMG_6209.jpg",
-            "link": "shopify://collections/line-stoma"
-          },
-          "type": "image"
-        },
-        "image_hJMHy4": {
-          "disabled": true,
-          "settings": {
-            "caption": "JAMBOREE, Petite",
-            "image": "shopify://shop_images/PHPETITE24_JAMBOREE.jpg",
-            "link": "shopify://collections/petite-2024"
-          },
-          "type": "image"
-        }
-      },
-      "settings": {
-        "color_scheme": "scheme1",
-        "desktop_columns": 2,
-        "grid_type": "justified",
-        "irregular_alignment_of_items": "items-center justify-center",
-        "irregular_layout_variation": 1,
-        "labels_always_show_on_mobile": false,
-        "labels_display": "below_media",
-        "labels_show_titles_and_captions": true,
-        "media_aspect_ratio": "0.6667",
-        "media_fill_space": true,
-        "mobile_columns": "1",
-        "modular_grid_item_aspect_ratio": 1,
-        "modular_layout_variation": 2,
-        "modular_no_crop_media_mobile": false,
-        "space_above": 0.5,
-        "space_below": 0.5,
-        "standard_layout_align_items": "items-center",
-        "title": ""
-      },
-      "type": "image-gallery"
-    },
-    "image_with_text_qEY4MV": {
-      "custom_css": [],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "lg:items-top lg:justify-start",
-        "content_width_on_desktop": "1.0",
-        "cta_label": "",
-        "cta_link": "",
-        "enable_full_bleed": true,
-        "heading_size": "text-heading-standard",
-        "image": "shopify://shop_images/f1253408606625e994b8becb31f79c91.jpg",
-        "image_position_on_desktop": "left",
-        "image_width_on_desktop": "7",
-        "media_aspect_ratio": "1.333",
-        "richtext": "<p>Our consultants have long combined complementary formulations to effect additional benefits for the skin. Incorporate this time-honoured practice into your regimen with our recommended bundles.<br/><br/><a href=\"/collections/atlantis\" title=\"ATLANTIS\">Browse Skin Care Bundles</a></p>",
-        "show_top_border": false,
-        "space_above": 0.5,
-        "space_below": 1.5,
-        "title": "Efficacious pairings"
-      },
-      "type": "image-with-text"
-    },
-    "media-with-text-overlay": {
-      "block_order": [
-        "image_CRzPLw",
-        "media-with-text-overlay-1"
-      ],
-      "blocks": {
-        "image_CRzPLw": {
-          "settings": {
-            "image": "shopify://shop_images/ENCORE_CPG.jpg",
-            "image_mobile": "shopify://shop_images/HOMEPAGE_Campaign_3_3.jpg"
-          },
-          "type": "image"
-        },
-        "media-with-text-overlay-1": {
-          "disabled": true,
-          "settings": {
-            "blend_mode": "normal",
-            "color_scheme": "scheme1",
-            "custom_overlay_color": "#ffffff",
-            "enable_custom_color": true,
-            "opacity": 8,
-            "overlay_color": "bg-scheme-text"
-          },
-          "type": "color_overlay"
-        }
-      },
-      "settings": {
-        "aspect_ratio_desktop": "full-screen",
-        "aspect_ratio_mobile": "full-screen",
-        "button_style": "",
-        "color_scheme": "scheme2",
-        "content_position": "justify-center items-start",
-        "content_width_on_desktop": "4",
-        "cta_label": "",
-        "cta_link": "shopify://collections/collection-encore",
-        "enable_full_bleed": true,
-        "heading_size": "text-heading-secondary",
-        "richtext": "",
-        "text_align": "text-right",
-        "title": ""
-      },
-      "type": "media-with-text-overlay"
-    },
-    "media_with_text_overlay_YMmQP3": {
-      "block_order": [
-        "image_aixUDT",
-        "color_overlay_6AnTMc"
-      ],
-      "blocks": {
-        "color_overlay_6AnTMc": {
-          "disabled": true,
-          "settings": {
-            "blend_mode": "normal",
-            "color_scheme": "",
-            "custom_overlay_color": "#ffffff",
-            "enable_custom_color": false,
-            "opacity": 80,
-            "overlay_color": "bg-scheme-background"
-          },
-          "type": "color_overlay"
-        },
-        "image_aixUDT": {
-          "settings": {
-            "image": "shopify://shop_images/Campaign_MINUET1.jpg"
-          },
-          "type": "image"
-        }
-      },
-      "disabled": true,
-      "settings": {
-        "aspect_ratio_desktop": "full-screen",
-        "aspect_ratio_mobile": "full-screen",
-        "button_style": "",
-        "color_scheme": "scheme2",
-        "content_position": "justify-center items-start",
-        "content_width_on_desktop": "4",
-        "cta_label": "",
-        "cta_link": "https://peggyhartanto.com/collections/archive-sale-2024",
-        "enable_full_bleed": true,
-        "heading_size": "text-heading-secondary",
-        "richtext": "",
-        "text_align": "text-right",
-        "title": ""
-      },
-      "type": "media-with-text-overlay"
-    },
-    "media_with_text_overlay_aBhf4w": {
-      "block_order": [
-        "image_YU8AUU"
-      ],
-      "blocks": {
-        "image_YU8AUU": {
-          "settings": {
-            "image": "shopify://shop_images/BANNER5.jpg",
-            "image_mobile": "shopify://shop_images/BANNER2.jpg"
-          },
-          "type": "image"
-        }
-      },
-      "disabled": true,
-      "settings": {
-        "aspect_ratio_desktop": "1.78",
-        "aspect_ratio_mobile": "0.66",
-        "button_style": "",
-        "color_scheme": "",
-        "content_position": "justify-center items-center",
-        "content_width_on_desktop": "4",
-        "cta_label": "",
-        "cta_link": "shopify://collections/category-wallets",
-        "enable_full_bleed": true,
-        "heading_size": "text-heading-feature",
-        "richtext": "",
-        "text_align": "text-center",
-        "title": ""
-      },
-      "type": "media-with-text-overlay"
-    },
-    "rich_text_4CJKqT": {
-      "custom_css": [],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "cta_label": "",
-        "cta_link": "",
-        "richtext": "<p>In the UK, a centuries-old Quaker meeting house encourages quiet reflection.<br/>Words by Francis Martine. Photography by Alixe Lay.</p>",
-        "show_top_border": true,
-        "space_above": 0,
-        "space_below": 1,
-        "text_alignment": "text-center",
-        "title": ""
-      },
-      "type": "rich-text"
-    }
-  }
+  ]
 }

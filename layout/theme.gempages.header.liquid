@@ -16,9 +16,7 @@
       >
     {%- endif -%}
 
-    {%- unless settings.type_header_font.system?
-      and settings.type_body_font.system?
-    -%}
+    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
@@ -44,6 +42,7 @@
       render 'js-bridge'
     -%}
 
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
     <script src="{{ 'utils.js' | asset_url }}" defer></script>
     <script
       src="{{ 'polyfills-inert.bundle.min.js' | asset_url }}"
@@ -106,7 +105,9 @@
         src="{{ 'vendor-product.bundle.min.js' | asset_url }}"
         type="module"
       ></script>
-      <script src="{{ 'product.js' | asset_url }}" type="module"></script>
+      <script src="{{ 'product.js' | asset_url }}"  type="module"></script>
+
+      
       <script src="{{ 'video.js' | asset_url }}" type="module"></script>
       <script
         src="{{ 'vendor-store-availability.bundle.min.js' | asset_url }}"
@@ -162,8 +163,11 @@
     {%- render 'css-bridge' -%}
 
     {{ 'base.bundle.css' | asset_url | stylesheet_tag }}
-  {% render 'gp-head' %}
-</head>
+    {{ 'ph-exhibit.css' | asset_url | stylesheet_tag }}
+      
+    
+    {% render 'gp-head' %}
+  </head>
 
   <body>
     {%- if settings.enable_sidebar -%}
@@ -183,9 +187,7 @@
                 <script type="module">
                   document.documentElement.style.setProperty(
                     '--hero-height',
-                    `${
-                      document.getElementById('heroGroupWrapper').offsetHeight
-                    }px`
+                    `${document.getElementById('heroGroupWrapper').offsetHeight}px`
                   );
                 </script>
               </div>
