@@ -1,97 +1,118 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-  "sections": {
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "show_collection_title": false,
-        "show_collection_description": false,
-        "show_collection_image": false,
-        "enable_full_bleed": false,
-        "collection_image_aspect_ratio": "natural",
-        "color_scheme": "primary",
-        "space_above": 1,
-        "space_below": 1
-      }
-    },
-    "image_with_text_PtiLDG": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "media_aspect_ratio": "natural",
-        "image_position_on_desktop": "left",
-        "enable_full_bleed": false,
-        "title": "Image with text",
-        "heading_size": "text-heading-standard",
-        "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
-        "cta_link": "",
-        "cta_label": "",
-        "image_width_on_desktop": "6",
-        "content_width_on_desktop": "1.0",
-        "content_alignment": "lg:items-top lg:justify-start",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "blocks": {
-        "filter": {
-          "type": "filter_and_sort",
-          "settings": {
-            "desktop_filter_layout": "drawer",
-            "stacked_filter_style": "text",
-            "enable_filtering": true,
-            "expand_filters": false,
-            "show_filter_count": false,
-            "enable_color_swatch_filters": true,
-            "enable_sorting": true
-          }
-        }
-      },
-      "block_order": [
-        "filter"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "products_to_show": 33,
-        "linklist": "",
-        "grid_type": "standard",
-        "mobile_columns": "2",
-        "desktop_columns": 4,
-        "standard_layout_align_items": "items-start",
-        "modular_layout_variation": 3,
-        "modular_grid_item_aspect_ratio": 1,
-        "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
-        "irregular_alignment_of_items": "items-top justify-between",
-        "media_aspect_ratio": "natural",
-        "media_fill_space": true,
-        "labels_show_titles_and_captions": true,
-        "labels_show_product_prices": true,
-        "labels_display": "below_media",
-        "labels_show_product_vendor": false,
-        "labels_always_show_on_mobile": false,
-        "quick_view": "disabled",
-        "product_info_text_alignment": "left",
-        "color_scheme": "scheme1",
-        "space_above": 0.5,
-        "space_below": 1.5,
-        "disable_left_and_right_margins": false,
-        "remove_grid_gaps": false
-      }
-    }
-  },
   "order": [
+    "rich_text_HHUykP",
     "banner",
     "image_with_text_PtiLDG",
     "product-grid"
-  ]
+  ],
+  "sections": {
+    "banner": {
+      "custom_css": [],
+      "disabled": true,
+      "settings": {
+        "collection_image_aspect_ratio": "natural",
+        "color_scheme": "primary",
+        "enable_full_bleed": false,
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "show_collection_title": false,
+        "space_above": 1,
+        "space_below": 1
+      },
+      "type": "main-collection-banner"
+    },
+    "image_with_text_PtiLDG": {
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "lg:items-top lg:justify-start",
+        "content_width_on_desktop": "1.0",
+        "cta_label": "",
+        "cta_link": "",
+        "enable_full_bleed": false,
+        "heading_size": "text-heading-standard",
+        "image_position_on_desktop": "left",
+        "image_width_on_desktop": "6",
+        "media_aspect_ratio": "natural",
+        "richtext": "<p>Use this text to share information about your brand with your customers.</p>",
+        "show_top_border": false,
+        "space_above": 1,
+        "space_below": 1,
+        "title": "Image with text"
+      },
+      "type": "image-with-text"
+    },
+    "product-grid": {
+      "block_order": [
+        "filter"
+      ],
+      "blocks": {
+        "filter": {
+          "settings": {
+            "desktop_filter_layout": "drawer",
+            "enable_color_swatch_filters": false,
+            "enable_filtering": true,
+            "enable_sorting": true,
+            "expand_filters": false,
+            "show_filter_count": false,
+            "stacked_filter_style": "text"
+          },
+          "type": "filter_and_sort"
+        }
+      },
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme1",
+        "desktop_columns": 4,
+        "disable_left_and_right_margins": false,
+        "grid_type": "standard",
+        "irregular_alignment_of_items": "items-top justify-between",
+        "irregular_layout_variation": 1,
+        "labels_always_show_on_mobile": false,
+        "labels_display": "below_media",
+        "labels_show_product_prices": true,
+        "labels_show_product_vendor": false,
+        "labels_show_titles_and_captions": true,
+        "linklist": "",
+        "media_aspect_ratio": "0.6667",
+        "media_fill_space": true,
+        "mobile_columns": "2",
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_layout_variation": 11,
+        "modular_no_crop_media_mobile": false,
+        "product_info_text_alignment": "left",
+        "products_to_show": 32,
+        "quick_view": "disabled",
+        "remove_grid_gaps": false,
+        "space_above": 0.5,
+        "space_below": 1.5,
+        "standard_layout_align_items": "items-start"
+      },
+      "type": "main-collection-product-grid"
+    },
+    "rich_text_HHUykP": {
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "cta_label": "",
+        "cta_link": "",
+        "richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "show_top_border": false,
+        "space_above": 0,
+        "space_below": 0,
+        "text_alignment": "text-left",
+        "title": "2024, Petite"
+      },
+      "type": "rich-text"
+    }
+  }
 }
