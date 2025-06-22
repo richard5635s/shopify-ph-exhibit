@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "text-left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "parralax_ibnhY7": {
+      "type": "Parralax",
+      "blocks": {
+        "text_dpdtWY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Web.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": false,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dpdtWY"
+      ],
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "600",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 1,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
+      }
+    },
+    "collection_list_rGpBiL": {
+      "type": "collection-list",
+      "name": "Collection list",
+      "settings": {
+        "title": "BROWSE SALE BY CATEGORY",
+        "collection_list": [
+          "archive-sale-2025",
+          "sale-accessories"
+        ],
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 2,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    },
+    "collection_list_q7FMpi": {
+      "type": "collection-list",
+      "name": "Collection list",
+      "settings": {
+        "title": "BROWSE SALE BY SIZE",
+        "collection_list": [
+          "size-xs",
+          "size-s",
+          "size-m",
+          "size-l",
+          "size-xl",
+          "size-xxl"
+        ],
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 3,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "parralax_ibnhY7",
+    "collection_list_rGpBiL",
+    "collection_list_q7FMpi"
+  ]
+}
