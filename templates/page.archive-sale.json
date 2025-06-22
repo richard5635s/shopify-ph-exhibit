@@ -60,7 +60,7 @@
       "type": "collection-list",
       "name": "Collection list",
       "settings": {
-        "title": "SHOP BY CATEGORY",
+        "title": "BROWSE SALE BY CATEGORY",
         "collection_list": [
           "archive-sale-2025",
           "sale-accessories"
@@ -90,7 +90,7 @@
       "type": "collection-list",
       "name": "Collection list",
       "settings": {
-        "title": "BROWSE BY SIZE",
+        "title": "BROWSE SALE BY SIZE",
         "collection_list": [
           "size-xs",
           "size-s",
