@@ -574,11 +574,5 @@
       "send_on": "ÅÅÅÅ-MM-DD",
       "send_on_label": "Send (valgfrit)"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }

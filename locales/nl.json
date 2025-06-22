@@ -574,11 +574,5 @@
       "send_on": "JJJJ-MM-DD",
       "send_on_label": "Verzenden op (optioneel)"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }
