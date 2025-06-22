@@ -4,9 +4,6 @@
 <nav>
   <ul class="menu {{ link_classes }}">
     {%- for link in menu.links -%}
-      {%- comment %}<locksmith:42ae>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-      {%- comment %}</locksmith:42ae>{% endcomment -%}
       <li class="menu-link">
         <a class="hover:underline" href="{{ link.url }}">{{ link.title }}</a>
       </li>

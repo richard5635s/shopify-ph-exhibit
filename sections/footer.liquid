@@ -53,17 +53,11 @@
                 {% endif %}
                 <nav>
                   <ul class="menu {% unless block.settings.separate_with_comma %}-mx-2{% endunless %} {% if block.settings.layout == 'horizontal' %}flex flex-wrap {{ block.settings.desktop_text_alignment }}{% endif %} ">
-                    {%- comment %}<locksmith:f42d>{% endcomment -%}
-                      {%- assign locksmith_3126_forloop__size = 0 %}{%- for link in block.settings.menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_3126_forloop__size = locksmith_3126_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_3126_forloop__index = nil -%}
-                    {%- comment %}</locksmith:f42d>{% endcomment -%}
                     {%- for link in block.settings.menu.links -%}
-                      {%- comment %}<locksmith:db75>{% endcomment -%}
-                        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_3126_forloop__index == nil %}{% assign locksmith_3126_forloop__index = 1 %}{% assign locksmith_3126_forloop__index0 = 0 %}{% else %}{% assign locksmith_3126_forloop__index = locksmith_3126_forloop__index | plus: 1 %}{% assign locksmith_3126_forloop__index0 = locksmith_3126_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_3126_forloop__index == 1 %}{% assign locksmith_3126_forloop__first = true %}{% else %}{% assign locksmith_3126_forloop__first = false %}{% endif %}{% if locksmith_3126_forloop__index == locksmith_3126_forloop__size %}{% assign locksmith_3126_forloop__last = true %}{% else %}{% assign locksmith_3126_forloop__last = false %}{% endif %}{% assign locksmith_3126_forloop__rindex = locksmith_3126_forloop__size | minus: locksmith_3126_forloop__index | minus: 1 %}{% assign locksmith_3126_forloop__rindex0 = locksmith_3126_forloop__size | minus: locksmith_3126_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
-                      {%- comment %}</locksmith:db75>{% endcomment -%}
                       <li class="menu-link min-w-0 {% unless block.settings.separate_with_comma %}px-2{% endunless %}">
                         <a href="{{ link.url }}" class="break-words">{{ link.title }}</a>
                         {%- if block.settings.separate_with_comma and block.settings.layout == 'horizontal' -%}
-                          {%- unless locksmith_3126_forloop__last -%}
+                          {%- unless forloop.last -%}
                             &#44;&nbsp;
                           {%- endunless -%}
                         {%- endif -%}

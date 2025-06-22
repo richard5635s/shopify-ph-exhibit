@@ -2,9 +2,6 @@
   {% assign smallest_collection  = 1500 %}
 
   {% for collection in product.collections%}
-    {%- comment %}<locksmith:a849>{% endcomment -%}
-      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-    {%- comment %}</locksmith:a849>{% endcomment -%}
     {%- assign hand_col = collection.handle -%}
     {%- unless hand_col contains 'last-pieces' 
                   	or hand_col contains 'sale'
@@ -44,9 +41,6 @@
     {% assign product_count = 0 %}
 
     {% for same-product in collections[smallest_collection_name].products %}
-      {%- comment %}<locksmith:75d7>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: same-product, subject_parent: collections[smallest_collection_name], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-      {%- comment %}</locksmith:75d7>{% endcomment -%}
       {% assign same-product-handle = same-product.title | split : ' in ' | first | handleize %}
       {% assign current-product-handle = product.title | split : ' in ' | first | handleize %}
       
@@ -68,10 +62,6 @@
     <ul class="swatches">
 
         {% for same-product in collections[smallest_collection_name].products  %}
-            
-            {%- comment %}<locksmith:cd16>{% endcomment -%}
-              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: same-product, subject_parent: collections[smallest_collection_name], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-            {%- comment %}</locksmith:cd16>{% endcomment -%}
             
             {% assign handled = product.title | handleize %}
             {% assign same-product-handle = same-product.title | split : ' in ' | first%}

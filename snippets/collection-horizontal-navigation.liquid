@@ -3,9 +3,6 @@
   <nav class="overflow-x-auto">
     <ul class="flex lg:flex-wrap items-center justify-start w-full -mx-2  whitespace-nowrap overflow-auto">
       {% for link in linklist.links %}
-        {%- comment %}<locksmith:261b>{% endcomment -%}
-          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklist, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-        {%- comment %}</locksmith:261b>{% endcomment -%}
         <li class="p-2">
           <a class="{% if link.active %}underline{% endif %} hover:underline break-words" href="{{ link.url }}">
             {{- link.title -}}

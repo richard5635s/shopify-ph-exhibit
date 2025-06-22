@@ -92,55 +92,7 @@
   assign desktop_aspect_ratio_total = 0.0
   assign mobile_aspect_ratio_total = 0.0
 
-  comment
-    <locksmith:01c2> Code added automatically by the Locksmith app. Do not modify or remove.
-  endcomment
-  assign locksmith_b636_forloop__size = 0
   for item in items limit: limit
-    capture var
-      render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent'
-    endcapture
-    if var == 'true'
-      assign locksmith_b636_forloop__size = locksmith_b636_forloop__size | plus: 1
-    endif
-  endfor
-  assign locksmith_b636_forloop__index = nil
-  comment
-    </locksmith:01c2> End Locksmith code block.
-  endcomment
-  for item in items limit: limit
-    comment
-      <locksmith:f33c> Code added automatically by the Locksmith app. Do not modify or remove.
-    endcomment
-    capture var
-      render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent'
-    endcapture
-    if var == "true"
-      if locksmith_b636_forloop__index == nil
-        assign locksmith_b636_forloop__index = 1
-        assign locksmith_b636_forloop__index0 = 0
-      else
-        assign locksmith_b636_forloop__index = locksmith_b636_forloop__index | plus: 1
-        assign locksmith_b636_forloop__index0 = locksmith_b636_forloop__index0 | plus: 1
-      endif
-      if locksmith_b636_forloop__index == 1
-        assign locksmith_b636_forloop__first = true
-      else
-        assign locksmith_b636_forloop__first = false
-      endif
-      if locksmith_b636_forloop__index == locksmith_b636_forloop__size
-        assign locksmith_b636_forloop__last = true
-      else
-        assign locksmith_b636_forloop__last = false
-      endif
-      assign locksmith_b636_forloop__rindex = locksmith_b636_forloop__size | minus: locksmith_b636_forloop__index | minus: 1
-      assign locksmith_b636_forloop__rindex0 = locksmith_b636_forloop__size | minus: locksmith_b636_forloop__index0 | minus: 1
-    else
-      continue
-    endif
-    comment
-      </locksmith:f33c> End Locksmith code block.
-    endcomment
     comment
       First we need to get the aspect ratio of the item
     endcomment
@@ -183,13 +135,13 @@
     assign mobile_aspect_ratios = mobile_aspect_ratios | append: aspect_ratio | append: ':'
     assign mobile_aspect_ratio_total = mobile_aspect_ratio_total | plus: aspect_ratio
 
-    assign desktop_modulo = locksmith_b636_forloop__index | minus: desktop_remainder_items | modulo: section.settings.desktop_columns
+    assign desktop_modulo = forloop.index | minus: desktop_remainder_items | modulo: section.settings.desktop_columns
     if desktop_modulo == 0
       assign desktop_aspect_ratios = desktop_aspect_ratios | append: '?' | append: desktop_aspect_ratio_total | append: '|'
       assign desktop_aspect_ratio_total = 0.0
     endif
 
-    assign mobile_modulo = locksmith_b636_forloop__index | minus: mobile_remainder_items | modulo: section.settings.mobile_columns
+    assign mobile_modulo = forloop.index | minus: mobile_remainder_items | modulo: section.settings.mobile_columns
     if mobile_modulo == 0
       assign mobile_aspect_ratios = mobile_aspect_ratios | append: '?' | append: mobile_aspect_ratio_total | append: '|'
       assign mobile_aspect_ratio_total = 0.0
@@ -247,19 +199,13 @@
     class="flex flex-row gap-media-grid flex-wrap"
     id="JustifiedList-{{ section.id }}"
   >
-    {%- comment %}<locksmith:b567>{% endcomment -%}
-      {%- assign locksmith_0b0d_forloop__size = 0 %}{% for item in items limit: limit %}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_0b0d_forloop__size = locksmith_0b0d_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_0b0d_forloop__index = nil -%}
-    {%- comment %}</locksmith:b567>{% endcomment -%}
     {% for item in items limit: limit %}
-      {%- comment %}<locksmith:f585>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_0b0d_forloop__index == nil %}{% assign locksmith_0b0d_forloop__index = 1 %}{% assign locksmith_0b0d_forloop__index0 = 0 %}{% else %}{% assign locksmith_0b0d_forloop__index = locksmith_0b0d_forloop__index | plus: 1 %}{% assign locksmith_0b0d_forloop__index0 = locksmith_0b0d_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_0b0d_forloop__index == 1 %}{% assign locksmith_0b0d_forloop__first = true %}{% else %}{% assign locksmith_0b0d_forloop__first = false %}{% endif %}{% if locksmith_0b0d_forloop__index == locksmith_0b0d_forloop__size %}{% assign locksmith_0b0d_forloop__last = true %}{% else %}{% assign locksmith_0b0d_forloop__last = false %}{% endif %}{% assign locksmith_0b0d_forloop__rindex = locksmith_0b0d_forloop__size | minus: locksmith_0b0d_forloop__index | minus: 1 %}{% assign locksmith_0b0d_forloop__rindex0 = locksmith_0b0d_forloop__size | minus: locksmith_0b0d_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
-      {%- comment %}</locksmith:f585>{% endcomment -%}
       {%- liquid
-        assign desktop_keys = desktop_item_keys[locksmith_0b0d_forloop__index0] | split: ':'
+        assign desktop_keys = desktop_item_keys[forloop.index0] | split: ':'
         assign desktop_ratio = desktop_keys[0]
         assign desktop_items_in_row = desktop_keys[1]
 
-        assign mobile_keys = mobile_item_keys[locksmith_0b0d_forloop__index0] | split: ':'
+        assign mobile_keys = mobile_item_keys[forloop.index0] | split: ':'
         assign mobile_ratio = mobile_keys[0]
         assign mobile_items_in_row = mobile_keys[1]
 
@@ -304,7 +250,7 @@
                   continue
                 endif
             endcase
-            render 'tile-placeholder', placeholder_index: locksmith_0b0d_forloop__index, type: item.type, tag: 'div', media_wrapper_aspect_ratio: item_aspect_ratio
+            render 'tile-placeholder', placeholder_index: forloop.index, type: item.type, tag: 'div', media_wrapper_aspect_ratio: item_aspect_ratio
           else
             assign placeholder = false
             if item contains 'placeholder:'
@@ -329,7 +275,7 @@
               endcase
             else
               assign placeholder_type = item | split: 'placeholder:' | last
-              render 'tile-placeholder', placeholder_index: locksmith_0b0d_forloop__index, type: placeholder_type, tag: 'div', media_wrapper_aspect_ratio: item_aspect_ratio
+              render 'tile-placeholder', placeholder_index: forloop.index, type: placeholder_type, tag: 'div', media_wrapper_aspect_ratio: item_aspect_ratio
             endunless
           endif
         -%}

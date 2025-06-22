@@ -6,13 +6,7 @@
 -%}
 <nav>
   <ul class="menu {% unless block.settings.separate_with_comma %}-mx-2{% endunless %} {{ link_classes }}  flex flex-wrap {{ block.settings.desktop_text_alignment }}">
-    {%- comment %}<locksmith:8a08>{% endcomment -%}
-      {%- assign locksmith_f93d_forloop__size = 0 %}{%- for link in block.settings.menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_f93d_forloop__size = locksmith_f93d_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_f93d_forloop__index = nil -%}
-    {%- comment %}</locksmith:8a08>{% endcomment -%}
     {%- for link in block.settings.menu.links -%}
-      {%- comment %}<locksmith:e85e>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_f93d_forloop__index == nil %}{% assign locksmith_f93d_forloop__index = 1 %}{% assign locksmith_f93d_forloop__index0 = 0 %}{% else %}{% assign locksmith_f93d_forloop__index = locksmith_f93d_forloop__index | plus: 1 %}{% assign locksmith_f93d_forloop__index0 = locksmith_f93d_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_f93d_forloop__index == 1 %}{% assign locksmith_f93d_forloop__first = true %}{% else %}{% assign locksmith_f93d_forloop__first = false %}{% endif %}{% if locksmith_f93d_forloop__index == locksmith_f93d_forloop__size %}{% assign locksmith_f93d_forloop__last = true %}{% else %}{% assign locksmith_f93d_forloop__last = false %}{% endif %}{% assign locksmith_f93d_forloop__rindex = locksmith_f93d_forloop__size | minus: locksmith_f93d_forloop__index | minus: 1 %}{% assign locksmith_f93d_forloop__rindex0 = locksmith_f93d_forloop__size | minus: locksmith_f93d_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
-      {%- comment %}</locksmith:e85e>{% endcomment -%}
       <li class="menu-link {% unless block.settings.separate_with_comma %}px-2{% endunless %}">
         {%- if link.links.size > 0 -%}
           <div
@@ -60,10 +54,6 @@
           >
             {%- for child_link in link.links -%}
 
-              {%- comment %}<locksmith:f091>{% endcomment -%}
-                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: child_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-              {%- comment %}</locksmith:f091>{% endcomment -%}
-
               <li class="menu-link">
                 
                 {%- if child_link.links.size > 0 -%}
@@ -105,9 +95,6 @@
                     </button>
                     <ul class="grandchild-links pl-5 menu dropdown-grandchild" x-show="grandchild_expanded">
                       {%- for grandchild_link in child_link.links -%}
-                        {%- comment %}<locksmith:627c>{% endcomment -%}
-                          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchild_link, subject_parent: child_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                        {%- comment %}</locksmith:627c>{% endcomment -%}
                         <li class="menu-link ">
                           <a class="hover:underline break-words {% if grandchild_link.current %}underline{% endif %}" href="{{ grandchild_link.url }}">
                             {{ grandchild_link.title }}
@@ -135,7 +122,7 @@
               assign show_comma_on_last_item_in_loop = true
             endif
           -%}
-          {%- unless locksmith_f93d_forloop__last and show_comma_on_last_item_in_loop == false -%}
+          {%- unless forloop.last and show_comma_on_last_item_in_loop == false -%}
           &#44;&nbsp;
           {%- endunless -%}
         {%- endif -%}

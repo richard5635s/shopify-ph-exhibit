@@ -1,14 +1,8 @@
 <nav>
   <ul class="menu {% unless block.settings.separate_with_comma %}-mx-2{% endunless %} {{ link_classes }}  flex flex-wrap {{ block.settings.desktop_text_alignment }}">
-    {%- comment %}<locksmith:68a2>{% endcomment -%}
-      {%- assign locksmith_6238_forloop__size = 0 %}{%- for link in block.settings.menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_6238_forloop__size = locksmith_6238_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_6238_forloop__index = nil -%}
-    {%- comment %}</locksmith:68a2>{% endcomment -%}
     {%- for link in block.settings.menu.links -%}
-      {%- comment %}<locksmith:f7e3>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_6238_forloop__index == nil %}{% assign locksmith_6238_forloop__index = 1 %}{% assign locksmith_6238_forloop__index0 = 0 %}{% else %}{% assign locksmith_6238_forloop__index = locksmith_6238_forloop__index | plus: 1 %}{% assign locksmith_6238_forloop__index0 = locksmith_6238_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_6238_forloop__index == 1 %}{% assign locksmith_6238_forloop__first = true %}{% else %}{% assign locksmith_6238_forloop__first = false %}{% endif %}{% if locksmith_6238_forloop__index == locksmith_6238_forloop__size %}{% assign locksmith_6238_forloop__last = true %}{% else %}{% assign locksmith_6238_forloop__last = false %}{% endif %}{% assign locksmith_6238_forloop__rindex = locksmith_6238_forloop__size | minus: locksmith_6238_forloop__index | minus: 1 %}{% assign locksmith_6238_forloop__rindex0 = locksmith_6238_forloop__size | minus: locksmith_6238_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
-      {%- comment %}</locksmith:f7e3>{% endcomment -%}
       {%- liquid
-        assign sidebar_drawer_id = 'sidebar-drawer-' | append: block.id | handleize | append: '-' | append: locksmith_6238_forloop__index
+        assign sidebar_drawer_id = 'sidebar-drawer-' | append: block.id | handleize | append: '-' | append: forloop.index
       -%}
       <li class="menu-link {% unless block.settings.separate_with_comma %}px-2{% endunless %}">
         {%- if link.links.size > 0 -%}
@@ -67,7 +61,7 @@
               assign show_comma_on_last_item_in_loop = true
             endif
           -%}
-          {%- unless locksmith_6238_forloop__last and show_comma_on_last_item_in_loop == false -%}
+          {%- unless forloop.last and show_comma_on_last_item_in_loop == false -%}
           &#44;&nbsp;
           {%- endunless -%}
         {%- endif -%}
