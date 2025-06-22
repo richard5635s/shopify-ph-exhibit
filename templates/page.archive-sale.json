@@ -91,7 +91,7 @@
           "size-m",
           "size-l",
           "size-xl",
-          "size-xxl"
+          "one-size"
         ],
         "grid_type": "standard",
         "mobile_columns": "2",
