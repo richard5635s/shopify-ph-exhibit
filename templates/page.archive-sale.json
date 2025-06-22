@@ -119,7 +119,9 @@
       "name": "Featured products",
       "settings": {
         "title": "FEATURED FROM THE ARCHIVE",
-        "product_list": [],
+        "product_list": [
+          "cyclic-white-with-green-logo"
+        ],
         "grid_type": "standard",
         "mobile_columns": "2",
         "desktop_columns": 4,
