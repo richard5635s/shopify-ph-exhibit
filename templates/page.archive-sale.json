@@ -153,6 +153,62 @@
         "disable_left_and_right_margins": false,
         "remove_grid_gaps": false
       }
+    },
+    "faq_W33rUw": {
+      "type": "faq",
+      "blocks": {
+        "question_dnncVE": {
+          "type": "question",
+          "settings": {
+            "question": "When is the Online Archive Sale?",
+            "answer": "<p>It runs from <strong>24 June at 12 noon</strong> to <strong>1 July 2025</strong>, open to the public online only.</p>"
+          }
+        },
+        "question_3TEhc7": {
+          "type": "question",
+          "settings": {
+            "question": "Will items be restocked?",
+            "answer": "<p>Restocks are <strong>not guaranteed</strong>. Most pieces and sizes are <strong>available in limited quantity</strong>.</p>"
+          }
+        },
+        "question_X9L8zx": {
+          "type": "question",
+          "settings": {
+            "question": "What sizes are available?",
+            "answer": "<p>Sizes vary by item. Please check the <strong>size chart</strong> on each product page for details.</p>"
+          }
+        },
+        "question_LPWFRX": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "<p>Yes, we ship <strong>worldwide</strong> from Indonesia. Shipping fees and timelines are calculated at checkout.</p>"
+          }
+        },
+        "question_QXJMW6": {
+          "type": "question",
+          "settings": {
+            "question": "When will my order ship, and can I return it?",
+            "answer": "<p>Orders ship within <strong>five to seven business days</strong>. All sales are <strong>final</strong> — returns and exchanges are <strong>not accepted</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_dnncVE",
+        "question_3TEhc7",
+        "question_X9L8zx",
+        "question_LPWFRX",
+        "question_QXJMW6"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "question_font": "font-heading text-secondary",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
     }
   },
   "order": [
@@ -160,6 +216,7 @@
     "media_with_text_overlay_Xdm7He",
     "collection_list_rGpBiL",
     "collection_list_q7FMpi",
-    "featured_products_7XMQBg"
+    "featured_products_7XMQBg",
+    "faq_W33rUw"
   ]
 }
