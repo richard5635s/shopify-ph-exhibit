@@ -44,7 +44,7 @@
         "title": "",
         "heading_size": "text-heading-feature",
         "richtext": "",
-        "cta_link": "",
+        "cta_link": "shopify://collections/archive-sale-2025",
         "cta_label": "",
         "button_style": "",
         "color_scheme": ""
@@ -56,8 +56,7 @@
       "settings": {
         "title": "BROWSE SALE BY CATEGORY",
         "collection_list": [
-          "archive-sale-2025",
-          "sale-accessories"
+          "archive-sale-2025"
         ],
         "grid_type": "standard",
         "mobile_columns": "2",
