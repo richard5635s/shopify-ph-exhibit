@@ -23,7 +23,6 @@
       "block_order": [
         "image_YU8AUU"
       ],
-      "disabled": true,
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "0.66",
@@ -34,7 +33,7 @@
         "title": "",
         "heading_size": "text-heading-feature",
         "richtext": "",
-        "cta_link": "shopify://collections/category-wallets",
+        "cta_link": "https://peggyhartanto.com/collections/archive-sale-2025",
         "cta_label": "",
         "button_style": "",
         "color_scheme": ""
