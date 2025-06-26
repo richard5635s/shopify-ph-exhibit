@@ -75,7 +75,7 @@
           <input style="display: none;" required class="required" type="text" name="properties[Status]" value="Preorder">
       {% endif %}
       {% if product.metafields.custom.pre_order != blank %}
-          <input class="required" type="hidden" name="properties[Status]" value="Preorder">
+          <input class="required" type="hidden" name="properties[Status]" value="{{ product.metafields.custom.pre_order }}">
       {% endif %}
 
 
