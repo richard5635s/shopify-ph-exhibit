@@ -74,10 +74,6 @@
       {% if product.tags contains 'Preorder' %}
           <input style="display: none;" required class="required" type="text" name="properties[Status]" value="Preorder">
       {% endif %}
-      {% if product.tags contains 'Preorder' %}
-          <input style="display: none;" required class="required" type="hidden" name="properties[Status]" value="Preorder">
-      {% endif %}
-
 
       {% if enable_payment_buttons %}
         {% capture add_to_cart_class %}btn--secondary{% endcapture %}
