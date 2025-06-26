@@ -77,7 +77,7 @@
       {% if product.metafields.custom.pre_order != blank and product.tags contains 'Preorder-date' %}
         {% assign pre_order_parts = product.metafields.custom.pre_order | split: ':' %}
         {% assign pre_order_date = pre_order_parts | last %}
-        <input class="required" type="hidden" name="properties[Estimated delivery date:]" value="{{ pre_order_date }}">
+        <input class="required" type="hidden" name="properties[Estimated delivery date]" value="{{ pre_order_date }}">
       {% endif %}
 
 
