@@ -105,7 +105,7 @@
         "discount_badge_text": "GET Extra 20%OFF: SUPER20",
         "discount_badge_text_color": "#ef0909",
         "discount_badge_background_color": "rgba(0,0,0,0)",
-        "discount_badge_size": 14,
+        "discount_badge_size": 12,
         "color_scheme": "scheme1",
         "space_above": 0.5,
         "space_below": 1.5,
