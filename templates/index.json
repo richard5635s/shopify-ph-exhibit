@@ -18,10 +18,19 @@
             "image": "shopify://shop_images/BANNER5.jpg",
             "image_mobile": "shopify://shop_images/BANNER2.jpg"
           }
+        },
+        "image_VULAfp": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Banner_Web2.jpg",
+            "image_mobile": "shopify://shop_images/Banner_Mobile2.jpg"
+          }
         }
       },
       "block_order": [
-        "image_YU8AUU"
+        "image_YU8AUU",
+        "image_VULAfp"
       ],
       "settings": {
         "enable_full_bleed": true,
