@@ -408,6 +408,57 @@
       ]
     },
     {
+      "type": "discount-text",
+      "name": "Discount Text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "discount_product_tag",
+          "label": "Discount product tag",
+          "default": "special-discount"
+        },
+        {
+          "type": "text",
+          "id": "discount_text",
+          "label": "Discount text",
+          "default": "Discount"
+        },
+        {
+          "type": "select",
+          "id": "discount_text_style",
+          "label": "Discount text style",
+          "options": [
+            {
+              "value": "bold",
+              "label": "Bold"
+            },
+            {
+              "value": "normal",
+              "label": "Normal"
+            }
+          ],
+          "default": "normal"
+        },
+        {
+          "type": "color",
+          "id": "discount_text_color",
+          "label": "Discount text color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "range",
+          "id": "discount_text_size",
+          "label": "Discount text size",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "default": 13
+        }
+      ]
+    },
+    {
       "type": "quantity_selector",
       "name": "Quantity selector",
       "limit": 1,
