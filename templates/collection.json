@@ -103,7 +103,7 @@
         "product_info_text_alignment": "left",
         "show_discount_text": true,
         "discount_product_tag": "special-discount",
-        "discount_text": "Get 20% Extrs: SUPER20",
+        "discount_text": "Get 20% Off: SUPER20",
         "discount_text_color": "#fd0303",
         "discount_text_size": 13,
         "color_scheme": "scheme1",
