@@ -35,6 +35,7 @@
         },
         "discount_text_6VCL3c": {
           "type": "discount-text",
+          "disabled": true,
           "settings": {
             "discount_product_tag": "additional-discount",
             "discount_text": "Get 20% Off: SUPER20",
