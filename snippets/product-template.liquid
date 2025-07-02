@@ -218,6 +218,8 @@
                         render 'product-block-title', product: product, block: block, context: context
                       when 'price'
                         render 'product-form-component-price', product: product, block: block
+                      when 'discount-text'
+                        render 'product-block-discount-text', product: product, block: block
                       when 'quantity_selector'
                         render 'product-block-quantity', product_form_id: product_form_id, label_class: label_class, block: block
                       when 'variant_picker'
