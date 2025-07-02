@@ -6,8 +6,8 @@
   assign discount_product_tag = block.settings.discount_product_tag
 -%}
 
-{% if product.tags contains discount_product_tag %}
-  <div class="discount-badge" style="color: {{ discount_text_color }}; font-size: {{ discount_text_size }}px; font-weight: {{ discount_text_style }};">
+<div class="discount-badge" style="color: {{ discount_text_color }}; font-size: {{ discount_text_size }}px; font-weight: {{ discount_text_style }};">
     {{ discount_text }}
-  </div>
+</div>
+{% if product.tags contains discount_product_tag %}
 {% endif %}
