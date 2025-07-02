@@ -169,7 +169,11 @@
     %}
   </div>
 {%- endif -%}
-SC
+{% if section.settings.show_discount_badge %}
+  <div class="discount-badge" style="background-color: {{ section.settings.discount_badge_background_color }}; color: {{ section.settings.discount_badge_text_color }}; font-size: {{ section.settings.discount_badge_size }}px;">
+    {{ section.settings.discount_badge_text }}
+  </div>
+{% endif %}
 {%- endcapture -%}
 
 {%- capture overlay_label_content -%}
