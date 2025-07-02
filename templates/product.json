@@ -38,7 +38,7 @@
           "settings": {
             "discount_product_tag": "additional-discount",
             "discount_text": "Get 20% Off: SUPER20",
-            "discount_text_style": "normal",
+            "discount_text_style": "bold",
             "discount_text_color": "#ff0000",
             "discount_text_size": 13
           }
