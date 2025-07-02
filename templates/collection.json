@@ -101,7 +101,7 @@
         "labels_always_show_on_mobile": false,
         "quick_view": "disabled",
         "product_info_text_alignment": "left",
-        "show_discount_text": false,
+        "show_discount_text": true,
         "discount_product_tag": "additional-discount",
         "discount_text": "Get 20% Off: SUPER20",
         "discount_text_style": "normal",
