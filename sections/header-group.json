@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "home_page_only": false,
         "display": "static",
-        "text": "LAST DAY OF ONLINE ARCHIVE SALE",
+        "text": "ARCHIVE SALE EXTENDED UNTIL 3 JULY 2025, 11:59 PM (GMT +7)",
         "link": "",
         "repeat_text": false,
         "speed": 60,
