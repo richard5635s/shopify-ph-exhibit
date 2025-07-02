@@ -4,10 +4,9 @@
   assign discount_text_color = block.settings.discount_text_color
   assign discount_text_size = block.settings.discount_text_size
   assign discount_product_tag = block.settings.discount_product_tag
-  assign show_discount_text = block.settings.show_discount_text
 -%}
 
-{% if show_discount_text and product.tags contains discount_product_tag %}
+{% if product.tags contains discount_product_tag %}
   <div class="discount-badge" style="color: {{ discount_text_color }}; font-size: {{ discount_text_size }}px; font-weight: {{ discount_text_style }};">
     {{ discount_text }}
   </div>
