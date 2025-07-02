@@ -171,7 +171,7 @@
 {%- endif -%}
 
 {% if section.settings.show_discount_text %}
-  <div class="discount-badge" style="color: {{ section.settings.discount_text_color }}; font-size: {{ section.settings.discount_text_size }}px;">
+  <div class="discount-badge" style="color: {{ section.settings.discount_text_color }}; font-size: {{ section.settings.discount_text_size }}px; font-weight: {{ section.settings.bold_discount_text }};">
     {{ section.settings.discount_text }}
   </div>
 {% endif %}
