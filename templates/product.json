@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -33,6 +33,16 @@
             "space_above": 0
           }
         },
+        "discount_text_6VCL3c": {
+          "type": "discount-text",
+          "settings": {
+            "discount_product_tag": "additional-discount",
+            "discount_text": "Discount",
+            "discount_text_style": "normal",
+            "discount_text_color": "#ffffff",
+            "discount_text_size": 13
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -43,8 +53,7 @@
         },
         "color_swatch_NfgdDh": {
           "type": "color-swatch",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity": {
           "type": "quantity_selector",
@@ -67,10 +76,10 @@
             "icon": "none",
             "space_above": 0,
             "heading01": "Size Conversion",
-            "tablecontent01": "<p>{{ product.metafields.custom.measurement_details | metafield_tag }}<\/p>",
+            "tablecontent01": "<p>{{ product.metafields.custom.measurement_details | metafield_tag }}</p>",
             "heading02": "Product Measurements",
             "display_cm_unit": true,
-            "tablecontent02": "<p>{{ product.metafields.custom.product_measurements | metafield_tag }}<\/p>",
+            "tablecontent02": "<p>{{ product.metafields.custom.product_measurements | metafield_tag }}</p>",
             "heading03": "",
             "heading03text": "Should you need assistance finding your size or your measurements fall between two sizes, please contact us at contact@peggyhartanto.com or WhatsApp. INTERNATIONAL ORDERS: the team will reach out to you to confirm your order size details.",
             "text_color": "text-scheme-text"
@@ -97,7 +106,7 @@
         "rich_text_JnDnFm": {
           "type": "rich_text",
           "settings": {
-            "content": "<p>{{ product.metafields.custom.saleitemanddelivery | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.saleitemanddelivery | metafield_tag }}</p>",
             "text_color": "text-scheme-error",
             "space_above": 1
           }
@@ -109,17 +118,17 @@
             "show_caret": false,
             "space_above": 1.5,
             "heading_1": "Details & Care",
-            "content_1": "<p>{{ product.metafields.custom.details_fit | metafield_tag }}<\/p>",
+            "content_1": "<p>{{ product.metafields.custom.details_fit | metafield_tag }}</p>",
             "page_1": "",
             "icon_1": "none",
             "enable_2": true,
             "heading_2": "Payment & Shipping",
-            "content_2": "<p>PEGGY HARTANTO accepts the following payment methods: bank transfer and credit card payments.<br\/><br\/>INTERNATIONAL ORDERS<br\/>Customers are responsible for all duties and taxes in addition to the delivery fee. These charges must be paid to the carrier upon delivery, in accordance with the regulations of the destination country.<br\/><br\/>Please be advised that, due to re-import regulations in Indonesia, returns and refunds for international orders cannot be processed or issued.<\/p>",
+            "content_2": "<p>PEGGY HARTANTO accepts the following payment methods: bank transfer and credit card payments.<br/><br/>INTERNATIONAL ORDERS<br/>Customers are responsible for all duties and taxes in addition to the delivery fee. These charges must be paid to the carrier upon delivery, in accordance with the regulations of the destination country.<br/><br/>Please be advised that, due to re-import regulations in Indonesia, returns and refunds for international orders cannot be processed or issued.</p>",
             "page_2": "",
             "icon_2": "none",
             "enable_3": true,
             "heading_3": "Need Assistance",
-            "content_3": "<p>The team is here to provide you with sizing guidance. Schedule a virtual appointment at your convenience by booking <a href=\"https:\/\/calendly.com\/peggyhartanto\/phhq?month=2024-03\" title=\"https:\/\/calendly.com\/peggyhartanto\/phhq?month=2024-03\">here<\/a>. You can also reach our customer care team at <a href=\"mailto:contact@peggyhartanto.com\" title=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com<\/a> or on  <a href=\"https:\/\/wa.me\/62818877988\" target=\"_blank\" title=\"WhatsApp\">WhatsApp<\/a>.<\/p>",
+            "content_3": "<p>The team is here to provide you with sizing guidance. Schedule a virtual appointment at your convenience by booking <a href=\"https://calendly.com/peggyhartanto/phhq?month=2024-03\" title=\"https://calendly.com/peggyhartanto/phhq?month=2024-03\">here</a>. You can also reach our customer care team at <a href=\"mailto:contact@peggyhartanto.com\" title=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com</a> or on  <a href=\"https://wa.me/62818877988\" target=\"_blank\" title=\"WhatsApp\">WhatsApp</a>.</p>",
             "page_3": "",
             "icon_3": "none"
           }
@@ -129,6 +138,7 @@
         "text_haMqdd",
         "title",
         "price",
+        "discount_text_6VCL3c",
         "description",
         "color_swatch_NfgdDh",
         "quantity",
