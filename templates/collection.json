@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_HHUykP": {
@@ -14,7 +14,7 @@
       "disabled": true,
       "settings": {
         "title": "2024, Petite",
-        "richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
         "text_alignment": "text-left",
         "cta_link": "",
         "cta_label": "",
@@ -27,9 +27,7 @@
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "show_collection_title": false,
         "show_collection_description": false,
@@ -50,7 +48,7 @@
         "enable_full_bleed": false,
         "title": "Image with text",
         "heading_size": "text-heading-standard",
-        "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+        "richtext": "<p>Use this text to share information about your brand with your customers.</p>",
         "cta_link": "",
         "cta_label": "",
         "image_width_on_desktop": "6",
@@ -81,9 +79,7 @@
       "block_order": [
         "filter"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "products_to_show": 32,
         "linklist": "",
@@ -105,6 +101,11 @@
         "labels_always_show_on_mobile": false,
         "quick_view": "disabled",
         "product_info_text_alignment": "left",
+        "show_discount_badge": true,
+        "discount_badge_text": "Discount",
+        "discount_badge_text_color": "#ffffff",
+        "discount_badge_background_color": "rgba(0,0,0,0)",
+        "discount_badge_size": 20,
         "color_scheme": "scheme1",
         "space_above": 0.5,
         "space_below": 1.5,
