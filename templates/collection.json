@@ -102,7 +102,7 @@
         "quick_view": "disabled",
         "product_info_text_alignment": "left",
         "show_discount_badge": true,
-        "discount_badge_text": "Discount",
+        "discount_badge_text": "GET20%OFF",
         "discount_badge_text_color": "#ffffff",
         "discount_badge_background_color": "rgba(0,0,0,0)",
         "discount_badge_size": 20,
