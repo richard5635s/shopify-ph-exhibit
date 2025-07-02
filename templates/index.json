@@ -15,8 +15,8 @@
         "image_YU8AUU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BANNER5.jpg",
-            "image_mobile": "shopify://shop_images/BANNER2.jpg"
+            "image": "shopify://shop_images/Banner_Web2.jpg",
+            "image_mobile": "shopify://shop_images/Banner_Mobile2.jpg"
           }
         },
         "image_VULAfp": {
