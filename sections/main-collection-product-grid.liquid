@@ -664,10 +664,20 @@
       "default": "Discount"
     },
     {
-      "type": "checkbox",
-      "id": "bold_discount_text",
-      "label": "Bold discount text",
-      "default": false
+      "type": "select",
+      "id": "discount_text_style",
+      "label": "Discount text style",
+      "options": [
+        {
+          "value": "bold",
+          "label": "Bold"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        }
+      ],
+      "default": "bold"
     },
     {
       "type": "color",
