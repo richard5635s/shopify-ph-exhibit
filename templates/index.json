@@ -32,6 +32,7 @@
         "image_YU8AUU",
         "image_VULAfp"
       ],
+      "disabled": true,
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "0.66",
