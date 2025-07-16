@@ -1,0 +1,271 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "main-article-header",
+      "disabled": true,
+      "settings": {
+        "image_width_on_desktop": "6",
+        "media_aspect_ratio": "0.6667",
+        "image_position_on_desktop": "left",
+        "enable_full_bleed": true,
+        "show_author": false,
+        "show_date": true,
+        "show_tags": false,
+        "text_alignment": "text-center",
+        "align_content": "items-center",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0
+      }
+    },
+    "feature_text_DjJVWG": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>20 December 2023</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "feature_text_iNapP6": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>PEGGY HARTANTO DEBUTED CHARM COLLECTION AT ELLE FASHION SHOW IN VIETNAM</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "image_gallery_XiWEVV": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_cwahAP": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_GPmeTQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT1.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cwahAP",
+        "image_GPmeTQ"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "irregular",
+        "mobile_columns": "1",
+        "desktop_columns": 1,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_pTnBcr": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Words NICO NOVITO<br/>Photos DAINGO STUDIO</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "scheme1",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "text_blocks_bpeLpd": {
+      "type": "text-blocks",
+      "blocks": {
+        "block_iH7LCF": {
+          "type": "block",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>PEGGY HARTANTO made a landmark appearance at the ELLE Fashion Show 2023 organized by <em>ELLE Vietnam </em>in Ho Chi Minh City—becoming the sole international label invited to showcase at the prestigious event. Held at the historic Independence Palace, the event also showcased Vietnam’s most celebrated designers, such as Truong Thanh Hai, Khaar, and Luu VietAnh.<br/><br/>The occasion marked the official debut of our Spring/Summer 2024 collection, <a href=\"https://peggyhartanto.com/pages/collection_charm\" title=\"https://peggyhartanto.com/pages/collection_charm\">CHARM</a>, a vibrant celebration of femininity and tradition. Inspired by Japan’s Hinano Tsurushi Kazari Festival, a centuries-old cultural tradition from the Edo period, the collection paid homage to the joyful symbolism and colorful aesthetics of handcrafted hanging dolls, reinterpreted through the brand’s signature sculptural lens.</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "block_LWDnXH": {
+          "type": "block",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "<p>Versatility remained at the heart of CHARM, with fluid separates, ultra-feminine gowns, and bold jumpsuits designed to transition seamlessly between everyday elegance and festive flair. Eye-catching accents such as ruffles, pleats, peplum, and bows adorned the pieces, while whimsical accessories tied the looks together with playful sophistication.<br/><br/>The show closed on a high note with a striking final look worn by Vietnamese supermodel and actress Thanh Hằng, drawing thunderous applause from the crowd and cementing PEGGY HARTANTO’s status as a contemporary voice in the global fashion scene.</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_iH7LCF",
+        "block_LWDnXH"
+      ],
+      "name": "Text blocks",
+      "settings": {
+        "title": "",
+        "desktop_columns": 2,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "image_slideshow_QkAKYd": {
+      "type": "image-slideshow",
+      "blocks": {
+        "image_Vg39Ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ELLEVT4.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_ymi8Ym": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VTC2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_4LQy8P": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/VTC3.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Vg39Ca",
+        "image_ymi8Ym",
+        "image_4LQy8P"
+      ],
+      "name": "Image slideshow",
+      "settings": {
+        "title": "",
+        "section_height": "h-screen",
+        "max_width_of_slides": 65,
+        "labels_show_titles_and_captions": false,
+        "labels_display": "footer",
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": ""
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_share_buttons": true,
+        "show_next_previous_links": true,
+        "content_alignment_on_desktop": "lg:col-end-[-1]",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0.5
+      }
+    },
+    "media_with_text_overlay_rEPbxJ": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_zrLLbB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VTC4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_zrLLbB"
+      ],
+      "name": "Media with text overlay",
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "full-screen",
+        "aspect_ratio_desktop": "full-screen",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
+      }
+    }
+  },
+  "order": [
+    "header",
+    "feature_text_DjJVWG",
+    "feature_text_iNapP6",
+    "image_gallery_XiWEVV",
+    "feature_text_pTnBcr",
+    "text_blocks_bpeLpd",
+    "image_slideshow_QkAKYd",
+    "main",
+    "media_with_text_overlay_rEPbxJ"
+  ]
+}
