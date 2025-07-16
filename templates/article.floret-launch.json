@@ -89,6 +89,7 @@
         "image_cwahAP",
         "image_GPmeTQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "grid_type": "irregular",
@@ -112,6 +113,7 @@
     },
     "feature_text_pTnBcr": {
       "type": "feature-text",
+      "disabled": true,
       "settings": {
         "richtext": "<p>Words NICO NOVITO<br/>Photos DAINGO STUDIO</p>",
         "cta_link": "",
@@ -156,6 +158,7 @@
         "block_iH7LCF",
         "block_LWDnXH"
       ],
+      "disabled": true,
       "name": "Text blocks",
       "settings": {
         "title": "",
@@ -200,6 +203,7 @@
         "image_ymi8Ym",
         "image_4LQy8P"
       ],
+      "disabled": true,
       "name": "Image slideshow",
       "settings": {
         "title": "",
@@ -239,6 +243,7 @@
       "block_order": [
         "image_zrLLbB"
       ],
+      "disabled": true,
       "name": "Media with text overlay",
       "settings": {
         "enable_full_bleed": true,
