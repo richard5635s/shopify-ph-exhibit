@@ -31,7 +31,7 @@
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
-        "richtext": "<p>20 December 2023</p>",
+        "richtext": "<p>21 July 2025</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -49,7 +49,7 @@
     "feature_text_iNapP6": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>PEGGY HARTANTO DEBUTED CHARM COLLECTION AT ELLE FASHION SHOW IN VIETNAM</p>",
+        "richtext": "<p>PEGGY HARTANTO LAUNCHES FLORET</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
