@@ -103,7 +103,7 @@
     "feature_text_pTnBcr": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>Concept Design SCIENCEWERK<br/>Words NICO NOVITO<br/>Photos _________</p>",
+        "richtext": "<p>Concept Design SCIENCEWERK<br/>Words NICO NOVITO</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
