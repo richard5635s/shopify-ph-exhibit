@@ -204,11 +204,30 @@
         "color_scheme": ""
       }
     },
-    "feature_text_Q3ATiV": {
+    "feature_text_a6npDc": {
       "type": "feature-text",
       "name": "Feature text",
       "settings": {
         "richtext": "<p>The event marks the launch of the brand’s FLORET leather goods collection, encompassing cardholders with leather floral appliqués in multiple colors. In addition, popular leather bag styles such as SAFF, NUIT, and ZIG are given a refresh in new seasonal hues. Guests will also find the latest ready-to-wear collection—ranging from evening dresses to sleek separates—which highlights the brand’s signature exploration of sculptural femininity and whimsical fantasy.<br/><br/>Bringing together PEGGY HARTANTO’s VIP clientele, influencers, and fans alike, the event starts with a ribbon-cutting ceremony to officially open the store, followed by a speech by the brand’s co-founders. Guests are treated to bespoke refreshments by Nadja’s Gourmet while they browse and mingle around the store.<br/><br/>“We hope that our flagship store will be a place for our loyal clients as well as new guests to slow down and immerse themselves in our world of refined craftsmanship, where they can spend their time getting up close and personal with our designs within a space that fully represents our brand identity,” adds <strong>Peggy</strong>.</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1
+      }
+    },
+    "feature_text_Q3ATiV": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>This charm is made from the imperfect parts of our leather goods production. It honors our meticulous handmade process and serves as a token of our appreciation.</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -275,6 +294,7 @@
     "feature_text_pTnBcr",
     "text_blocks_bpeLpd",
     "image_slideshow_QkAKYd",
+    "feature_text_a6npDc",
     "feature_text_Q3ATiV",
     "main",
     "media_with_text_overlay_rEPbxJ"
