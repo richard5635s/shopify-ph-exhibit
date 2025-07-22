@@ -52,20 +52,20 @@
     "image_gallery_taHeiy": {
       "type": "image-gallery",
       "blocks": {
+        "image_GpJy8R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FLORET.jpg",
+            "caption": "Introducing: FLORET",
+            "link": "https://peggyhartanto.com/collections/line-floret"
+          }
+        },
         "image_Bi9cEQ": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Campaign_MINUET4.jpg",
             "caption": "2025, Minuet",
             "link": "shopify://collections/collection-minuet"
-          }
-        },
-        "image_9ERMzK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Whirlpool_Olive_2.jpg",
-            "caption": "WHIRLPOOL, Bucket Bag",
-            "link": "https://peggyhartanto.com/collections/handbags"
           }
         },
         "image_hJMHy4": {
@@ -77,21 +77,21 @@
             "link": "shopify://collections/petite-2024"
           }
         },
-        "image_GpJy8R": {
+        "image_9ERMzK": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/IMG_6209.jpg",
-            "caption": "Introducing: STOMA Stone",
-            "link": "shopify://collections/line-stoma"
+            "image": "shopify://shop_images/Whirlpool_Olive_2.jpg",
+            "caption": "WHIRLPOOL, Bucket Bag",
+            "link": "https://peggyhartanto.com/collections/handbags"
           }
         }
       },
       "block_order": [
+        "image_GpJy8R",
         "image_Bi9cEQ",
-        "image_9ERMzK",
         "image_hJMHy4",
-        "image_GpJy8R"
+        "image_9ERMzK"
       ],
       "settings": {
         "title": "",
