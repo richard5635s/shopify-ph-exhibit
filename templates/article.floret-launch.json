@@ -118,6 +118,41 @@
         "space_below": 0
       }
     },
+    "feature_text_pJcnWR": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>On 21 July 2025, we celebrated the first-ever flagship store of PEGGY HARTANTO with a grand opening event that brought together our beloved friends and clients. Situated at Plaza Senayan, Jakarta, the standalone store marks a significant milestone in our journey since we established the brand in 2012. <br/></p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
+    "rich_text_RAH7Rt": {
+      "type": "rich-text",
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "title": "",
+        "richtext": "<p>On 21 July 2025, we celebrated the first-ever flagship store of PEGGY HARTANTO with a grand opening event that brought together our beloved friends and clients. Situated at Plaza Senayan, Jakarta, the standalone store marks a significant milestone in our journey since we established the brand in 2012. <br/></p>",
+        "text_alignment": "text-center",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0
+      }
+    },
     "text_blocks_bpeLpd": {
       "type": "text-blocks",
       "blocks": {
@@ -126,7 +161,7 @@
           "settings": {
             "icon": "none",
             "title": "",
-            "text": "<p>On 21 July 2025, we celebrated the first-ever flagship store of PEGGY HARTANTO with a grand opening event that brought together our beloved friends and clients. Situated at Plaza Senayan, Jakarta, the standalone store marks a significant milestone in our journey since we established the brand in 2012. <br/><br/>Designed in collaboration with the architectural studio GondoJules, the striking space is rooted in PEGGY HARTANTO’s ethos of elegance and precision, as evident in the strong, structured architectural lines juxtaposed with organic shapes. The interior features a contrasting palette of dark brown and powder blue accentuated with chrome surfaces and structured clay walls.</p>",
+            "text": "<p>Designed in collaboration with the architectural studio GondoJules, the striking space is rooted in PEGGY HARTANTO’s ethos of elegance and precision, as evident in the strong, structured architectural lines juxtaposed with organic shapes. The interior features a contrasting palette of dark brown and powder blue accentuated with chrome surfaces and structured clay walls.</p>",
             "cta_link": "",
             "cta_label": ""
           }
@@ -347,39 +382,6 @@
         "button_style": "",
         "color_scheme": ""
       }
-    },
-    "featured_collection_Wa7mRn": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "title": "Discover: FLORET",
-        "collection": "line-floret",
-        "products_to_show": 5,
-        "show_view_all": true,
-        "grid_type": "standard",
-        "mobile_columns": "2",
-        "desktop_columns": 5,
-        "standard_layout_align_items": "items-start",
-        "modular_layout_variation": 1,
-        "modular_grid_item_aspect_ratio": 1,
-        "modular_no_crop_media_mobile": false,
-        "irregular_layout_variation": 1,
-        "irregular_alignment_of_items": "items-center justify-center",
-        "media_aspect_ratio": "natural",
-        "media_fill_space": false,
-        "labels_show_titles_and_captions": true,
-        "labels_show_product_prices": true,
-        "labels_display": "below_media",
-        "labels_show_product_vendor": false,
-        "labels_always_show_on_mobile": false,
-        "quick_view": "disabled",
-        "product_info_text_alignment": "left",
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 1,
-        "disable_left_and_right_margins": false,
-        "remove_grid_gaps": false
-      }
     }
   },
   "order": [
@@ -388,12 +390,13 @@
     "feature_text_iNapP6",
     "image_gallery_XiWEVV",
     "feature_text_pTnBcr",
+    "feature_text_pJcnWR",
+    "rich_text_RAH7Rt",
     "text_blocks_bpeLpd",
     "image_slideshow_QkAKYd",
     "feature_text_a6npDc",
     "feature_text_Q3ATiV",
     "main",
-    "media_with_text_overlay_rEPbxJ",
-    "featured_collection_Wa7mRn"
+    "media_with_text_overlay_rEPbxJ"
   ]
 }
