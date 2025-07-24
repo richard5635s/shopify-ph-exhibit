@@ -230,6 +230,14 @@
             "caption": "",
             "link": ""
           }
+        },
+        "image_44mkRn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS14.jpg",
+            "caption": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -241,7 +249,8 @@
         "image_EJBGdw",
         "image_mcJEKW",
         "image_CrbjLM",
-        "image_6Q8M6m"
+        "image_6Q8M6m",
+        "image_44mkRn"
       ],
       "name": "Image slideshow",
       "settings": {
