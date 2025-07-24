@@ -167,14 +167,6 @@
             "link": ""
           }
         },
-        "image_ymi8Ym": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHPS2.jpg",
-            "caption": "",
-            "link": ""
-          }
-        },
         "image_KWV38R": {
           "type": "image",
           "settings": {
@@ -183,10 +175,10 @@
             "link": ""
           }
         },
-        "image_EJBGdw": {
+        "image_ymi8Ym": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHPS7_e4e829ce-7016-4dcf-a79f-20cef42334e7.jpg",
+            "image": "shopify://shop_images/PHPS2.jpg",
             "caption": "",
             "link": ""
           }
@@ -207,6 +199,22 @@
             "link": ""
           }
         },
+        "image_EJBGdw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS7_e4e829ce-7016-4dcf-a79f-20cef42334e7.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_mcJEKW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS12.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_CrbjLM": {
           "type": "image",
           "settings": {
@@ -222,26 +230,18 @@
             "caption": "",
             "link": ""
           }
-        },
-        "image_mcJEKW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHPS11.jpg",
-            "caption": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "image_Vg39Ca",
-        "image_ymi8Ym",
         "image_KWV38R",
-        "image_EJBGdw",
+        "image_ymi8Ym",
         "image_4LQy8P",
         "image_7FAPM3",
+        "image_EJBGdw",
+        "image_mcJEKW",
         "image_CrbjLM",
-        "image_6Q8M6m",
-        "image_mcJEKW"
+        "image_6Q8M6m"
       ],
       "name": "Image slideshow",
       "settings": {
