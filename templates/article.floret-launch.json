@@ -64,6 +64,25 @@
         "space_below": 0
       }
     },
+    "feature_text_pJcnWR": {
+      "type": "feature-text",
+      "name": "Feature text",
+      "settings": {
+        "richtext": "<p>On 21 July 2025, we celebrated the first-ever flagship store of PEGGY HARTANTO with a grand opening event that brought together our beloved friends and clients. Situated at Plaza Senayan, Jakarta, the standalone store marks a significant milestone in our journey since we established the brand in 2012. <br/></p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-center",
+        "content_width_on_desktop": "6",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
     "image_gallery_XiWEVV": {
       "type": "image-gallery",
       "blocks": {
@@ -95,43 +114,6 @@
         "labels_show_titles_and_captions": true,
         "labels_display": "below_media",
         "labels_always_show_on_mobile": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "feature_text_pTnBcr": {
-      "type": "feature-text",
-      "settings": {
-        "richtext": "<p>Words NICO NOVITO<br/>Photos MINIT STUDIO</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": -1,
-        "mobile_text_scale": -1,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
-        "color_scheme": "scheme1",
-        "space_above": 0.5,
-        "space_below": 0
-      }
-    },
-    "feature_text_pJcnWR": {
-      "type": "feature-text",
-      "name": "Feature text",
-      "settings": {
-        "richtext": "<p>On 21 July 2025, we celebrated the first-ever flagship store of PEGGY HARTANTO with a grand opening event that brought together our beloved friends and clients. Situated at Plaza Senayan, Jakarta, the standalone store marks a significant milestone in our journey since we established the brand in 2012. <br/></p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-center",
-        "content_width_on_desktop": "6",
-        "content_position_on_desktop": "center",
-        "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
         "space_below": 0.5
@@ -290,7 +272,7 @@
       "name": "Image slideshow",
       "settings": {
         "title": "",
-        "section_height": "h-screen",
+        "section_height": "h-screen-adaptive",
         "max_width_of_slides": 65,
         "labels_show_titles_and_captions": false,
         "labels_display": "footer",
@@ -317,6 +299,24 @@
         "show_top_border": false,
         "color_scheme": "",
         "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_pTnBcr": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Words NICO NOVITO<br/>Photos MINIT STUDIO</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": -1,
+        "mobile_text_scale": -1,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "center",
+        "show_top_border": false,
+        "color_scheme": "scheme1",
+        "space_above": 0,
         "space_below": 1
       }
     },
@@ -388,13 +388,13 @@
     "header",
     "feature_text_DjJVWG",
     "feature_text_iNapP6",
-    "image_gallery_XiWEVV",
-    "feature_text_pTnBcr",
     "feature_text_pJcnWR",
+    "image_gallery_XiWEVV",
     "rich_text_RAH7Rt",
     "text_blocks_bpeLpd",
     "image_slideshow_QkAKYd",
     "feature_text_a6npDc",
+    "feature_text_pTnBcr",
     "feature_text_Q3ATiV",
     "main",
     "media_with_text_overlay_rEPbxJ"
