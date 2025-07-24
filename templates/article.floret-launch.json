@@ -103,7 +103,7 @@
     "feature_text_pTnBcr": {
       "type": "feature-text",
       "settings": {
-        "richtext": "<p>Words NICO NOVITO</p>",
+        "richtext": "<p>Words NICO NOVITO<br/>Photos MINIT STUDIO</p>",
         "cta_link": "",
         "cta_label": "",
         "font": "rte font-main",
@@ -287,6 +287,7 @@
     },
     "feature_text_Q3ATiV": {
       "type": "feature-text",
+      "disabled": true,
       "name": "Feature text",
       "settings": {
         "richtext": "<p>This charm is made from the imperfect parts of our leather goods production. It honors our meticulous handmade process and serves as a token of our appreciation.</p>",
