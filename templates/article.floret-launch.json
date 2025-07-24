@@ -272,7 +272,7 @@
       "name": "Image slideshow",
       "settings": {
         "title": "",
-        "section_height": "h-screen-80",
+        "section_height": "h-screen",
         "max_width_of_slides": 65,
         "labels_show_titles_and_captions": false,
         "labels_display": "footer",
