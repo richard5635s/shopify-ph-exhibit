@@ -175,10 +175,58 @@
             "link": ""
           }
         },
+        "image_KWV38R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS4.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_EJBGdw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS7_e4e829ce-7016-4dcf-a79f-20cef42334e7.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_4LQy8P": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHPS3.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_7FAPM3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS6.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_CrbjLM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS8.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_6Q8M6m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS9.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_mcJEKW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHPS11.jpg",
             "caption": "",
             "link": ""
           }
@@ -187,7 +235,13 @@
       "block_order": [
         "image_Vg39Ca",
         "image_ymi8Ym",
-        "image_4LQy8P"
+        "image_KWV38R",
+        "image_EJBGdw",
+        "image_4LQy8P",
+        "image_7FAPM3",
+        "image_CrbjLM",
+        "image_6Q8M6m",
+        "image_mcJEKW"
       ],
       "name": "Image slideshow",
       "settings": {
