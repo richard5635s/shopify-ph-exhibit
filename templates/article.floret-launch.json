@@ -162,7 +162,7 @@
         "image_Vg39Ca": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ELLEVT4.jpg",
+            "image": "shopify://shop_images/PHPS1.jpg",
             "caption": "",
             "link": ""
           }
@@ -170,16 +170,15 @@
         "image_ymi8Ym": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/VTC2.jpg",
+            "image": "shopify://shop_images/PHPS2.jpg",
             "caption": "",
             "link": ""
           }
         },
         "image_4LQy8P": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/VTC3.jpg",
+            "image": "shopify://shop_images/PHPS3.jpg",
             "caption": "",
             "link": ""
           }
