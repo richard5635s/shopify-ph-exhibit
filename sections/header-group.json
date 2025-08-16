@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "home_page_only": false,
         "display": "static",
-        "text": "ARCHIVE SALE EXTENDED UNTIL 3 JULY 2025, 11:59 PM (GMT +7)",
+        "text": "18 AUGUST IS INDONESIA'S NATIONAL HOLIDAY. ALL ORDERS WILL BE SHIPPED STARTING ON 19 AUGUST.",
         "link": "",
         "repeat_text": false,
         "speed": 60,
