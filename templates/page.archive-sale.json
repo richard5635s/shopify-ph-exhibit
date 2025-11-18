@@ -25,7 +25,8 @@
         "image_jAA96f": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banner_Web_1.jpg"
+            "image": "shopify://shop_images/Banner_Web_1.jpg",
+            "image_mobile": "shopify://shop_images/Banner_Web_Mobile2_46209191-2051-496d-bdad-1c1636f39f49.jpg"
           }
         }
       },
@@ -35,8 +36,8 @@
       "name": "Media with text overlay",
       "settings": {
         "enable_full_bleed": true,
-        "aspect_ratio_mobile": "full-screen",
-        "aspect_ratio_desktop": "same",
+        "aspect_ratio_mobile": "1.33",
+        "aspect_ratio_desktop": "2.35",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
         "content_width_on_desktop": "4",
