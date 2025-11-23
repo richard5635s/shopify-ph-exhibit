@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "home_page_only": false,
         "display": "static",
-        "text": "18 AUGUST IS INDONESIA'S NATIONAL HOLIDAY. ALL ORDERS WILL BE SHIPPED STARTING ON 19 AUGUST.",
+        "text": "ARCHIVE SALE LAST DAY: ADDITIONAL 20% OFF FOR SELECTED PIECES WITH CODE 'ARCH20'",
         "link": "",
         "repeat_text": false,
         "speed": 60,
