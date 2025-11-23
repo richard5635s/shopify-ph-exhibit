@@ -15,8 +15,8 @@
         "image_YU8AUU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banner_Web_1.jpg",
-            "image_mobile": "shopify://shop_images/Banner_Web_Mobile.jpg"
+            "image": "shopify://shop_images/Banner_Web_extra.jpg",
+            "image_mobile": "shopify://shop_images/Banner_Web_Mobile3.jpg"
           }
         },
         "image_VULAfp": {
@@ -34,7 +34,7 @@
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "0.66",
-        "aspect_ratio_desktop": "1.78",
+        "aspect_ratio_desktop": "2.35",
         "content_position": "justify-center items-center",
         "text_align": "text-center",
         "content_width_on_desktop": "4",
