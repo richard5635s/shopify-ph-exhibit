@@ -9,6 +9,19 @@
  */
 {
   "sections": {
+    "video_W6WEfM": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "title": "",
+        "video": "shopify://files/videos/PHWicked_Lookbook_Cinema.mp4",
+        "mode": "autoplay",
+        "playback": "inline",
+        "caption": "",
+        "link": "",
+        "enable_full_bleed": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -57,23 +70,26 @@
         "color_par1_but_txt": "#ffffff"
       }
     },
-    "video_W6WEfM": {
-      "type": "video",
-      "name": "Video",
+    "rich_text_DU6j6A": {
+      "type": "rich-text",
+      "name": "Rich text",
       "settings": {
-        "title": "",
-        "video": "shopify://files/videos/PHWicked_Lookbook_Cinema.mp4",
-        "mode": "autoplay",
-        "playback": "inline",
-        "caption": "",
-        "link": "",
-        "enable_full_bleed": false
+        "title": "Heading",
+        "richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "text_alignment": "text-left",
+        "cta_link": "",
+        "cta_label": "",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
       }
     }
   },
   "order": [
+    "video_W6WEfM",
     "main",
     "parralax_ibnhY7",
-    "video_W6WEfM"
+    "rich_text_DU6j6A"
   ]
 }
