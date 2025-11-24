@@ -15,7 +15,7 @@
       "settings": {
         "title": "",
         "video": "shopify://files/videos/PHWicked_Lookbook_Cinema.mp4",
-        "mode": "autoplay",
+        "mode": "preview",
         "playback": "inline",
         "caption": "",
         "link": "",
@@ -74,15 +74,15 @@
       "type": "rich-text",
       "name": "Rich text",
       "settings": {
-        "title": "Heading",
+        "title": "WICKED x PEGGY HARTANTO",
         "richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
         "text_alignment": "text-left",
         "cta_link": "",
         "cta_label": "",
         "show_top_border": false,
         "color_scheme": "",
-        "space_above": 1,
-        "space_below": 1
+        "space_above": 0,
+        "space_below": 0
       }
     }
   },
