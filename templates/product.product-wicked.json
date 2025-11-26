@@ -12,8 +12,18 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_9n96iq": {
+          "type": "text",
+          "settings": {
+            "text": "Wicked * PEGGY HARTANTO",
+            "icon": "none",
+            "text_color": "text-scheme-text",
+            "space_above": 1
+          }
+        },
         "vendor_C9VUEh": {
           "type": "vendor",
+          "disabled": true,
           "settings": {
             "text_color": "text-scheme-text",
             "space_above": 1
@@ -142,6 +152,7 @@
         }
       },
       "block_order": [
+        "text_9n96iq",
         "vendor_C9VUEh",
         "text_haMqdd",
         "title",
