@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "vendor_C9VUEh": {
+          "type": "vendor",
+          "settings": {
+            "text_color": "text-scheme-text",
+            "space_above": 1
+          }
+        },
         "text_haMqdd": {
           "type": "text",
           "settings": {
@@ -135,6 +142,7 @@
         }
       },
       "block_order": [
+        "vendor_C9VUEh",
         "text_haMqdd",
         "title",
         "price",
