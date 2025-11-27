@@ -9,19 +9,17 @@
  */
 {
   "sections": {
-    "rich_text_HHUykP": {
-      "type": "rich-text",
-      "disabled": true,
+    "video_Mitdda": {
+      "type": "video",
+      "name": "Video",
       "settings": {
-        "title": "2024, Petite",
-        "richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-        "text_alignment": "text-left",
-        "cta_link": "",
-        "cta_label": "",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0,
-        "space_below": 0
+        "title": "",
+        "video": "shopify://files/videos/PHWicked_Lookbook_Cinema.mp4",
+        "mode": "preview",
+        "playback": "inline",
+        "caption": "",
+        "link": "",
+        "enable_full_bleed": true
       }
     },
     "banner": {
@@ -35,27 +33,6 @@
         "enable_full_bleed": false,
         "collection_image_aspect_ratio": "natural",
         "color_scheme": "primary",
-        "space_above": 1,
-        "space_below": 1
-      }
-    },
-    "image_with_text_PtiLDG": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "media_aspect_ratio": "natural",
-        "image_position_on_desktop": "left",
-        "enable_full_bleed": false,
-        "title": "Image with text",
-        "heading_size": "text-heading-standard",
-        "richtext": "<p>Use this text to share information about your brand with your customers.</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "image_width_on_desktop": "6",
-        "content_width_on_desktop": "1.0",
-        "content_alignment": "lg:items-top lg:justify-start",
-        "show_top_border": false,
-        "color_scheme": "",
         "space_above": 1,
         "space_below": 1
       }
@@ -116,9 +93,8 @@
     }
   },
   "order": [
-    "rich_text_HHUykP",
+    "video_Mitdda",
     "banner",
-    "image_with_text_PtiLDG",
     "product-grid"
   ]
 }
