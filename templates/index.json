@@ -12,10 +12,17 @@
     "media-with-text-overlay": {
       "type": "media-with-text-overlay",
       "blocks": {
+        "video_NeY7Bg": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/PHWicked_Campaign9.mp4"
+          }
+        },
         "image_CRzPLw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Wicked_Banner_Web.jpg",
+            "image": "shopify://shop_images/Wicked_Banner_Web3.jpg",
             "image_mobile": "shopify://shop_images/Banner_Web_Mobile_d9573299-eacf-4c46-9e7a-f0beabac9865.jpg"
           }
         },
@@ -33,6 +40,7 @@
         }
       },
       "block_order": [
+        "video_NeY7Bg",
         "image_CRzPLw",
         "media-with-text-overlay-1"
       ],
