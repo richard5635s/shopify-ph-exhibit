@@ -55,20 +55,20 @@
     "image_gallery_taHeiy": {
       "type": "image-gallery",
       "blocks": {
+        "image_Bi9cEQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Web_Half.jpg",
+            "caption": "2025, Le Papillon",
+            "link": "shopify://collections/collection-le-papillon"
+          }
+        },
         "image_GpJy8R": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/FLORET.jpg",
             "caption": "Introducing: FLORET",
             "link": "https://peggyhartanto.com/collections/line-floret"
-          }
-        },
-        "image_Bi9cEQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Campaign_MINUET4.jpg",
-            "caption": "2025, Minuet",
-            "link": "shopify://collections/collection-minuet"
           }
         },
         "image_hJMHy4": {
@@ -91,8 +91,8 @@
         }
       },
       "block_order": [
-        "image_GpJy8R",
         "image_Bi9cEQ",
+        "image_GpJy8R",
         "image_hJMHy4",
         "image_9ERMzK"
       ],
@@ -259,6 +259,7 @@
         "image_YU8AUU",
         "image_VULAfp"
       ],
+      "disabled": true,
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "0.66",
