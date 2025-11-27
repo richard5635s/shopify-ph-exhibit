@@ -9,22 +9,8 @@
  */
 {
   "sections": {
-    "video_Mitdda": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "title": "",
-        "video": "shopify://files/videos/PHWicked_Lookbook_Cinema.mp4",
-        "mode": "preview",
-        "playback": "inline",
-        "caption": "",
-        "link": "",
-        "enable_full_bleed": true
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "show_collection_title": false,
@@ -93,7 +79,6 @@
     }
   },
   "order": [
-    "video_Mitdda",
     "banner",
     "product-grid"
   ]
