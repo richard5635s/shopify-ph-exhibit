@@ -9,42 +9,47 @@
  */
 {
   "sections": {
-    "media_with_text_overlay_aBhf4w": {
+    "media-with-text-overlay": {
       "type": "media-with-text-overlay",
       "blocks": {
-        "image_YU8AUU": {
+        "image_CRzPLw": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Banner_Web_extra.jpg",
-            "image_mobile": "shopify://shop_images/Banner_Web_Mobile3.jpg"
+            "image": "shopify://shop_images/Wicked_Banner_Web.jpg",
+            "image_mobile": "shopify://shop_images/Banner_Web_Mobile_d9573299-eacf-4c46-9e7a-f0beabac9865.jpg"
           }
         },
-        "image_VULAfp": {
-          "type": "image",
+        "media-with-text-overlay-1": {
+          "type": "color_overlay",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Banner_Web_LG.jpg"
+            "color_scheme": "scheme1",
+            "overlay_color": "bg-scheme-text",
+            "enable_custom_color": true,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 8,
+            "blend_mode": "normal"
           }
         }
       },
       "block_order": [
-        "image_YU8AUU",
-        "image_VULAfp"
+        "image_CRzPLw",
+        "media-with-text-overlay-1"
       ],
       "settings": {
         "enable_full_bleed": true,
         "aspect_ratio_mobile": "0.66",
         "aspect_ratio_desktop": "1.78",
-        "content_position": "justify-center items-center",
-        "text_align": "text-center",
+        "content_position": "justify-center items-start",
+        "text_align": "text-right",
         "content_width_on_desktop": "4",
         "title": "",
-        "heading_size": "text-heading-feature",
+        "heading_size": "text-heading-secondary",
         "richtext": "",
-        "cta_link": "https://peggyhartanto.com/pages/archive",
+        "cta_link": "https://peggyhartanto.com/collections/wicked",
         "cta_label": "",
         "button_style": "",
-        "color_scheme": ""
+        "color_scheme": "scheme2"
       }
     },
     "image_gallery_taHeiy": {
@@ -110,49 +115,6 @@
         "color_scheme": "scheme1",
         "space_above": 0.5,
         "space_below": 0.5
-      }
-    },
-    "media-with-text-overlay": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "image_CRzPLw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ENCORE_CPG.jpg",
-            "image_mobile": "shopify://shop_images/HOMEPAGE_Campaign_3_3.jpg"
-          }
-        },
-        "media-with-text-overlay-1": {
-          "type": "color_overlay",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "scheme1",
-            "overlay_color": "bg-scheme-text",
-            "enable_custom_color": true,
-            "custom_overlay_color": "#ffffff",
-            "opacity": 8,
-            "blend_mode": "normal"
-          }
-        }
-      },
-      "block_order": [
-        "image_CRzPLw",
-        "media-with-text-overlay-1"
-      ],
-      "settings": {
-        "enable_full_bleed": true,
-        "aspect_ratio_mobile": "full-screen",
-        "aspect_ratio_desktop": "full-screen",
-        "content_position": "justify-center items-start",
-        "text_align": "text-right",
-        "content_width_on_desktop": "4",
-        "title": "",
-        "heading_size": "text-heading-secondary",
-        "richtext": "",
-        "cta_link": "shopify://collections/collection-encore",
-        "cta_label": "",
-        "button_style": "",
-        "color_scheme": "scheme2"
       }
     },
     "rich_text_4CJKqT": {
@@ -274,16 +236,54 @@
         "button_style": "",
         "color_scheme": "scheme2"
       }
+    },
+    "media_with_text_overlay_aBhf4w": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_YU8AUU": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Banner_Web_extra.jpg",
+            "image_mobile": "shopify://shop_images/Banner_Web_Mobile3.jpg"
+          }
+        },
+        "image_VULAfp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Web_LG.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_YU8AUU",
+        "image_VULAfp"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "0.66",
+        "aspect_ratio_desktop": "1.78",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "https://peggyhartanto.com/pages/archive",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
+      }
     }
   },
   "order": [
-    "media_with_text_overlay_aBhf4w",
-    "image_gallery_taHeiy",
     "media-with-text-overlay",
+    "image_gallery_taHeiy",
     "rich_text_4CJKqT",
     "feature_text_with_rich_text_yxM4Lm",
     "image_with_text_qEY4MV",
     "feature_text_BC7hzq",
-    "media_with_text_overlay_YMmQP3"
+    "media_with_text_overlay_YMmQP3",
+    "media_with_text_overlay_aBhf4w"
   ]
 }
