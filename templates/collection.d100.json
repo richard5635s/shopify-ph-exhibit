@@ -17,9 +17,9 @@
         "show_collection_description": false,
         "show_collection_image": true,
         "enable_full_bleed": false,
-        "collection_image_aspect_ratio": "natural",
+        "collection_image_aspect_ratio": "2.35",
         "color_scheme": "primary",
-        "space_above": 1,
+        "space_above": 0.5,
         "space_below": 0
       }
     },
