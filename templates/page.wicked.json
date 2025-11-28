@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "video_W6WEfM": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "title": "",
-        "video": "shopify://files/videos/PHWicked_Lookbook_Cinema.mp4",
-        "mode": "preview",
-        "playback": "inline",
-        "caption": "",
-        "link": "",
-        "enable_full_bleed": false
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -87,7 +74,6 @@
     }
   },
   "order": [
-    "video_W6WEfM",
     "main",
     "parralax_ibnhY7",
     "rich_text_DU6j6A"

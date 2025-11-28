@@ -1,1 +1,165 @@
-{"sections":{"banner":{"type":"main-collection-banner","disabled":true,"custom_css":[],"settings":{"show_collection_title":false,"show_collection_description":false,"show_collection_image":false,"enable_full_bleed":false,"collection_image_aspect_ratio":"natural","color_scheme":"primary","space_above":1,"space_below":1}},"image_with_text_PtiLDG":{"type":"image-with-text","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/PH_DISNEYD100_CAVERN_MERFOLK_WHIRLPOOL2.jpg","media_aspect_ratio":"1.778","image_position_on_desktop":"left","enable_full_bleed":true,"title":"PEGGY HARTANTO Celebrates Disney 100","heading_size":"text-heading-standard","richtext":"<p>Dive into the magic of Disney with PEGGY HARTANTO's 'WONDER' collection, celebrating Disney's 100th anniversary. Embrace Ariel's adventurous spirit with 22 unique pieces of refined occasion wear and casual sets, adorned with whimsical prints, delicate embroidery, and iconic character charms. Join the celebration and indulge in the enchantment!<\/p>","cta_link":"","cta_label":"","image_width_on_desktop":"4","content_width_on_desktop":"1.0","content_alignment":"lg:items-end lg:justify-start","show_top_border":false,"color_scheme":"","space_above":0.5,"space_below":0.5}},"profile_Kc4EK3":{"type":"profile","blocks":{"row_THmtxb":{"type":"row","settings":{"title":"PEGGY HARTANTO CELEBRATES DISNEY 100","text":"<p><br\/>Dive into the magic of Disney with PEGGY HARTANTO's 'WONDER' collection, celebrating Disney's 100th anniversary. Embrace Ariel's adventurous spirit with 22 unique pieces of refined occasion wear and casual sets, adorned with whimsical prints, delicate embroidery, and iconic character charms. Join the celebration and indulge in the enchantment!<\/p>","cta_link":"","cta_label":""}}},"block_order":["row_THmtxb"],"settings":{"heading_font":"font-heading text-heading-secondary","heading_width_on_desktop":"6","text_width_on_desktop":"6","right_align_content_on_desktop":false,"show_top_border":false,"color_scheme":"","space_above":0.5,"space_below":0.5}},"feature_text_yMmLTQ":{"type":"feature-text","disabled":true,"settings":{"richtext":"<p>PEGGY HARTANTO CELEBRATES DISNEY 100<br\/><br\/>Dive into the magic of Disney with PEGGY HARTANTO's 'WONDER' collection, celebrating Disney's 100th anniversary. Embrace Ariel's adventurous spirit with 22 unique pieces of refined occasion wear and casual sets, adorned with whimsical prints, delicate embroidery, and iconic character charms. Join the celebration and indulge in the enchantment!<\/p>","cta_link":"","cta_label":"","font":"rte font-main","desktop_text_scale":0,"mobile_text_scale":0,"text_alignment":"text-left","content_width_on_desktop":"4","content_position_on_desktop":"right","show_top_border":false,"color_scheme":"","space_above":0.5,"space_below":0.5}},"product-grid":{"type":"main-collection-product-grid","blocks":{"filter":{"type":"filter_and_sort","settings":{"desktop_filter_layout":"drawer","stacked_filter_style":"text","enable_filtering":true,"expand_filters":false,"show_filter_count":false,"enable_color_swatch_filters":true,"enable_sorting":true}}},"block_order":["filter"],"custom_css":[],"settings":{"products_to_show":33,"linklist":"","grid_type":"standard","mobile_columns":"2","desktop_columns":4,"standard_layout_align_items":"items-start","modular_layout_variation":3,"modular_grid_item_aspect_ratio":1,"modular_no_crop_media_mobile":false,"irregular_layout_variation":1,"irregular_alignment_of_items":"items-top justify-between","media_aspect_ratio":"natural","media_fill_space":true,"labels_show_titles_and_captions":true,"labels_show_product_prices":true,"labels_display":"below_media","labels_show_product_vendor":false,"labels_always_show_on_mobile":false,"quick_view":"disabled","product_info_text_alignment":"left","color_scheme":"scheme1","space_above":0.5,"space_below":1.5,"disable_left_and_right_margins":false,"remove_grid_gaps":false}}},"order":["banner","image_with_text_PtiLDG","profile_Kc4EK3","feature_text_yMmLTQ","product-grid"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "enable_full_bleed": false,
+        "collection_image_aspect_ratio": "natural",
+        "color_scheme": "primary",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "profile_Kc4EK3": {
+      "type": "profile",
+      "blocks": {
+        "row_THmtxb": {
+          "type": "row",
+          "settings": {
+            "title": "PEGGY HARTANTO CELEBRATES DISNEY 100",
+            "text": "<p><br/>Dive into the magic of Disney with PEGGY HARTANTO's 'WONDER' collection, celebrating Disney's 100th anniversary. Embrace Ariel's adventurous spirit with 22 unique pieces of refined occasion wear and casual sets, adorned with whimsical prints, delicate embroidery, and iconic character charms. Join the celebration and indulge in the enchantment!</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_THmtxb"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_font": "font-heading text-heading-secondary",
+        "heading_width_on_desktop": "6",
+        "text_width_on_desktop": "6",
+        "right_align_content_on_desktop": false,
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "feature_text_yMmLTQ": {
+      "type": "feature-text",
+      "disabled": true,
+      "settings": {
+        "richtext": "<p>PEGGY HARTANTO CELEBRATES DISNEY 100<br/><br/>Dive into the magic of Disney with PEGGY HARTANTO's 'WONDER' collection, celebrating Disney's 100th anniversary. Embrace Ariel's adventurous spirit with 22 unique pieces of refined occasion wear and casual sets, adorned with whimsical prints, delicate embroidery, and iconic character charms. Join the celebration and indulge in the enchantment!</p>",
+        "cta_link": "",
+        "cta_label": "",
+        "font": "rte font-main",
+        "desktop_text_scale": 0,
+        "mobile_text_scale": 0,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "4",
+        "content_position_on_desktop": "right",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "image_slideshow_dkgLRc": {
+      "type": "image-slideshow",
+      "blocks": {
+        "image_EYBAxR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wicked_Banner_Web4_dcf629f1-f7e3-4668-9ed7-8d3499142efd.jpg",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EYBAxR"
+      ],
+      "name": "Image slideshow",
+      "settings": {
+        "title": "",
+        "section_height": "h-screen-adaptive",
+        "max_width_of_slides": 100,
+        "labels_show_titles_and_captions": false,
+        "labels_display": "footer",
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": ""
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "filter": {
+          "type": "filter_and_sort",
+          "settings": {
+            "desktop_filter_layout": "drawer",
+            "stacked_filter_style": "text",
+            "enable_filtering": true,
+            "expand_filters": false,
+            "show_filter_count": false,
+            "enable_color_swatch_filters": true,
+            "enable_sorting": true
+          }
+        }
+      },
+      "block_order": [
+        "filter"
+      ],
+      "custom_css": [],
+      "settings": {
+        "products_to_show": 33,
+        "linklist": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 3,
+        "modular_grid_item_aspect_ratio": 1,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-top justify-between",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": true,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "quick_view": "disabled",
+        "product_info_text_alignment": "left",
+        "show_discount_text": true,
+        "discount_product_tag": "additional-discount",
+        "discount_text": "Discount",
+        "discount_text_style": "normal",
+        "discount_text_color": "#ffffff",
+        "discount_text_size": 13,
+        "color_scheme": "scheme1",
+        "space_above": 0.5,
+        "space_below": 1.5,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "profile_Kc4EK3",
+    "feature_text_yMmLTQ",
+    "image_slideshow_dkgLRc",
+    "product-grid"
+  ]
+}
