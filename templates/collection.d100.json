@@ -11,64 +11,16 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "show_collection_title": false,
         "show_collection_description": false,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "enable_full_bleed": false,
         "collection_image_aspect_ratio": "natural",
         "color_scheme": "primary",
         "space_above": 1,
-        "space_below": 1
-      }
-    },
-    "profile_Kc4EK3": {
-      "type": "profile",
-      "blocks": {
-        "row_THmtxb": {
-          "type": "row",
-          "settings": {
-            "title": "PEGGY HARTANTO CELEBRATES DISNEY 100",
-            "text": "<p><br/>Dive into the magic of Disney with PEGGY HARTANTO's 'WONDER' collection, celebrating Disney's 100th anniversary. Embrace Ariel's adventurous spirit with 22 unique pieces of refined occasion wear and casual sets, adorned with whimsical prints, delicate embroidery, and iconic character charms. Join the celebration and indulge in the enchantment!</p>",
-            "cta_link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_THmtxb"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading_font": "font-heading text-heading-secondary",
-        "heading_width_on_desktop": "6",
-        "text_width_on_desktop": "6",
-        "right_align_content_on_desktop": false,
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
-      }
-    },
-    "feature_text_yMmLTQ": {
-      "type": "feature-text",
-      "disabled": true,
-      "settings": {
-        "richtext": "<p>PEGGY HARTANTO CELEBRATES DISNEY 100<br/><br/>Dive into the magic of Disney with PEGGY HARTANTO's 'WONDER' collection, celebrating Disney's 100th anniversary. Embrace Ariel's adventurous spirit with 22 unique pieces of refined occasion wear and casual sets, adorned with whimsical prints, delicate embroidery, and iconic character charms. Join the celebration and indulge in the enchantment!</p>",
-        "cta_link": "",
-        "cta_label": "",
-        "font": "rte font-main",
-        "desktop_text_scale": 0,
-        "mobile_text_scale": 0,
-        "text_alignment": "text-left",
-        "content_width_on_desktop": "4",
-        "content_position_on_desktop": "right",
-        "show_top_border": false,
-        "color_scheme": "",
-        "space_above": 0.5,
-        "space_below": 0.5
+        "space_below": 0
       }
     },
     "image_slideshow_dkgLRc": {
@@ -86,6 +38,7 @@
       "block_order": [
         "image_EYBAxR"
       ],
+      "disabled": true,
       "name": "Image slideshow",
       "settings": {
         "title": "",
@@ -157,8 +110,6 @@
   },
   "order": [
     "banner",
-    "profile_Kc4EK3",
-    "feature_text_yMmLTQ",
     "image_slideshow_dkgLRc",
     "product-grid"
   ]
