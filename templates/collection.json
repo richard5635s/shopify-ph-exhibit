@@ -50,6 +50,7 @@
         "image_brmUDU",
         "color_overlay_bnnmnt"
       ],
+      "disabled": true,
       "name": "Media with text overlay",
       "settings": {
         "enable_full_bleed": true,
