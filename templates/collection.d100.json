@@ -19,7 +19,7 @@
         "enable_full_bleed": false,
         "collection_image_aspect_ratio": "2.35",
         "color_scheme": "primary",
-        "space_above": 0.5,
+        "space_above": 0,
         "space_below": 0
       }
     },
