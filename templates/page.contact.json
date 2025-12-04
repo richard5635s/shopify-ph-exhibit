@@ -53,6 +53,7 @@
         },
         "row_tXdFCk": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "title": "Heading",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
