@@ -51,6 +51,15 @@
             "cta_label": ""
           }
         },
+        "row_tXdFCk": {
+          "type": "row",
+          "settings": {
+            "title": "Heading",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
         "row_FKBnXd": {
           "type": "row",
           "settings": {
@@ -63,6 +72,7 @@
       },
       "block_order": [
         "row_q6wFjA",
+        "row_tXdFCk",
         "row_FKBnXd"
       ],
       "settings": {
