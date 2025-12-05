@@ -43,7 +43,7 @@
     {%- endif -%}
 
     <div class="wrapper">
-      <div class="sub-collections-scroll" style="overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; scrollbar-width: thin;">
+      <div class="sub-collections-scroll" id="scroll-container-{{ section.id }}" style="overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;">
         <div class="flex gap-4" style="min-width: max-content;">
           {%- for collection_ref in sub_collections_list -%}
             {%- liquid
@@ -77,6 +77,11 @@
               </div>
             {%- endif -%}
           {%- endfor -%}
+        </div>
+      </div>
+      <div class="custom-scrollbar-indicator" id="scroll-indicator-{{ section.id }}">
+        <div class="scrollbar-track">
+          <div class="scrollbar-thumb" id="scroll-thumb-{{ section.id }}"></div>
         </div>
       </div>
     </div>
