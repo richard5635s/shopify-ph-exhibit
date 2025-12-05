@@ -122,7 +122,7 @@
     left: 0;
     top: 0;
     transition: left 0.1s ease-out, width 0.1s ease-out;
-    min-width: 20px;
+    min-width: 15px;
   }
   
   #section-{{ section.id }} .scrollbar-thumb:hover {
@@ -150,10 +150,10 @@
       
       scrollThumb.parentElement.style.display = 'flex';
       
-      const thumbWidth = (clientWidth / scrollWidth) * 100;
+      const thumbWidth = (clientWidth / scrollWidth) * 100 * 0.4;
       const scrollPercent = (scrollLeft / maxScroll) * 100;
       
-      scrollThumb.style.width = thumbWidth + '%';
+      scrollThumb.style.width = Math.max(thumbWidth, 10) + '%';
       scrollThumb.style.left = scrollPercent + '%';
     }
     
