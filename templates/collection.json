@@ -40,7 +40,7 @@
             "color_scheme": "",
             "overlay_color": "bg-scheme-background",
             "enable_custom_color": false,
-            "custom_overlay_color": "#FFFFFF",
+            "custom_overlay_color": "#ffffff",
             "opacity": 80,
             "blend_mode": "normal"
           }
@@ -66,6 +66,26 @@
         "cta_label": "",
         "button_style": "",
         "color_scheme": ""
+      }
+    },
+    "sub_collections_PWPH97": {
+      "type": "sub-collections",
+      "name": "Sub Collections",
+      "settings": {
+        "title": "Sub Collections",
+        "item_width_mobile": 80,
+        "item_width_desktop": 40,
+        "snap_alignment": "snap-start",
+        "align_items": "items-start",
+        "aspect_ratio": "0.8",
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "media_fill_space": true,
+        "show_index_and_total_slides": true,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
       }
     },
     "product-grid": {
@@ -126,6 +146,7 @@
   "order": [
     "banner",
     "media_with_text_overlay_HK7rWU",
+    "sub_collections_PWPH97",
     "product-grid"
   ]
 }
