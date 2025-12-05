@@ -24,15 +24,15 @@
               <div class="sub-collection-item flex-shrink-0" style="width: {{ section.settings.item_width }}px;" {{ block.shopify_attributes }}>
                 <a href="{{ sub_collection.url }}" class="block">
                   {%- if block_image != blank -%}
-                    <div class="mb-2" style="aspect-ratio: {{ section.settings.aspect_ratio }}; overflow: hidden;">
+                    <div class="mb-4" style="aspect-ratio: {{ section.settings.aspect_ratio }}; overflow: hidden;">
                       {{ block_image | image_url: width: 400 | image_tag: loading: 'lazy', class: 'w-full h-full object-cover' }}
                     </div>
                   {%- elsif sub_collection.featured_image -%}
-                    <div class="mb-2" style="aspect-ratio: {{ section.settings.aspect_ratio }}; overflow: hidden;">
+                    <div class="mb-4" style="aspect-ratio: {{ section.settings.aspect_ratio }}; overflow: hidden;">
                       {{ sub_collection.featured_image | image_url: width: 400 | image_tag: loading: 'lazy', class: 'w-full h-full object-cover' }}
                     </div>
                   {%- else -%}
-                    <div class="mb-2 bg-scheme-placeholder-background" style="aspect-ratio: {{ section.settings.aspect_ratio }}; display: flex; align-items: center; justify-content: center;">
+                    <div class="mb-4 bg-scheme-placeholder-background" style="aspect-ratio: {{ section.settings.aspect_ratio }}; display: flex; align-items: center; justify-content: center;">
                       <span class="text-scheme-placeholder-foreground">No Image</span>
                     </div>
                   {%- endif -%}
