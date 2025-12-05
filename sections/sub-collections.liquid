@@ -91,30 +91,77 @@
 
 {%- style -%}
   #section-{{ section.id }} .sub-collections-scroll {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.05);
-    padding-bottom: 12px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
   
   #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar {
-    height: 2px;
+    display: none;
   }
   
-  #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.05);
-    height: 2px;
+  #section-{{ section.id }} .custom-scrollbar-indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 0 20%;
   }
   
-  #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.5);
+  #section-{{ section.id }} .scrollbar-track {
+    width: 40%;
     height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+    position: relative;
     border-radius: 1px;
   }
   
-  #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+  #section-{{ section.id }} .scrollbar-thumb {
+    height: 2px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: left 0.1s ease-out, width 0.1s ease-out;
+    min-width: 20px;
+  }
+  
+  #section-{{ section.id }} .scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.7);
   }
 {%- endstyle -%}
+
+<script>
+  (function() {
+    const scrollContainer = document.getElementById('scroll-container-{{ section.id }}');
+    const scrollThumb = document.getElementById('scroll-thumb-{{ section.id }}');
+    
+    if (!scrollContainer || !scrollThumb) return;
+    
+    function updateScrollbar() {
+      const scrollWidth = scrollContainer.scrollWidth;
+      const clientWidth = scrollContainer.clientWidth;
+      const scrollLeft = scrollContainer.scrollLeft;
+      const maxScroll = scrollWidth - clientWidth;
+      
+      if (maxScroll <= 0) {
+        scrollThumb.parentElement.style.display = 'none';
+        return;
+      }
+      
+      scrollThumb.parentElement.style.display = 'flex';
+      
+      const thumbWidth = (clientWidth / scrollWidth) * 100;
+      const scrollPercent = (scrollLeft / maxScroll) * 100;
+      
+      scrollThumb.style.width = thumbWidth + '%';
+      scrollThumb.style.left = scrollPercent + '%';
+    }
+    
+    scrollContainer.addEventListener('scroll', updateScrollbar);
+    window.addEventListener('resize', updateScrollbar);
+    updateScrollbar();
+  })();
+</script>
 
 {%- endif -%}
 
