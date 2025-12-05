@@ -13,7 +13,7 @@
       </div>
     {%- endif -%}
 
-    <div class="wrapper">
+    <div class="wrapper sub-collections-wrapper">
       <div class="sub-collections-scroll" id="scroll-container-{{ section.id }}" style="overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;">
         <div class="flex gap-4" style="min-width: max-content;">
           {%- for block in section.blocks -%}
@@ -65,6 +65,12 @@
 </section>
 
 {%- style -%}
+  #section-{{ section.id }} .sub-collections-wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   #section-{{ section.id }} .sub-collections-scroll {
     scrollbar-width: none;
     -ms-overflow-style: none;
