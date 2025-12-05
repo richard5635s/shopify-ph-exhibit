@@ -154,7 +154,7 @@
       "name": "Sub Collections",
       "settings": {
         "title": "",
-        "item_width": 200,
+        "item_width": 140,
         "aspect_ratio": "0.8",
         "show_title": true,
         "color_scheme": "scheme1",
