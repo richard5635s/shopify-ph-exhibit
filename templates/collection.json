@@ -74,7 +74,7 @@
       "settings": {
         "title": "",
         "item_width": 200,
-        "aspect_ratio": "",
+        "aspect_ratio": "0.8",
         "show_title": true,
         "color_scheme": "scheme1",
         "space_above": 1,
