@@ -30,7 +30,7 @@
         "image_brmUDU": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Wicked_Banner_Web.jpg"
+            "image": "shopify://shop_images/Wicked_Banner_Web.jpg"
           }
         },
         "color_overlay_bnnmnt": {
@@ -70,6 +70,80 @@
     },
     "sub_collections_PWPH97": {
       "type": "sub-collections",
+      "blocks": {
+        "collection_item_HX3HcB": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "axil-mini-bag"
+          }
+        },
+        "collection_item_NmDg3a": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "line-floret"
+          }
+        },
+        "collection_item_EeAyfq": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "givre"
+          }
+        },
+        "collection_item_E8RKc4": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "line-nuit"
+          }
+        },
+        "collection_item_4fnUGF": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "line-saff"
+          }
+        },
+        "collection_item_giQ8dy": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "line-scenique"
+          }
+        },
+        "collection_item_npU4Pp": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "line-stoma"
+          }
+        },
+        "collection_item_NQaGGt": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "voyage"
+          }
+        },
+        "collection_item_NJFWtb": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "line-whirlpool"
+          }
+        },
+        "collection_item_CDQcCb": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "line-zig"
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_HX3HcB",
+        "collection_item_NmDg3a",
+        "collection_item_EeAyfq",
+        "collection_item_E8RKc4",
+        "collection_item_4fnUGF",
+        "collection_item_giQ8dy",
+        "collection_item_npU4Pp",
+        "collection_item_NQaGGt",
+        "collection_item_NJFWtb",
+        "collection_item_CDQcCb"
+      ],
       "name": "Sub Collections",
       "settings": {
         "title": "",
