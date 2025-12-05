@@ -142,6 +142,16 @@
   #section-{{ section.id }} .scrollbar-thumb:hover {
     background: rgba(0, 0, 0, 0.7);
   }
+  
+  @media (max-width: 450px) {
+    #section-{{ section.id }} .custom-scrollbar-indicator {
+      padding: 0;
+    }
+    
+    #section-{{ section.id }} .scrollbar-track {
+      width: 100%;
+    }
+  }
 {%- endstyle -%}
 
 <script>
