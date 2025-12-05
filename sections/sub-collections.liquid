@@ -70,7 +70,14 @@
                   {%- endif -%}
                   {%- if section.settings.show_title -%}
                     <div class="text-center">
-                      <h3 class="text-sm break-words">{{ sub_collection.title }}</h3>
+                      {%- liquid
+                        assign display_title = sub_collection.title
+                        if sub_collection.title contains ':'
+                          assign title_parts = sub_collection.title | split: ':'
+                          assign display_title = title_parts[1] | strip
+                        endif
+                      -%}
+                      <h3 class="text-sm break-words">{{ display_title }}</h3>
                     </div>
                   {%- endif -%}
                 </a>
@@ -141,8 +148,14 @@
   (function() {
     const scrollContainer = document.getElementById('scroll-container-{{ section.id }}');
     const scrollThumb = document.getElementById('scroll-thumb-{{ section.id }}');
+    const scrollTrack = scrollThumb ? scrollThumb.parentElement : null;
+    const scrollIndicator = document.getElementById('scroll-indicator-{{ section.id }}');
     
-    if (!scrollContainer || !scrollThumb) return;
+    if (!scrollContainer || !scrollThumb || !scrollTrack) return;
+    
+    let isDragging = false;
+    let startX = 0;
+    let startScrollLeft = 0;
     
     function updateScrollbar() {
       const scrollWidth = scrollContainer.scrollWidth;
@@ -151,18 +164,66 @@
       const maxScroll = scrollWidth - clientWidth;
       
       if (maxScroll <= 0) {
-        scrollThumb.parentElement.style.display = 'none';
+        if (scrollIndicator) scrollIndicator.style.display = 'none';
         return;
       }
       
-      scrollThumb.parentElement.style.display = 'flex';
+      if (scrollIndicator) scrollIndicator.style.display = 'flex';
       
       const thumbWidth = (clientWidth / scrollWidth) * 100 * 0.4;
       const scrollPercent = (scrollLeft / maxScroll) * 100;
       
-      scrollThumb.style.width = Math.max(thumbWidth, 10) + '%';
+      scrollThumb.style.width = Math.max(thumbWidth, 8) + '%';
       scrollThumb.style.left = scrollPercent + '%';
     }
+    
+    // Click on track to jump
+    scrollTrack.addEventListener('click', function(e) {
+      if (e.target === scrollThumb) return;
+      
+      const trackRect = scrollTrack.getBoundingClientRect();
+      const clickX = e.clientX - trackRect.left;
+      const trackWidth = trackRect.width;
+      const clickPercent = clickX / trackWidth;
+      
+      const scrollWidth = scrollContainer.scrollWidth;
+      const clientWidth = scrollContainer.clientWidth;
+      const maxScroll = scrollWidth - clientWidth;
+      const targetScroll = clickPercent * maxScroll;
+      
+      scrollContainer.scrollTo({
+        left: targetScroll,
+        behavior: 'smooth'
+      });
+    });
+    
+    // Drag thumb
+    scrollThumb.addEventListener('mousedown', function(e) {
+      isDragging = true;
+      startX = e.clientX;
+      startScrollLeft = scrollContainer.scrollLeft;
+      e.preventDefault();
+    });
+    
+    document.addEventListener('mousemove', function(e) {
+      if (!isDragging) return;
+      
+      const trackRect = scrollTrack.getBoundingClientRect();
+      const trackWidth = trackRect.width;
+      const deltaX = e.clientX - startX;
+      const deltaPercent = deltaX / trackWidth;
+      
+      const scrollWidth = scrollContainer.scrollWidth;
+      const clientWidth = scrollContainer.clientWidth;
+      const maxScroll = scrollWidth - clientWidth;
+      const deltaScroll = deltaPercent * maxScroll;
+      
+      scrollContainer.scrollLeft = Math.max(0, Math.min(maxScroll, startScrollLeft + deltaScroll));
+    });
+    
+    document.addEventListener('mouseup', function() {
+      isDragging = false;
+    });
     
     scrollContainer.addEventListener('scroll', updateScrollbar);
     window.addEventListener('resize', updateScrollbar);
