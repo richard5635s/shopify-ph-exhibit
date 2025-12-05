@@ -1,33 +1,23 @@
 {%- liquid
   # Get sub-collections from metafield
   assign sub_collections_metafield = collection.metafields.custom.sub_collections
-  
-  # Process metafield to get collection references
   assign sub_collections_list = blank
   assign has_visible_collections = false
   
   if sub_collections_metafield != blank
-    # Metafield with list of collection references
-    # Expected metafield namespace.key: custom.sub_collections
-    # Expected metafield type: list.collection_reference
     assign sub_collections_list = sub_collections_metafield.value
     
-    # Check if we have any visible collections
     if sub_collections_list != blank
       for collection_ref in sub_collections_list
         assign sub_collection = blank
         
-        # Handle collection reference: could be a collection object or handle string
         if collection_ref.handle != blank
-          # Already a collection object
           assign sub_collection = collection_ref
         elsif collection_ref != blank
-          # Try as handle string and look up the collection
           assign collection_handle = collection_ref
           assign sub_collection = collections[collection_handle]
         endif
         
-        # Check if collection exists and is visible
         if sub_collection != blank and sub_collection.handle != blank
           assign has_visible_collections = true
           break
@@ -35,130 +25,88 @@
       endfor
     endif
   endif
-
-  # Calculate sizes for responsive images
-  if settings.enable_sidebar
-    assign sidebar_width = 100.00 | divided_by: 12 | times: settings.sidebar_width_on_desktop | round: 2
-    assign desktop_sizes_base = 100 | minus: sidebar_width
-  else
-    assign desktop_sizes_base = 100
-  endif
-
-  assign desktop_sizes_css_base = desktop_sizes_base | append: 'vw'
-  assign desktop_sizes = 'calc(' | append: desktop_sizes_css_base | append: ' / 100 * ' | append: section.settings.item_width_desktop | append: ')'
-  assign mobile_sizes = 'calc(1vw * ' | append: section.settings.item_width_mobile | append: ')'
-  assign sizes = '(min-width: 990px) ' | append: desktop_sizes | append: ', ' | append: mobile_sizes
 -%}
 
 {%- if sub_collections_metafield != blank and has_visible_collections -%}
 <section
   id="section-{{ section.id }}"
-  x-data="{ labelContent: '', focusVisible: false }"
   class="section-container"
   data-color-scheme="{{ section.settings.color_scheme }}"
   style="--top-spacing-adjust: {{ section.settings.space_above }}; --bottom-spacing-adjust: {{ section.settings.space_below }};"
 >
   <div class="text-scheme-text bg-scheme-background pt-top-section-vertical-spacing pb-bottom-section-vertical-spacing">
     
-    {%- liquid
-      if section.settings.title != blank
-        render 'section-title-horizontal', title: section.settings.title
-      endif
-    -%}
+    {%- if section.settings.title != blank -%}
+      <div class="wrapper mb-4">
+        <h2 class="font-heading text-heading-standard">{{ section.settings.title }}</h2>
+      </div>
+    {%- endif -%}
 
-    {%- comment -%} Render sub-collections carousel {%- endcomment -%}
-      {%- style -%}
-        #section-{{ section.id }} .carousel-item {
-          --total-margin: calc(var(--wrapper-left-and-right-margin) * 2);
-          width: calc({{ section.settings.item_width_mobile }}% - var(--total-margin));
-        }
-        @media (min-width: 990px) {
-          #section-{{ section.id }} .carousel-item {
-            width: {{ section.settings.item_width_desktop }}%;
-          }
-        }
-      {%- endstyle -%}
-
-      <div
-        x-data='ThemeModule_Carousel({{ section.id | json }})'
-        x-init="mounted()"
-        class="carousel-container w-full max-w-screen lg:max-w-full overflow-hidden"
-      >
-        <ul id="CarouselTrack-{{ section.id }}" x-ref="carousel-track" class="carousel-track flex overflow-x-scroll scroll-smooth gap-media-grid {{ section.settings.align_items }} snap-x snap-mandatory snap-always">
+    <div class="wrapper">
+      <div class="sub-collections-scroll" style="overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;">
+        <div class="flex gap-4 pb-4" style="min-width: max-content;">
           {%- for collection_ref in sub_collections_list -%}
             {%- liquid
-              # Handle collection reference: could be a collection object or handle string
               assign sub_collection = blank
               
               if collection_ref.handle != blank
-                # Already a collection object
                 assign sub_collection = collection_ref
               elsif collection_ref != blank
-                # Try as handle string and look up the collection
                 assign collection_handle = collection_ref
                 assign sub_collection = collections[collection_handle]
               endif
             -%}
             {%- if sub_collection != blank and sub_collection.handle != blank -%}
-              <li class="relative carousel-item shrink-0 {{ section.settings.snap_alignment }} scroll-ml-wrapper-left-and-right-margin first:ml-wrapper-left-and-right-margin last:mr-wrapper-left-and-right-margin overflow-hidden">
-                {%- liquid
-                  assign aspect_ratio = sub_collection.featured_image.aspect_ratio
-                  if aspect_ratio == blank or aspect_ratio == 0
-                    assign aspect_ratio = section.settings.aspect_ratio
-                  endif
-                -%}
-                {%- render 'tile-collection', tag: 'div', collection: sub_collection, media_wrapper_aspect_ratio: aspect_ratio, index: forloop.index, sizes: sizes -%}
-              </li>
+              <div class="sub-collection-item flex-shrink-0" style="width: {{ section.settings.item_width }}px;">
+                <a href="{{ sub_collection.url }}" class="block">
+                  {%- if sub_collection.featured_image -%}
+                    <div class="mb-2" style="aspect-ratio: {{ section.settings.aspect_ratio }}; overflow: hidden;">
+                      {{ sub_collection.featured_image | image_url: width: 400 | image_tag: loading: 'lazy', class: 'w-full h-full object-cover' }}
+                    </div>
+                  {%- else -%}
+                    <div class="mb-2 bg-scheme-placeholder-background" style="aspect-ratio: {{ section.settings.aspect_ratio }}; display: flex; align-items: center; justify-content: center;">
+                      <span class="text-scheme-placeholder-foreground">No Image</span>
+                    </div>
+                  {%- endif -%}
+                  {%- if section.settings.show_title -%}
+                    <div class="text-center">
+                      <h3 class="text-sm break-words">{{ sub_collection.title }}</h3>
+                    </div>
+                  {%- endif -%}
+                </a>
+              </div>
             {%- endif -%}
           {%- endfor -%}
-        </ul>
-
-        {%- if section.settings.show_index_and_total_slides -%}
-          {%- capture slides_index -%}
-            <span x-text="`${current_slide}/${total_slides}`"></span>
-          {%- endcapture -%}
-        {%- endif -%}
-
-        {%- capture slideshow_arrows -%}
-          {%- render 'carousel-buttons' -%}
-        {%- endcapture -%}
-
-        {%- liquid
-          assign layout_key = 'b'
-          if section.settings.show_index_and_total_slides
-            assign layout_key = layout_key | append: 'i'
-          endif
-        -%}
-
-        <div class="grid grid-cols-12 grid-flow-dense gap-2 wrapper mt-8">
-          {%- case layout_key -%}
-            {%- when 'b' -%}
-              <div class="col-span-full text-right">
-                {{ slideshow_arrows }}
-              </div>
-            {%- when 'bi' -%}
-              <div class="col-span-6 text-left">
-                {{ slides_index }}
-              </div>
-              <div class="col-span-6 text-right">
-                {{ slideshow_arrows }}
-              </div>
-          {%- endcase -%}
         </div>
       </div>
+    </div>
 
   </div>
-
-  {%- liquid
-    if section.settings.labels_display == 'text_overlay_on_hover' or section.settings.labels_display == 'follow_mouse_on_hover'
-      render 'overlay-labels' with section.settings.labels_display as labels_display
-    endif
-  -%}
 </section>
 
-{%- unless request.design_mode %}
-  <script src="{{ 'modules-carousel.bundle.min.js' | asset_url }}" type="module"></script>
-{%- endunless -%}
+{%- style -%}
+  #section-{{ section.id }} .sub-collections-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+  }
+  
+  #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+  }
+  
+  #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+{%- endstyle -%}
 
 {%- endif -%}
 
@@ -170,135 +118,30 @@
       "type": "text",
       "id": "title",
       "label": "Heading",
-      "default": "Sub Collections",
-      "info": "Leave blank to hide the heading"
-    },
-    {
-      "type": "header",
-      "content": "Layout"
+      "default": "Sub Collections"
     },
     {
       "type": "range",
-      "id": "item_width_mobile",
-      "min": 60,
-      "max": 100,
-      "step": 5,
-      "unit": "%",
-      "label": "Width of items on mobile",
-      "default": 80,
-      "info": "Percentage of viewport width"
-    },
-    {
-      "type": "range",
-      "id": "item_width_desktop",
-      "min": 20,
-      "max": 80,
-      "step": 5,
-      "unit": "%",
-      "label": "Width of items on desktop",
-      "default": 40,
-      "info": "Percentage of viewport width"
-    },
-    {
-      "type": "radio",
-      "id": "snap_alignment",
-      "label": "Snap alignment",
-      "options": [
-        {
-          "value": "snap-start",
-          "label": "Start"
-        },
-        {
-          "value": "snap-center",
-          "label": "Center"
-        }
-      ],
-      "default": "snap-start"
-    },
-    {
-      "type": "select",
-      "id": "align_items",
-      "label": "Align items",
-      "options": [
-        {
-          "value": "items-start",
-          "label": "Top"
-        },
-        {
-          "value": "items-center",
-          "label": "Center"
-        },
-        {
-          "value": "items-end",
-          "label": "Bottom"
-        }
-      ],
-      "default": "items-start"
+      "id": "item_width",
+      "min": 120,
+      "max": 400,
+      "step": 20,
+      "unit": "px",
+      "label": "Item width",
+      "default": 200
     },
     {
       "type": "text",
       "id": "aspect_ratio",
-      "label": "Default aspect ratio",
-      "default": "0.8",
-      "info": "Used when collection image aspect ratio is not available. Format: height/width (e.g., 0.8 means 4:5)"
-    },
-    {
-      "type": "header",
-      "content": "Labels"
+      "label": "Aspect ratio",
+      "default": "1",
+      "info": "Height/Width ratio (e.g., 1 = square, 0.8 = 4:5)"
     },
     {
       "type": "checkbox",
-      "id": "labels_show_titles_and_captions",
-      "label": "Show collection titles",
+      "id": "show_title",
+      "label": "Show collection title",
       "default": true
-    },
-    {
-      "type": "select",
-      "id": "labels_display",
-      "label": "Display",
-      "options": [
-        {
-          "value": "below_media",
-          "label": "Below media" 
-        },
-        {
-          "value": "text_overlay_on_hover",
-          "label": "Text overlay on hover"
-        },
-        {
-          "value": "follow_mouse_on_hover",
-          "label": "Follow mouse on hover"
-        }
-      ],
-      "default": "below_media",
-      "info": "Customise overlay labels in theme settings."
-    },
-    {
-      "type": "checkbox",
-      "id": "labels_always_show_on_mobile",
-      "label": "Always show labels on mobile",
-      "default": false
-    },
-    {
-      "type": "checkbox",
-      "id": "media_fill_space",
-      "label": "Fill space with media",
-      "default": true,
-      "info": "When enabled, images will cover the entire space. When disabled, images will be contained within the space."
-    },
-    {
-      "type": "header",
-      "content": "Controls"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_index_and_total_slides",
-      "label": "Show current index and total slides",
-      "default": true
-    },
-    {
-      "type": "header",
-      "content": "Color"
     },
     {
       "type": "color_scheme",
@@ -307,17 +150,13 @@
       "label": "Color scheme"
     },
     {
-      "type": "header",
-      "content": "Spacing"
-    },
-    {
       "type": "range",
       "id": "space_above",
       "min": 0,
       "max": 2,
       "step": 0.5,
       "unit": "x",
-      "label": "Above",
+      "label": "Space above",
       "default": 1
     },
     {
@@ -327,7 +166,7 @@
       "max": 2,
       "step": 0.5,
       "unit": "x",
-      "label": "Below",
+      "label": "Space below",
       "default": 1
     }
   ],
@@ -335,15 +174,6 @@
     {
       "name": "Sub Collections"
     }
-  ],
-  "disabled_on": {
-    "groups": [
-      "aside",
-      "header",
-      "footer",
-      "custom.hero"
-    ]
-  }
+  ]
 }
 {% endschema %}
-
