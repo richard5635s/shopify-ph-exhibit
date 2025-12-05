@@ -89,6 +89,12 @@
             "collection": "line-whirlpool"
           }
         },
+        "collection_item_j7jKKx": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "line-locule"
+          }
+        },
         "collection_item_npU4Pp": {
           "type": "collection_item",
           "settings": {
@@ -136,6 +142,7 @@
         "collection_item_NQaGGt",
         "collection_item_EeAyfq",
         "collection_item_NJFWtb",
+        "collection_item_j7jKKx",
         "collection_item_npU4Pp",
         "collection_item_HX3HcB",
         "collection_item_NmDg3a",
