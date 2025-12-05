@@ -162,8 +162,12 @@
       const thumbWidth = (clientWidth / scrollWidth) * 100 * 0.4;
       const scrollPercent = (scrollLeft / maxScroll) * 100;
       
-      scrollThumb.style.width = Math.max(thumbWidth, 8) + '%';
-      scrollThumb.style.left = scrollPercent + '%';
+      const finalThumbWidth = Math.max(thumbWidth, 8);
+      const maxLeft = 100 - finalThumbWidth;
+      const finalLeft = Math.min(scrollPercent, maxLeft);
+      
+      scrollThumb.style.width = finalThumbWidth + '%';
+      scrollThumb.style.left = Math.max(0, finalLeft) + '%';
     }
     
     // Click on track to jump
