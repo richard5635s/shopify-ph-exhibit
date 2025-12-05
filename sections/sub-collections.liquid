@@ -87,27 +87,27 @@
 {%- style -%}
   #section-{{ section.id }} .sub-collections-scroll {
     scrollbar-width: thin;
-    scrollbar-color: rgba(0, 0, 0, 0.4) rgba(255, 255, 255, 0.1);
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.05);
+    padding-bottom: 12px;
   }
   
   #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar {
-    height: 3px;
+    height: 2px;
   }
   
   #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
-    height: 3px;
+    background: rgba(0, 0, 0, 0.05);
+    height: 2px;
   }
   
   #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.4);
-    height: 3px;
-    border-radius: 0;
-    min-width: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 2px;
+    border-radius: 1px;
   }
   
   #section-{{ section.id }} .sub-collections-scroll::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
   }
 {%- endstyle -%}
 
