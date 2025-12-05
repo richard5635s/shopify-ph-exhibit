@@ -1,33 +1,4 @@
-{%- liquid
-  # Get sub-collections from metafield
-  assign sub_collections_metafield = collection.metafields.custom.sub_collections
-  assign sub_collections_list = blank
-  assign has_visible_collections = false
-  
-  if sub_collections_metafield != blank
-    assign sub_collections_list = sub_collections_metafield.value
-    
-    if sub_collections_list != blank
-      for collection_ref in sub_collections_list
-        assign sub_collection = blank
-        
-        if collection_ref.handle != blank
-          assign sub_collection = collection_ref
-        elsif collection_ref != blank
-          assign collection_handle = collection_ref
-          assign sub_collection = collections[collection_handle]
-        endif
-        
-        if sub_collection != blank and sub_collection.handle != blank
-          assign has_visible_collections = true
-          break
-        endif
-      endfor
-    endif
-  endif
--%}
-
-{%- if sub_collections_metafield != blank and has_visible_collections -%}
+{%- if section.blocks.size > 0 -%}
 <section
   id="section-{{ section.id }}"
   class="section-container"
@@ -45,21 +16,18 @@
     <div class="wrapper">
       <div class="sub-collections-scroll" id="scroll-container-{{ section.id }}" style="overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;">
         <div class="flex gap-4" style="min-width: max-content;">
-          {%- for collection_ref in sub_collections_list -%}
-            {%- liquid
-              assign sub_collection = blank
+          {%- for block in section.blocks -%}
+            {%- if block.settings.collection != blank -%}
+              {%- assign sub_collection = block.settings.collection -%}
+              {%- assign block_image = block.settings.image -%}
               
-              if collection_ref.handle != blank
-                assign sub_collection = collection_ref
-              elsif collection_ref != blank
-                assign collection_handle = collection_ref
-                assign sub_collection = collections[collection_handle]
-              endif
-            -%}
-            {%- if sub_collection != blank and sub_collection.handle != blank -%}
-              <div class="sub-collection-item flex-shrink-0" style="width: {{ section.settings.item_width }}px;">
+              <div class="sub-collection-item flex-shrink-0" style="width: {{ section.settings.item_width }}px;" {{ block.shopify_attributes }}>
                 <a href="{{ sub_collection.url }}" class="block">
-                  {%- if sub_collection.featured_image -%}
+                  {%- if block_image != blank -%}
+                    <div class="mb-2" style="aspect-ratio: {{ section.settings.aspect_ratio }}; overflow: hidden;">
+                      {{ block_image | image_url: width: 400 | image_tag: loading: 'lazy', class: 'w-full h-full object-cover' }}
+                    </div>
+                  {%- elsif sub_collection.featured_image -%}
                     <div class="mb-2" style="aspect-ratio: {{ section.settings.aspect_ratio }}; overflow: hidden;">
                       {{ sub_collection.featured_image | image_url: width: 400 | image_tag: loading: 'lazy', class: 'w-full h-full object-cover' }}
                     </div>
@@ -305,6 +273,25 @@
       "unit": "x",
       "label": "Space below",
       "default": 1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection_item",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "Optional. If blank, collection's featured image will be used."
+        }
+      ]
     }
   ],
   "presets": [

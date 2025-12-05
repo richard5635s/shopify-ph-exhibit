@@ -1,0 +1,145 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "enable_full_bleed": false,
+        "collection_image_aspect_ratio": "natural",
+        "color_scheme": "primary",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "media_with_text_overlay_HK7rWU": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_brmUDU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wicked_Banner_Web.jpg"
+          }
+        },
+        "color_overlay_bnnmnt": {
+          "type": "color_overlay",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "overlay_color": "bg-scheme-background",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 80,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "image_brmUDU",
+        "color_overlay_bnnmnt"
+      ],
+      "disabled": true,
+      "name": "Media with text overlay",
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "1.33",
+        "aspect_ratio_desktop": "2.35",
+        "content_position": "justify-center items-center",
+        "text_align": "text-center",
+        "content_width_on_desktop": "4",
+        "title": "",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_link": "",
+        "cta_label": "",
+        "button_style": "",
+        "color_scheme": ""
+      }
+    },
+    "sub_collections_PWPH97": {
+      "type": "sub-collections",
+      "name": "Sub Collections",
+      "settings": {
+        "title": "",
+        "item_width": 200,
+        "aspect_ratio": "0.8",
+        "show_title": true,
+        "color_scheme": "scheme1",
+        "space_above": 0,
+        "space_below": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "filter": {
+          "type": "filter_and_sort",
+          "settings": {
+            "desktop_filter_layout": "drawer",
+            "stacked_filter_style": "text",
+            "enable_filtering": true,
+            "expand_filters": false,
+            "show_filter_count": false,
+            "enable_color_swatch_filters": false,
+            "enable_sorting": true
+          }
+        }
+      },
+      "block_order": [
+        "filter"
+      ],
+      "custom_css": [],
+      "settings": {
+        "products_to_show": 32,
+        "linklist": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 11,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-top justify-between",
+        "media_aspect_ratio": "0.6667",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": true,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "quick_view": "disabled",
+        "product_info_text_alignment": "left",
+        "show_discount_text": true,
+        "discount_product_tag": "additional-discount",
+        "discount_text": "EXTRA 20% OFF WITH CODE: ARCH20",
+        "discount_text_style": "normal",
+        "discount_text_color": "#fd0303",
+        "discount_text_size": 13,
+        "color_scheme": "scheme1",
+        "space_above": 0.5,
+        "space_below": 1.5,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "media_with_text_overlay_HK7rWU",
+    "sub_collections_PWPH97",
+    "product-grid"
+  ]
+}
