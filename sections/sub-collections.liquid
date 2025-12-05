@@ -8,20 +8,22 @@
   
   if sub_collections_metafield != blank
     # Metafield with list of collection references
+    # Expected metafield namespace.key: custom.sub_collections
+    # Expected metafield type: list.collection_reference
     assign sub_collections_list = sub_collections_metafield.value
     
     # Check if we have any visible collections
     if sub_collections_list != blank
       for collection_ref in sub_collections_list
-        # Handle different metafield formats
         assign sub_collection = blank
         
-        # Try as direct collection object first
-        if collection_ref.handle
+        # Handle collection reference: could be a collection object or handle string
+        if collection_ref.handle != blank
+          # Already a collection object
           assign sub_collection = collection_ref
-        else
-          # Try as handle string
-          assign collection_handle = collection_ref | default: collection_ref
+        elsif collection_ref != blank
+          # Try as handle string and look up the collection
+          assign collection_handle = collection_ref
           assign sub_collection = collections[collection_handle]
         endif
         
@@ -85,19 +87,15 @@
         <ul id="CarouselTrack-{{ section.id }}" x-ref="carousel-track" class="carousel-track flex overflow-x-scroll scroll-smooth gap-media-grid {{ section.settings.align_items }} snap-x snap-mandatory snap-always">
           {%- for collection_ref in sub_collections_list -%}
             {%- liquid
-              # Handle different metafield formats:
-              # 1. Collection reference object (has handle property)
-              # 2. Collection handle string
-              # 3. Direct collection object
-              
+              # Handle collection reference: could be a collection object or handle string
               assign sub_collection = blank
               
-              # Try as direct collection object first
-              if collection_ref.handle
+              if collection_ref.handle != blank
+                # Already a collection object
                 assign sub_collection = collection_ref
-              else
-                # Try as handle string
-                assign collection_handle = collection_ref | default: collection_ref
+              elsif collection_ref != blank
+                # Try as handle string and look up the collection
+                assign collection_handle = collection_ref
                 assign sub_collection = collections[collection_handle]
               endif
             -%}
