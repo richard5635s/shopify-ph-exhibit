@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "home_page_only": false,
         "display": "static",
-        "text": "ARCHIVE SALE LAST DAY: ADDITIONAL 20% OFF FOR SELECTED PIECES WITH CODE 'ARCH20'",
+        "text": "ORDERS PLACED AFTER 24 DECEMBER WILL BE PROCESSED FROM 5 JANUARY.",
         "link": "",
         "repeat_text": false,
         "speed": 60,
