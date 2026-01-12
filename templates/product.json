@@ -57,7 +57,6 @@
         },
         "quantity": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
             "space_above": 2
           }
