@@ -24,6 +24,7 @@
       x-ref: 'productForm',
       class: 'product-form'
     %}
+    <input type="hidden" name="quantity" value="1" />
       <div class="{% if product.has_only_default_variant %} hidden {% else %} no-js my-4 {% endif %}">
         <label
           class="{{ label_class }}"
