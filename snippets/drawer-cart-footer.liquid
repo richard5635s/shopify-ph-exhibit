@@ -52,7 +52,7 @@
             {{ 'cart.general.checkout' | t }}
           </button> {% endcomment %}
           <script>
-            function kororderlimitclick(event) {
+            async function kororderlimitclick(event) {
               event.preventDefault();
               event.stopImmediatePropagation();
               try {
