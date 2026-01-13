@@ -51,6 +51,22 @@
           {% comment %} <button class="block btn btn--solid w-full" type="submit" name="checkout" form="cart">
             {{ 'cart.general.checkout' | t }}
           </button> {% endcomment %}
+          <script>
+            function kororderlimitclick(event) {
+              event.preventDefault();
+              event.stopImmediatePropagation();
+              try {
+                  const response = await fetch('/cart.js');
+                  const cartItems = await response.json();
+                  checkLimitOneCustom(cartItems, true);                  
+                } catch (error) {
+                  console.error('Error fetching Shopify cart:', error);
+                }
+            }
+            </script>
+          <button class="block btn btn--solid w-full" type="button" onclick="kororderlimitclick(event);" name="checkout" form="cart">
+            {{ 'cart.general.checkout' | t }}
+          </button>
         </div>
 
         {% if additional_checkout_buttons and settings.cart_additional_buttons %}
