@@ -48,9 +48,9 @@
         </div>
 
         <div>
-          <button class="block btn btn--solid w-full" type="submit" name="checkout" form="cart">
+          {% comment %} <button class="block btn btn--solid w-full" type="submit" name="checkout" form="cart">
             {{ 'cart.general.checkout' | t }}
-          </button>
+          </button> {% endcomment %}
         </div>
 
         {% if additional_checkout_buttons and settings.cart_additional_buttons %}
