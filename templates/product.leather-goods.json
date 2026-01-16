@@ -97,7 +97,7 @@
         "text_BTRgMG": {
           "type": "text",
           "settings": {
-            "text": "This item is crafted in limited batches, to preserve the quality of each piece. For a time, this style is offered at one piece per client, per day.",
+            "text": "This piece is crafted in small batches to give attention to its detail and quality.For a time, it is offered at one piece per client, per day.",
             "icon": "none",
             "text_color": "text-scheme-text",
             "space_above": 1
