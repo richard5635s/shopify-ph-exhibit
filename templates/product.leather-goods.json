@@ -1,0 +1,208 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text_haMqdd": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "icon": "none",
+            "text_color": "text-scheme-text",
+            "space_above": 1
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "space_above": 1
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "space_above": 0
+          }
+        },
+        "discount_text_6VCL3c": {
+          "type": "discount-text",
+          "settings": {
+            "discount_product_tag": "additional-discount",
+            "discount_text": "EXTRA 20% OFF WITH CODE: ARCH20",
+            "discount_text_style": "normal",
+            "discount_text_color": "#ff0000",
+            "discount_text_size": 13
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "truncate_description": true,
+            "max_words": 100,
+            "space_above": 2
+          }
+        },
+        "color_swatch_NfgdDh": {
+          "type": "color-swatch",
+          "settings": {}
+        },
+        "quantity": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "space_above": 2
+          }
+        },
+        "variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_option_labels": true,
+            "option_style": "text_underline",
+            "space_above": 2
+          }
+        },
+        "measurementdetails_A3CKet": {
+          "type": "measurementdetails",
+          "settings": {
+            "icon": "none",
+            "space_above": 0,
+            "heading01": "Size Conversion",
+            "tablecontent01": "<p>{{ product.metafields.custom.measurement_details | metafield_tag }}</p>",
+            "heading02": "Product Measurements",
+            "display_cm_unit": true,
+            "tablecontent02": "<p>{{ product.metafields.custom.product_measurements | metafield_tag }}</p>",
+            "heading03": "",
+            "heading03text": "Should you need assistance finding your size or your measurements fall between two sizes, please contact us at contact@peggyhartanto.com or WhatsApp. INTERNATIONAL ORDERS: the team will reach out to you to confirm your order size details.",
+            "text_color": "text-scheme-text"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "space_above": 1,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_yUGFXr": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.pre_order.value }}",
+            "icon": "none",
+            "text_color": "text-scheme-error",
+            "space_above": 1
+          }
+        },
+        "rich_text_JnDnFm": {
+          "type": "rich_text",
+          "settings": {
+            "content": "<p>{{ product.metafields.custom.saleitemanddelivery | metafield_tag }}</p>",
+            "text_color": "text-scheme-error",
+            "space_above": 1
+          }
+        },
+        "collapsible_tabs_eBfTLA": {
+          "type": "collapsible_tabs",
+          "settings": {
+            "show_borders": false,
+            "show_caret": false,
+            "space_above": 1.5,
+            "heading_1": "Details & Care",
+            "content_1": "<p>{{ product.metafields.custom.details_fit | metafield_tag }}</p>",
+            "page_1": "",
+            "icon_1": "none",
+            "enable_2": true,
+            "heading_2": "Payment & Shipping",
+            "content_2": "<p>PEGGY HARTANTO accepts the following payment methods: bank transfer and credit card payments.<br/><br/>INTERNATIONAL ORDERS<br/>Customers are responsible for all duties and taxes in addition to the delivery fee. These charges must be paid to the carrier upon delivery, in accordance with the regulations of the destination country.<br/><br/>Please be advised that, due to re-import regulations in Indonesia, returns and refunds for international orders cannot be processed or issued.</p>",
+            "page_2": "",
+            "icon_2": "none",
+            "enable_3": true,
+            "heading_3": "Need Assistance",
+            "content_3": "<p>The team is here to provide you with sizing guidance. Schedule a virtual appointment at your convenience by booking <a href=\"https://calendar.app.google/wjbbKLw2bsLGScyAA\" target=\"_blank\" title=\"Appointment\">here</a>. You can also reach our customer care team at <a href=\"mailto:contact@peggyhartanto.com\" title=\"mailto:contact@peggyhartanto.com\">contact@peggyhartanto.com</a> or on  <a href=\"https://wa.me/62818877988\" target=\"_blank\" title=\"WhatsApp\">WhatsApp</a>.</p>",
+            "page_3": "",
+            "icon_3": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_haMqdd",
+        "title",
+        "price",
+        "discount_text_6VCL3c",
+        "description",
+        "color_swatch_NfgdDh",
+        "quantity",
+        "variant-picker",
+        "measurementdetails_A3CKet",
+        "buy-buttons",
+        "text_yUGFXr",
+        "rich_text_JnDnFm",
+        "collapsible_tabs_eBfTLA"
+      ],
+      "settings": {
+        "desktop_layout": "two_column",
+        "desktop_media_position": "left",
+        "media_width_on_desktop": "6",
+        "mobile_media_layout": "carousel",
+        "desktop_media_layout": "single_column",
+        "media_fit": "natural",
+        "media_full_bleed": "mobile_and_desktop",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "enable_video_autoplay": true,
+        "single_media_mode": false,
+        "product_content_width_on_desktop": "0.6",
+        "product_content_alignment": "top_center",
+        "product_content_sticky": true,
+        "color_scheme": "scheme-ec188336-c415-42f2-b8f5-99864fb2a92c",
+        "space_above": 1.5,
+        "space_below": 1.5
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "Styled with",
+        "products_to_show": 4,
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 2,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 3,
+        "modular_grid_item_aspect_ratio": 0.5,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-top justify-start",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": true,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "quick_view": "enabled_on_desktop",
+        "product_info_text_alignment": "left",
+        "color_scheme": "scheme1",
+        "space_above": 1.5,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}
