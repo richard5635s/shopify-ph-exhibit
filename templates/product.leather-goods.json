@@ -94,6 +94,15 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_BTRgMG": {
+          "type": "text",
+          "settings": {
+            "text": "This item is crafted in limited batches, to preserve the quality of each piece. For a time, this style is offered at one piece per client, per day.",
+            "icon": "none",
+            "text_color": "text-scheme-text",
+            "space_above": 1
+          }
+        },
         "text_yUGFXr": {
           "type": "text",
           "settings": {
@@ -145,6 +154,7 @@
         "variant-picker",
         "measurementdetails_A3CKet",
         "buy-buttons",
+        "text_BTRgMG",
         "text_yUGFXr",
         "rich_text_JnDnFm",
         "collapsible_tabs_eBfTLA"
