@@ -22,7 +22,8 @@
         "image_CRzPLw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_Cinematic2.jpg"
+            "image": "shopify://shop_images/PHLEPAPILLON_Cinematic2.jpg",
+            "image_mobile": "shopify://shop_images/PHLEPAPILLON_Half.jpg"
           }
         },
         "media-with-text-overlay-1": {
