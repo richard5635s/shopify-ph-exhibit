@@ -22,8 +22,7 @@
         "image_CRzPLw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Wicked_Banner_Web4_dcf629f1-f7e3-4668-9ed7-8d3499142efd.jpg",
-            "image_mobile": "shopify://shop_images/Banner_Web_Mobile2_8fd6d5d8-b89b-47b4-9a41-133c31dc5966.jpg"
+            "image": "shopify://shop_images/PHLEPAPILLON_Cinematic.jpg"
           }
         },
         "media-with-text-overlay-1": {
@@ -54,7 +53,7 @@
         "title": "",
         "heading_size": "text-heading-secondary",
         "richtext": "",
-        "cta_link": "https://peggyhartanto.com/collections/wicked",
+        "cta_link": "",
         "cta_label": "",
         "button_style": "",
         "color_scheme": "scheme2"
@@ -66,17 +65,17 @@
         "image_Bi9cEQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banner_Web_Half.jpg",
-            "caption": "2025, Le Papillon",
-            "link": "shopify://collections/collection-le-papillon"
+            "image": "shopify://shop_images/LOCULE_Campaign.jpg",
+            "caption": "LOCULE Cone Bag",
+            "link": "https://peggyhartanto.com/collections/line-locule"
           }
         },
         "image_GpJy8R": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/FLORET.jpg",
-            "caption": "Introducing: FLORET",
-            "link": "https://peggyhartanto.com/collections/line-floret"
+            "image": "shopify://shop_images/Banner_Web_Wicked.jpg",
+            "caption": "Wicked * PEGGY HARTANTO",
+            "link": "https://peggyhartanto.com/collections/wicked"
           }
         },
         "image_hJMHy4": {
