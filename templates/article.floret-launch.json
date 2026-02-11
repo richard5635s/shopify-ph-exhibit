@@ -218,6 +218,7 @@
         },
         "image_EJBGdw": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PHPS7_e4e829ce-7016-4dcf-a79f-20cef42334e7.jpg",
             "caption": "",
