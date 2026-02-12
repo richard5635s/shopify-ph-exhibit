@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "home_page_only": false,
         "display": "static",
-        "text": "ORDERS PLACED AFTER 24 DECEMBER WILL BE PROCESSED FROM 5 JANUARY.",
+        "text": "LUNAR NEW YEAR HOLIDAY: ORDERS PLACED 14 - 17 FEBRUARY WILL BE PROCESSED FROM 18 FEBRUARY.",
         "link": "",
         "repeat_text": false,
         "speed": 60,
