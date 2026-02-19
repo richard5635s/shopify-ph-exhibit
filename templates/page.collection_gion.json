@@ -550,11 +550,27 @@
             "link": ""
           }
         },
+        "image_iXfpRi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_KOSUMOSU2.jpg",
+            "caption": "",
+            "link": ""
+          }
+        },
         "image_N8ahxi": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHGION_TSUBOMI1.jpg",
             "caption": "TSUBOMI gown",
+            "link": ""
+          }
+        },
+        "image_V9bTr4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_TSUBOMI2.jpg",
+            "caption": "",
             "link": ""
           }
         }
@@ -565,7 +581,9 @@
         "image_RtbKfD",
         "image_6acidB",
         "image_Urfr6i",
-        "image_N8ahxi"
+        "image_iXfpRi",
+        "image_N8ahxi",
+        "image_V9bTr4"
       ],
       "settings": {
         "title": "",
