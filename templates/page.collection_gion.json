@@ -1,0 +1,625 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "text-left",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "image_gallery_rVVmqd": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_AcyffR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_LUMEN_STERNUM_HINDGUT.jpg",
+            "caption": "LUMEN top, STERNUM pants, HINDGUT bucket hat, BENTHIC slippers",
+            "link": ""
+          }
+        },
+        "image_RkfKqV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_DORSUM_MARGIN_FRON.jpg",
+            "caption": "DORSUM top, MARGIN skirt, FRON collar",
+            "link": ""
+          }
+        },
+        "image_hXwjzx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_COMPOUND_TEGMEN_STERNUM.jpg",
+            "caption": "TEGMEN top, COMPOUND top, STERNUM pants",
+            "link": ""
+          }
+        },
+        "image_KNtnbq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM_CLAW_TORNUS.jpg",
+            "caption": "CLAW top, AROLIUM dress, TORNUS cap",
+            "link": ""
+          }
+        },
+        "image_eanLRH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_TENTORIUM.jpg",
+            "caption": "TENTORIUM dress",
+            "link": ""
+          }
+        },
+        "image_n8hUdF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_COXA_CARDO.jpg",
+            "caption": "COXA top, CARDO skirt",
+            "link": ""
+          }
+        },
+        "image_FBpfT8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_METANOTUM.jpg",
+            "caption": "METANOTUM dress",
+            "link": ""
+          }
+        },
+        "image_Y4r3kx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_COSTA_LOBES_ROSTRUM.jpg",
+            "caption": "COSTA top, ROSTRUM vest, LOBES shorts",
+            "link": ""
+          }
+        },
+        "image_3VFqDc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_SCALES_GENA.jpg",
+            "caption": "SCALES top, GENA skirt",
+            "link": ""
+          }
+        },
+        "image_zHeq6B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_CERCI_NEURON1.jpg",
+            "caption": "CERCI top, NEURON skirt",
+            "link": ""
+          }
+        },
+        "image_pD3XKc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_LABELLUM_SCUTELLUM1.jpg",
+            "caption": "SCUTELLUM jacket, LABELLUM dress",
+            "link": ""
+          }
+        },
+        "image_Dt6keQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_LABELLUM.jpg",
+            "caption": "LABELLUM dress",
+            "link": ""
+          }
+        },
+        "image_r6MmMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_BASAL.jpg",
+            "caption": "FEMUR top, BASAL skirt",
+            "link": ""
+          }
+        },
+        "image_pYpAQf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_OOTHECA_NOTUM_GIVRE.jpg",
+            "caption": "OOTHECA dress, NOTUM cap, GIVRE mini bag",
+            "link": ""
+          }
+        },
+        "image_QYbNiq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_CROP_FOREWING_LOCULE.jpg",
+            "caption": "FEMUR top, FOREWING vest, CROP shorts, LOCULE cone bag",
+            "link": ""
+          }
+        },
+        "image_DdqHge": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_TERGITES_HINDGUT.jpg",
+            "caption": "TERGITES dress, HINDGUT bucket hat",
+            "link": ""
+          }
+        },
+        "image_eK3rDV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_CUBITUS.jpg",
+            "caption": "CUBITUS dress",
+            "link": ""
+          }
+        },
+        "image_LWfBAN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_MANDIBLE_LABRUM.jpg",
+            "caption": "MANDIBLE dress, LABRUM bucket hat",
+            "link": ""
+          }
+        },
+        "image_7N4Awa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_GLOSSA_PHARYNX_FRON_LABRUM.jpg",
+            "caption": "GLOSSA top, PHARYNX pants, FRON collar, LABRUM bucket bag",
+            "link": ""
+          }
+        },
+        "image_3Ty4xc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_FRINGE_DISCAL.jpg",
+            "caption": "FRINGE top, DISCAL skirt",
+            "link": ""
+          }
+        },
+        "image_pYnDwT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_APODEME_HINDGUT.jpg",
+            "caption": "APODEME dress, HINDGUT bucket hat",
+            "link": ""
+          }
+        },
+        "image_YBy8ie": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_SPICULE_FURCA_LABRUM.jpg",
+            "caption": "SPICULE top, FURCA skirt, LABRUM bucket hat",
+            "link": ""
+          }
+        },
+        "image_UfPHbT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_OCCIPUT_BUD.jpg",
+            "caption": "OCCIPUT dress, BUD cone bag",
+            "link": ""
+          }
+        },
+        "image_6FQeAB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_MARGIN_SPIRACULAR.jpg",
+            "caption": "CHITIN top, SPIRACULAR jacket,MARGIN skirt",
+            "link": ""
+          }
+        },
+        "image_9CnB8t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM.jpg",
+            "caption": "AROLIUM dress",
+            "link": ""
+          }
+        },
+        "image_JAqaR6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM_MALPIGHIAN_LABRUM_BUD.jpg",
+            "caption": "MALPIGHIAN jacket, AROLIUM dress, LABRUM bucket hat, BUD cone bag",
+            "link": ""
+          }
+        },
+        "image_jzDjJw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_GANGLION_LABRUM.jpg",
+            "caption": "GANGLION dress, LABRUM bucket hat",
+            "link": ""
+          }
+        },
+        "image_k8aGzF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_ELYTRON_LABRUM.jpg",
+            "caption": "ELYTRON dress, LABRUM bucket hat",
+            "link": ""
+          }
+        },
+        "image_UWAPi4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_EPIPROCT_LABRUM.jpg",
+            "caption": "EPIPROCT dress, LABRUM bucket hat",
+            "link": ""
+          }
+        },
+        "image_BArJW3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_PARAPROCT.jpg",
+            "caption": "PARAPROCT dress",
+            "link": ""
+          }
+        },
+        "image_YaLk3C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_CORNEA_AXIL1.jpg",
+            "caption": "CORNEA dress, AXIL mini bag",
+            "link": ""
+          }
+        },
+        "image_wgm49A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_TRACHEA_LOCULE.jpg",
+            "caption": "TRACHEA dress, LOCULE cone bag",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AcyffR",
+        "image_RkfKqV",
+        "image_hXwjzx",
+        "image_KNtnbq",
+        "image_eanLRH",
+        "image_n8hUdF",
+        "image_FBpfT8",
+        "image_Y4r3kx",
+        "image_3VFqDc",
+        "image_zHeq6B",
+        "image_pD3XKc",
+        "image_Dt6keQ",
+        "image_r6MmMi",
+        "image_pYpAQf",
+        "image_QYbNiq",
+        "image_DdqHge",
+        "image_eK3rDV",
+        "image_LWfBAN",
+        "image_7N4Awa",
+        "image_3Ty4xc",
+        "image_pYnDwT",
+        "image_YBy8ie",
+        "image_UfPHbT",
+        "image_6FQeAB",
+        "image_9CnB8t",
+        "image_JAqaR6",
+        "image_jzDjJw",
+        "image_k8aGzF",
+        "image_UWAPi4",
+        "image_BArJW3",
+        "image_YaLk3C",
+        "image_wgm49A"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 0.5
+      }
+    },
+    "parralax_ibnhY7": {
+      "type": "Parralax",
+      "blocks": {
+        "text_dpdtWY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/PHCHARM_COL.jpg",
+            "txt1-hd1": "",
+            "parallax-h": "h2",
+            "txt1-hd2": "",
+            "parallax-subh": "h3",
+            "par1_showbutton": false,
+            "par1_button_label": "",
+            "par1_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dpdtWY"
+      ],
+      "disabled": true,
+      "settings": {
+        "paral-full": true,
+        "par_img_sz": "600",
+        "par_hd_sz": "55",
+        "par_subhd_sz": "25",
+        "par_button_sz": "25",
+        "par_letter_sp": "1",
+        "par_txt_align": "left",
+        "par_txt_top_pos": "50",
+        "par-en-over": true,
+        "color_over": "#000000",
+        "par_opacity": 1,
+        "color_par1_hd_clr": "#000000",
+        "color_par1_subhd_clr": "#cccccc",
+        "color_par1_but_txt": "#ffffff"
+      }
+    },
+    "image_gallery_MKBccY": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_DULHxP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_FRINGE_TIBIA.jpg",
+            "caption": "FRINGE top, TIBIA pants",
+            "link": ""
+          }
+        },
+        "image_XJjMVX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_COSTA_CERCUS_TIBIA.jpg",
+            "caption": "COSTA top, CERCUS top, TIBIA pants",
+            "link": ""
+          }
+        },
+        "image_HUrUFy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_COXA_VENTER_PROBOSCIS.jpg",
+            "caption": "COXA top, VENTER pants, PROBOSCIS jacket",
+            "link": ""
+          }
+        },
+        "image_rdaCdp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_PLEURA_PROBOSCIS.jpg",
+            "caption": "CHITIN top, PLEURA pants, PROBOSCIS jacket",
+            "link": ""
+          }
+        },
+        "image_TWwyYh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_AXILLA.jpg",
+            "caption": "AXILLA dress",
+            "link": ""
+          }
+        },
+        "image_bXz7ny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_POSTNOTUM_FRON_HINDGUT.jpg",
+            "caption": "POSTNOTUM jumpsuit, FRON collar, HINDGUT bucket hat",
+            "link": ""
+          }
+        },
+        "image_j9NWe4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_LACINIA_RETINULA.jpg",
+            "caption": "RETINULA jacket, LACINIA jumpsuit",
+            "link": ""
+          }
+        },
+        "image_UrYykX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_LACINIA.jpg",
+            "caption": "LACINIA jumpsuit",
+            "link": ""
+          }
+        },
+        "image_NmhJ36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_CORIUM.jpg",
+            "caption": "CORIUM dress",
+            "link": ""
+          }
+        },
+        "image_7y3HiP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_RADIAL_MESOTHORAX_AXIL.jpg",
+            "caption": "RADIAL dress, MESOTHORAX jacket, AXIL mini bag",
+            "link": ""
+          }
+        },
+        "image_LmfAJK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_PHARATE.jpg",
+            "caption": "PHARATE dress",
+            "link": ""
+          }
+        },
+        "image_yWBtaM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_CELL_MIDGUT_HINDGUT.jpg",
+            "caption": "CELL top, MIDGUT skirt, HINDGUT bucket hat",
+            "link": ""
+          }
+        },
+        "image_a47JcC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_TROCHANTER_LABRUM.jpg",
+            "caption": "TROCHANTER dress, LABRUM bucket hat",
+            "link": ""
+          }
+        },
+        "image_EgeFrL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_PRETARSUS_HINDGUT.jpg",
+            "caption": "PRETARUS dress, HINDGUT bucket hat",
+            "link": ""
+          }
+        },
+        "image_UYW68t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_PROTHORAX_HINDGUT.jpg",
+            "caption": "PROTHORAX jumpsuit",
+            "link": ""
+          }
+        },
+        "image_Giw4Tb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_PROTHORAX_PROBOSCIS.jpg",
+            "caption": "PROTHORAX jumpsuit, PROBOSCIS jacket",
+            "link": ""
+          }
+        },
+        "image_3zQREn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_OCELLI.jpg",
+            "caption": "OCELLI gown",
+            "link": ""
+          }
+        },
+        "image_rQMEdF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_OCELLI_FRON.jpg",
+            "caption": "OCELLI gown, FRON collar",
+            "link": ""
+          }
+        },
+        "image_qWMYCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_METAMERE.jpg",
+            "caption": "METAMERE gown",
+            "link": ""
+          }
+        },
+        "image_4TdCiF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_MAXILLAE1.jpg",
+            "caption": "MAXILLAE dress",
+            "link": ""
+          }
+        },
+        "image_9qFQ7J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_BASITARSUS.jpg",
+            "caption": "BASITARSUS gown",
+            "link": ""
+          }
+        },
+        "image_VxDTj4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_HAUSTELLUM1.jpg",
+            "caption": "HAUSTELLUM gown",
+            "link": ""
+          }
+        },
+        "image_NkWkBe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_MESONOTUM.jpg",
+            "caption": "MESONOTUM dress",
+            "link": ""
+          }
+        },
+        "image_YMXyCY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHLEPAPILLON_ANDROCONIA_LABRUM.jpg",
+            "caption": "ANDROCONIA coat, LABRUM bucket hat",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DULHxP",
+        "image_XJjMVX",
+        "image_HUrUFy",
+        "image_rdaCdp",
+        "image_TWwyYh",
+        "image_bXz7ny",
+        "image_j9NWe4",
+        "image_UrYykX",
+        "image_NmhJ36",
+        "image_7y3HiP",
+        "image_LmfAJK",
+        "image_yWBtaM",
+        "image_a47JcC",
+        "image_EgeFrL",
+        "image_UYW68t",
+        "image_Giw4Tb",
+        "image_3zQREn",
+        "image_rQMEdF",
+        "image_qWMYCp",
+        "image_4TdCiF",
+        "image_9qFQ7J",
+        "image_VxDTj4",
+        "image_NkWkBe",
+        "image_YMXyCY"
+      ],
+      "settings": {
+        "title": "",
+        "grid_type": "standard",
+        "mobile_columns": "2",
+        "desktop_columns": 4,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.8,
+        "modular_no_crop_media_mobile": false,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": false,
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_gallery_rVVmqd",
+    "parralax_ibnhY7",
+    "image_gallery_MKBccY"
+  ]
+}
