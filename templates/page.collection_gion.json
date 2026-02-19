@@ -483,14 +483,6 @@
     "image_gallery_MKBccY": {
       "type": "image-gallery",
       "blocks": {
-        "image_nhrkGn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHGION_HOTARU.jpg",
-            "caption": "HOTARU dress",
-            "link": ""
-          }
-        },
         "image_V78RE3": {
           "type": "image",
           "settings": {
@@ -512,6 +504,14 @@
           "settings": {
             "image": "shopify://shop_images/PHGION_KAME_SUIKAZURA.jpg",
             "caption": "KAME cape, SUIKAZURA gown",
+            "link": ""
+          }
+        },
+        "image_nhrkGn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_HOTARU.jpg",
+            "caption": "HOTARU dress",
             "link": ""
           }
         },
@@ -581,10 +581,10 @@
         }
       },
       "block_order": [
-        "image_nhrkGn",
         "image_V78RE3",
         "image_Bk8VX8",
         "image_3kTPT4",
+        "image_nhrkGn",
         "image_daKKFa",
         "image_7xLVmU",
         "image_wagMTW",
