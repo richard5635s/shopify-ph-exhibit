@@ -523,19 +523,19 @@
             "link": ""
           }
         },
-        "image_7xLVmU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHGION_ASAGAO.jpg",
-            "caption": "ASAGAO dress, ICHIYO mini bag",
-            "link": ""
-          }
-        },
         "image_wagMTW": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHGION_NADESHIKO.jpg",
             "caption": "NADESHIKO dress",
+            "link": ""
+          }
+        },
+        "image_7xLVmU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_ASAGAO.jpg",
+            "caption": "ASAGAO dress, ICHIYO mini bag",
             "link": ""
           }
         },
@@ -586,8 +586,8 @@
         "image_Bk8VX8",
         "image_3kTPT4",
         "image_daKKFa",
-        "image_7xLVmU",
         "image_wagMTW",
+        "image_7xLVmU",
         "image_6acidB",
         "image_Urfr6i",
         "image_iXfpRi",
