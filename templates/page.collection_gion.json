@@ -214,6 +214,14 @@
             "link": ""
           }
         },
+        "image_MMbPWG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_ITACHI_IRUKA_SUGI.jpg",
+            "caption": "ITACHI vest, IRUKA top, SUGI pants",
+            "link": ""
+          }
+        },
         "image_R4tyCJ": {
           "type": "image",
           "settings": {
@@ -235,14 +243,6 @@
           "settings": {
             "image": "shopify://shop_images/PHGION_ASAGAO.jpg",
             "caption": "ASAGAO dress, ICHIYO mini bag",
-            "link": ""
-          }
-        },
-        "image_MMbPWG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHGION_ITACHI_IRUKA_SUGI_ICHIYO.jpg",
-            "caption": "ITACHI vest, IRUKA top, SUGI pants",
             "link": ""
           }
         },
@@ -400,10 +400,10 @@
         "image_pYnDwT",
         "image_JAqaR6",
         "image_Y4r3kx",
+        "image_MMbPWG",
         "image_R4tyCJ",
         "image_mnH9A6",
         "image_iJWFxh",
-        "image_MMbPWG",
         "image_Ri6Xnb",
         "image_3abncf",
         "image_r6MmMi",
