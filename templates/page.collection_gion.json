@@ -22,19 +22,19 @@
     "image_gallery_rVVmqd": {
       "type": "image-gallery",
       "blocks": {
-        "image_n8hUdF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHGION_HASU_HISHI.jpg",
-            "caption": "HASU top, HISHI shorts",
-            "link": ""
-          }
-        },
         "image_7N4Awa": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHGION_AGEHA_HASU_HISHI1.jpg",
             "caption": "AGEHA top, HASU inner top, HISHI shorts",
+            "link": ""
+          }
+        },
+        "image_n8hUdF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_HASU_HISHI.jpg",
+            "caption": "HASU top, HISHI shorts",
             "link": ""
           }
         },
@@ -376,8 +376,8 @@
         }
       },
       "block_order": [
-        "image_n8hUdF",
         "image_7N4Awa",
+        "image_n8hUdF",
         "image_9CnB8t",
         "image_jzDjJw",
         "image_zHeq6B",
