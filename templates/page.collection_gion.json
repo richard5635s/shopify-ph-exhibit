@@ -397,6 +397,14 @@
             "caption": "KINMOKUSEI dress",
             "link": ""
           }
+        },
+        "image_de7Jji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_FUJI_MEDAKA_FUGENZO.jpg",
+            "caption": "FUJI jacket, MEDAKA dress",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -446,7 +454,8 @@
         "image_EjFcXd",
         "image_Bczfrj",
         "image_GdAJjT",
-        "image_W63M4d"
+        "image_W63M4d",
+        "image_de7Jji"
       ],
       "settings": {
         "title": "",
@@ -510,14 +519,6 @@
     "image_gallery_MKBccY": {
       "type": "image-gallery",
       "blocks": {
-        "image_DgBPiy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHGION_FUJI_MEDAKA_FUGENZO.jpg",
-            "caption": "FUJI jacket, MEDAKA dress",
-            "link": ""
-          }
-        },
         "image_DPn3AM": {
           "type": "image",
           "settings": {
@@ -576,7 +577,6 @@
         }
       },
       "block_order": [
-        "image_DgBPiy",
         "image_DPn3AM",
         "image_RtbKfD",
         "image_6acidB",
