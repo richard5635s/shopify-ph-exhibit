@@ -25,256 +25,264 @@
         "image_AcyffR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_LUMEN_STERNUM_HINDGUT.jpg",
-            "caption": "LUMEN top, STERNUM pants, HINDGUT bucket hat, BENTHIC slippers",
+            "image": "shopify://shop_images/PHGION_FUKURO.jpg",
+            "caption": "FUKURO jumpsuit",
             "link": ""
           }
         },
         "image_RkfKqV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_DORSUM_MARGIN_FRON.jpg",
-            "caption": "DORSUM top, MARGIN skirt, FRON collar",
+            "image": "shopify://shop_images/PHGION_SHIKA.jpg",
+            "caption": "SHIKA dress",
             "link": ""
           }
         },
         "image_hXwjzx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_COMPOUND_TEGMEN_STERNUM.jpg",
-            "caption": "TEGMEN top, COMPOUND top, STERNUM pants",
+            "image": "shopify://shop_images/PHGION_HOTARU.jpg",
+            "caption": "HOTARU dress",
             "link": ""
           }
         },
         "image_KNtnbq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM_CLAW_TORNUS.jpg",
-            "caption": "CLAW top, AROLIUM dress, TORNUS cap",
+            "image": "shopify://shop_images/PHGION_TSUBOMI1.jpg",
+            "caption": "TSUBOMI gown",
             "link": ""
           }
         },
         "image_eanLRH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_TENTORIUM.jpg",
-            "caption": "TENTORIUM dress",
+            "image": "shopify://shop_images/PHGION_AYAME_SHIDA.jpg",
+            "caption": "AYAME inner top, SHIDA dress",
             "link": ""
           }
         },
         "image_n8hUdF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_COXA_CARDO.jpg",
-            "caption": "COXA top, CARDO skirt",
+            "image": "shopify://shop_images/PHGION_HASU_HISHI.jpg",
+            "caption": "HASU top, HISHI shorts",
             "link": ""
           }
         },
         "image_FBpfT8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_METANOTUM.jpg",
-            "caption": "METANOTUM dress",
+            "image": "shopify://shop_images/PHGION_SAKURA.jpg",
+            "caption": "SAKURA dress",
             "link": ""
           }
         },
         "image_Y4r3kx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_COSTA_LOBES_ROSTRUM.jpg",
-            "caption": "COSTA top, ROSTRUM vest, LOBES shorts",
+            "image": "shopify://shop_images/PHGION_MOMO_TAKA_MIKAN.jpg",
+            "caption": "MOMO top, TAKA inner top, MIKAN dress",
             "link": ""
           }
         },
         "image_3VFqDc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_SCALES_GENA.jpg",
-            "caption": "SCALES top, GENA skirt",
+            "image": "shopify://shop_images/PHGION_RENGE_KOKE_KAMO.jpg",
+            "caption": "RENGE jacket, KOKE top, KAMO shorts",
             "link": ""
           }
         },
         "image_zHeq6B": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CERCI_NEURON1.jpg",
-            "caption": "CERCI top, NEURON skirt",
+            "image": "shopify://shop_images/PHGION_NASHI_BOTAN_KIKU_GrandZIG2.jpg",
+            "caption": "NASHI vest, BOTAN top, KIKU pants, ZIG Grand shell bag",
             "link": ""
           }
         },
         "image_pD3XKc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_LABELLUM_SCUTELLUM1.jpg",
-            "caption": "SCUTELLUM jacket, LABELLUM dress",
+            "image": "shopify://shop_images/PHGION_KAME_SUIKAZURA.jpg",
+            "caption": "KAME cape, SUIKAZURA gown",
             "link": ""
           }
         },
         "image_Dt6keQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_LABELLUM.jpg",
-            "caption": "LABELLUM dress",
+            "image": "shopify://shop_images/PHGION_KUMA.jpg",
+            "caption": "KUMA dress",
             "link": ""
           }
         },
         "image_r6MmMi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_BASAL.jpg",
-            "caption": "FEMUR top, BASAL skirt",
+            "image": "shopify://shop_images/PHGION_KEYAKI_TAKA.jpg",
+            "caption": "KEYAKI jumpsuit, TAKA top",
             "link": ""
           }
         },
         "image_pYpAQf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_OOTHECA_NOTUM_GIVRE.jpg",
-            "caption": "OOTHECA dress, NOTUM cap, GIVRE mini bag",
+            "image": "shopify://shop_images/PHGION_NADESHIKO.jpg",
+            "caption": "NADESHIKO dress",
             "link": ""
           }
         },
         "image_QYbNiq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_FEMUR_CROP_FOREWING_LOCULE.jpg",
-            "caption": "FEMUR top, FOREWING vest, CROP shorts, LOCULE cone bag",
+            "image": "shopify://shop_images/PHGION_MATSU.jpg",
+            "caption": "MATSU dress",
             "link": ""
           }
         },
         "image_DdqHge": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_TERGITES_HINDGUT.jpg",
-            "caption": "TERGITES dress, HINDGUT bucket hat",
+            "image": "shopify://shop_images/PHGION_KASHIWA.jpg",
+            "caption": "KASHIWA dress",
             "link": ""
           }
         },
         "image_eK3rDV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CUBITUS.jpg",
-            "caption": "CUBITUS dress",
+            "image": "shopify://shop_images/PHGION_KOSUMOSU1.jpg",
+            "caption": "KOSUMOSU dress",
             "link": ""
           }
         },
         "image_LWfBAN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_MANDIBLE_LABRUM.jpg",
-            "caption": "MANDIBLE dress, LABRUM bucket hat",
+            "image": "shopify://shop_images/PHGION_KINMOKUSEI.jpg",
+            "caption": "KINMOKUSEI dress",
             "link": ""
           }
         },
         "image_7N4Awa": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_GLOSSA_PHARYNX_FRON_LABRUM.jpg",
-            "caption": "GLOSSA top, PHARYNX pants, FRON collar, LABRUM bucket bag",
+            "image": "shopify://shop_images/PHGION_AGEHA_HASU_HISHI1.jpg",
+            "caption": "AGEHA top, HASU inner top, HISHI shorts",
             "link": ""
           }
         },
         "image_3Ty4xc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_FRINGE_DISCAL.jpg",
-            "caption": "FRINGE top, DISCAL skirt",
+            "image": "shopify://shop_images/PHGION_SUZUMUSHI1.jpg",
+            "caption": "SUZUMUSHI dress",
             "link": ""
           }
         },
         "image_pYnDwT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_APODEME_HINDGUT.jpg",
-            "caption": "APODEME dress, HINDGUT bucket hat",
+            "image": "shopify://shop_images/PHGION_HIBARI.jpg",
+            "caption": "HIBARI dress",
             "link": ""
           }
         },
         "image_YBy8ie": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_SPICULE_FURCA_LABRUM.jpg",
-            "caption": "SPICULE top, FURCA skirt, LABRUM bucket hat",
+            "image": "shopify://shop_images/PHGION_KONOHA.jpg",
+            "caption": "KONOHA dress",
             "link": ""
           }
         },
         "image_UfPHbT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_OCCIPUT_BUD.jpg",
-            "caption": "OCCIPUT dress, BUD cone bag",
+            "image": "shopify://shop_images/PHGION_KARASU.jpg",
+            "caption": "KARASU dress",
             "link": ""
           }
         },
         "image_6FQeAB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_MARGIN_SPIRACULAR.jpg",
-            "caption": "CHITIN top, SPIRACULAR jacket,MARGIN skirt",
+            "image": "shopify://shop_images/PHGION_HINAGESHI.jpg",
+            "caption": "HINAGESHI dress",
             "link": ""
           }
         },
         "image_9CnB8t": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM.jpg",
-            "caption": "AROLIUM dress",
+            "image": "shopify://shop_images/PHGION_BOTAN_KIKU.jpg",
+            "caption": "BOTAN top, KIKU pants",
             "link": ""
           }
         },
         "image_JAqaR6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_AROLIUM_MALPIGHIAN_LABRUM_BUD.jpg",
-            "caption": "MALPIGHIAN jacket, AROLIUM dress, LABRUM bucket hat, BUD cone bag",
+            "image": "shopify://shop_images/PHGION_GINKGO.jpg",
+            "caption": "GINKGO dress",
+            "link": ""
+          }
+        },
+        "image_Wi9PJz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_KITSUTSUKI.jpg",
+            "caption": "KITSUTSUKI",
             "link": ""
           }
         },
         "image_jzDjJw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_GANGLION_LABRUM.jpg",
-            "caption": "GANGLION dress, LABRUM bucket hat",
+            "image": "shopify://shop_images/PHGION_MEJIRO_RAN.jpg",
+            "caption": "MEJIRO top, RAN pants",
             "link": ""
           }
         },
         "image_k8aGzF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_ELYTRON_LABRUM.jpg",
-            "caption": "ELYTRON dress, LABRUM bucket hat",
+            "image": "shopify://shop_images/PHGION_ASAGAO.jpg",
+            "caption": "ASAGAO dress, ICHIYO mini bag",
             "link": ""
           }
         },
         "image_UWAPi4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_EPIPROCT_LABRUM.jpg",
-            "caption": "EPIPROCT dress, LABRUM bucket hat",
+            "image": "shopify://shop_images/PHGION_BARA_CHO_KABUTO.jpg",
+            "caption": "BARA top, CHO inner top, KABUTO skirt",
             "link": ""
           }
         },
         "image_BArJW3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_PARAPROCT.jpg",
-            "caption": "PARAPROCT dress",
+            "image": "shopify://shop_images/PHGION_YURI.jpg",
+            "caption": "YURI dress",
             "link": ""
           }
         },
         "image_YaLk3C": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CORNEA_AXIL1.jpg",
-            "caption": "CORNEA dress, AXIL mini bag",
+            "image": "shopify://shop_images/PHGION_ITACHI_IRUKA_SUGI_ICHIYO.jpg",
+            "caption": "ITACHI vest, IRUKA top, SUGI pants",
             "link": ""
           }
         },
         "image_wgm49A": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_TRACHEA_LOCULE.jpg",
-            "caption": "TRACHEA dress, LOCULE cone bag",
+            "image": "shopify://shop_images/PHGION_SAKAKI.jpg",
+            "caption": "SAKAKI dress",
             "link": ""
           }
         }
@@ -306,6 +314,7 @@
         "image_6FQeAB",
         "image_9CnB8t",
         "image_JAqaR6",
+        "image_Wi9PJz",
         "image_jzDjJw",
         "image_k8aGzF",
         "image_UWAPi4",
@@ -378,48 +387,48 @@
         "image_DULHxP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_FRINGE_TIBIA.jpg",
-            "caption": "FRINGE top, TIBIA pants",
+            "image": "shopify://shop_images/PHGION_SUDACHI.jpg",
+            "caption": "SUDACHI dress",
             "link": ""
           }
         },
         "image_XJjMVX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_COSTA_CERCUS_TIBIA.jpg",
-            "caption": "COSTA top, CERCUS top, TIBIA pants",
+            "image": "shopify://shop_images/PHGION_HIGANBANA.jpg",
+            "caption": "HIGANBANA dress",
             "link": ""
           }
         },
         "image_HUrUFy": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_COXA_VENTER_PROBOSCIS.jpg",
-            "caption": "COXA top, VENTER pants, PROBOSCIS jacket",
+            "image": "shopify://shop_images/PHGION_RINGO_UME_KAKI.jpg",
+            "caption": "RINGO top, UME inner top, KAKI pants",
             "link": ""
           }
         },
         "image_rdaCdp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_CHITIN_PLEURA_PROBOSCIS.jpg",
-            "caption": "CHITIN top, PLEURA pants, PROBOSCIS jacket",
+            "image": "shopify://shop_images/PHGION_AWABI_AJISAI_SUISEN.jpg",
+            "caption": "AWABI jacket, AJISAI inner top, SUISEN dress",
             "link": ""
           }
         },
         "image_TWwyYh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_AXILLA.jpg",
-            "caption": "AXILLA dress",
+            "image": "shopify://shop_images/PHGION_KAERU_MEJIRO_RAN.jpg",
+            "caption": "KAERU jacket, MEJIRO inner top, RAN pants",
             "link": ""
           }
         },
         "image_bXz7ny": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHLEPAPILLON_POSTNOTUM_FRON_HINDGUT.jpg",
-            "caption": "POSTNOTUM jumpsuit, FRON collar, HINDGUT bucket hat",
+            "image": "shopify://shop_images/PHGION_KINGYO.jpg",
+            "caption": "KINGYO dress",
             "link": ""
           }
         },
