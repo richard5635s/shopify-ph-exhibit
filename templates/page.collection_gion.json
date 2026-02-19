@@ -54,19 +54,19 @@
             "link": ""
           }
         },
-        "image_zHeq6B": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PHGION_NASHI_BOTAN_KIKU_GrandZIG2.jpg",
-            "caption": "NASHI vest, BOTAN top, KIKU pants, ZIG Grand shell bag",
-            "link": ""
-          }
-        },
         "image_eanLRH": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PHGION_AYAME_SHIDA.jpg",
             "caption": "AYAME inner top, SHIDA dress",
+            "link": ""
+          }
+        },
+        "image_zHeq6B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PHGION_NASHI_BOTAN_KIKU_GrandZIG2.jpg",
+            "caption": "NASHI vest, BOTAN top, KIKU pants, ZIG Grand shell bag",
             "link": ""
           }
         },
@@ -380,8 +380,8 @@
         "image_n8hUdF",
         "image_9CnB8t",
         "image_jzDjJw",
-        "image_zHeq6B",
         "image_eanLRH",
+        "image_zHeq6B",
         "image_3VFqDc",
         "image_Wi9PJz",
         "image_EUE3XF",
