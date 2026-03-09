@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "home_page_only": false,
         "display": "static",
-        "text": "LUNAR NEW YEAR HOLIDAY: ORDERS PLACED 14 - 17 FEBRUARY WILL BE PROCESSED FROM 18 FEBRUARY.",
+        "text": "EID-AL-FITR HOLIDAY: ORDERS PLACED 18 - 24 MARCH WILL BE PROCESSED FROM 25 MARCH.",
         "link": "",
         "repeat_text": false,
         "speed": 60,
