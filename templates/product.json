@@ -103,6 +103,15 @@
             "space_above": 1
           }
         },
+        "text_36rUqc": {
+          "type": "text",
+          "settings": {
+            "text": "Holiday Notice: Order placed between 18 - 24 March will be processed from 25 March 2026.",
+            "icon": "none",
+            "text_color": "text-scheme-text",
+            "space_above": 1
+          }
+        },
         "rich_text_JnDnFm": {
           "type": "rich_text",
           "settings": {
@@ -146,6 +155,7 @@
         "measurementdetails_A3CKet",
         "buy-buttons",
         "text_yUGFXr",
+        "text_36rUqc",
         "rich_text_JnDnFm",
         "collapsible_tabs_eBfTLA"
       ],
