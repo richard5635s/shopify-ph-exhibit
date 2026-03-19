@@ -105,6 +105,7 @@
         },
         "text_36rUqc": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Holiday Shipping Note: Orders placed now will be processed starting March 25th due to the Eid-al-Fitr holiday.",
             "icon": "none",
