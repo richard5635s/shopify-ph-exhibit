@@ -112,6 +112,14 @@
             "space_above": 1
           }
         },
+        "rich_text_wV4PG7": {
+          "type": "rich_text",
+          "settings": {
+            "content": "<p>Read more about Leather Goods Purchase Policy here.</p>",
+            "text_color": "text-scheme-text",
+            "space_above": 1
+          }
+        },
         "rich_text_JnDnFm": {
           "type": "rich_text",
           "settings": {
@@ -156,6 +164,7 @@
         "buy-buttons",
         "text_BTRgMG",
         "text_yUGFXr",
+        "rich_text_wV4PG7",
         "rich_text_JnDnFm",
         "collapsible_tabs_eBfTLA"
       ],
